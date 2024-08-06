@@ -29,7 +29,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_d3414299f88fc014b04e5b787cd27146 {
+                #map_bbcd5aa995e3a3f9b9385ac359a01e2c {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -83,7 +83,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_d3414299f88fc014b04e5b787cd27146" ></div>
+            <div class="folium-map" id="map_bbcd5aa995e3a3f9b9385ac359a01e2c" ></div>
         
     
 
@@ -252,8 +252,8 @@
 <script>
     
     
-            var map_d3414299f88fc014b04e5b787cd27146 = L.map(
-                "map_d3414299f88fc014b04e5b787cd27146",
+            var map_bbcd5aa995e3a3f9b9385ac359a01e2c = L.map(
+                "map_bbcd5aa995e3a3f9b9385ac359a01e2c",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -262,51 +262,51 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_d3414299f88fc014b04e5b787cd27146);
+            L.control.scale().addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
 
             
 
         
     
-            var tile_layer_dc547be7da94f977fa0a75e5fd0a824e = L.tileLayer(
+            var tile_layer_c8ab89abec2b93ececb7506d6e39f9b1 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_dc547be7da94f977fa0a75e5fd0a824e.addTo(map_d3414299f88fc014b04e5b787cd27146);
+            tile_layer_c8ab89abec2b93ececb7506d6e39f9b1.addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
         
     
-            var tile_layer_f679889ed43d94388d47c0b45164d585 = L.tileLayer(
+            var tile_layer_9655d88aba62d2fced99b62a8e34ee9b = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_c491ef5866638decb25c60ee15456fde = L.tileLayer(
+            var tile_layer_8b729857771318cbf09e064fd6b2648c = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 17, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_fced17898b324d8dbd5cd4206833d629 = L.tileLayer(
+            var tile_layer_2e79c6e49fd29d0f714660ca47f9c30b = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_527e94ffe0a41f3eb4f3f1e0f3e0b2f4 = L.tileLayer(
+            var tile_layer_d7aee9cc8ac6bd9b5ae642d2b380f9a6 = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_1b2afcb2e724708b6bc824e387fc1c99 = L.featureGroup(
+            var feature_group_3941e8a2000688ca8979c072155b27c1 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_5ab63e560dc76b81c9b7a41fba287151_styler(feature) {
+        function geo_json_0eeb7c6b375830dd3ff63720d96076b8_styler(feature) {
             switch(feature.properties.provincia) {
                 case "La Libertad": case "Piura": 
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
@@ -316,45 +316,45 @@
                     return {"color": "black", "fill": true, "fillColor": "#08519c", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_5ab63e560dc76b81c9b7a41fba287151_highlighter(feature) {
+        function geo_json_0eeb7c6b375830dd3ff63720d96076b8_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_5ab63e560dc76b81c9b7a41fba287151_onEachFeature(feature, layer) {
+        function geo_json_0eeb7c6b375830dd3ff63720d96076b8_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                            geo_json_5ab63e560dc76b81c9b7a41fba287151.resetStyle(e.target);
+                            geo_json_0eeb7c6b375830dd3ff63720d96076b8.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_5ab63e560dc76b81c9b7a41fba287151_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_0eeb7c6b375830dd3ff63720d96076b8_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
             });
         };
-        var geo_json_5ab63e560dc76b81c9b7a41fba287151 = L.geoJson(null, {
+        var geo_json_0eeb7c6b375830dd3ff63720d96076b8 = L.geoJson(null, {
                 smoothFactor: 1.66,
-                onEachFeature: geo_json_5ab63e560dc76b81c9b7a41fba287151_onEachFeature,
+                onEachFeature: geo_json_0eeb7c6b375830dd3ff63720d96076b8_onEachFeature,
             
-                style: geo_json_5ab63e560dc76b81c9b7a41fba287151_styler,
+                style: geo_json_0eeb7c6b375830dd3ff63720d96076b8_styler,
         });
 
-        function geo_json_5ab63e560dc76b81c9b7a41fba287151_add (data) {
-            geo_json_5ab63e560dc76b81c9b7a41fba287151
+        function geo_json_0eeb7c6b375830dd3ff63720d96076b8_add (data) {
+            geo_json_0eeb7c6b375830dd3ff63720d96076b8
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/peru_adm1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_5ab63e560dc76b81c9b7a41fba287151_add);
+                .done(geo_json_0eeb7c6b375830dd3ff63720d96076b8_add);
 
         
     
-    geo_json_5ab63e560dc76b81c9b7a41fba287151.bindTooltip(
+    geo_json_0eeb7c6b375830dd3ff63720d96076b8.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -378,10 +378,10 @@
     ,{"className": "foliumtooltip", "embed": false, "smoothFactor": 1, "sticky": true});
                      
     
-            geo_json_5ab63e560dc76b81c9b7a41fba287151.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_0eeb7c6b375830dd3ff63720d96076b8.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-        function geo_json_00598e308408f694b706270b432f6689_styler(feature) {
+        function geo_json_751dc52abbaecc0fdc5b40c255804710_styler(feature) {
             switch(feature.properties.municipio) {
                 case "Paita": case "Sullana": case "Talara": case "Contralmirante Villar": 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A2"], "weight": 4};
@@ -389,64 +389,62 @@
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A3"], "weight": 4};
                 case "Ascope": case "Chep\u00e9n": case "Pacasmayo": case "Trujillo": case "Chiclayo": 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A4"], "weight": 4};
-                case "Chao": 
-                    return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["Z1"], "weight": 4};
                 default:
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A1"], "weight": 4};
             }
         }
 
-        function geo_json_00598e308408f694b706270b432f6689_onEachFeature(feature, layer) {
+        function geo_json_751dc52abbaecc0fdc5b40c255804710_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_00598e308408f694b706270b432f6689 = L.geoJson(null, {
+        var geo_json_751dc52abbaecc0fdc5b40c255804710 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_00598e308408f694b706270b432f6689_onEachFeature,
+                onEachFeature: geo_json_751dc52abbaecc0fdc5b40c255804710_onEachFeature,
             
-                style: geo_json_00598e308408f694b706270b432f6689_styler,
+                style: geo_json_751dc52abbaecc0fdc5b40c255804710_styler,
                 localize: true,
         });
 
-        function geo_json_00598e308408f694b706270b432f6689_add (data) {
-            geo_json_00598e308408f694b706270b432f6689
+        function geo_json_751dc52abbaecc0fdc5b40c255804710_add (data) {
+            geo_json_751dc52abbaecc0fdc5b40c255804710
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/peru_ruta.geojson", {dataType: 'json', async: false})
-                .done(geo_json_00598e308408f694b706270b432f6689_add);
+                .done(geo_json_751dc52abbaecc0fdc5b40c255804710_add);
 
         
     
-            geo_json_00598e308408f694b706270b432f6689.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_751dc52abbaecc0fdc5b40c255804710.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            feature_group_1b2afcb2e724708b6bc824e387fc1c99.addTo(map_d3414299f88fc014b04e5b787cd27146);
+            feature_group_3941e8a2000688ca8979c072155b27c1.addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
         
     
-            geo_json_5ab63e560dc76b81c9b7a41fba287151.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_0eeb7c6b375830dd3ff63720d96076b8.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            geo_json_00598e308408f694b706270b432f6689.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_751dc52abbaecc0fdc5b40c255804710.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            var locate_control_1069b57fdbbfcdabbbcf033e1557ba25 = L.control.locate(
+            var locate_control_9ef79cf19973fee4b871a6d7b495b760 = L.control.locate(
                 {"position": "topleft", "strings": {"popup": "Tu ubicaci\u00f3n", "title": "Localizaci\u00f3n actual"}}
-            ).addTo(map_d3414299f88fc014b04e5b787cd27146);
+            ).addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
             
         
     
-            var mouse_position_6edf601b3ad0d2be2223f36a3ab264f1 = new L.Control.MousePosition(
+            var mouse_position_427e09620929429c4a304d70af5f122e = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "topright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_6edf601b3ad0d2be2223f36a3ab264f1.options["latFormatter"] =
+            mouse_position_427e09620929429c4a304d70af5f122e.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_6edf601b3ad0d2be2223f36a3ab264f1.options["lngFormatter"] =
+            mouse_position_427e09620929429c4a304d70af5f122e.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_d3414299f88fc014b04e5b787cd27146.addControl(mouse_position_6edf601b3ad0d2be2223f36a3ab264f1);
+            map_bbcd5aa995e3a3f9b9385ac359a01e2c.addControl(mouse_position_427e09620929429c4a304d70af5f122e);
         
     
-            var feature_group_1b2afcb2e724708b6bc824e387fc1c99searchControl = new L.Control.Search({
-                layer: feature_group_1b2afcb2e724708b6bc824e387fc1c99,
+            var feature_group_3941e8a2000688ca8979c072155b27c1searchControl = new L.Control.Search({
+                layer: feature_group_3941e8a2000688ca8979c072155b27c1,
                 
                 propertyName: 'clave',
                 
@@ -461,8 +459,8 @@
                 }
             
                 });
-                feature_group_1b2afcb2e724708b6bc824e387fc1c99searchControl.on('search:locationfound', function(e) {
-                    feature_group_1b2afcb2e724708b6bc824e387fc1c99.setStyle(function(feature){
+                feature_group_3941e8a2000688ca8979c072155b27c1searchControl.on('search:locationfound', function(e) {
+                    feature_group_3941e8a2000688ca8979c072155b27c1.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -471,74 +469,74 @@
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_1b2afcb2e724708b6bc824e387fc1c99searchControl.on('search:collapsed', function(e) {
-                        feature_group_1b2afcb2e724708b6bc824e387fc1c99.setStyle(function(feature){
+                feature_group_3941e8a2000688ca8979c072155b27c1searchControl.on('search:collapsed', function(e) {
+                        feature_group_3941e8a2000688ca8979c072155b27c1.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_d3414299f88fc014b04e5b787cd27146.addControl( feature_group_1b2afcb2e724708b6bc824e387fc1c99searchControl );
+            map_bbcd5aa995e3a3f9b9385ac359a01e2c.addControl( feature_group_3941e8a2000688ca8979c072155b27c1searchControl );
 
         
     
-            var tile_layer_aaea18963a18046c022bb8636454ca72 = L.tileLayer(
+            var tile_layer_1ef814dd4254a66ffa0b7b935c70fd3f = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_0ce690655ac6f666bc0d0dc5ce03e502 = new L.Control.MiniMap(
-                tile_layer_aaea18963a18046c022bb8636454ca72,
+            var mini_map_eec2de601c998fb60a0c2e746f600ef6 = new L.Control.MiniMap(
+                tile_layer_1ef814dd4254a66ffa0b7b935c70fd3f,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_d3414299f88fc014b04e5b787cd27146.addControl(mini_map_0ce690655ac6f666bc0d0dc5ce03e502);
+            map_bbcd5aa995e3a3f9b9385ac359a01e2c.addControl(mini_map_eec2de601c998fb60a0c2e746f600ef6);
         
     
-            var tag_filter_button_02841f70696812b9ae60daca080354a2 = L.control.tagFilterButton(
-                {"clearText": "Borrar filtro", "data": ["A1", "A2", "A3", "A4", "Z1"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_d3414299f88fc014b04e5b787cd27146);
+            var tag_filter_button_79d0fb5043217c5567ce0083dd6458b3 = L.control.tagFilterButton(
+                {"clearText": "Borrar filtro", "data": ["A1", "A2", "A3", "A4"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
+            ).addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
         
     
-            map_d3414299f88fc014b04e5b787cd27146.fitBounds(
+            map_bbcd5aa995e3a3f9b9385ac359a01e2c.fitBounds(
                 [[-8.97088985178516, -81.32823049084442], [-3.381773346862417, -76.90124323628629]],
                 {}
             );
         
     
-            var layer_control_a6d54add4f68617abe6e275758313fcb_layers = {
+            var layer_control_9460d9302eb7eded6a32957128dee9ae_layers = {
                 base_layers : {
-                    "CartoDB Positron" : tile_layer_dc547be7da94f977fa0a75e5fd0a824e,
-                    "Open Street Map" : tile_layer_f679889ed43d94388d47c0b45164d585,
-                    "Esri Sat\u00e9lite" : tile_layer_c491ef5866638decb25c60ee15456fde,
-                    "Google H\u00edbrido" : tile_layer_fced17898b324d8dbd5cd4206833d629,
-                    "Sin mapa base" : tile_layer_527e94ffe0a41f3eb4f3f1e0f3e0b2f4,
+                    "CartoDB Positron" : tile_layer_c8ab89abec2b93ececb7506d6e39f9b1,
+                    "Open Street Map" : tile_layer_9655d88aba62d2fced99b62a8e34ee9b,
+                    "Esri Sat\u00e9lite" : tile_layer_8b729857771318cbf09e064fd6b2648c,
+                    "Google H\u00edbrido" : tile_layer_2e79c6e49fd29d0f714660ca47f9c30b,
+                    "Sin mapa base" : tile_layer_d7aee9cc8ac6bd9b5ae642d2b380f9a6,
                 },
                 overlays :  {
-                    "Nivel administrativo 1" : geo_json_5ab63e560dc76b81c9b7a41fba287151,
-                    "Ruta identificada" : geo_json_00598e308408f694b706270b432f6689,
+                    "Nivel administrativo 1" : geo_json_0eeb7c6b375830dd3ff63720d96076b8,
+                    "Ruta identificada" : geo_json_751dc52abbaecc0fdc5b40c255804710,
                 },
             };
-            let layer_control_a6d54add4f68617abe6e275758313fcb = L.control.layers(
-                layer_control_a6d54add4f68617abe6e275758313fcb_layers.base_layers,
-                layer_control_a6d54add4f68617abe6e275758313fcb_layers.overlays,
+            let layer_control_9460d9302eb7eded6a32957128dee9ae = L.control.layers(
+                layer_control_9460d9302eb7eded6a32957128dee9ae_layers.base_layers,
+                layer_control_9460d9302eb7eded6a32957128dee9ae_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_d3414299f88fc014b04e5b787cd27146);
+            ).addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
 
         
     
-            tile_layer_dc547be7da94f977fa0a75e5fd0a824e.addTo(map_d3414299f88fc014b04e5b787cd27146);
+            tile_layer_c8ab89abec2b93ececb7506d6e39f9b1.addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
         
     
-            geo_json_5ab63e560dc76b81c9b7a41fba287151.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_0eeb7c6b375830dd3ff63720d96076b8.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            geo_json_00598e308408f694b706270b432f6689.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_751dc52abbaecc0fdc5b40c255804710.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            feature_group_1b2afcb2e724708b6bc824e387fc1c99.addTo(map_d3414299f88fc014b04e5b787cd27146);
+            feature_group_3941e8a2000688ca8979c072155b27c1.addTo(map_bbcd5aa995e3a3f9b9385ac359a01e2c);
         
     
-            geo_json_5ab63e560dc76b81c9b7a41fba287151.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_0eeb7c6b375830dd3ff63720d96076b8.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
     
-            geo_json_00598e308408f694b706270b432f6689.addTo(feature_group_1b2afcb2e724708b6bc824e387fc1c99);
+            geo_json_751dc52abbaecc0fdc5b40c255804710.addTo(feature_group_3941e8a2000688ca8979c072155b27c1);
         
 </script>
 </html>
