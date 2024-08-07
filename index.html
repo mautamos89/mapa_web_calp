@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_3613618e5c516e1902c2ad28c86f2d3f {
+                #map_b0de001fa6c1cb1aa560f7b8d69c0ce1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -53,22 +53,9 @@
                         }
                     </style>
             
-    
-                    <style>
-                        .foliumtooltip {
-                            
-                        }
-                       .foliumtooltip table{
-                            margin: auto;
-                        }
-                        .foliumtooltip tr{
-                            text-align: left;
-                        }
-                        .foliumtooltip th{
-                            padding: 2px; padding-right: 8px;
-                        }
-                    </style>
-            
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet-locatecontrol/0.66.2/L.Control.Locate.min.css"/>
     <script src="https://cdn.jsdelivr.net/gh/ardhi/Leaflet.MousePosition/src/L.Control.MousePosition.min.js"></script>
@@ -97,7 +84,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_3613618e5c516e1902c2ad28c86f2d3f" ></div>
+            <div class="folium-map" id="map_b0de001fa6c1cb1aa560f7b8d69c0ce1" ></div>
         
     
 
@@ -266,8 +253,8 @@
 <script>
     
     
-            var map_3613618e5c516e1902c2ad28c86f2d3f = L.map(
-                "map_3613618e5c516e1902c2ad28c86f2d3f",
+            var map_b0de001fa6c1cb1aa560f7b8d69c0ce1 = L.map(
+                "map_b0de001fa6c1cb1aa560f7b8d69c0ce1",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -276,51 +263,51 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            L.control.scale().addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
 
             
 
         
     
-            var tile_layer_54ae34fe4a815b8ed7eaf3fe597798c6 = L.tileLayer(
+            var tile_layer_05bf6fef6dd977ed0cc0ad89438bc8fc = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_54ae34fe4a815b8ed7eaf3fe597798c6.addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            tile_layer_05bf6fef6dd977ed0cc0ad89438bc8fc.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
     
-            var tile_layer_89ce2ebd3f88aef78d53f5cb29b0f39f = L.tileLayer(
+            var tile_layer_002b6dce8fb0e4ad3217ba5d4aa479ec = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_86d42846fd987a1ebdd51a112b6fdb14 = L.tileLayer(
+            var tile_layer_c0ce88c8abe705990d051229ed9ab957 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 17, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_8b951a514e9aaa83291e5118e70a1b76 = L.tileLayer(
+            var tile_layer_0c66ac3efe4632594dbe985e4436b3e6 = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_3bc5cdbdb175b0bd919e7b590d46c2ea = L.tileLayer(
+            var tile_layer_c0bfb309dedd19281caaddd452ef1039 = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://github.com/mautamos89\" target=\"_blank\"\u003eMTM-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_a6d6941b26a182bf779d5ab03dde46ae = L.featureGroup(
+            var feature_group_65cf57bd25de17b1166b64ea1d6c44db = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_db03271f7174ac032d929c5c7e6dc157_styler(feature) {
+        function geo_json_1e76dffbbda213e86c5414d06dc03205_styler(feature) {
             switch(feature.properties.provincia) {
                 case "La Libertad": case "Piura": 
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
@@ -330,45 +317,45 @@
                     return {"color": "black", "fill": true, "fillColor": "#08519c", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_db03271f7174ac032d929c5c7e6dc157_highlighter(feature) {
+        function geo_json_1e76dffbbda213e86c5414d06dc03205_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_db03271f7174ac032d929c5c7e6dc157_onEachFeature(feature, layer) {
+        function geo_json_1e76dffbbda213e86c5414d06dc03205_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                            geo_json_db03271f7174ac032d929c5c7e6dc157.resetStyle(e.target);
+                            geo_json_1e76dffbbda213e86c5414d06dc03205.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_db03271f7174ac032d929c5c7e6dc157_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_1e76dffbbda213e86c5414d06dc03205_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
             });
         };
-        var geo_json_db03271f7174ac032d929c5c7e6dc157 = L.geoJson(null, {
+        var geo_json_1e76dffbbda213e86c5414d06dc03205 = L.geoJson(null, {
                 smoothFactor: 1.66,
-                onEachFeature: geo_json_db03271f7174ac032d929c5c7e6dc157_onEachFeature,
+                onEachFeature: geo_json_1e76dffbbda213e86c5414d06dc03205_onEachFeature,
             
-                style: geo_json_db03271f7174ac032d929c5c7e6dc157_styler,
+                style: geo_json_1e76dffbbda213e86c5414d06dc03205_styler,
         });
 
-        function geo_json_db03271f7174ac032d929c5c7e6dc157_add (data) {
-            geo_json_db03271f7174ac032d929c5c7e6dc157
+        function geo_json_1e76dffbbda213e86c5414d06dc03205_add (data) {
+            geo_json_1e76dffbbda213e86c5414d06dc03205
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/peru_adm1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_db03271f7174ac032d929c5c7e6dc157_add);
+                .done(geo_json_1e76dffbbda213e86c5414d06dc03205_add);
 
         
     
-    geo_json_db03271f7174ac032d929c5c7e6dc157.bindTooltip(
+    geo_json_1e76dffbbda213e86c5414d06dc03205.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -392,10 +379,10 @@
     ,{"className": "foliumtooltip", "embed": false, "smoothFactor": 1, "sticky": true});
                      
     
-            geo_json_db03271f7174ac032d929c5c7e6dc157.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            geo_json_1e76dffbbda213e86c5414d06dc03205.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-        function geo_json_4cf82b76f556f0149877a644433e297c_styler(feature) {
+        function geo_json_0d3ac63302d76c15f4936e4a83d32dbf_styler(feature) {
             switch(feature.properties.municipio) {
                 case "Paita": case "Sullana": case "Talara": case "Contralmirante Villar": 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A2"], "weight": 4};
@@ -408,115 +395,1115 @@
             }
         }
 
-        function geo_json_4cf82b76f556f0149877a644433e297c_onEachFeature(feature, layer) {
+        function geo_json_0d3ac63302d76c15f4936e4a83d32dbf_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_4cf82b76f556f0149877a644433e297c = L.geoJson(null, {
+        var geo_json_0d3ac63302d76c15f4936e4a83d32dbf = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_4cf82b76f556f0149877a644433e297c_onEachFeature,
+                onEachFeature: geo_json_0d3ac63302d76c15f4936e4a83d32dbf_onEachFeature,
             
-                style: geo_json_4cf82b76f556f0149877a644433e297c_styler,
+                style: geo_json_0d3ac63302d76c15f4936e4a83d32dbf_styler,
                 localize: true,
         });
 
-        function geo_json_4cf82b76f556f0149877a644433e297c_add (data) {
-            geo_json_4cf82b76f556f0149877a644433e297c
+        function geo_json_0d3ac63302d76c15f4936e4a83d32dbf_add (data) {
+            geo_json_0d3ac63302d76c15f4936e4a83d32dbf
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/peru_ruta.geojson", {dataType: 'json', async: false})
-                .done(geo_json_4cf82b76f556f0149877a644433e297c_add);
+                .done(geo_json_0d3ac63302d76c15f4936e4a83d32dbf_add);
 
         
     
-            geo_json_4cf82b76f556f0149877a644433e297c.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            geo_json_0d3ac63302d76c15f4936e4a83d32dbf.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-        function geo_json_3d85a62473df4a9a259cc8425837675d_pointToLayer(feature, latlng) {
-            var opts = {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "black", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 2};
-            
-            return new L.CircleMarker(latlng, opts)
-        }
-
-        function geo_json_3d85a62473df4a9a259cc8425837675d_onEachFeature(feature, layer) {
-            layer.on({
-            });
-        };
-        var geo_json_3d85a62473df4a9a259cc8425837675d = L.geoJson(null, {
-                smoothFactor: 1,
-                onEachFeature: geo_json_3d85a62473df4a9a259cc8425837675d_onEachFeature,
-            
-                pointToLayer: geo_json_3d85a62473df4a9a259cc8425837675d_pointToLayer,
-                localize: true,
-        });
-
-        function geo_json_3d85a62473df4a9a259cc8425837675d_add (data) {
-            geo_json_3d85a62473df4a9a259cc8425837675d
-                .addData(data);
-        }
-            $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/ecuador_puntos.geojson", {dataType: 'json', async: false})
-                .done(geo_json_3d85a62473df4a9a259cc8425837675d_add);
-        geo_json_3d85a62473df4a9a259cc8425837675d.setStyle(function(feature) {return feature.properties.style;});
-
+            feature_group_65cf57bd25de17b1166b64ea1d6c44db.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
     
-    geo_json_3d85a62473df4a9a259cc8425837675d.bindTooltip(
-    function(layer){
-    let div = L.DomUtil.create('div');
+            geo_json_1e76dffbbda213e86c5414d06dc03205.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
+        
     
-    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
-    let fields = ["pais", "idruta", "necesidad_"];
-    let aliases = ["Pa\u00eds:", "Tramo:", "Necesidad:"];
-    let table = '<table>' +
-        String(
-        fields.map(
-        (v,i)=>
-        `<tr>
-            <th>${aliases[i]}</th>
-            
-            <td>${handleObject(layer.feature.properties[v])}</td>
-        </tr>`).join(''))
-    +'</table>';
-    div.innerHTML=table;
+            geo_json_0d3ac63302d76c15f4936e4a83d32dbf.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
+        
     
-    return div
-    }
-    ,{"className": "foliumtooltip", "sticky": true});
+            var marker_cluster_451455932beb9b9bf5b1f014a63dac98 = L.markerClusterGroup(
+                {"embed": false}
+            );
+        
+    
+            var marker_df077288af107f3d5c05784de0f2b1ac = L.marker(
+                [0.370075118979343, -78.06623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_fd291032764a1f39267e54992d206f41 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_df077288af107f3d5c05784de0f2b1ac.setIcon(custom_icon_fd291032764a1f39267e54992d206f41);
+        
+    
+            marker_df077288af107f3d5c05784de0f2b1ac.bindTooltip(
+                `<div>
                      
-    
-            geo_json_3d85a62473df4a9a259cc8425837675d.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
         
     
-            feature_group_a6d6941b26a182bf779d5ab03dde46ae.addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            var marker_0f9d58e73bb09375f93b63166442c5d9 = L.marker(
+                [0.420075118979343, -78.06623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
         
     
-            geo_json_db03271f7174ac032d929c5c7e6dc157.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+        var custom_icon_364834d808b8f9209fcc57e1c74f3a97 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_0f9d58e73bb09375f93b63166442c5d9.setIcon(custom_icon_364834d808b8f9209fcc57e1c74f3a97);
         
     
-            geo_json_4cf82b76f556f0149877a644433e297c.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            marker_0f9d58e73bb09375f93b63166442c5d9.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Medios de vida e integración<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
         
     
-            geo_json_3d85a62473df4a9a259cc8425837675d.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            var marker_41066593930879276b1d785ee4838bb3 = L.marker(
+                [0.320075118979343, -78.06623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
         
     
-            var locate_control_dacdab1c1ff038d7866025ad79e8b058 = L.control.locate(
+        var custom_icon_60d2c358c9b3d6e1aca22905a223b7cd = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_41066593930879276b1d785ee4838bb3.setIcon(custom_icon_60d2c358c9b3d6e1aca22905a223b7cd);
+        
+    
+            marker_41066593930879276b1d785ee4838bb3.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79ecfc29bd18c0616f53476e5fd20535 = L.marker(
+                [0.420075118979343, -78.11623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_f9482a1d5be9e7f0337ab70a5d99959c = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_79ecfc29bd18c0616f53476e5fd20535.setIcon(custom_icon_f9482a1d5be9e7f0337ab70a5d99959c);
+        
+    
+            marker_79ecfc29bd18c0616f53476e5fd20535.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Agua, saneamiento e higiene<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6435d2adfcf95e3ae1adccda808b129 = L.marker(
+                [0.320075118979343, -78.11623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_93f8baf228e590280b95ef0a4cb9b97c = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_d6435d2adfcf95e3ae1adccda808b129.setIcon(custom_icon_93f8baf228e590280b95ef0a4cb9b97c);
+        
+    
+            marker_d6435d2adfcf95e3ae1adccda808b129.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b1c2d8e603d4a787d9b15084b57906b = L.marker(
+                [0.370075118979343, -78.11623048960611],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_20f7c5deca37b19aabca4ebef7c1d1a6 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_1b1c2d8e603d4a787d9b15084b57906b.setIcon(custom_icon_20f7c5deca37b19aabca4ebef7c1d1a6);
+        
+    
+            marker_1b1c2d8e603d4a787d9b15084b57906b.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c3d78f20bff638a2fd52ecf1074db531 = L.marker(
+                [0.77269425360487, -77.8732113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_31da43b2e6fdd987313bcde3c8bb5bed = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_c3d78f20bff638a2fd52ecf1074db531.setIcon(custom_icon_31da43b2e6fdd987313bcde3c8bb5bed);
+        
+    
+            marker_c3d78f20bff638a2fd52ecf1074db531.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Agua, saneamiento e higiene<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_483114a2eb2c023d857d35881bee5b52 = L.marker(
+                [0.72269425360487, -77.8732113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_fd451f1c0e2199867d7754a83ed1bace = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_483114a2eb2c023d857d35881bee5b52.setIcon(custom_icon_fd451f1c0e2199867d7754a83ed1bace);
+        
+    
+            marker_483114a2eb2c023d857d35881bee5b52.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_46ee14bb0d467ef681fdaabbf27dcc4a = L.marker(
+                [0.77269425360487, -77.8232113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_be49cbc940c2878204e05c7939e114f8 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_46ee14bb0d467ef681fdaabbf27dcc4a.setIcon(custom_icon_be49cbc940c2878204e05c7939e114f8);
+        
+    
+            marker_46ee14bb0d467ef681fdaabbf27dcc4a.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_19f1e7a7d17119f2138f4436103fdfb3 = L.marker(
+                [0.72269425360487, -77.8232113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_ff630e87c442e8d600f867ae2c2029ca = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_19f1e7a7d17119f2138f4436103fdfb3.setIcon(custom_icon_ff630e87c442e8d600f867ae2c2029ca);
+        
+    
+            marker_19f1e7a7d17119f2138f4436103fdfb3.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_52dfaea7fced4d0b61d233956c074b6e = L.marker(
+                [0.77269425360487, -77.7732113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_88de3c9d62d849643c21b008d3d41a6a = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_52dfaea7fced4d0b61d233956c074b6e.setIcon(custom_icon_88de3c9d62d849643c21b008d3d41a6a);
+        
+    
+            marker_52dfaea7fced4d0b61d233956c074b6e.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Medios de vida e integración<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a55396013eb52ecc41d31122a2d8e776 = L.marker(
+                [0.72269425360487, -77.7732113674779],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_09671db1b5cce1a90f9596b051f119fa = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_a55396013eb52ecc41d31122a2d8e776.setIcon(custom_icon_09671db1b5cce1a90f9596b051f119fa);
+        
+    
+            marker_a55396013eb52ecc41d31122a2d8e776.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39b025f5af12bab6bf4ce0c34649bcc5 = L.marker(
+                [0.77269425360487, -77.72321136747789],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_ac81969bdbd9f59413d2761e348227bc = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_39b025f5af12bab6bf4ce0c34649bcc5.setIcon(custom_icon_ac81969bdbd9f59413d2761e348227bc);
+        
+    
+            marker_39b025f5af12bab6bf4ce0c34649bcc5.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_17babdb98cb475864a321691e469a471 = L.marker(
+                [0.72269425360487, -77.72321136747789],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_f653b026937560fe4aa6c5fca6061d91 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_17babdb98cb475864a321691e469a471.setIcon(custom_icon_f653b026937560fe4aa6c5fca6061d91);
+        
+    
+            marker_17babdb98cb475864a321691e469a471.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Transporte<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e849ed78f139c7a59f98ca18a40df651 = L.marker(
+                [-0.175188185988042, -78.45122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_a53cf2ea3cd473f8b8b183b53959a5ce = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_e849ed78f139c7a59f98ca18a40df651.setIcon(custom_icon_a53cf2ea3cd473f8b8b183b53959a5ce);
+        
+    
+            marker_e849ed78f139c7a59f98ca18a40df651.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b2ed52debf5793bb434b9779eb4aa9ce = L.marker(
+                [-0.125188185988042, -78.45122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_3be9a4df42f33b2aafb3a90c46e577f5 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_b2ed52debf5793bb434b9779eb4aa9ce.setIcon(custom_icon_3be9a4df42f33b2aafb3a90c46e577f5);
+        
+    
+            marker_b2ed52debf5793bb434b9779eb4aa9ce.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Medios de vida e integración<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0002fd1a9d51701e87c20f81b5b962b1 = L.marker(
+                [-0.075188185988042, -78.45122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_de4e221acb11ffca7fe6ced9a947e365 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_0002fd1a9d51701e87c20f81b5b962b1.setIcon(custom_icon_de4e221acb11ffca7fe6ced9a947e365);
+        
+    
+            marker_0002fd1a9d51701e87c20f81b5b962b1.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_12a68028f1279de0fd64ac8d99a67d1d = L.marker(
+                [-0.125188185988042, -78.40122278689137],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_6f276d8746c38cc293a6e0df684a001a = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_12a68028f1279de0fd64ac8d99a67d1d.setIcon(custom_icon_6f276d8746c38cc293a6e0df684a001a);
+        
+    
+            marker_12a68028f1279de0fd64ac8d99a67d1d.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Transporte<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b079906e32e45a774e8b7fe75609da1b = L.marker(
+                [-0.075188185988042, -78.40122278689137],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_ba982c14568e8dd6772964cfb2323352 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_b079906e32e45a774e8b7fe75609da1b.setIcon(custom_icon_ba982c14568e8dd6772964cfb2323352);
+        
+    
+            marker_b079906e32e45a774e8b7fe75609da1b.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_88deb629bcc80ae52760f92713e89314 = L.marker(
+                [-0.175188185988042, -78.50122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_c4fd8fba82cebc67d0da20a358c50ebf = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_88deb629bcc80ae52760f92713e89314.setIcon(custom_icon_c4fd8fba82cebc67d0da20a358c50ebf);
+        
+    
+            marker_88deb629bcc80ae52760f92713e89314.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c9e8b19522a32aab6b39caad83afdc26 = L.marker(
+                [-0.125188185988042, -78.50122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_da80f93fa81892ef88b478e9875055c2 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_c9e8b19522a32aab6b39caad83afdc26.setIcon(custom_icon_da80f93fa81892ef88b478e9875055c2);
+        
+    
+            marker_c9e8b19522a32aab6b39caad83afdc26.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35bd6b9b2710be5c5fa5de2d0bbe8e30 = L.marker(
+                [-0.075188185988042, -78.50122278689138],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_06767baa032530e55d497e88fb7b07a3 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_35bd6b9b2710be5c5fa5de2d0bbe8e30.setIcon(custom_icon_06767baa032530e55d497e88fb7b07a3);
+        
+    
+            marker_35bd6b9b2710be5c5fa5de2d0bbe8e30.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Agua, saneamiento e higiene<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ab6dd8a61fa660310e67656e0d101e67 = L.marker(
+                [-0.223957607457897, -79.13722830895166],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_9cafa407eca54146c440c3c860d5a1a4 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_ab6dd8a61fa660310e67656e0d101e67.setIcon(custom_icon_9cafa407eca54146c440c3c860d5a1a4);
+        
+    
+            marker_ab6dd8a61fa660310e67656e0d101e67.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_53c427706cc9bd0a607f37c89d40645c = L.marker(
+                [-0.273957607457897, -79.18722830895166],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_9e13b174cc5c58b89a5a66499a8a9b68 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_53c427706cc9bd0a607f37c89d40645c.setIcon(custom_icon_9e13b174cc5c58b89a5a66499a8a9b68);
+        
+    
+            marker_53c427706cc9bd0a607f37c89d40645c.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_57a8d601eed825f358aff72ed324d369 = L.marker(
+                [-0.223957607457897, -79.18722830895166],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_caba0efb9e9625e53c6011c7f60e2010 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_57a8d601eed825f358aff72ed324d369.setIcon(custom_icon_caba0efb9e9625e53c6011c7f60e2010);
+        
+    
+            marker_57a8d601eed825f358aff72ed324d369.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_343cad0d68e841102e1aa2b1a4322f68 = L.marker(
+                [-0.273957607457897, -79.13722830895166],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_c2c26b81dfc44e5343c9b70c69cc1ab8 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_343cad0d68e841102e1aa2b1a4322f68.setIcon(custom_icon_c2c26b81dfc44e5343c9b70c69cc1ab8);
+        
+    
+            marker_343cad0d68e841102e1aa2b1a4322f68.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Transporte<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_55547f03dc6e432cb1a388f2197f91ba = L.marker(
+                [-0.975715970215171, -80.75688836953125],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_1f5aa2f6f08eed2cca2a03c292cbd6ac = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_55547f03dc6e432cb1a388f2197f91ba.setIcon(custom_icon_1f5aa2f6f08eed2cca2a03c292cbd6ac);
+        
+    
+            marker_55547f03dc6e432cb1a388f2197f91ba.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34cd326fefa1bf523700a34fd60fa06d = L.marker(
+                [-1.025715970215171, -80.80688836953125],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_d836e4980dffebfb87d463d01e747556 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_34cd326fefa1bf523700a34fd60fa06d.setIcon(custom_icon_d836e4980dffebfb87d463d01e747556);
+        
+    
+            marker_34cd326fefa1bf523700a34fd60fa06d.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_13b2493725bb735b645378fac290c866 = L.marker(
+                [-0.975715970215171, -80.80688836953125],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_ee238a278f1ea6cc041679c609703814 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_13b2493725bb735b645378fac290c866.setIcon(custom_icon_ee238a278f1ea6cc041679c609703814);
+        
+    
+            marker_13b2493725bb735b645378fac290c866.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aa26a5f976209aea7812c5d012c3694f = L.marker(
+                [-1.025715970215171, -80.75688836953125],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_bc03f5b25acdbabddb64014aebae6d30 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_aa26a5f976209aea7812c5d012c3694f.setIcon(custom_icon_bc03f5b25acdbabddb64014aebae6d30);
+        
+    
+            marker_aa26a5f976209aea7812c5d012c3694f.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e6f094af4ac8d193afb817a5c02b9717 = L.marker(
+                [-3.01446905437339, -79.79613459150467],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_f6e1e9bcc856b251425a3af3164d1acb = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_e6f094af4ac8d193afb817a5c02b9717.setIcon(custom_icon_f6e1e9bcc856b251425a3af3164d1acb);
+        
+    
+            marker_e6f094af4ac8d193afb817a5c02b9717.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Medios de vida e integración<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_396679cbd6de380b5106b798b9d6dbd8 = L.marker(
+                [-2.96446905437339, -79.79613459150467],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_89ef17a1b24ce6bd03461ae7211b888f = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_396679cbd6de380b5106b798b9d6dbd8.setIcon(custom_icon_89ef17a1b24ce6bd03461ae7211b888f);
+        
+    
+            marker_396679cbd6de380b5106b798b9d6dbd8.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_21d8050343bd053f98ab805c845161d6 = L.marker(
+                [-3.01446905437339, -79.74613459150466],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_6a6863b76d90deb6d4205a95b8b611a8 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_21d8050343bd053f98ab805c845161d6.setIcon(custom_icon_6a6863b76d90deb6d4205a95b8b611a8);
+        
+    
+            marker_21d8050343bd053f98ab805c845161d6.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e8f6c0731a5a966757a61e2bcbccd675 = L.marker(
+                [-2.96446905437339, -79.74613459150466],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_dda36d1a2c7bf4beea0d4b48510128fa = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_e8f6c0731a5a966757a61e2bcbccd675.setIcon(custom_icon_dda36d1a2c7bf4beea0d4b48510128fa);
+        
+    
+            marker_e8f6c0731a5a966757a61e2bcbccd675.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a9a98745060528c563423cc1d5b2b32e = L.marker(
+                [-3.01446905437339, -79.84613459150466],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_54317002c0cf82d46df323d2ca9db414 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_a9a98745060528c563423cc1d5b2b32e.setIcon(custom_icon_54317002c0cf82d46df323d2ca9db414);
+        
+    
+            marker_a9a98745060528c563423cc1d5b2b32e.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_44e29e292d9eaee34a9d4bdc436e0bd6 = L.marker(
+                [-2.96446905437339, -79.84613459150466],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_6ee30b0f58b346745a14c032cc307e66 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_44e29e292d9eaee34a9d4bdc436e0bd6.setIcon(custom_icon_6ee30b0f58b346745a14c032cc307e66);
+        
+    
+            marker_44e29e292d9eaee34a9d4bdc436e0bd6.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37cc66bfb5bf23faa43dc47116f1ff2b = L.marker(
+                [-3.487467697521283, -80.17795277332283],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_149eaf4b57737d243833ade90ed3f006 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_37cc66bfb5bf23faa43dc47116f1ff2b.setIcon(custom_icon_149eaf4b57737d243833ade90ed3f006);
+        
+    
+            marker_37cc66bfb5bf23faa43dc47116f1ff2b.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d40be2e57ed980be42e2219d886be69c = L.marker(
+                [-3.437467697521284, -80.17795277332283],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_17d630c99e3466364d9072327466d535 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_d40be2e57ed980be42e2219d886be69c.setIcon(custom_icon_17d630c99e3466364d9072327466d535);
+        
+    
+            marker_d40be2e57ed980be42e2219d886be69c.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1427a673660acb264e19398deaae9e0c = L.marker(
+                [-3.487467697521283, -80.12795277332282],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_08055f711d8b77e26a2eb3d42566f132 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_1427a673660acb264e19398deaae9e0c.setIcon(custom_icon_08055f711d8b77e26a2eb3d42566f132);
+        
+    
+            marker_1427a673660acb264e19398deaae9e0c.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_301128447c4977f2713daee09e3023d5 = L.marker(
+                [-3.437467697521284, -80.12795277332282],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_f63d57f006a41617b9a3cba7949383c9 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_301128447c4977f2713daee09e3023d5.setIcon(custom_icon_f63d57f006a41617b9a3cba7949383c9);
+        
+    
+            marker_301128447c4977f2713daee09e3023d5.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Transporte<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_45705620dfd08fcb0cb5c516cbf209dc = L.marker(
+                [-3.487467697521283, -80.22795277332283],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_39dd9571b76aec6e3f9287b0c536dd0e = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_45705620dfd08fcb0cb5c516cbf209dc.setIcon(custom_icon_39dd9571b76aec6e3f9287b0c536dd0e);
+        
+    
+            marker_45705620dfd08fcb0cb5c516cbf209dc.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Agua, saneamiento e higiene<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1c6f950a0be67da4b6395343010a8872 = L.marker(
+                [-3.437467697521284, -80.22795277332283],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_fe7dcd16a8e093d20cc595c11e5490d9 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_1c6f950a0be67da4b6395343010a8872.setIcon(custom_icon_fe7dcd16a8e093d20cc595c11e5490d9);
+        
+    
+            marker_1c6f950a0be67da4b6395343010a8872.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89b500e27eb43082e64f0b134d3783f6 = L.marker(
+                [-3.338159692093875, -79.95015087372988],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_88a6ff3a18afa618a7c217e6b8a003aa = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_89b500e27eb43082e64f0b134d3783f6.setIcon(custom_icon_88a6ff3a18afa618a7c217e6b8a003aa);
+        
+    
+            marker_89b500e27eb43082e64f0b134d3783f6.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_89e0a6cc9ed841cb80b8ff65d684c4ab = L.marker(
+                [-3.288159692093875, -79.95015087372988],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_5c51860de75b8b51bcefa0bf5e5c76f1 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_89e0a6cc9ed841cb80b8ff65d684c4ab.setIcon(custom_icon_5c51860de75b8b51bcefa0bf5e5c76f1);
+        
+    
+            marker_89e0a6cc9ed841cb80b8ff65d684c4ab.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aabf86c2df00e621ffb82dd352fe5030 = L.marker(
+                [-2.21664001773838, -80.01268818716272],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_f93c0876c82124c9152f2147e4022d46 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_aabf86c2df00e621ffb82dd352fe5030.setIcon(custom_icon_f93c0876c82124c9152f2147e4022d46);
+        
+    
+            marker_aabf86c2df00e621ffb82dd352fe5030.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Medios de vida e integración<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4032e548a5013b540c9661ed192fdfd0 = L.marker(
+                [-2.166640017738381, -80.01268818716272],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_d9da6fee0e9e0c99d51e440aaa4b051b = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_4032e548a5013b540c9661ed192fdfd0.setIcon(custom_icon_d9da6fee0e9e0c99d51e440aaa4b051b);
+        
+    
+            marker_4032e548a5013b540c9661ed192fdfd0.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Artículos no alimentarios<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d64c85d2004ac6c20d17188034ba1b6b = L.marker(
+                [-2.21664001773838, -79.96268818716271],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_b18e89297ea9dd37f7e59fa4bcab4ffc = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_d64c85d2004ac6c20d17188034ba1b6b.setIcon(custom_icon_b18e89297ea9dd37f7e59fa4bcab4ffc);
+        
+    
+            marker_d64c85d2004ac6c20d17188034ba1b6b.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Salud<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60523140cae1fd4d815e9df4692ffc0b = L.marker(
+                [-2.166640017738381, -79.96268818716271],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_ee5f3af2c0ebec839f2f0a2cb20137bd = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_60523140cae1fd4d815e9df4692ffc0b.setIcon(custom_icon_ee5f3af2c0ebec839f2f0a2cb20137bd);
+        
+    
+            marker_60523140cae1fd4d815e9df4692ffc0b.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Protección, asesoría y regularización<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d7ff296f8a7d1785bddc0629bcbe9016 = L.marker(
+                [-2.21664001773838, -80.06268818716272],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_2b4096de128bacab604f929b98bd648b = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_d7ff296f8a7d1785bddc0629bcbe9016.setIcon(custom_icon_2b4096de128bacab604f929b98bd648b);
+        
+    
+            marker_d7ff296f8a7d1785bddc0629bcbe9016.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alimentos<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0e70939638304a51d2f9a22ef93c9040 = L.marker(
+                [-2.166640017738381, -80.06268818716272],
+                {"embed": false}
+            ).addTo(marker_cluster_451455932beb9b9bf5b1f014a63dac98);
+        
+    
+        var custom_icon_26a5973becbd9fe8003eac315ab3ef4b = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_0e70939638304a51d2f9a22ef93c9040.setIcon(custom_icon_26a5973becbd9fe8003eac315ab3ef4b);
+        
+    
+            marker_0e70939638304a51d2f9a22ef93c9040.bindTooltip(
+                `<div>
+                     
+            <b>Necesidad:</b> Alojamiento<br>
+            <b>País:</b> Ecu
+            
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            marker_cluster_451455932beb9b9bf5b1f014a63dac98.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
+        
+    
+            var locate_control_af3b58cf836fbaf86c547c814406ab61 = L.control.locate(
                 {"position": "topleft", "strings": {"popup": "Tu ubicaci\u00f3n", "title": "Localizaci\u00f3n actual"}}
-            ).addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            ).addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
             
         
     
-            var mouse_position_a373f5b2620334535013157d06c4d322 = new L.Control.MousePosition(
+            var mouse_position_fc8ce12f68dc7e5d1bf39b5c198f93db = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "topright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_a373f5b2620334535013157d06c4d322.options["latFormatter"] =
+            mouse_position_fc8ce12f68dc7e5d1bf39b5c198f93db.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_a373f5b2620334535013157d06c4d322.options["lngFormatter"] =
+            mouse_position_fc8ce12f68dc7e5d1bf39b5c198f93db.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_3613618e5c516e1902c2ad28c86f2d3f.addControl(mouse_position_a373f5b2620334535013157d06c4d322);
+            map_b0de001fa6c1cb1aa560f7b8d69c0ce1.addControl(mouse_position_fc8ce12f68dc7e5d1bf39b5c198f93db);
         
     
-            var feature_group_a6d6941b26a182bf779d5ab03dde46aesearchControl = new L.Control.Search({
-                layer: feature_group_a6d6941b26a182bf779d5ab03dde46ae,
+            var feature_group_65cf57bd25de17b1166b64ea1d6c44dbsearchControl = new L.Control.Search({
+                layer: feature_group_65cf57bd25de17b1166b64ea1d6c44db,
                 
                 propertyName: 'clave',
                 
@@ -531,8 +1518,8 @@
                 }
             
                 });
-                feature_group_a6d6941b26a182bf779d5ab03dde46aesearchControl.on('search:locationfound', function(e) {
-                    feature_group_a6d6941b26a182bf779d5ab03dde46ae.setStyle(function(feature){
+                feature_group_65cf57bd25de17b1166b64ea1d6c44dbsearchControl.on('search:locationfound', function(e) {
+                    feature_group_65cf57bd25de17b1166b64ea1d6c44db.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -541,81 +1528,78 @@
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_a6d6941b26a182bf779d5ab03dde46aesearchControl.on('search:collapsed', function(e) {
-                        feature_group_a6d6941b26a182bf779d5ab03dde46ae.setStyle(function(feature){
+                feature_group_65cf57bd25de17b1166b64ea1d6c44dbsearchControl.on('search:collapsed', function(e) {
+                        feature_group_65cf57bd25de17b1166b64ea1d6c44db.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_3613618e5c516e1902c2ad28c86f2d3f.addControl( feature_group_a6d6941b26a182bf779d5ab03dde46aesearchControl );
+            map_b0de001fa6c1cb1aa560f7b8d69c0ce1.addControl( feature_group_65cf57bd25de17b1166b64ea1d6c44dbsearchControl );
 
         
     
-            var tile_layer_dcba43fd7f10a248d5a422ba2ab1e6bc = L.tileLayer(
+            var tile_layer_a993b777b6ece7ba0f4a185d9ced51b6 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_5c20c5db17e78cea8f868384ecef1008 = new L.Control.MiniMap(
-                tile_layer_dcba43fd7f10a248d5a422ba2ab1e6bc,
-                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
+            var mini_map_92acc0d08130ee9244ca4fc976a25d8d = new L.Control.MiniMap(
+                tile_layer_a993b777b6ece7ba0f4a185d9ced51b6,
+                {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": true, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_3613618e5c516e1902c2ad28c86f2d3f.addControl(mini_map_5c20c5db17e78cea8f868384ecef1008);
+            map_b0de001fa6c1cb1aa560f7b8d69c0ce1.addControl(mini_map_92acc0d08130ee9244ca4fc976a25d8d);
         
     
-            var tag_filter_button_61ebf923d80a78f8a7a0ad5083d9daf9 = L.control.tagFilterButton(
+            var tag_filter_button_0d0e533fb78c4352d7c2ee5033bd4b7e = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A1", "A2", "A3", "A4"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            ).addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
     
-            map_3613618e5c516e1902c2ad28c86f2d3f.fitBounds(
+            map_b0de001fa6c1cb1aa560f7b8d69c0ce1.fitBounds(
                 [[-8.97088985178516, -81.32823049084442], [-3.381773346862417, -76.90124323628629]],
                 {}
             );
         
     
-            var layer_control_138e28f50a61f8554e669c46c7d8a2ea_layers = {
+            var layer_control_ad5fafd2f1d117b1bd69e81889f2060a_layers = {
                 base_layers : {
-                    "CartoDB Positron" : tile_layer_54ae34fe4a815b8ed7eaf3fe597798c6,
-                    "Open Street Map" : tile_layer_89ce2ebd3f88aef78d53f5cb29b0f39f,
-                    "Esri Sat\u00e9lite" : tile_layer_86d42846fd987a1ebdd51a112b6fdb14,
-                    "Google H\u00edbrido" : tile_layer_8b951a514e9aaa83291e5118e70a1b76,
-                    "Sin mapa base" : tile_layer_3bc5cdbdb175b0bd919e7b590d46c2ea,
+                    "CartoDB Positron" : tile_layer_05bf6fef6dd977ed0cc0ad89438bc8fc,
+                    "Open Street Map" : tile_layer_002b6dce8fb0e4ad3217ba5d4aa479ec,
+                    "Esri Sat\u00e9lite" : tile_layer_c0ce88c8abe705990d051229ed9ab957,
+                    "Google H\u00edbrido" : tile_layer_0c66ac3efe4632594dbe985e4436b3e6,
+                    "Sin mapa base" : tile_layer_c0bfb309dedd19281caaddd452ef1039,
                 },
                 overlays :  {
-                    "Riesgo por departamento" : geo_json_db03271f7174ac032d929c5c7e6dc157,
-                    "Ruta identificada" : geo_json_4cf82b76f556f0149877a644433e297c,
-                    "Necesidad por tramo" : geo_json_3d85a62473df4a9a259cc8425837675d,
+                    "Riesgo por departamento" : geo_json_1e76dffbbda213e86c5414d06dc03205,
+                    "Ruta identificada" : geo_json_0d3ac63302d76c15f4936e4a83d32dbf,
+                    "Necesidad por tramo" : marker_cluster_451455932beb9b9bf5b1f014a63dac98,
                 },
             };
-            let layer_control_138e28f50a61f8554e669c46c7d8a2ea = L.control.layers(
-                layer_control_138e28f50a61f8554e669c46c7d8a2ea_layers.base_layers,
-                layer_control_138e28f50a61f8554e669c46c7d8a2ea_layers.overlays,
+            let layer_control_ad5fafd2f1d117b1bd69e81889f2060a = L.control.layers(
+                layer_control_ad5fafd2f1d117b1bd69e81889f2060a_layers.base_layers,
+                layer_control_ad5fafd2f1d117b1bd69e81889f2060a_layers.overlays,
                 {"autoZIndex": true, "collapsed": true, "position": "topright"}
-            ).addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            ).addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
 
         
     
-            tile_layer_54ae34fe4a815b8ed7eaf3fe597798c6.addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            tile_layer_05bf6fef6dd977ed0cc0ad89438bc8fc.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
     
-            geo_json_db03271f7174ac032d929c5c7e6dc157.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            geo_json_1e76dffbbda213e86c5414d06dc03205.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-            geo_json_4cf82b76f556f0149877a644433e297c.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            geo_json_0d3ac63302d76c15f4936e4a83d32dbf.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-            geo_json_3d85a62473df4a9a259cc8425837675d.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            feature_group_65cf57bd25de17b1166b64ea1d6c44db.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
     
-            feature_group_a6d6941b26a182bf779d5ab03dde46ae.addTo(map_3613618e5c516e1902c2ad28c86f2d3f);
+            geo_json_1e76dffbbda213e86c5414d06dc03205.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-            geo_json_db03271f7174ac032d929c5c7e6dc157.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            geo_json_0d3ac63302d76c15f4936e4a83d32dbf.addTo(feature_group_65cf57bd25de17b1166b64ea1d6c44db);
         
     
-            geo_json_4cf82b76f556f0149877a644433e297c.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
-        
-    
-            geo_json_3d85a62473df4a9a259cc8425837675d.addTo(feature_group_a6d6941b26a182bf779d5ab03dde46ae);
+            marker_cluster_451455932beb9b9bf5b1f014a63dac98.addTo(map_b0de001fa6c1cb1aa560f7b8d69c0ce1);
         
 </script>
 </html>
