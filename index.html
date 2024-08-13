@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_bf4978d6a879a7c73762950e6e5ed0ba {
+                #map_65bd8f9f171d906a7094745163f927ed {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -104,7 +104,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_bf4978d6a879a7c73762950e6e5ed0ba" ></div>
+            <div class="folium-map" id="map_65bd8f9f171d906a7094745163f927ed" ></div>
         
     
 
@@ -283,8 +283,8 @@
 <script>
     
     
-            var map_bf4978d6a879a7c73762950e6e5ed0ba = L.map(
-                "map_bf4978d6a879a7c73762950e6e5ed0ba",
+            var map_65bd8f9f171d906a7094745163f927ed = L.map(
+                "map_65bd8f9f171d906a7094745163f927ed",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -293,51 +293,51 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            L.control.scale().addTo(map_65bd8f9f171d906a7094745163f927ed);
 
             
 
         
     
-            var tile_layer_f25fd130c9d131f1efa9b7de693fc82d = L.tileLayer(
+            var tile_layer_7fedd26322b0f70fcbacad6441cc9a95 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_f25fd130c9d131f1efa9b7de693fc82d.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            tile_layer_7fedd26322b0f70fcbacad6441cc9a95.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            var tile_layer_77fb58cc9d5e15f351a0c11ca5adaa5c = L.tileLayer(
+            var tile_layer_d284dc1f2b0148ddbe471c04774aa6f7 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_0b6611bfd24752f33e8200fb81348b3c = L.tileLayer(
+            var tile_layer_dbcd6e09d7e040ff83c292f20fde807c = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 17, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_7173dcd78b996c1218228848f03a92d0 = L.tileLayer(
+            var tile_layer_a344bf36c8ae3d71363fbaddf91c911e = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_50dcb5932e031ca09e0b2fb1c466d186 = L.tileLayer(
+            var tile_layer_11dbcf061b5e32e6da83d99c79ea73f1 = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_a50a3ed866c8b106486c448351b959d5 = L.featureGroup(
+            var feature_group_c1a3ea024fe1587017e01c901706fb7a = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_styler(feature) {
+        function geo_json_980090ca39ba0f4eb95fa4e269372ad6_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Imbabura": case "Lambayeque": 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
@@ -347,59 +347,59 @@
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_highlighter(feature) {
+        function geo_json_980090ca39ba0f4eb95fa4e269372ad6_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_onEachFeature(feature, layer) {
+        function geo_json_980090ca39ba0f4eb95fa4e269372ad6_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.resetStyle(e.target);
+                            geo_json_980090ca39ba0f4eb95fa4e269372ad6.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_980090ca39ba0f4eb95fa4e269372ad6_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_980090ca39ba0f4eb95fa4e269372ad6_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.resetStyle(e.target);
+                        geo_json_980090ca39ba0f4eb95fa4e269372ad6.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0 = L.geoJson(null, {
+        var geo_json_980090ca39ba0f4eb95fa4e269372ad6 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_onEachFeature,
+                onEachFeature: geo_json_980090ca39ba0f4eb95fa4e269372ad6_onEachFeature,
             
-                style: geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_styler,
+                style: geo_json_980090ca39ba0f4eb95fa4e269372ad6_styler,
         });
 
-        function geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_add (data) {
-            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0
+        function geo_json_980090ca39ba0f4eb95fa4e269372ad6_add (data) {
+            geo_json_980090ca39ba0f4eb95fa4e269372ad6
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0_add);
+                .done(geo_json_980090ca39ba0f4eb95fa4e269372ad6_add);
 
         
     
-    geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.bindPopup(
+    geo_json_980090ca39ba0f4eb95fa4e269372ad6.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -423,13 +423,13 @@
     ,{"className": "foliumpopup"});
                      
     
-            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.addTo(feature_group_a50a3ed866c8b106486c448351b959d5);
+            geo_json_980090ca39ba0f4eb95fa4e269372ad6.addTo(feature_group_c1a3ea024fe1587017e01c901706fb7a);
         
     
-            feature_group_a50a3ed866c8b106486c448351b959d5.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            feature_group_c1a3ea024fe1587017e01c901706fb7a.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-        function geo_json_86887e24aed5f780b05961bf09102657_styler(feature) {
+        function geo_json_f9929eafaf1e32907b1ad0dcff9255c2_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 2: case 3: case 4: case 5: case 6: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["A:Tulc\u00e1n-Ibarra"], "weight": 4};
@@ -454,28 +454,28 @@
             }
         }
 
-        function geo_json_86887e24aed5f780b05961bf09102657_onEachFeature(feature, layer) {
+        function geo_json_f9929eafaf1e32907b1ad0dcff9255c2_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_86887e24aed5f780b05961bf09102657 = L.geoJson(null, {
+        var geo_json_f9929eafaf1e32907b1ad0dcff9255c2 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_86887e24aed5f780b05961bf09102657_onEachFeature,
+                onEachFeature: geo_json_f9929eafaf1e32907b1ad0dcff9255c2_onEachFeature,
             
-                style: geo_json_86887e24aed5f780b05961bf09102657_styler,
+                style: geo_json_f9929eafaf1e32907b1ad0dcff9255c2_styler,
                 localize: true,
         });
 
-        function geo_json_86887e24aed5f780b05961bf09102657_add (data) {
-            geo_json_86887e24aed5f780b05961bf09102657
+        function geo_json_f9929eafaf1e32907b1ad0dcff9255c2_add (data) {
+            geo_json_f9929eafaf1e32907b1ad0dcff9255c2
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_86887e24aed5f780b05961bf09102657_add);
+                .done(geo_json_f9929eafaf1e32907b1ad0dcff9255c2_add);
 
         
     
-    geo_json_86887e24aed5f780b05961bf09102657.bindPopup(
+    geo_json_f9929eafaf1e32907b1ad0dcff9255c2.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -499,25 +499,25 @@
     ,{"className": "foliumpopup"});
                      
     
-            geo_json_86887e24aed5f780b05961bf09102657.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            geo_json_f9929eafaf1e32907b1ad0dcff9255c2.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            var feature_group_2a55f92394f7d36a726a7e660cca620c = L.featureGroup(
+            var feature_group_0f0379400597412c82b96bb146f08a93 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_9b76a606ba490a928f8d3f2370eb9c75 = L.marker(
+            var marker_ec7171b021035f9ad75cce692d3a0c7a = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_2a55f92394f7d36a726a7e660cca620c);
+            ).addTo(feature_group_0f0379400597412c82b96bb146f08a93);
         
     
-        var custom_icon_0e2fb33be613da3c1556e2465c662dc8 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
-        marker_9b76a606ba490a928f8d3f2370eb9c75.setIcon(custom_icon_0e2fb33be613da3c1556e2465c662dc8);
+        var custom_icon_af22a7809898bab9e1ac5f9d77cae906 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
+        marker_ec7171b021035f9ad75cce692d3a0c7a.setIcon(custom_icon_af22a7809898bab9e1ac5f9d77cae906);
         
     
-            marker_9b76a606ba490a928f8d3f2370eb9c75.bindTooltip(
+            marker_ec7171b021035f9ad75cce692d3a0c7a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -529,17 +529,17 @@
             );
         
     
-            var marker_4d9eca7643828ee492661d8ff3baaeb2 = L.marker(
+            var marker_e9adb66b2d3e3e2cd8b0d71426a9a8b6 = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_2a55f92394f7d36a726a7e660cca620c);
+            ).addTo(feature_group_0f0379400597412c82b96bb146f08a93);
         
     
-        var custom_icon_b283cea2952bb5245af932286a83b236 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
-        marker_4d9eca7643828ee492661d8ff3baaeb2.setIcon(custom_icon_b283cea2952bb5245af932286a83b236);
+        var custom_icon_12d61b067db29b8b9a5cf47c47e195b6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
+        marker_e9adb66b2d3e3e2cd8b0d71426a9a8b6.setIcon(custom_icon_12d61b067db29b8b9a5cf47c47e195b6);
         
     
-            marker_4d9eca7643828ee492661d8ff3baaeb2.bindTooltip(
+            marker_e9adb66b2d3e3e2cd8b0d71426a9a8b6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -551,17 +551,17 @@
             );
         
     
-            var marker_a5cf594ce3911c461a0cfbb69e4478f3 = L.marker(
+            var marker_ff4fc02c386d49061bc33e5f8a580e55 = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_2a55f92394f7d36a726a7e660cca620c);
+            ).addTo(feature_group_0f0379400597412c82b96bb146f08a93);
         
     
-        var custom_icon_fa4d436a1ed5d2ac98ecdae7681cbba7 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
-        marker_a5cf594ce3911c461a0cfbb69e4478f3.setIcon(custom_icon_fa4d436a1ed5d2ac98ecdae7681cbba7);
+        var custom_icon_0335edc95e58b9e2fc62f9d936fb07c1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
+        marker_ff4fc02c386d49061bc33e5f8a580e55.setIcon(custom_icon_0335edc95e58b9e2fc62f9d936fb07c1);
         
     
-            marker_a5cf594ce3911c461a0cfbb69e4478f3.bindTooltip(
+            marker_ff4fc02c386d49061bc33e5f8a580e55.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -573,17 +573,17 @@
             );
         
     
-            var marker_1b112d0aeb6df948d6f124cbd6eb4efb = L.marker(
+            var marker_3fc7a4ffdcc9d4f3cfb740e2913fa831 = L.marker(
                 [0.25128970025952, -76.8759633996911],
                 {"embed": false}
-            ).addTo(feature_group_2a55f92394f7d36a726a7e660cca620c);
+            ).addTo(feature_group_0f0379400597412c82b96bb146f08a93);
         
     
-        var custom_icon_efa5e270cdd2c7fb19443fad6f03fd94 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
-        marker_1b112d0aeb6df948d6f124cbd6eb4efb.setIcon(custom_icon_efa5e270cdd2c7fb19443fad6f03fd94);
+        var custom_icon_b2f2e2215a420baa89d665d789ada08d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
+        marker_3fc7a4ffdcc9d4f3cfb740e2913fa831.setIcon(custom_icon_b2f2e2215a420baa89d665d789ada08d);
         
     
-            marker_1b112d0aeb6df948d6f124cbd6eb4efb.bindTooltip(
+            marker_3fc7a4ffdcc9d4f3cfb740e2913fa831.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -595,17 +595,17 @@
             );
         
     
-            var marker_e05336fb06ac9c29283d826f2ffb743e = L.marker(
+            var marker_65939f52db81a96157b9db71a5001bb4 = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_2a55f92394f7d36a726a7e660cca620c);
+            ).addTo(feature_group_0f0379400597412c82b96bb146f08a93);
         
     
-        var custom_icon_5b85019229fed6b0b91488461d576e21 = L.icon({"iconSize": [30, 23.5], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
-        marker_e05336fb06ac9c29283d826f2ffb743e.setIcon(custom_icon_5b85019229fed6b0b91488461d576e21);
+        var custom_icon_a58dfe4743e96b6a2b95fb4949dfd1be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_mtmcol_y.png"});
+        marker_65939f52db81a96157b9db71a5001bb4.setIcon(custom_icon_a58dfe4743e96b6a2b95fb4949dfd1be);
         
     
-            marker_e05336fb06ac9c29283d826f2ffb743e.bindTooltip(
+            marker_65939f52db81a96157b9db71a5001bb4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -617,22 +617,22 @@
             );
         
     
-            var marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe = L.markerClusterGroup(
+            var marker_cluster_822eecf2990e56a2fd584243ebc8bfac = L.markerClusterGroup(
                 {"embed": false, "showCoverageOnHover": false}
             );
         
     
-            var marker_3720a563cba372bbc6f82fd45a44c22b = L.marker(
+            var marker_f50cc65aa143491d4cc8723726d07ba7 = L.marker(
                 [0.34629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_bc1eb8947d3f5ea9ac252d26a88eda5f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_3720a563cba372bbc6f82fd45a44c22b.setIcon(custom_icon_bc1eb8947d3f5ea9ac252d26a88eda5f);
+        var custom_icon_e6ab92380528ec1b77ff46085b828057 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_f50cc65aa143491d4cc8723726d07ba7.setIcon(custom_icon_e6ab92380528ec1b77ff46085b828057);
         
     
-            marker_3720a563cba372bbc6f82fd45a44c22b.bindTooltip(
+            marker_f50cc65aa143491d4cc8723726d07ba7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -644,17 +644,17 @@
             );
         
     
-            var marker_166823afdcdbda84db894d019b185024 = L.marker(
+            var marker_651a07353e03a311879218caee6f9867 = L.marker(
                 [0.39629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_cea2485759581f6c4b6c0d85e06d0aa4 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_166823afdcdbda84db894d019b185024.setIcon(custom_icon_cea2485759581f6c4b6c0d85e06d0aa4);
+        var custom_icon_5ed0b02cfe88815ad973a7b100e5ec2c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_651a07353e03a311879218caee6f9867.setIcon(custom_icon_5ed0b02cfe88815ad973a7b100e5ec2c);
         
     
-            marker_166823afdcdbda84db894d019b185024.bindTooltip(
+            marker_651a07353e03a311879218caee6f9867.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -666,17 +666,17 @@
             );
         
     
-            var marker_bb9bc936b77c6eed2e73e22167621e9b = L.marker(
+            var marker_52f48c4f130907d982bb3bbae004c30a = L.marker(
                 [0.29629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_f596552b7cf388712484d4b7ef16b2a7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_bb9bc936b77c6eed2e73e22167621e9b.setIcon(custom_icon_f596552b7cf388712484d4b7ef16b2a7);
+        var custom_icon_a5ca5604832fd568d398b03cfb57475b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_52f48c4f130907d982bb3bbae004c30a.setIcon(custom_icon_a5ca5604832fd568d398b03cfb57475b);
         
     
-            marker_bb9bc936b77c6eed2e73e22167621e9b.bindTooltip(
+            marker_52f48c4f130907d982bb3bbae004c30a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -688,17 +688,17 @@
             );
         
     
-            var marker_3531263ce0caf1d3ecfd12817a72962d = L.marker(
+            var marker_0d2c2b42083d7729e422f63f3ba9010f = L.marker(
                 [0.39629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_cd66944a3fe24d5c5947333306b989ce = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_3531263ce0caf1d3ecfd12817a72962d.setIcon(custom_icon_cd66944a3fe24d5c5947333306b989ce);
+        var custom_icon_5ac8c03f36af5b84beb1d85849ced0ae = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_0d2c2b42083d7729e422f63f3ba9010f.setIcon(custom_icon_5ac8c03f36af5b84beb1d85849ced0ae);
         
     
-            marker_3531263ce0caf1d3ecfd12817a72962d.bindTooltip(
+            marker_0d2c2b42083d7729e422f63f3ba9010f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -710,17 +710,17 @@
             );
         
     
-            var marker_10ec191b2a44de6a9aea5d4f2f6e6fd0 = L.marker(
+            var marker_b677ebdeda8a3a77d9d8a8779d465c0b = L.marker(
                 [0.29629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_ad198295054cd375b4f359f5f7d86e7b = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_10ec191b2a44de6a9aea5d4f2f6e6fd0.setIcon(custom_icon_ad198295054cd375b4f359f5f7d86e7b);
+        var custom_icon_1524d7668323cf939524b5e63a097f2f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_b677ebdeda8a3a77d9d8a8779d465c0b.setIcon(custom_icon_1524d7668323cf939524b5e63a097f2f);
         
     
-            marker_10ec191b2a44de6a9aea5d4f2f6e6fd0.bindTooltip(
+            marker_b677ebdeda8a3a77d9d8a8779d465c0b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -732,17 +732,17 @@
             );
         
     
-            var marker_90fe77f9aa0f8a474d38f8f5512266e9 = L.marker(
+            var marker_7456b34ce78699d1cd8fe0e57acb6982 = L.marker(
                 [0.34629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_ad674cc0fbf5df0e5cb3b221fa911ee0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_90fe77f9aa0f8a474d38f8f5512266e9.setIcon(custom_icon_ad674cc0fbf5df0e5cb3b221fa911ee0);
+        var custom_icon_a514462685424e4cadc0f89c4f64f35a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_7456b34ce78699d1cd8fe0e57acb6982.setIcon(custom_icon_a514462685424e4cadc0f89c4f64f35a);
         
     
-            marker_90fe77f9aa0f8a474d38f8f5512266e9.bindTooltip(
+            marker_7456b34ce78699d1cd8fe0e57acb6982.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -754,17 +754,17 @@
             );
         
     
-            var marker_5b6b97a7eaf8bdc27323780e39fa75f2 = L.marker(
+            var marker_74366cf69c9a6a54bd75e2ff772809f8 = L.marker(
                 [0.722885465378173, -77.78450695248989],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_6729bec0132333fd61fb2ecc0b2aaca7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_5b6b97a7eaf8bdc27323780e39fa75f2.setIcon(custom_icon_6729bec0132333fd61fb2ecc0b2aaca7);
+        var custom_icon_50b580c5528e265036bd77a1c127b308 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_74366cf69c9a6a54bd75e2ff772809f8.setIcon(custom_icon_50b580c5528e265036bd77a1c127b308);
         
     
-            marker_5b6b97a7eaf8bdc27323780e39fa75f2.bindTooltip(
+            marker_74366cf69c9a6a54bd75e2ff772809f8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -776,17 +776,17 @@
             );
         
     
-            var marker_4b083006ebd1a16a0b3dcf5c7a4f32a6 = L.marker(
+            var marker_9000e72d641a5ebb8d3ed7313f821280 = L.marker(
                 [0.722974078257829, -77.7346981642632],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_01194707cf4c3fe067195f33404a056d = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_4b083006ebd1a16a0b3dcf5c7a4f32a6.setIcon(custom_icon_01194707cf4c3fe067195f33404a056d);
+        var custom_icon_dc74e1b5192b90a3b4c89d7ffc73f9ec = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_9000e72d641a5ebb8d3ed7313f821280.setIcon(custom_icon_dc74e1b5192b90a3b4c89d7ffc73f9ec);
         
     
-            marker_4b083006ebd1a16a0b3dcf5c7a4f32a6.bindTooltip(
+            marker_9000e72d641a5ebb8d3ed7313f821280.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -798,17 +798,17 @@
             );
         
     
-            var marker_aa6c707cc6fa8a5d2fe1f8abc24c39a1 = L.marker(
+            var marker_8356a2f757ec44f19ca24cf25edcc341 = L.marker(
                 [0.823342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_063f7adf5a6bfa40c579fae321240966 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_aa6c707cc6fa8a5d2fe1f8abc24c39a1.setIcon(custom_icon_063f7adf5a6bfa40c579fae321240966);
+        var custom_icon_0e34329f179088dd642f74ae2d801d3b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_8356a2f757ec44f19ca24cf25edcc341.setIcon(custom_icon_0e34329f179088dd642f74ae2d801d3b);
         
     
-            marker_aa6c707cc6fa8a5d2fe1f8abc24c39a1.bindTooltip(
+            marker_8356a2f757ec44f19ca24cf25edcc341.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -820,17 +820,17 @@
             );
         
     
-            var marker_1fa5e8681de73630269f096158dab63d = L.marker(
+            var marker_2ff01f44e005d0e691ef08d49e26e517 = L.marker(
                 [0.773342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_3fd818c1ef87d32e3ff72bea763e6a86 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_1fa5e8681de73630269f096158dab63d.setIcon(custom_icon_3fd818c1ef87d32e3ff72bea763e6a86);
+        var custom_icon_286aedf5277d8db46a6c7a86eac79f6a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_2ff01f44e005d0e691ef08d49e26e517.setIcon(custom_icon_286aedf5277d8db46a6c7a86eac79f6a);
         
     
-            marker_1fa5e8681de73630269f096158dab63d.bindTooltip(
+            marker_2ff01f44e005d0e691ef08d49e26e517.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -842,17 +842,17 @@
             );
         
     
-            var marker_c78b732c868fccc9b15dbb5ab973075b = L.marker(
+            var marker_722e15471cb3fd1f5601b41085fce0dd = L.marker(
                 [0.823342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_b78198c53841f00420fc6b748bb222ef = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_c78b732c868fccc9b15dbb5ab973075b.setIcon(custom_icon_b78198c53841f00420fc6b748bb222ef);
+        var custom_icon_929f0bc650145de54ccb061a87fda438 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_722e15471cb3fd1f5601b41085fce0dd.setIcon(custom_icon_929f0bc650145de54ccb061a87fda438);
         
     
-            marker_c78b732c868fccc9b15dbb5ab973075b.bindTooltip(
+            marker_722e15471cb3fd1f5601b41085fce0dd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -864,17 +864,17 @@
             );
         
     
-            var marker_7ceba2fd34d40a214932c7fdd096f974 = L.marker(
+            var marker_a6c344dd265f11c726275f5f30d8435a = L.marker(
                 [0.773342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_19369e0f905c340c3dcaa9c6fb1615d0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_7ceba2fd34d40a214932c7fdd096f974.setIcon(custom_icon_19369e0f905c340c3dcaa9c6fb1615d0);
+        var custom_icon_d3c0e226375523e31d4ebd239f3ec14e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_a6c344dd265f11c726275f5f30d8435a.setIcon(custom_icon_d3c0e226375523e31d4ebd239f3ec14e);
         
     
-            marker_7ceba2fd34d40a214932c7fdd096f974.bindTooltip(
+            marker_a6c344dd265f11c726275f5f30d8435a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -886,17 +886,17 @@
             );
         
     
-            var marker_a414a3079b426acac6898a8532740cbb = L.marker(
+            var marker_0e23e42e1bf72a8bd2015b2bda5934f7 = L.marker(
                 [0.823342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_d007afc484b0938aa085b76576a1f04e = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_a414a3079b426acac6898a8532740cbb.setIcon(custom_icon_d007afc484b0938aa085b76576a1f04e);
+        var custom_icon_7787fe36b4fbf23d03021602f4ae54d3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_0e23e42e1bf72a8bd2015b2bda5934f7.setIcon(custom_icon_7787fe36b4fbf23d03021602f4ae54d3);
         
     
-            marker_a414a3079b426acac6898a8532740cbb.bindTooltip(
+            marker_0e23e42e1bf72a8bd2015b2bda5934f7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -908,17 +908,17 @@
             );
         
     
-            var marker_efba86d2e8a31b48685f154b818b7bf8 = L.marker(
+            var marker_b57ad24ec0fa9e7854f70b1ae7183ccd = L.marker(
                 [0.773342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_f5cefe6ae6a9e2866807b522b7721448 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_efba86d2e8a31b48685f154b818b7bf8.setIcon(custom_icon_f5cefe6ae6a9e2866807b522b7721448);
+        var custom_icon_88a1d7e837d49b840bbdc75f63b0bcc0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_b57ad24ec0fa9e7854f70b1ae7183ccd.setIcon(custom_icon_88a1d7e837d49b840bbdc75f63b0bcc0);
         
     
-            marker_efba86d2e8a31b48685f154b818b7bf8.bindTooltip(
+            marker_b57ad24ec0fa9e7854f70b1ae7183ccd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -930,17 +930,17 @@
             );
         
     
-            var marker_35c10207c36f3d3e669bc9bfd93241ba = L.marker(
+            var marker_dcdea1045322e6eec73eae4c4e18e5da = L.marker(
                 [-0.258016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_b66e554d01915d7f7a6fac615b907169 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_35c10207c36f3d3e669bc9bfd93241ba.setIcon(custom_icon_b66e554d01915d7f7a6fac615b907169);
+        var custom_icon_3009bdd9a423579c3e77f450b22cc3de = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_dcdea1045322e6eec73eae4c4e18e5da.setIcon(custom_icon_3009bdd9a423579c3e77f450b22cc3de);
         
     
-            marker_35c10207c36f3d3e669bc9bfd93241ba.bindTooltip(
+            marker_dcdea1045322e6eec73eae4c4e18e5da.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -952,17 +952,17 @@
             );
         
     
-            var marker_3ba606ff3c925128fbcfc4502cdee7d4 = L.marker(
+            var marker_233b4beea691763e3d397847533aac98 = L.marker(
                 [-0.208016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_f0f516fe347eb28466af0b709ed6dfe6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_3ba606ff3c925128fbcfc4502cdee7d4.setIcon(custom_icon_f0f516fe347eb28466af0b709ed6dfe6);
+        var custom_icon_3ae65c22c952d755116b440ff59dcf5d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_233b4beea691763e3d397847533aac98.setIcon(custom_icon_3ae65c22c952d755116b440ff59dcf5d);
         
     
-            marker_3ba606ff3c925128fbcfc4502cdee7d4.bindTooltip(
+            marker_233b4beea691763e3d397847533aac98.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -974,17 +974,17 @@
             );
         
     
-            var marker_e42a400cbb2f02d95b55b5f4e3a83741 = L.marker(
+            var marker_85632dedb5199b2045eeb1b644d25c4a = L.marker(
                 [-0.158016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_6836e4000437bd0a367f6ece78035983 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_e42a400cbb2f02d95b55b5f4e3a83741.setIcon(custom_icon_6836e4000437bd0a367f6ece78035983);
+        var custom_icon_3aa4d22906b7828f6a77f03381c870e4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_85632dedb5199b2045eeb1b644d25c4a.setIcon(custom_icon_3aa4d22906b7828f6a77f03381c870e4);
         
     
-            marker_e42a400cbb2f02d95b55b5f4e3a83741.bindTooltip(
+            marker_85632dedb5199b2045eeb1b644d25c4a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -996,17 +996,17 @@
             );
         
     
-            var marker_93d656d487972a58273ed9caeff4e6b3 = L.marker(
+            var marker_6fe44194293410444be851fbecbf3966 = L.marker(
                 [-0.208016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_df5acebad24da9f7506abb711a2de454 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_93d656d487972a58273ed9caeff4e6b3.setIcon(custom_icon_df5acebad24da9f7506abb711a2de454);
+        var custom_icon_f9bf09ba5fe64fea080c382169d07eed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_6fe44194293410444be851fbecbf3966.setIcon(custom_icon_f9bf09ba5fe64fea080c382169d07eed);
         
     
-            marker_93d656d487972a58273ed9caeff4e6b3.bindTooltip(
+            marker_6fe44194293410444be851fbecbf3966.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1018,17 +1018,17 @@
             );
         
     
-            var marker_1b34863f672d0487c7120270c0f6c37b = L.marker(
+            var marker_2a619d69e928d2288246e9fc315da201 = L.marker(
                 [-0.158016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_b8d65224bb98ff476956ee5ba0052311 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_1b34863f672d0487c7120270c0f6c37b.setIcon(custom_icon_b8d65224bb98ff476956ee5ba0052311);
+        var custom_icon_8840178115060c52148890921778eb30 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_2a619d69e928d2288246e9fc315da201.setIcon(custom_icon_8840178115060c52148890921778eb30);
         
     
-            marker_1b34863f672d0487c7120270c0f6c37b.bindTooltip(
+            marker_2a619d69e928d2288246e9fc315da201.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1040,17 +1040,17 @@
             );
         
     
-            var marker_7e89edb00d0a10e9d9591f3e7dcadef6 = L.marker(
+            var marker_137a1899077c6842349770cea5a8b6e9 = L.marker(
                 [-0.258016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_1f9553143ee713ddc61eb31d5a2e5224 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_7e89edb00d0a10e9d9591f3e7dcadef6.setIcon(custom_icon_1f9553143ee713ddc61eb31d5a2e5224);
+        var custom_icon_c48fc20a8a3ee0ceafcb3f6a7a668443 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_137a1899077c6842349770cea5a8b6e9.setIcon(custom_icon_c48fc20a8a3ee0ceafcb3f6a7a668443);
         
     
-            marker_7e89edb00d0a10e9d9591f3e7dcadef6.bindTooltip(
+            marker_137a1899077c6842349770cea5a8b6e9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1062,17 +1062,17 @@
             );
         
     
-            var marker_407046ed0f623fd0bb16579e7f339d33 = L.marker(
+            var marker_8e4f9ec96d5ae074e9e9048d2aa4f6a7 = L.marker(
                 [-0.208016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_14b69f3ef37428fd42e918a2484c7a6f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_407046ed0f623fd0bb16579e7f339d33.setIcon(custom_icon_14b69f3ef37428fd42e918a2484c7a6f);
+        var custom_icon_83451b6ea7b62129071fc7dcbf174472 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_8e4f9ec96d5ae074e9e9048d2aa4f6a7.setIcon(custom_icon_83451b6ea7b62129071fc7dcbf174472);
         
     
-            marker_407046ed0f623fd0bb16579e7f339d33.bindTooltip(
+            marker_8e4f9ec96d5ae074e9e9048d2aa4f6a7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1084,17 +1084,17 @@
             );
         
     
-            var marker_63d3f1c190cdebeae2d066c46ea51d56 = L.marker(
+            var marker_8dd728d2c3e57bfe2106a25cc47f1b2d = L.marker(
                 [-0.158016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_39f7b09fe61c257082b9d40f24be6965 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_63d3f1c190cdebeae2d066c46ea51d56.setIcon(custom_icon_39f7b09fe61c257082b9d40f24be6965);
+        var custom_icon_4930bbab0356959a3b781be845955c85 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_8dd728d2c3e57bfe2106a25cc47f1b2d.setIcon(custom_icon_4930bbab0356959a3b781be845955c85);
         
     
-            marker_63d3f1c190cdebeae2d066c46ea51d56.bindTooltip(
+            marker_8dd728d2c3e57bfe2106a25cc47f1b2d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1106,17 +1106,17 @@
             );
         
     
-            var marker_4455e791e4641b9aed9fe1930f43c9b5 = L.marker(
+            var marker_bc0f176a6d283588dd97fa10f3ae502b = L.marker(
                 [-0.224517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_76f175a7bacf3d72a07351ac66ffeef7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_4455e791e4641b9aed9fe1930f43c9b5.setIcon(custom_icon_76f175a7bacf3d72a07351ac66ffeef7);
+        var custom_icon_5d30ae44558a28a201d0cc3235eb7124 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_bc0f176a6d283588dd97fa10f3ae502b.setIcon(custom_icon_5d30ae44558a28a201d0cc3235eb7124);
         
     
-            marker_4455e791e4641b9aed9fe1930f43c9b5.bindTooltip(
+            marker_bc0f176a6d283588dd97fa10f3ae502b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1128,17 +1128,17 @@
             );
         
     
-            var marker_5243bf42f17b9507b60c174480727d59 = L.marker(
+            var marker_0144179437d038930b71aeda84368a96 = L.marker(
                 [-0.274517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_211d28e43c7f342d8ce82f26266464f0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_5243bf42f17b9507b60c174480727d59.setIcon(custom_icon_211d28e43c7f342d8ce82f26266464f0);
+        var custom_icon_c62af06e4bf83a6da28d63e0eb9d5487 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_0144179437d038930b71aeda84368a96.setIcon(custom_icon_c62af06e4bf83a6da28d63e0eb9d5487);
         
     
-            marker_5243bf42f17b9507b60c174480727d59.bindTooltip(
+            marker_0144179437d038930b71aeda84368a96.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1150,17 +1150,17 @@
             );
         
     
-            var marker_56cb2bae9b08766467d477ee84677118 = L.marker(
+            var marker_817e2fbfd849298e70e285c12b8cddd6 = L.marker(
                 [-0.224517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_789c4d3c7ae20205bdededb58bd267fe = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_56cb2bae9b08766467d477ee84677118.setIcon(custom_icon_789c4d3c7ae20205bdededb58bd267fe);
+        var custom_icon_cc885c6d74cc5c8ba5244f890f01cbd3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_817e2fbfd849298e70e285c12b8cddd6.setIcon(custom_icon_cc885c6d74cc5c8ba5244f890f01cbd3);
         
     
-            marker_56cb2bae9b08766467d477ee84677118.bindTooltip(
+            marker_817e2fbfd849298e70e285c12b8cddd6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1172,17 +1172,17 @@
             );
         
     
-            var marker_28717fc6833d60fb92223010c057936a = L.marker(
+            var marker_2ea5e767df88f9d920cc6104335e9124 = L.marker(
                 [-0.274517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_d1eb0cb0f16d7cfb3f9a46d1090c58d7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_28717fc6833d60fb92223010c057936a.setIcon(custom_icon_d1eb0cb0f16d7cfb3f9a46d1090c58d7);
+        var custom_icon_c9af57ee45dc33b96d24856577a058dd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_2ea5e767df88f9d920cc6104335e9124.setIcon(custom_icon_c9af57ee45dc33b96d24856577a058dd);
         
     
-            marker_28717fc6833d60fb92223010c057936a.bindTooltip(
+            marker_2ea5e767df88f9d920cc6104335e9124.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1194,17 +1194,17 @@
             );
         
     
-            var marker_ab908a23e96ed533ad92171285dd4c44 = L.marker(
+            var marker_2084ee30f6fd6eb910c41028f7121a68 = L.marker(
                 [-0.944935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_585fbbabb98150b2b474af8a756d8b8b = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_ab908a23e96ed533ad92171285dd4c44.setIcon(custom_icon_585fbbabb98150b2b474af8a756d8b8b);
+        var custom_icon_3e3f565812fcdcab0420be8227fe74bb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_2084ee30f6fd6eb910c41028f7121a68.setIcon(custom_icon_3e3f565812fcdcab0420be8227fe74bb);
         
     
-            marker_ab908a23e96ed533ad92171285dd4c44.bindTooltip(
+            marker_2084ee30f6fd6eb910c41028f7121a68.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1216,17 +1216,17 @@
             );
         
     
-            var marker_0fba5d7838c72b8f682b790abb2011c0 = L.marker(
+            var marker_e75233e188e053007219209407747713 = L.marker(
                 [-0.994935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_1c4f5a0bac9cfc33b5c9005d29bd3fb7 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_0fba5d7838c72b8f682b790abb2011c0.setIcon(custom_icon_1c4f5a0bac9cfc33b5c9005d29bd3fb7);
+        var custom_icon_0f4c804c500409e1c7a3cf79c54f3e68 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_e75233e188e053007219209407747713.setIcon(custom_icon_0f4c804c500409e1c7a3cf79c54f3e68);
         
     
-            marker_0fba5d7838c72b8f682b790abb2011c0.bindTooltip(
+            marker_e75233e188e053007219209407747713.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1238,17 +1238,17 @@
             );
         
     
-            var marker_832331ed1ad9d0e277f166a0b320a29b = L.marker(
+            var marker_51bf0f56ca4c96fd6f53d463f4c3978d = L.marker(
                 [-0.944935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_61728ee267722a2d6d436230cd9b158f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_832331ed1ad9d0e277f166a0b320a29b.setIcon(custom_icon_61728ee267722a2d6d436230cd9b158f);
+        var custom_icon_07c35bbf6e59aa8071cc295f804e14cd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_51bf0f56ca4c96fd6f53d463f4c3978d.setIcon(custom_icon_07c35bbf6e59aa8071cc295f804e14cd);
         
     
-            marker_832331ed1ad9d0e277f166a0b320a29b.bindTooltip(
+            marker_51bf0f56ca4c96fd6f53d463f4c3978d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1260,17 +1260,17 @@
             );
         
     
-            var marker_febb46e970e02fae7aab6156ceb8e3e0 = L.marker(
+            var marker_ba45a16d4b329fb0d64d82f67c52d03c = L.marker(
                 [-0.994935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_750fa5ffa14b4f6e442e0155774f5418 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_febb46e970e02fae7aab6156ceb8e3e0.setIcon(custom_icon_750fa5ffa14b4f6e442e0155774f5418);
+        var custom_icon_33436d78fca9121d47037d5eb7a06d7e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_ba45a16d4b329fb0d64d82f67c52d03c.setIcon(custom_icon_33436d78fca9121d47037d5eb7a06d7e);
         
     
-            marker_febb46e970e02fae7aab6156ceb8e3e0.bindTooltip(
+            marker_ba45a16d4b329fb0d64d82f67c52d03c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1282,17 +1282,17 @@
             );
         
     
-            var marker_2f46cc8717a1f2155fbca5095aa09f73 = L.marker(
+            var marker_5581c7b262cf9df1aeb40d316a02912d = L.marker(
                 [-3.498380858986683, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_ad667a56edf7f6d6bcc9e12e31859f8e = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_2f46cc8717a1f2155fbca5095aa09f73.setIcon(custom_icon_ad667a56edf7f6d6bcc9e12e31859f8e);
+        var custom_icon_9b357fd54ef479a1d40d86ba950f748c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_5581c7b262cf9df1aeb40d316a02912d.setIcon(custom_icon_9b357fd54ef479a1d40d86ba950f748c);
         
     
-            marker_2f46cc8717a1f2155fbca5095aa09f73.bindTooltip(
+            marker_5581c7b262cf9df1aeb40d316a02912d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1304,17 +1304,17 @@
             );
         
     
-            var marker_04abd5b68c7989990b175999556266f7 = L.marker(
+            var marker_b836e0c85a8ed262cee64e28a394d148 = L.marker(
                 [-3.448380858986684, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_ad57fdc55244662bb03e4f9be8c02848 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_04abd5b68c7989990b175999556266f7.setIcon(custom_icon_ad57fdc55244662bb03e4f9be8c02848);
+        var custom_icon_dda538e08da1f232bc536cb69d10a829 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_b836e0c85a8ed262cee64e28a394d148.setIcon(custom_icon_dda538e08da1f232bc536cb69d10a829);
         
     
-            marker_04abd5b68c7989990b175999556266f7.bindTooltip(
+            marker_b836e0c85a8ed262cee64e28a394d148.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1326,17 +1326,17 @@
             );
         
     
-            var marker_910a8c365092428f58061c1e3751982c = L.marker(
+            var marker_1f67483013ba5280ae08e3945fa15f5c = L.marker(
                 [-3.498380858986683, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_a41122e33e9fefe500a70cb9630fda67 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_910a8c365092428f58061c1e3751982c.setIcon(custom_icon_a41122e33e9fefe500a70cb9630fda67);
+        var custom_icon_a83bbb9b797ccd5c173f203fa022bcb9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_1f67483013ba5280ae08e3945fa15f5c.setIcon(custom_icon_a83bbb9b797ccd5c173f203fa022bcb9);
         
     
-            marker_910a8c365092428f58061c1e3751982c.bindTooltip(
+            marker_1f67483013ba5280ae08e3945fa15f5c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1348,17 +1348,17 @@
             );
         
     
-            var marker_f1c00d72e117ddf570b1a22a0b1fe225 = L.marker(
+            var marker_05ba3709e811d53a6745e853d0c0fcc7 = L.marker(
                 [-3.448380858986684, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_6abf52fc3a0166012be22fc54be4c733 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_f1c00d72e117ddf570b1a22a0b1fe225.setIcon(custom_icon_6abf52fc3a0166012be22fc54be4c733);
+        var custom_icon_665832195df37fe702207ede6441b3f4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_05ba3709e811d53a6745e853d0c0fcc7.setIcon(custom_icon_665832195df37fe702207ede6441b3f4);
         
     
-            marker_f1c00d72e117ddf570b1a22a0b1fe225.bindTooltip(
+            marker_05ba3709e811d53a6745e853d0c0fcc7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1370,17 +1370,17 @@
             );
         
     
-            var marker_11c4413d231087617dfc65ef22500ee5 = L.marker(
+            var marker_c81ce1cebd01602049f1eae045ef12fa = L.marker(
                 [-3.498380858986683, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_0050ec9e1692ab790943ddd938b3a086 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_11c4413d231087617dfc65ef22500ee5.setIcon(custom_icon_0050ec9e1692ab790943ddd938b3a086);
+        var custom_icon_738d0e2a34af78c41692b6704db5a322 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_c81ce1cebd01602049f1eae045ef12fa.setIcon(custom_icon_738d0e2a34af78c41692b6704db5a322);
         
     
-            marker_11c4413d231087617dfc65ef22500ee5.bindTooltip(
+            marker_c81ce1cebd01602049f1eae045ef12fa.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1392,17 +1392,17 @@
             );
         
     
-            var marker_f52d3ec6cd5dc3c1a9dab57220a82649 = L.marker(
+            var marker_74eda084a426827571ac04fc3b094f1f = L.marker(
                 [-3.448380858986684, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_bf9071a1468d5f134ac76e952fd67db1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_f52d3ec6cd5dc3c1a9dab57220a82649.setIcon(custom_icon_bf9071a1468d5f134ac76e952fd67db1);
+        var custom_icon_81655612fbe80ca72e796712dcc4efae = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_74eda084a426827571ac04fc3b094f1f.setIcon(custom_icon_81655612fbe80ca72e796712dcc4efae);
         
     
-            marker_f52d3ec6cd5dc3c1a9dab57220a82649.bindTooltip(
+            marker_74eda084a426827571ac04fc3b094f1f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1414,17 +1414,17 @@
             );
         
     
-            var marker_daddc64ed09492806071157a6e25a316 = L.marker(
+            var marker_f6fabd0c0f91915b528527e49e955758 = L.marker(
                 [-3.288910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_08c8ade36099569a720d91f8a9e2e42c = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_daddc64ed09492806071157a6e25a316.setIcon(custom_icon_08c8ade36099569a720d91f8a9e2e42c);
+        var custom_icon_bb0b6d35e13e21c5e6a2b47b62b60803 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_f6fabd0c0f91915b528527e49e955758.setIcon(custom_icon_bb0b6d35e13e21c5e6a2b47b62b60803);
         
     
-            marker_daddc64ed09492806071157a6e25a316.bindTooltip(
+            marker_f6fabd0c0f91915b528527e49e955758.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1436,17 +1436,17 @@
             );
         
     
-            var marker_fc25fea6efc56acbe8f73b67a56bfa19 = L.marker(
+            var marker_1b9233b7a540e8c3360f9bc23a1a65d2 = L.marker(
                 [-3.238910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_a9e0c1b806973bdc80a6ad23eabffae2 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_fc25fea6efc56acbe8f73b67a56bfa19.setIcon(custom_icon_a9e0c1b806973bdc80a6ad23eabffae2);
+        var custom_icon_9463c7324e33ac6a29ad1fce7a517fb3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_1b9233b7a540e8c3360f9bc23a1a65d2.setIcon(custom_icon_9463c7324e33ac6a29ad1fce7a517fb3);
         
     
-            marker_fc25fea6efc56acbe8f73b67a56bfa19.bindTooltip(
+            marker_1b9233b7a540e8c3360f9bc23a1a65d2.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1458,17 +1458,17 @@
             );
         
     
-            var marker_19b07c3a2d99867408f0026b41b979cf = L.marker(
+            var marker_9b207276684ab8fb6d1b7158d5752156 = L.marker(
                 [-2.179143514241878, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_ec56c27c9d2ac8df26f02aad0b44f28b = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_19b07c3a2d99867408f0026b41b979cf.setIcon(custom_icon_ec56c27c9d2ac8df26f02aad0b44f28b);
+        var custom_icon_6f7aa4f8d098cfc96a2f1d776d77b02e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_9b207276684ab8fb6d1b7158d5752156.setIcon(custom_icon_6f7aa4f8d098cfc96a2f1d776d77b02e);
         
     
-            marker_19b07c3a2d99867408f0026b41b979cf.bindTooltip(
+            marker_9b207276684ab8fb6d1b7158d5752156.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1480,17 +1480,17 @@
             );
         
     
-            var marker_d1af0df3587e607a638a2c1f02375a6f = L.marker(
+            var marker_ce214ff860ba21f232ce9e70da2372b6 = L.marker(
                 [-2.129143514241879, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_9393c0d5cc7c2726f83d0c83ba7249d9 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_d1af0df3587e607a638a2c1f02375a6f.setIcon(custom_icon_9393c0d5cc7c2726f83d0c83ba7249d9);
+        var custom_icon_8987d7af537b06ff4b4ef2f21f9d4430 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_ce214ff860ba21f232ce9e70da2372b6.setIcon(custom_icon_8987d7af537b06ff4b4ef2f21f9d4430);
         
     
-            marker_d1af0df3587e607a638a2c1f02375a6f.bindTooltip(
+            marker_ce214ff860ba21f232ce9e70da2372b6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1502,17 +1502,17 @@
             );
         
     
-            var marker_37a86fc6b075b905824713f9e89ec7b7 = L.marker(
+            var marker_f1ccaba1a33e1105fd7027b3d5243416 = L.marker(
                 [-2.179143514241878, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_d0f81032c08c1924d431fc48206d2f47 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_37a86fc6b075b905824713f9e89ec7b7.setIcon(custom_icon_d0f81032c08c1924d431fc48206d2f47);
+        var custom_icon_cada0801f42cff02b265b972490cfee2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_f1ccaba1a33e1105fd7027b3d5243416.setIcon(custom_icon_cada0801f42cff02b265b972490cfee2);
         
     
-            marker_37a86fc6b075b905824713f9e89ec7b7.bindTooltip(
+            marker_f1ccaba1a33e1105fd7027b3d5243416.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1524,17 +1524,17 @@
             );
         
     
-            var marker_5750e48d0961666b1ea14c0779b166e8 = L.marker(
+            var marker_0c62a213bfcec72fb5ff6bb9dc1a3c2c = L.marker(
                 [-2.129143514241879, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_a48f42a5af9a223a1dddd44689935144 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_5750e48d0961666b1ea14c0779b166e8.setIcon(custom_icon_a48f42a5af9a223a1dddd44689935144);
+        var custom_icon_80595ff8550ae1f59ce252e7b56fd6c9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_0c62a213bfcec72fb5ff6bb9dc1a3c2c.setIcon(custom_icon_80595ff8550ae1f59ce252e7b56fd6c9);
         
     
-            marker_5750e48d0961666b1ea14c0779b166e8.bindTooltip(
+            marker_0c62a213bfcec72fb5ff6bb9dc1a3c2c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1546,17 +1546,17 @@
             );
         
     
-            var marker_254d68f917a401265b226b3d0e643f05 = L.marker(
+            var marker_01106f9d0435aa3ee7fc2ce596baa642 = L.marker(
                 [-2.228952302468575, -79.8869583051045],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_bfdb6a79d5198fe1accf8e7e5d6f9c25 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_254d68f917a401265b226b3d0e643f05.setIcon(custom_icon_bfdb6a79d5198fe1accf8e7e5d6f9c25);
+        var custom_icon_865029e130eb8de31c3cee2e5232605f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_01106f9d0435aa3ee7fc2ce596baa642.setIcon(custom_icon_865029e130eb8de31c3cee2e5232605f);
         
     
-            marker_254d68f917a401265b226b3d0e643f05.bindTooltip(
+            marker_01106f9d0435aa3ee7fc2ce596baa642.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1568,17 +1568,17 @@
             );
         
     
-            var marker_ec97326b4678f72c29224e9268a20d16 = L.marker(
+            var marker_7661dd41f047dcc8877e6b9e29fa573e = L.marker(
                 [-2.228761090695273, -79.93620744402527],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_9f0d40299c5c613bbd22f42d7a9edeb3 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_ec97326b4678f72c29224e9268a20d16.setIcon(custom_icon_9f0d40299c5c613bbd22f42d7a9edeb3);
+        var custom_icon_e7ab7907c2dc74684bee753cd2f53e0d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_7661dd41f047dcc8877e6b9e29fa573e.setIcon(custom_icon_e7ab7907c2dc74684bee753cd2f53e0d);
         
     
-            marker_ec97326b4678f72c29224e9268a20d16.bindTooltip(
+            marker_7661dd41f047dcc8877e6b9e29fa573e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1590,17 +1590,17 @@
             );
         
     
-            var marker_fe5607aacc8bfbc263478765afa70959 = L.marker(
+            var marker_0d7ae4d661ad6e9d693ec5923d1bdd57 = L.marker(
                 [-3.530696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_b6686639bbefa892961247530ca9af9f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_fe5607aacc8bfbc263478765afa70959.setIcon(custom_icon_b6686639bbefa892961247530ca9af9f);
+        var custom_icon_34662f4692a5fdb17188aac44d402a17 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_0d7ae4d661ad6e9d693ec5923d1bdd57.setIcon(custom_icon_34662f4692a5fdb17188aac44d402a17);
         
     
-            marker_fe5607aacc8bfbc263478765afa70959.bindTooltip(
+            marker_0d7ae4d661ad6e9d693ec5923d1bdd57.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1612,17 +1612,17 @@
             );
         
     
-            var marker_770923b2b0fe4e281ab1812bb9b954a4 = L.marker(
+            var marker_a3862c8841c35cbc4dea9cb75e6277ec = L.marker(
                 [-3.480696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_05e1fcc6245e586697a356282fb7e56f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_770923b2b0fe4e281ab1812bb9b954a4.setIcon(custom_icon_05e1fcc6245e586697a356282fb7e56f);
+        var custom_icon_8634bfc2b2ae2c3c58c7923456eaca33 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_a3862c8841c35cbc4dea9cb75e6277ec.setIcon(custom_icon_8634bfc2b2ae2c3c58c7923456eaca33);
         
     
-            marker_770923b2b0fe4e281ab1812bb9b954a4.bindTooltip(
+            marker_a3862c8841c35cbc4dea9cb75e6277ec.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1634,17 +1634,17 @@
             );
         
     
-            var marker_44fe5706add7496b5c3de20a61287cc7 = L.marker(
+            var marker_9b9b276b3997616b93af26f24eed260e = L.marker(
                 [-3.430696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_2049773c81b989463b4cfa57fc7ce08c = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_44fe5706add7496b5c3de20a61287cc7.setIcon(custom_icon_2049773c81b989463b4cfa57fc7ce08c);
+        var custom_icon_696e71f8e9e360708834660d538ab538 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_9b9b276b3997616b93af26f24eed260e.setIcon(custom_icon_696e71f8e9e360708834660d538ab538);
         
     
-            marker_44fe5706add7496b5c3de20a61287cc7.bindTooltip(
+            marker_9b9b276b3997616b93af26f24eed260e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1656,17 +1656,17 @@
             );
         
     
-            var marker_8f0fd1f3d15fbfe142fd554fc3413b0b = L.marker(
+            var marker_2a4d74779a062f6e35d5257132f8bde9 = L.marker(
                 [-3.530696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_a1689660f468a77cc209ee5f060e8f14 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_8f0fd1f3d15fbfe142fd554fc3413b0b.setIcon(custom_icon_a1689660f468a77cc209ee5f060e8f14);
+        var custom_icon_8b3571a73bc9d773e8f454b0eec6061a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_2a4d74779a062f6e35d5257132f8bde9.setIcon(custom_icon_8b3571a73bc9d773e8f454b0eec6061a);
         
     
-            marker_8f0fd1f3d15fbfe142fd554fc3413b0b.bindTooltip(
+            marker_2a4d74779a062f6e35d5257132f8bde9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1678,17 +1678,17 @@
             );
         
     
-            var marker_2d473bbe0838070aaf2ec6763dcd8175 = L.marker(
+            var marker_6510d4715399220a06d443e5c412de25 = L.marker(
                 [-3.480696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_036b720e277e22ff28104ed4dc162211 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_2d473bbe0838070aaf2ec6763dcd8175.setIcon(custom_icon_036b720e277e22ff28104ed4dc162211);
+        var custom_icon_744af2ea5574c173b6f25624faf35803 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_6510d4715399220a06d443e5c412de25.setIcon(custom_icon_744af2ea5574c173b6f25624faf35803);
         
     
-            marker_2d473bbe0838070aaf2ec6763dcd8175.bindTooltip(
+            marker_6510d4715399220a06d443e5c412de25.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1700,17 +1700,17 @@
             );
         
     
-            var marker_69540ffd9e70b3784812bdb63cbfb641 = L.marker(
+            var marker_0ac2df8249409eab04d0adf7b4f19dcb = L.marker(
                 [-3.430696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_61b0a463db7caa87c67a80986af1c9f1 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_69540ffd9e70b3784812bdb63cbfb641.setIcon(custom_icon_61b0a463db7caa87c67a80986af1c9f1);
+        var custom_icon_e5d5f952202117ee3035eb6cf58e7fef = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_0ac2df8249409eab04d0adf7b4f19dcb.setIcon(custom_icon_e5d5f952202117ee3035eb6cf58e7fef);
         
     
-            marker_69540ffd9e70b3784812bdb63cbfb641.bindTooltip(
+            marker_0ac2df8249409eab04d0adf7b4f19dcb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1722,17 +1722,17 @@
             );
         
     
-            var marker_09771bf1e5acbb3501ddc26b1984bd57 = L.marker(
+            var marker_eb44fedfaa12120ee6b49d09e7146cf9 = L.marker(
                 [-3.588587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_e2ceb96d574475caeb65c1b4d39baeed = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_09771bf1e5acbb3501ddc26b1984bd57.setIcon(custom_icon_e2ceb96d574475caeb65c1b4d39baeed);
+        var custom_icon_826444864a4f0e5fb980e2859e39d72a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_eb44fedfaa12120ee6b49d09e7146cf9.setIcon(custom_icon_826444864a4f0e5fb980e2859e39d72a);
         
     
-            marker_09771bf1e5acbb3501ddc26b1984bd57.bindTooltip(
+            marker_eb44fedfaa12120ee6b49d09e7146cf9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1744,17 +1744,17 @@
             );
         
     
-            var marker_f838081038952c86908786e2f9af449b = L.marker(
+            var marker_00a0826edda4d2fbe57d2c80ccbcce50 = L.marker(
                 [-3.538587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_f5198e86905f3d5676340f18d43fa58f = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_f838081038952c86908786e2f9af449b.setIcon(custom_icon_f5198e86905f3d5676340f18d43fa58f);
+        var custom_icon_8ffb9f9f653eb186f17b2a877d8e7d10 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_00a0826edda4d2fbe57d2c80ccbcce50.setIcon(custom_icon_8ffb9f9f653eb186f17b2a877d8e7d10);
         
     
-            marker_f838081038952c86908786e2f9af449b.bindTooltip(
+            marker_00a0826edda4d2fbe57d2c80ccbcce50.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1766,17 +1766,17 @@
             );
         
     
-            var marker_26a72d7115bcc3b3ad0e317d8af77e63 = L.marker(
+            var marker_08e60054040bf653bed1e3e6d7ee58cd = L.marker(
                 [-3.588587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_bea8eeca7831e30eab8ac1fafc66c75d = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_26a72d7115bcc3b3ad0e317d8af77e63.setIcon(custom_icon_bea8eeca7831e30eab8ac1fafc66c75d);
+        var custom_icon_58798b28687722e1e8f27271f97f1b65 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_08e60054040bf653bed1e3e6d7ee58cd.setIcon(custom_icon_58798b28687722e1e8f27271f97f1b65);
         
     
-            marker_26a72d7115bcc3b3ad0e317d8af77e63.bindTooltip(
+            marker_08e60054040bf653bed1e3e6d7ee58cd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1788,17 +1788,17 @@
             );
         
     
-            var marker_b74220690d81ffadc874e32cd89434b8 = L.marker(
+            var marker_9b863998f835e7ec0b2eba57dbd83586 = L.marker(
                 [-3.538587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_eb2759f8de9d2f934e2c55b95c251b26 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_b74220690d81ffadc874e32cd89434b8.setIcon(custom_icon_eb2759f8de9d2f934e2c55b95c251b26);
+        var custom_icon_64fa2fa7607fb2d7bc4fa7a75373a818 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_9b863998f835e7ec0b2eba57dbd83586.setIcon(custom_icon_64fa2fa7607fb2d7bc4fa7a75373a818);
         
     
-            marker_b74220690d81ffadc874e32cd89434b8.bindTooltip(
+            marker_9b863998f835e7ec0b2eba57dbd83586.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1810,17 +1810,17 @@
             );
         
     
-            var marker_bb5b9b4582357a7f12cc70bd63677c4f = L.marker(
+            var marker_46fcb985319cfeeca787923726a62788 = L.marker(
                 [-3.588587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_cdd59df5e5bd4c56ead117f4de361a9d = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_bb5b9b4582357a7f12cc70bd63677c4f.setIcon(custom_icon_cdd59df5e5bd4c56ead117f4de361a9d);
+        var custom_icon_4ca57aec070a37349d89ea2ae5c9d9be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_46fcb985319cfeeca787923726a62788.setIcon(custom_icon_4ca57aec070a37349d89ea2ae5c9d9be);
         
     
-            marker_bb5b9b4582357a7f12cc70bd63677c4f.bindTooltip(
+            marker_46fcb985319cfeeca787923726a62788.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1832,17 +1832,17 @@
             );
         
     
-            var marker_6e772309c928c9592512a20d12435d61 = L.marker(
+            var marker_b94fbc441e43ba7c9cd58ee58b37b405 = L.marker(
                 [-3.538587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_b92822eba3c050e01a8febc6121506ee = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_6e772309c928c9592512a20d12435d61.setIcon(custom_icon_b92822eba3c050e01a8febc6121506ee);
+        var custom_icon_4db3b9d78bb146df9bdaaad6e4a471e5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_b94fbc441e43ba7c9cd58ee58b37b405.setIcon(custom_icon_4db3b9d78bb146df9bdaaad6e4a471e5);
         
     
-            marker_6e772309c928c9592512a20d12435d61.bindTooltip(
+            marker_b94fbc441e43ba7c9cd58ee58b37b405.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1854,17 +1854,17 @@
             );
         
     
-            var marker_bedd7dcc02c2869b27ed245fccdb3a68 = L.marker(
+            var marker_594901f26b6dbc54b5d40c6643f9f55f = L.marker(
                 [-4.606834467234112, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_16f492eb08381beb990bb8445e9cd04b = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_bedd7dcc02c2869b27ed245fccdb3a68.setIcon(custom_icon_16f492eb08381beb990bb8445e9cd04b);
+        var custom_icon_7f41ebcd44f882da931b30f316cae477 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_594901f26b6dbc54b5d40c6643f9f55f.setIcon(custom_icon_7f41ebcd44f882da931b30f316cae477);
         
     
-            marker_bedd7dcc02c2869b27ed245fccdb3a68.bindTooltip(
+            marker_594901f26b6dbc54b5d40c6643f9f55f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1876,17 +1876,17 @@
             );
         
     
-            var marker_840d226e88eb31e0c3243b331d13753b = L.marker(
+            var marker_17e1ff4836cefa901b68278e762b2b95 = L.marker(
                 [-4.556834467234113, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_4c7254f5483118e2ddcaef7eb897fb79 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_840d226e88eb31e0c3243b331d13753b.setIcon(custom_icon_4c7254f5483118e2ddcaef7eb897fb79);
+        var custom_icon_de6cbdf564af4c9308a00d15cf9d30be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_17e1ff4836cefa901b68278e762b2b95.setIcon(custom_icon_de6cbdf564af4c9308a00d15cf9d30be);
         
     
-            marker_840d226e88eb31e0c3243b331d13753b.bindTooltip(
+            marker_17e1ff4836cefa901b68278e762b2b95.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1898,17 +1898,17 @@
             );
         
     
-            var marker_0bec3695befccc61efd55b0541fe8c68 = L.marker(
+            var marker_98bf8a6eb052cb21b2bbe2efca71b4c4 = L.marker(
                 [-4.606834467234112, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_3c1b13685122d7dac2d7ea14bbd9b5a8 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_0bec3695befccc61efd55b0541fe8c68.setIcon(custom_icon_3c1b13685122d7dac2d7ea14bbd9b5a8);
+        var custom_icon_eda01a77859422ae08746778b2c67a4a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_98bf8a6eb052cb21b2bbe2efca71b4c4.setIcon(custom_icon_eda01a77859422ae08746778b2c67a4a);
         
     
-            marker_0bec3695befccc61efd55b0541fe8c68.bindTooltip(
+            marker_98bf8a6eb052cb21b2bbe2efca71b4c4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1920,17 +1920,17 @@
             );
         
     
-            var marker_87ba4f9d020b1bdb9e1279226149b412 = L.marker(
+            var marker_c2e0a57085fb54ee6e49590e130f9261 = L.marker(
                 [-4.556834467234113, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_5d00496d195f56cba30709e438abec5a = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_87ba4f9d020b1bdb9e1279226149b412.setIcon(custom_icon_5d00496d195f56cba30709e438abec5a);
+        var custom_icon_74c6b74a7fce6159dad046bda29b3a56 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_c2e0a57085fb54ee6e49590e130f9261.setIcon(custom_icon_74c6b74a7fce6159dad046bda29b3a56);
         
     
-            marker_87ba4f9d020b1bdb9e1279226149b412.bindTooltip(
+            marker_c2e0a57085fb54ee6e49590e130f9261.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1942,17 +1942,17 @@
             );
         
     
-            var marker_c39f4928296e8b036155c1e700b9976c = L.marker(
+            var marker_48c157b5d3a72fcc793945b0ce8df1e5 = L.marker(
                 [-5.218793230120715, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_0a1fb5ca3932928f51c9ba9af5389f99 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_c39f4928296e8b036155c1e700b9976c.setIcon(custom_icon_0a1fb5ca3932928f51c9ba9af5389f99);
+        var custom_icon_f0a7784273e46ff90aae1bce08813dbd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_48c157b5d3a72fcc793945b0ce8df1e5.setIcon(custom_icon_f0a7784273e46ff90aae1bce08813dbd);
         
     
-            marker_c39f4928296e8b036155c1e700b9976c.bindTooltip(
+            marker_48c157b5d3a72fcc793945b0ce8df1e5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1964,17 +1964,17 @@
             );
         
     
-            var marker_6e89ae6cca4311a31cd5405e81e5be43 = L.marker(
+            var marker_cc99275cd3761a03fac3654ffeea4ae0 = L.marker(
                 [-5.168793230120714, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_819a1d9e52aa53ed2eb87415662f0542 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_6e89ae6cca4311a31cd5405e81e5be43.setIcon(custom_icon_819a1d9e52aa53ed2eb87415662f0542);
+        var custom_icon_e805839abd41898bd0dc2c9fd3cfe491 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_cc99275cd3761a03fac3654ffeea4ae0.setIcon(custom_icon_e805839abd41898bd0dc2c9fd3cfe491);
         
     
-            marker_6e89ae6cca4311a31cd5405e81e5be43.bindTooltip(
+            marker_cc99275cd3761a03fac3654ffeea4ae0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1986,17 +1986,17 @@
             );
         
     
-            var marker_7b5e17792206f139e6b5a79d7898061c = L.marker(
+            var marker_3dae2529cf51119789e47f607c826e2d = L.marker(
                 [-5.218793230120715, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_321f08e139ecdd4e45ab4a67233848f8 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
-        marker_7b5e17792206f139e6b5a79d7898061c.setIcon(custom_icon_321f08e139ecdd4e45ab4a67233848f8);
+        var custom_icon_172a8faab48ce684cb27a9b94b33c5a6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-green.png"});
+        marker_3dae2529cf51119789e47f607c826e2d.setIcon(custom_icon_172a8faab48ce684cb27a9b94b33c5a6);
         
     
-            marker_7b5e17792206f139e6b5a79d7898061c.bindTooltip(
+            marker_3dae2529cf51119789e47f607c826e2d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2008,17 +2008,17 @@
             );
         
     
-            var marker_5bc3569168d21a228a36f3dd064de542 = L.marker(
+            var marker_4d10a6b54bf255ca38bcb93d919e522a = L.marker(
                 [-5.168793230120714, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_e27a70e20085e7c48968b34ead9ec032 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_5bc3569168d21a228a36f3dd064de542.setIcon(custom_icon_e27a70e20085e7c48968b34ead9ec032);
+        var custom_icon_c0922e4fddf993cb312b93848721a8f6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_4d10a6b54bf255ca38bcb93d919e522a.setIcon(custom_icon_c0922e4fddf993cb312b93848721a8f6);
         
     
-            marker_5bc3569168d21a228a36f3dd064de542.bindTooltip(
+            marker_4d10a6b54bf255ca38bcb93d919e522a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2030,17 +2030,17 @@
             );
         
     
-            var marker_d68e8f5a7c44fe5d21d971f364c40109 = L.marker(
+            var marker_0cc0f9e3aa4a47d2aba8375f7d9d32df = L.marker(
                 [-5.218793230120715, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_fea637c4ea65e8ff700b42ebe045da4e = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
-        marker_d68e8f5a7c44fe5d21d971f364c40109.setIcon(custom_icon_fea637c4ea65e8ff700b42ebe045da4e);
+        var custom_icon_8d84ee03ada0a5d326a1b4209dbcffc9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/agua.svg"});
+        marker_0cc0f9e3aa4a47d2aba8375f7d9d32df.setIcon(custom_icon_8d84ee03ada0a5d326a1b4209dbcffc9);
         
     
-            marker_d68e8f5a7c44fe5d21d971f364c40109.bindTooltip(
+            marker_0cc0f9e3aa4a47d2aba8375f7d9d32df.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2052,17 +2052,17 @@
             );
         
     
-            var marker_7be46dd18a8f3c2bb6c4dfbfe1118ec8 = L.marker(
+            var marker_8310df8ed88f337534ffd009db0c1c38 = L.marker(
                 [-5.168793230120714, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe);
+            ).addTo(marker_cluster_822eecf2990e56a2fd584243ebc8bfac);
         
     
-        var custom_icon_4146f10bb39039cd19ff69c4aa402147 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
-        marker_7be46dd18a8f3c2bb6c4dfbfe1118ec8.setIcon(custom_icon_4146f10bb39039cd19ff69c4aa402147);
+        var custom_icon_cd805e0f1682410ce935b58c6f843b6d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/alimento.svg"});
+        marker_8310df8ed88f337534ffd009db0c1c38.setIcon(custom_icon_cd805e0f1682410ce935b58c6f843b6d);
         
     
-            marker_7be46dd18a8f3c2bb6c4dfbfe1118ec8.bindTooltip(
+            marker_8310df8ed88f337534ffd009db0c1c38.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2074,142 +2074,142 @@
             );
         
     
-            marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            marker_cluster_822eecf2990e56a2fd584243ebc8bfac.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.addTo(feature_group_a50a3ed866c8b106486c448351b959d5);
+            geo_json_980090ca39ba0f4eb95fa4e269372ad6.addTo(feature_group_c1a3ea024fe1587017e01c901706fb7a);
         
     
-            var feature_group_5c076311fd578193765ad50dee4a717c = L.featureGroup(
+            var feature_group_c8c4dc734eeefdd9a7ecaea747900b4b = L.featureGroup(
                 {}
             );
         
     
-            var marker_0d0823ac1506d59f38b8da0d47a85cdb = L.marker(
+            var marker_bb95432984ddd41f3ac5f73c9188ca74 = L.marker(
                 [0.405, -78.371],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_5c4562ab7cc59c3944fd6134dd466e75 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_0d0823ac1506d59f38b8da0d47a85cdb.setIcon(div_icon_5c4562ab7cc59c3944fd6134dd466e75);
+            var div_icon_35fea558ed2ac572629fd159aa4bfa0d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_bb95432984ddd41f3ac5f73c9188ca74.setIcon(div_icon_35fea558ed2ac572629fd159aa4bfa0d);
         
     
-            var marker_7710305edd00c5b3a6b3e37db6b255de = L.marker(
+            var marker_d85371be0a3b6c73dfd0b0bc9a856519 = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_8c046b43c4014e52d1dfd2bbf647d726 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_7710305edd00c5b3a6b3e37db6b255de.setIcon(div_icon_8c046b43c4014e52d1dfd2bbf647d726);
+            var div_icon_5f312185ac82b375f402c607eb68f229 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_d85371be0a3b6c73dfd0b0bc9a856519.setIcon(div_icon_5f312185ac82b375f402c607eb68f229);
         
     
-            var marker_559538a72d0dcc88b1e10661f34d472e = L.marker(
+            var marker_ad3908b4f3beea2606ac33d427ad70df = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_3bc2c30a1193d7e8d87e24e30956b517 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_559538a72d0dcc88b1e10661f34d472e.setIcon(div_icon_3bc2c30a1193d7e8d87e24e30956b517);
+            var div_icon_96f2686c6a73d1c4a5a3e46716e606fd = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_ad3908b4f3beea2606ac33d427ad70df.setIcon(div_icon_96f2686c6a73d1c4a5a3e46716e606fd);
         
     
-            var marker_f8f639e96f3329501bc241c523174a79 = L.marker(
+            var marker_5353cd0d1ee22b4f9a379723ce12e493 = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_69c4cb6cfbc94873eca0b4f34fe8fc02 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_f8f639e96f3329501bc241c523174a79.setIcon(div_icon_69c4cb6cfbc94873eca0b4f34fe8fc02);
+            var div_icon_23e60c118a4d11a0d7fb2a36b7b5a493 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_5353cd0d1ee22b4f9a379723ce12e493.setIcon(div_icon_23e60c118a4d11a0d7fb2a36b7b5a493);
         
     
-            var marker_e4236aa5f763ce528f953462476a57ad = L.marker(
+            var marker_2257539f98b33735bfe78ea96f0fed39 = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_2c2c31e2c451176d469d29ab399423f5 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_e4236aa5f763ce528f953462476a57ad.setIcon(div_icon_2c2c31e2c451176d469d29ab399423f5);
+            var div_icon_6998f287ac3dec585c6f9c07b88db629 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_2257539f98b33735bfe78ea96f0fed39.setIcon(div_icon_6998f287ac3dec585c6f9c07b88db629);
         
     
-            var marker_1fba2c281a5a4c722f5ceaaa8ab8c114 = L.marker(
+            var marker_8f394a01a21de825ce6ac8f4c0257ac5 = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_99a987dc2b6e5954f5e8365dd5919709 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_1fba2c281a5a4c722f5ceaaa8ab8c114.setIcon(div_icon_99a987dc2b6e5954f5e8365dd5919709);
+            var div_icon_64265869c1b03ec46609d4d574bec802 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_8f394a01a21de825ce6ac8f4c0257ac5.setIcon(div_icon_64265869c1b03ec46609d4d574bec802);
         
     
-            var marker_ce9b28bc2fa5c57d3a45651b8228c9c6 = L.marker(
+            var marker_89d155331cc3efd79d9286353e90abfc = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_c9a939edacdd8d51839e1a63d53507a7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_ce9b28bc2fa5c57d3a45651b8228c9c6.setIcon(div_icon_c9a939edacdd8d51839e1a63d53507a7);
+            var div_icon_2b8befdff71de6bc0440aceb4952ad4f = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_89d155331cc3efd79d9286353e90abfc.setIcon(div_icon_2b8befdff71de6bc0440aceb4952ad4f);
         
     
-            var marker_d9e102a6dca23a096bb1713542f5efab = L.marker(
+            var marker_736bf993f7d8e03989e464458cd1c9b7 = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_3a4f5af8669cbe53de4406f7971f64a8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_d9e102a6dca23a096bb1713542f5efab.setIcon(div_icon_3a4f5af8669cbe53de4406f7971f64a8);
+            var div_icon_9bc4122c141d5e4701ce3d1b84360156 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_736bf993f7d8e03989e464458cd1c9b7.setIcon(div_icon_9bc4122c141d5e4701ce3d1b84360156);
         
     
-            var marker_bc5a60de7846f7f623771d9750d8f3fd = L.marker(
+            var marker_68b1a7dd1f269c4f23bc007da782f5ea = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_0683952895c49d685c17e6db1c579699 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_bc5a60de7846f7f623771d9750d8f3fd.setIcon(div_icon_0683952895c49d685c17e6db1c579699);
+            var div_icon_7722371d4034c092c2d13bb7ebf792e2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_68b1a7dd1f269c4f23bc007da782f5ea.setIcon(div_icon_7722371d4034c092c2d13bb7ebf792e2);
         
     
-            var marker_ee6a5e82b6b3b81b1d94cbfbb7357184 = L.marker(
+            var marker_89b632db4c90d8efbe2c45c1bf0508ed = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_0fe363a2994d06b40d15a960eadf5432 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_ee6a5e82b6b3b81b1d94cbfbb7357184.setIcon(div_icon_0fe363a2994d06b40d15a960eadf5432);
+            var div_icon_6d1796c69f1797ad2cfc02e985e5f878 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_89b632db4c90d8efbe2c45c1bf0508ed.setIcon(div_icon_6d1796c69f1797ad2cfc02e985e5f878);
         
     
-            var marker_6d54450f6041b201bbc1afac21186e88 = L.marker(
+            var marker_91504c94a2e72b74450299b7bf9438e9 = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_5c076311fd578193765ad50dee4a717c);
+            ).addTo(feature_group_c8c4dc734eeefdd9a7ecaea747900b4b);
         
     
-            var div_icon_3dadcf4b483fe6215fc8c27cf826b149 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_6d54450f6041b201bbc1afac21186e88.setIcon(div_icon_3dadcf4b483fe6215fc8c27cf826b149);
+            var div_icon_5e6036470bd3dc46ac7158b2116626f6 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_91504c94a2e72b74450299b7bf9438e9.setIcon(div_icon_5e6036470bd3dc46ac7158b2116626f6);
         
     
-            feature_group_5c076311fd578193765ad50dee4a717c.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            feature_group_c8c4dc734eeefdd9a7ecaea747900b4b.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            var mouse_position_2e3ffd547c9785e5c3a7e021ef306e54 = new L.Control.MousePosition(
+            var mouse_position_8550dda8137a2209469e38406473770a = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_2e3ffd547c9785e5c3a7e021ef306e54.options["latFormatter"] =
+            mouse_position_8550dda8137a2209469e38406473770a.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_2e3ffd547c9785e5c3a7e021ef306e54.options["lngFormatter"] =
+            mouse_position_8550dda8137a2209469e38406473770a.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_bf4978d6a879a7c73762950e6e5ed0ba.addControl(mouse_position_2e3ffd547c9785e5c3a7e021ef306e54);
+            map_65bd8f9f171d906a7094745163f927ed.addControl(mouse_position_8550dda8137a2209469e38406473770a);
         
     
-            var feature_group_a50a3ed866c8b106486c448351b959d5searchControl = new L.Control.Search({
-                layer: feature_group_a50a3ed866c8b106486c448351b959d5,
+            var feature_group_c1a3ea024fe1587017e01c901706fb7asearchControl = new L.Control.Search({
+                layer: feature_group_c1a3ea024fe1587017e01c901706fb7a,
                 
                 propertyName: 'clave',
                 
@@ -2224,8 +2224,8 @@
                 }
             
                 });
-                feature_group_a50a3ed866c8b106486c448351b959d5searchControl.on('search:locationfound', function(e) {
-                    feature_group_a50a3ed866c8b106486c448351b959d5.setStyle(function(feature){
+                feature_group_c1a3ea024fe1587017e01c901706fb7asearchControl.on('search:locationfound', function(e) {
+                    feature_group_c1a3ea024fe1587017e01c901706fb7a.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2234,32 +2234,32 @@
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_a50a3ed866c8b106486c448351b959d5searchControl.on('search:collapsed', function(e) {
-                        feature_group_a50a3ed866c8b106486c448351b959d5.setStyle(function(feature){
+                feature_group_c1a3ea024fe1587017e01c901706fb7asearchControl.on('search:collapsed', function(e) {
+                        feature_group_c1a3ea024fe1587017e01c901706fb7a.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_bf4978d6a879a7c73762950e6e5ed0ba.addControl( feature_group_a50a3ed866c8b106486c448351b959d5searchControl );
+            map_65bd8f9f171d906a7094745163f927ed.addControl( feature_group_c1a3ea024fe1587017e01c901706fb7asearchControl );
 
         
     
-            var tile_layer_2c27a6511f8c745c75a4cbfe8330e400 = L.tileLayer(
+            var tile_layer_6f2cffa5ffdb66bae5924b1d108ed839 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_8a8215d2013ab3404cf8f9c120de330e = new L.Control.MiniMap(
-                tile_layer_2c27a6511f8c745c75a4cbfe8330e400,
+            var mini_map_7fc83ad78d44afadee301596608fb0f0 = new L.Control.MiniMap(
+                tile_layer_6f2cffa5ffdb66bae5924b1d108ed839,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_bf4978d6a879a7c73762950e6e5ed0ba.addControl(mini_map_8a8215d2013ab3404cf8f9c120de330e);
+            map_65bd8f9f171d906a7094745163f927ed.addControl(mini_map_7fc83ad78d44afadee301596608fb0f0);
         
     
-            var tag_filter_button_2551e27b4902967ccdc35a61b8ddbe7f = L.control.tagFilterButton(
+            var tag_filter_button_b020303cb6890e476b7a988973964986 = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            ).addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            map_bf4978d6a879a7c73762950e6e5ed0ba.fitBounds(
+            map_65bd8f9f171d906a7094745163f927ed.fitBounds(
                 [[-8.97088985178516, -81.32819536512397], [1.19705808, -76.90124323628629]],
                 {}
             );
@@ -2270,49 +2270,49 @@
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_86887e24aed5f780b05961bf09102657,
-                        "Necesidad por tramo [66]" : marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe,
-                        "Paso fronterizo [5]" : feature_group_2a55f92394f7d36a726a7e660cca620c,
-                        "Riesgo por departamento [11]" : geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0,
+                        "Ruta identificada [10]" : geo_json_f9929eafaf1e32907b1ad0dcff9255c2,
+                        "Necesidad por tramo [66]" : marker_cluster_822eecf2990e56a2fd584243ebc8bfac,
+                        "Paso fronterizo [5]" : feature_group_0f0379400597412c82b96bb146f08a93,
+                        "Riesgo por departamento [11]" : geo_json_980090ca39ba0f4eb95fa4e269372ad6,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_5c076311fd578193765ad50dee4a717c,
+                        "Departamento / Provincia" : feature_group_c8c4dc734eeefdd9a7ecaea747900b4b,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_f25fd130c9d131f1efa9b7de693fc82d,
-                        "OpenStreetMap" : tile_layer_77fb58cc9d5e15f351a0c11ca5adaa5c,
-                        "Esri Sat\u00e9lite" : tile_layer_0b6611bfd24752f33e8200fb81348b3c,
-                        "Google H\u00edbrido" : tile_layer_7173dcd78b996c1218228848f03a92d0,
+                        "CartoDB Positron" : tile_layer_7fedd26322b0f70fcbacad6441cc9a95,
+                        "OpenStreetMap" : tile_layer_d284dc1f2b0148ddbe471c04774aa6f7,
+                        "Esri Sat\u00e9lite" : tile_layer_dbcd6e09d7e040ff83c292f20fde807c,
+                        "Google H\u00edbrido" : tile_layer_a344bf36c8ae3d71363fbaddf91c911e,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
-            tile_layer_0b6611bfd24752f33e8200fb81348b3c.remove();
-            feature_group_2a55f92394f7d36a726a7e660cca620c.remove();
-            tile_layer_7173dcd78b996c1218228848f03a92d0.remove();
-            tile_layer_77fb58cc9d5e15f351a0c11ca5adaa5c.remove();
+            ).addTo(map_65bd8f9f171d906a7094745163f927ed);
+            tile_layer_d284dc1f2b0148ddbe471c04774aa6f7.remove();
+            feature_group_0f0379400597412c82b96bb146f08a93.remove();
+            tile_layer_a344bf36c8ae3d71363fbaddf91c911e.remove();
+            tile_layer_dbcd6e09d7e040ff83c292f20fde807c.remove();
 
         
     
-            tile_layer_f25fd130c9d131f1efa9b7de693fc82d.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            tile_layer_7fedd26322b0f70fcbacad6441cc9a95.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.addTo(feature_group_a50a3ed866c8b106486c448351b959d5);
+            geo_json_980090ca39ba0f4eb95fa4e269372ad6.addTo(feature_group_c1a3ea024fe1587017e01c901706fb7a);
         
     
-            feature_group_a50a3ed866c8b106486c448351b959d5.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            feature_group_c1a3ea024fe1587017e01c901706fb7a.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            geo_json_86887e24aed5f780b05961bf09102657.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            geo_json_f9929eafaf1e32907b1ad0dcff9255c2.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            marker_cluster_bda2b1e4ae1d2f601c8edf95e423e8fe.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            marker_cluster_822eecf2990e56a2fd584243ebc8bfac.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
     
-            geo_json_5b80f08b6d2ef1b5a270d8c8a9fc8ca0.addTo(feature_group_a50a3ed866c8b106486c448351b959d5);
+            geo_json_980090ca39ba0f4eb95fa4e269372ad6.addTo(feature_group_c1a3ea024fe1587017e01c901706fb7a);
         
     
-            feature_group_5c076311fd578193765ad50dee4a717c.addTo(map_bf4978d6a879a7c73762950e6e5ed0ba);
+            feature_group_c8c4dc734eeefdd9a7ecaea747900b4b.addTo(map_65bd8f9f171d906a7094745163f927ed);
         
 </script>
 </html>
