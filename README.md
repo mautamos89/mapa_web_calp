@@ -4,7 +4,7 @@ Este proyecto contiene un mapa en línea que enseña las rutas identificadas por
 
 El proyecto se elaboró con Python 3, empleando la librería Leaflet sobre Folium y HTML para el diseño del mapa interactivo, Pandas y GeoPandas para el procesamiento de datos alfanuméricos y geográficos, GeoJSON y Requests para su utilización web.
 
-Nota: proyecto elaborado con fines académicos, el desarrollador no asume lo que otros realicen con el código. El producto y sus datos asociados son propiedad de IMPACT-REACH, No se permite su comercialización.
+Nota: proyecto elaborado con fines académicos, el desarrollador no asume lo que otros realicen con el código. El producto y sus datos asociados son propiedad de IMPACT-REACH. No se permite su comercialización.
 
 Enlace a mapa: https://mautamos89.github.io/mapa_web_calp/
 
