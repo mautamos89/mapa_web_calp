@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_c7a0cf97f43fb2101f83fb2e810cdf4d {
+                #map_0146ae8a2c511e924d7e30e6fbe6b4d3 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,7 +40,7 @@
     
                     <style>
                         .foliumpopup {
-                            font-family: arial; font-size: 11px; padding: 2px;
+                            font-family: arial; font-size: 10px; padding: 2px;
                         }
                        .foliumpopup table{
                             margin: auto;
@@ -55,20 +55,20 @@
             
     
                     <style>
-                        .foliumpopup {
+                        .foliumtooltip {
                             
         font-family: Arial;
-        font-size: 10px;
-        padding: 1px;
+        font-size: 11px;
+        padding: 5px;
     
                         }
-                       .foliumpopup table{
+                       .foliumtooltip table{
                             margin: auto;
                         }
-                        .foliumpopup tr{
+                        .foliumtooltip tr{
                             text-align: left;
                         }
-                        .foliumpopup th{
+                        .foliumtooltip th{
                             padding: 2px; padding-right: 8px;
                         }
                     </style>
@@ -104,7 +104,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_c7a0cf97f43fb2101f83fb2e810cdf4d" ></div>
+            <div class="folium-map" id="map_0146ae8a2c511e924d7e30e6fbe6b4d3" ></div>
         
     
 
@@ -283,8 +283,8 @@
 <script>
     
     
-            var map_c7a0cf97f43fb2101f83fb2e810cdf4d = L.map(
-                "map_c7a0cf97f43fb2101f83fb2e810cdf4d",
+            var map_0146ae8a2c511e924d7e30e6fbe6b4d3 = L.map(
+                "map_0146ae8a2c511e924d7e30e6fbe6b4d3",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -293,51 +293,51 @@
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            L.control.scale().addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
 
             
 
         
     
-            var tile_layer_b347e5583f6e01db2c863893e6b4a1c0 = L.tileLayer(
+            var tile_layer_6cabb1d981531830e52ec2b1c95d76a9 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_b347e5583f6e01db2c863893e6b4a1c0.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            tile_layer_6cabb1d981531830e52ec2b1c95d76a9.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            var tile_layer_51dd9d9b49330127d6076fb6f005a71d = L.tileLayer(
+            var tile_layer_a6e961fdf09b1574c5d2ff4c588ac82a = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_86c8e638598e6e225ae9c81f65b88964 = L.tileLayer(
+            var tile_layer_acf97cdd646a59c4322450f523d99502 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 17, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_8da29b1b0820e290e2894b15d16bd118 = L.tileLayer(
+            var tile_layer_681227fd0ae0c74d4a0997740c88e01b = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 20, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_53b48ead91d6905a334a0d5818a731c4 = L.tileLayer(
+            var tile_layer_58052c692f3e34046590e6761f1f4ca0 = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 18, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_d46ff4362908e599a5c9e851170f2715 = L.featureGroup(
+            var feature_group_147f8009e8e4a8f3009dc34966d77d2c = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_38e20e0d250fb429aebbd111328f28b6_styler(feature) {
+        function geo_json_88bd33469580b6e89904e341cb74056c_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Imbabura": case "Lambayeque": 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
@@ -347,59 +347,59 @@
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_38e20e0d250fb429aebbd111328f28b6_highlighter(feature) {
+        function geo_json_88bd33469580b6e89904e341cb74056c_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_38e20e0d250fb429aebbd111328f28b6_onEachFeature(feature, layer) {
+        function geo_json_88bd33469580b6e89904e341cb74056c_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_38e20e0d250fb429aebbd111328f28b6.resetStyle(e.target);
+                            geo_json_88bd33469580b6e89904e341cb74056c.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_38e20e0d250fb429aebbd111328f28b6_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_88bd33469580b6e89904e341cb74056c_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_38e20e0d250fb429aebbd111328f28b6_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_88bd33469580b6e89904e341cb74056c_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_38e20e0d250fb429aebbd111328f28b6.resetStyle(e.target);
+                        geo_json_88bd33469580b6e89904e341cb74056c.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_38e20e0d250fb429aebbd111328f28b6 = L.geoJson(null, {
+        var geo_json_88bd33469580b6e89904e341cb74056c = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_38e20e0d250fb429aebbd111328f28b6_onEachFeature,
+                onEachFeature: geo_json_88bd33469580b6e89904e341cb74056c_onEachFeature,
             
-                style: geo_json_38e20e0d250fb429aebbd111328f28b6_styler,
+                style: geo_json_88bd33469580b6e89904e341cb74056c_styler,
         });
 
-        function geo_json_38e20e0d250fb429aebbd111328f28b6_add (data) {
-            geo_json_38e20e0d250fb429aebbd111328f28b6
+        function geo_json_88bd33469580b6e89904e341cb74056c_add (data) {
+            geo_json_88bd33469580b6e89904e341cb74056c
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_38e20e0d250fb429aebbd111328f28b6_add);
+                .done(geo_json_88bd33469580b6e89904e341cb74056c_add);
 
         
     
-    geo_json_38e20e0d250fb429aebbd111328f28b6.bindPopup(
+    geo_json_88bd33469580b6e89904e341cb74056c.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -423,13 +423,13 @@
     ,{"className": "foliumpopup"});
                      
     
-            geo_json_38e20e0d250fb429aebbd111328f28b6.addTo(feature_group_d46ff4362908e599a5c9e851170f2715);
+            geo_json_88bd33469580b6e89904e341cb74056c.addTo(feature_group_147f8009e8e4a8f3009dc34966d77d2c);
         
     
-            feature_group_d46ff4362908e599a5c9e851170f2715.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            feature_group_147f8009e8e4a8f3009dc34966d77d2c.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-        function geo_json_444626397282cb9c4988871cdd88b496_styler(feature) {
+        function geo_json_5e258ef0b5ce56ef5722fcb617922c91_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 22: case 24: case 31: case 34: case 40: case 49: case 51: case 73: case 75: case 81: case 82: case 98: case 112: case 113: case 114: case 122: case 124: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["B:Ibarra-Quito"], "weight": 4};
@@ -454,28 +454,28 @@
             }
         }
 
-        function geo_json_444626397282cb9c4988871cdd88b496_onEachFeature(feature, layer) {
+        function geo_json_5e258ef0b5ce56ef5722fcb617922c91_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_444626397282cb9c4988871cdd88b496 = L.geoJson(null, {
+        var geo_json_5e258ef0b5ce56ef5722fcb617922c91 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_444626397282cb9c4988871cdd88b496_onEachFeature,
+                onEachFeature: geo_json_5e258ef0b5ce56ef5722fcb617922c91_onEachFeature,
             
-                style: geo_json_444626397282cb9c4988871cdd88b496_styler,
+                style: geo_json_5e258ef0b5ce56ef5722fcb617922c91_styler,
                 localize: true,
         });
 
-        function geo_json_444626397282cb9c4988871cdd88b496_add (data) {
-            geo_json_444626397282cb9c4988871cdd88b496
+        function geo_json_5e258ef0b5ce56ef5722fcb617922c91_add (data) {
+            geo_json_5e258ef0b5ce56ef5722fcb617922c91
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_444626397282cb9c4988871cdd88b496_add);
+                .done(geo_json_5e258ef0b5ce56ef5722fcb617922c91_add);
 
         
     
-    geo_json_444626397282cb9c4988871cdd88b496.bindPopup(
+    geo_json_5e258ef0b5ce56ef5722fcb617922c91.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -487,37 +487,37 @@
         fields.map(
         (v,i)=>
         `<tr>
-            <th>${aliases[i].toLocaleString()}</th>
+            <th>${aliases[i]}</th>
             
-            <td>${handleObject(layer.feature.properties[v]).toLocaleString()}</td>
+            <td>${handleObject(layer.feature.properties[v])}</td>
         </tr>`).join(''))
     +'</table>';
     div.innerHTML=table;
     
     return div
     }
-    ,{"className": "foliumpopup"});
+    ,{"className": "foliumtooltip", "showCoverageOnHover": false, "sticky": true});
                      
     
-            geo_json_444626397282cb9c4988871cdd88b496.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            geo_json_5e258ef0b5ce56ef5722fcb617922c91.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            var feature_group_fb2249a99607b30c3d79b88ceccf88d2 = L.featureGroup(
+            var feature_group_dddcd3fd4bf111b0fb63005b773a9e55 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_a33604846dd57c12a96ca4f0a93989b3 = L.marker(
+            var marker_047f5b17729fcff75a1a715ca8083810 = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_fb2249a99607b30c3d79b88ceccf88d2);
+            ).addTo(feature_group_dddcd3fd4bf111b0fb63005b773a9e55);
         
     
-        var custom_icon_73717dc59c275ed505832121ba3154d6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_a33604846dd57c12a96ca4f0a93989b3.setIcon(custom_icon_73717dc59c275ed505832121ba3154d6);
+        var custom_icon_4b32ca519a0a7ef9e8b98bd093f354e5 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_047f5b17729fcff75a1a715ca8083810.setIcon(custom_icon_4b32ca519a0a7ef9e8b98bd093f354e5);
         
     
-            marker_a33604846dd57c12a96ca4f0a93989b3.bindTooltip(
+            marker_047f5b17729fcff75a1a715ca8083810.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -529,17 +529,17 @@
             );
         
     
-            var marker_8ba8dcdc0f4a0d721f325a1a345acec8 = L.marker(
+            var marker_062e2c8cfb01717ccb05aa806b46b1a3 = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_fb2249a99607b30c3d79b88ceccf88d2);
+            ).addTo(feature_group_dddcd3fd4bf111b0fb63005b773a9e55);
         
     
-        var custom_icon_c5e99bf16247f9b47302d85f950bf531 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_8ba8dcdc0f4a0d721f325a1a345acec8.setIcon(custom_icon_c5e99bf16247f9b47302d85f950bf531);
+        var custom_icon_61ab2e2522cc5aec92935e9ff599d870 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_062e2c8cfb01717ccb05aa806b46b1a3.setIcon(custom_icon_61ab2e2522cc5aec92935e9ff599d870);
         
     
-            marker_8ba8dcdc0f4a0d721f325a1a345acec8.bindTooltip(
+            marker_062e2c8cfb01717ccb05aa806b46b1a3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -551,17 +551,17 @@
             );
         
     
-            var marker_2750bed2366db3ed67ce6e2ae16c118e = L.marker(
+            var marker_a10f6723d63bc7e79fa8bf52610c1d5e = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_fb2249a99607b30c3d79b88ceccf88d2);
+            ).addTo(feature_group_dddcd3fd4bf111b0fb63005b773a9e55);
         
     
-        var custom_icon_39256c967eac1da3fe70bc1892b6c743 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_2750bed2366db3ed67ce6e2ae16c118e.setIcon(custom_icon_39256c967eac1da3fe70bc1892b6c743);
+        var custom_icon_a316867e79b29a469638a91bc52bccb6 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_a10f6723d63bc7e79fa8bf52610c1d5e.setIcon(custom_icon_a316867e79b29a469638a91bc52bccb6);
         
     
-            marker_2750bed2366db3ed67ce6e2ae16c118e.bindTooltip(
+            marker_a10f6723d63bc7e79fa8bf52610c1d5e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -573,17 +573,17 @@
             );
         
     
-            var marker_77a34061812d7fa8b460f7253e0b1e8a = L.marker(
+            var marker_9382376258182b11dab1d48c8a445bf2 = L.marker(
                 [0.25128970025952, -76.8759633996911],
                 {"embed": false}
-            ).addTo(feature_group_fb2249a99607b30c3d79b88ceccf88d2);
+            ).addTo(feature_group_dddcd3fd4bf111b0fb63005b773a9e55);
         
     
-        var custom_icon_27c90d25c2b5f561c63feda9b1931213 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_77a34061812d7fa8b460f7253e0b1e8a.setIcon(custom_icon_27c90d25c2b5f561c63feda9b1931213);
+        var custom_icon_4db38997e73eb427a0218c9ce3a7f00e = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_9382376258182b11dab1d48c8a445bf2.setIcon(custom_icon_4db38997e73eb427a0218c9ce3a7f00e);
         
     
-            marker_77a34061812d7fa8b460f7253e0b1e8a.bindTooltip(
+            marker_9382376258182b11dab1d48c8a445bf2.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -595,17 +595,17 @@
             );
         
     
-            var marker_9bdcdcf10d3a4b031d75297ffac944d9 = L.marker(
+            var marker_bc8e911a3514de8a001ef06180c0c283 = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_fb2249a99607b30c3d79b88ceccf88d2);
+            ).addTo(feature_group_dddcd3fd4bf111b0fb63005b773a9e55);
         
     
-        var custom_icon_f415c874e05813f7be616100e5af5510 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_9bdcdcf10d3a4b031d75297ffac944d9.setIcon(custom_icon_f415c874e05813f7be616100e5af5510);
+        var custom_icon_3fe00f5c38ce9c6000278a93151da3e0 = L.icon({"iconSize": [30, 30], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_bc8e911a3514de8a001ef06180c0c283.setIcon(custom_icon_3fe00f5c38ce9c6000278a93151da3e0);
         
     
-            marker_9bdcdcf10d3a4b031d75297ffac944d9.bindTooltip(
+            marker_bc8e911a3514de8a001ef06180c0c283.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -617,22 +617,22 @@
             );
         
     
-            var marker_cluster_a3c578bd79fa8397426a0159b2cad192 = L.markerClusterGroup(
+            var marker_cluster_449a29afe6080675eaf0b5a17ae17874 = L.markerClusterGroup(
                 {"embed": false, "showCoverageOnHover": false}
             );
         
     
-            var marker_0e6f03497f66b90c916b467675472e8b = L.marker(
+            var marker_a26b6d73de5b8e8374ad405f3541c484 = L.marker(
                 [0.34629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_511b2006cb3c296c815f1197d231cd5a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_0e6f03497f66b90c916b467675472e8b.setIcon(custom_icon_511b2006cb3c296c815f1197d231cd5a);
+        var custom_icon_74bb3ec5482689d8bcbb0dfc449a0079 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_a26b6d73de5b8e8374ad405f3541c484.setIcon(custom_icon_74bb3ec5482689d8bcbb0dfc449a0079);
         
     
-            marker_0e6f03497f66b90c916b467675472e8b.bindTooltip(
+            marker_a26b6d73de5b8e8374ad405f3541c484.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -644,17 +644,17 @@
             );
         
     
-            var marker_34630fa907a9362be5d186b5ba8550e0 = L.marker(
+            var marker_ef8e5b01285495ef51fa324ee8be5f2f = L.marker(
                 [0.39629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_0cea3d24ccea433505a8eb4ffda6b31b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_34630fa907a9362be5d186b5ba8550e0.setIcon(custom_icon_0cea3d24ccea433505a8eb4ffda6b31b);
+        var custom_icon_8fd171ecf78a812470659c183a7cc61b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_ef8e5b01285495ef51fa324ee8be5f2f.setIcon(custom_icon_8fd171ecf78a812470659c183a7cc61b);
         
     
-            marker_34630fa907a9362be5d186b5ba8550e0.bindTooltip(
+            marker_ef8e5b01285495ef51fa324ee8be5f2f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -666,17 +666,17 @@
             );
         
     
-            var marker_53a80e3e9118feb44ea7b0d18b09d2c8 = L.marker(
+            var marker_533d5a62f12a0d19c9e2c6373b17863c = L.marker(
                 [0.29629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_0e9e5a01f9d6afb4f0e28af822446a55 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_53a80e3e9118feb44ea7b0d18b09d2c8.setIcon(custom_icon_0e9e5a01f9d6afb4f0e28af822446a55);
+        var custom_icon_dabffe9efabeade734f8d0a95f5998ba = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_533d5a62f12a0d19c9e2c6373b17863c.setIcon(custom_icon_dabffe9efabeade734f8d0a95f5998ba);
         
     
-            marker_53a80e3e9118feb44ea7b0d18b09d2c8.bindTooltip(
+            marker_533d5a62f12a0d19c9e2c6373b17863c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -688,17 +688,17 @@
             );
         
     
-            var marker_a458f06ae6b8b7b2860833cb4432ff19 = L.marker(
+            var marker_683981ab56607c9ff56944ec5255dbbe = L.marker(
                 [0.39629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_353b09a0cfa6d6d8292f371d5e933004 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_a458f06ae6b8b7b2860833cb4432ff19.setIcon(custom_icon_353b09a0cfa6d6d8292f371d5e933004);
+        var custom_icon_47bb0ee4256b7d817e7dde741a48a4f7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_683981ab56607c9ff56944ec5255dbbe.setIcon(custom_icon_47bb0ee4256b7d817e7dde741a48a4f7);
         
     
-            marker_a458f06ae6b8b7b2860833cb4432ff19.bindTooltip(
+            marker_683981ab56607c9ff56944ec5255dbbe.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -710,17 +710,17 @@
             );
         
     
-            var marker_7c8f90ad4d98ab6d4a3f114ee350461a = L.marker(
+            var marker_5414ead069bdef2e1a2d9b5e1861cd52 = L.marker(
                 [0.29629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_c08464f87a3e3ec737e0bfca71f931c6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_7c8f90ad4d98ab6d4a3f114ee350461a.setIcon(custom_icon_c08464f87a3e3ec737e0bfca71f931c6);
+        var custom_icon_3dc1bf8d7366c86bef8d864e64699cfe = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_5414ead069bdef2e1a2d9b5e1861cd52.setIcon(custom_icon_3dc1bf8d7366c86bef8d864e64699cfe);
         
     
-            marker_7c8f90ad4d98ab6d4a3f114ee350461a.bindTooltip(
+            marker_5414ead069bdef2e1a2d9b5e1861cd52.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -732,17 +732,17 @@
             );
         
     
-            var marker_c5c0941e63c695c47d02e615e6374671 = L.marker(
+            var marker_2becec3747fc47853c7afa27bac5f618 = L.marker(
                 [0.34629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_a97f8592d2f41c4ac687570919978edb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_c5c0941e63c695c47d02e615e6374671.setIcon(custom_icon_a97f8592d2f41c4ac687570919978edb);
+        var custom_icon_c0a5f6ceda4af0de419dfb9b62c05038 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_2becec3747fc47853c7afa27bac5f618.setIcon(custom_icon_c0a5f6ceda4af0de419dfb9b62c05038);
         
     
-            marker_c5c0941e63c695c47d02e615e6374671.bindTooltip(
+            marker_2becec3747fc47853c7afa27bac5f618.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -754,17 +754,17 @@
             );
         
     
-            var marker_6c72929810fa7ed1541c606f8fcb48b1 = L.marker(
+            var marker_f50d5e04c012553f7ec29d71a28a754f = L.marker(
                 [0.722885465378173, -77.78450695248989],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_3f8f8211a3e095f7eefaa444fec2d825 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_6c72929810fa7ed1541c606f8fcb48b1.setIcon(custom_icon_3f8f8211a3e095f7eefaa444fec2d825);
+        var custom_icon_fc0301fe8b12ed16837c842ea69c5d67 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_f50d5e04c012553f7ec29d71a28a754f.setIcon(custom_icon_fc0301fe8b12ed16837c842ea69c5d67);
         
     
-            marker_6c72929810fa7ed1541c606f8fcb48b1.bindTooltip(
+            marker_f50d5e04c012553f7ec29d71a28a754f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -776,17 +776,17 @@
             );
         
     
-            var marker_9c65ecc28b739e1119aa324a1de1c86b = L.marker(
+            var marker_3fb0ae7dcbedcfe863b899a218ed649e = L.marker(
                 [0.722974078257829, -77.7346981642632],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_6d7e44505b04ce39546fbab236d0d53b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_9c65ecc28b739e1119aa324a1de1c86b.setIcon(custom_icon_6d7e44505b04ce39546fbab236d0d53b);
+        var custom_icon_67ab7a7bcd18c25a8bf6fe7538feae95 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_3fb0ae7dcbedcfe863b899a218ed649e.setIcon(custom_icon_67ab7a7bcd18c25a8bf6fe7538feae95);
         
     
-            marker_9c65ecc28b739e1119aa324a1de1c86b.bindTooltip(
+            marker_3fb0ae7dcbedcfe863b899a218ed649e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -798,17 +798,17 @@
             );
         
     
-            var marker_63e1ba22ec28c801e54cd20fbdc857e5 = L.marker(
+            var marker_9de4febe71ce0536decaaa6b7493e32e = L.marker(
                 [0.823342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_686c49692baf7b57b245859e968a6a0b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_63e1ba22ec28c801e54cd20fbdc857e5.setIcon(custom_icon_686c49692baf7b57b245859e968a6a0b);
+        var custom_icon_fb197535f3b89dc1b3b6955af9549bb1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_9de4febe71ce0536decaaa6b7493e32e.setIcon(custom_icon_fb197535f3b89dc1b3b6955af9549bb1);
         
     
-            marker_63e1ba22ec28c801e54cd20fbdc857e5.bindTooltip(
+            marker_9de4febe71ce0536decaaa6b7493e32e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -820,17 +820,17 @@
             );
         
     
-            var marker_845d9b03081872155c7528f40a6f897f = L.marker(
+            var marker_5feb196b650a477d7f3e3ef7b6c1fcd3 = L.marker(
                 [0.773342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_d55010c0a9d57ff00bae6ba2f004f10f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_845d9b03081872155c7528f40a6f897f.setIcon(custom_icon_d55010c0a9d57ff00bae6ba2f004f10f);
+        var custom_icon_304a404bb218e50554ae3d24af1d8393 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_5feb196b650a477d7f3e3ef7b6c1fcd3.setIcon(custom_icon_304a404bb218e50554ae3d24af1d8393);
         
     
-            marker_845d9b03081872155c7528f40a6f897f.bindTooltip(
+            marker_5feb196b650a477d7f3e3ef7b6c1fcd3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -842,17 +842,17 @@
             );
         
     
-            var marker_1ccc0fcf1908cdda583604e034bb7f77 = L.marker(
+            var marker_2051b40788744be16e1f287b7dc0c3eb = L.marker(
                 [0.823342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_91d3ca6445ff331316586122e0bd9bac = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_1ccc0fcf1908cdda583604e034bb7f77.setIcon(custom_icon_91d3ca6445ff331316586122e0bd9bac);
+        var custom_icon_0a28985ac093dc4eb3ba8a76d40cb519 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_2051b40788744be16e1f287b7dc0c3eb.setIcon(custom_icon_0a28985ac093dc4eb3ba8a76d40cb519);
         
     
-            marker_1ccc0fcf1908cdda583604e034bb7f77.bindTooltip(
+            marker_2051b40788744be16e1f287b7dc0c3eb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -864,17 +864,17 @@
             );
         
     
-            var marker_18bd1ebfd361a59bf046fd73f0a72362 = L.marker(
+            var marker_a13677b7499cf7b066fafa667200399e = L.marker(
                 [0.773342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_704f0f1712d7a8022303067db8734cf2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_18bd1ebfd361a59bf046fd73f0a72362.setIcon(custom_icon_704f0f1712d7a8022303067db8734cf2);
+        var custom_icon_12b6d3dfd90f93e6cf4d666073b34f03 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_a13677b7499cf7b066fafa667200399e.setIcon(custom_icon_12b6d3dfd90f93e6cf4d666073b34f03);
         
     
-            marker_18bd1ebfd361a59bf046fd73f0a72362.bindTooltip(
+            marker_a13677b7499cf7b066fafa667200399e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -886,17 +886,17 @@
             );
         
     
-            var marker_5f6957db3606b0a67ad321698a62eefa = L.marker(
+            var marker_0d0ed15b9ab14554c0b553eea26f4491 = L.marker(
                 [0.823342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_b9cd30da9507767e88a35f31c6c60f14 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_5f6957db3606b0a67ad321698a62eefa.setIcon(custom_icon_b9cd30da9507767e88a35f31c6c60f14);
+        var custom_icon_b77f69ae23456f25b53d86ba2b7967e3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_0d0ed15b9ab14554c0b553eea26f4491.setIcon(custom_icon_b77f69ae23456f25b53d86ba2b7967e3);
         
     
-            marker_5f6957db3606b0a67ad321698a62eefa.bindTooltip(
+            marker_0d0ed15b9ab14554c0b553eea26f4491.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -908,17 +908,17 @@
             );
         
     
-            var marker_56b26e47850ca49208d1bcf66043392f = L.marker(
+            var marker_d15259205f01095ee8312bc3b911de25 = L.marker(
                 [0.773342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_f8252092a4c20342e10a9c633c96b568 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_56b26e47850ca49208d1bcf66043392f.setIcon(custom_icon_f8252092a4c20342e10a9c633c96b568);
+        var custom_icon_bf21d2425bf4725e6db72c4f8a79a30f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_d15259205f01095ee8312bc3b911de25.setIcon(custom_icon_bf21d2425bf4725e6db72c4f8a79a30f);
         
     
-            marker_56b26e47850ca49208d1bcf66043392f.bindTooltip(
+            marker_d15259205f01095ee8312bc3b911de25.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -930,17 +930,17 @@
             );
         
     
-            var marker_0cf9e38d3aee18fbf6db7e3414946b6e = L.marker(
+            var marker_32d8d09d1db9ba364e9bd3239f8a7059 = L.marker(
                 [-0.258016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_ecef4b9bfbaef7f72fbc7190b8d709f7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_0cf9e38d3aee18fbf6db7e3414946b6e.setIcon(custom_icon_ecef4b9bfbaef7f72fbc7190b8d709f7);
+        var custom_icon_4d425c42f0ffe59398949636531b11a0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_32d8d09d1db9ba364e9bd3239f8a7059.setIcon(custom_icon_4d425c42f0ffe59398949636531b11a0);
         
     
-            marker_0cf9e38d3aee18fbf6db7e3414946b6e.bindTooltip(
+            marker_32d8d09d1db9ba364e9bd3239f8a7059.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -952,17 +952,17 @@
             );
         
     
-            var marker_90630995306ba5570f304eb9c02ce9f2 = L.marker(
+            var marker_073602e44e37772788241631cc5c50b5 = L.marker(
                 [-0.208016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_f6d3b57ed9b43971d58d0078816cc237 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_90630995306ba5570f304eb9c02ce9f2.setIcon(custom_icon_f6d3b57ed9b43971d58d0078816cc237);
+        var custom_icon_b1e2c9e3cec1a507b12cc13018e54800 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_073602e44e37772788241631cc5c50b5.setIcon(custom_icon_b1e2c9e3cec1a507b12cc13018e54800);
         
     
-            marker_90630995306ba5570f304eb9c02ce9f2.bindTooltip(
+            marker_073602e44e37772788241631cc5c50b5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -974,17 +974,17 @@
             );
         
     
-            var marker_50cf33671b7d8c7d9b179d501b51e481 = L.marker(
+            var marker_f8d08e5d948d88d69ecf539e91ad1040 = L.marker(
                 [-0.158016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_3691ee708a4d1149a2bb9ce99f8d8dad = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_50cf33671b7d8c7d9b179d501b51e481.setIcon(custom_icon_3691ee708a4d1149a2bb9ce99f8d8dad);
+        var custom_icon_465f1d0aa6893c1843c19558a303d7ae = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_f8d08e5d948d88d69ecf539e91ad1040.setIcon(custom_icon_465f1d0aa6893c1843c19558a303d7ae);
         
     
-            marker_50cf33671b7d8c7d9b179d501b51e481.bindTooltip(
+            marker_f8d08e5d948d88d69ecf539e91ad1040.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -996,17 +996,17 @@
             );
         
     
-            var marker_9ec9c8140c45e755190f1aa290099bd7 = L.marker(
+            var marker_03c9ca62a1bbb9873a33b5c561630ef6 = L.marker(
                 [-0.208016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_657bf4b0f9dc049e290942a01f834233 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_9ec9c8140c45e755190f1aa290099bd7.setIcon(custom_icon_657bf4b0f9dc049e290942a01f834233);
+        var custom_icon_eef54597d36d863d6dc48f97274c3c66 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_03c9ca62a1bbb9873a33b5c561630ef6.setIcon(custom_icon_eef54597d36d863d6dc48f97274c3c66);
         
     
-            marker_9ec9c8140c45e755190f1aa290099bd7.bindTooltip(
+            marker_03c9ca62a1bbb9873a33b5c561630ef6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1018,17 +1018,17 @@
             );
         
     
-            var marker_9c6d12d2a95024bc29d4b6a857c588e6 = L.marker(
+            var marker_3046960f3d943ddfa94d60fab832f944 = L.marker(
                 [-0.158016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_7cffe0e4b15fdf05786c486416c08ff4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_9c6d12d2a95024bc29d4b6a857c588e6.setIcon(custom_icon_7cffe0e4b15fdf05786c486416c08ff4);
+        var custom_icon_bddda19865affb4270e3d01f809a557f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_3046960f3d943ddfa94d60fab832f944.setIcon(custom_icon_bddda19865affb4270e3d01f809a557f);
         
     
-            marker_9c6d12d2a95024bc29d4b6a857c588e6.bindTooltip(
+            marker_3046960f3d943ddfa94d60fab832f944.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1040,17 +1040,17 @@
             );
         
     
-            var marker_c0ac2228483a43987e833adfe90aa2a9 = L.marker(
+            var marker_3f7d6091d5d665e5ac6f9e594941dcdd = L.marker(
                 [-0.258016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_b18cde98146fd89c990997174a89dcc3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_c0ac2228483a43987e833adfe90aa2a9.setIcon(custom_icon_b18cde98146fd89c990997174a89dcc3);
+        var custom_icon_c9b59513d04a9977e4c9fe85005bc1ad = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_3f7d6091d5d665e5ac6f9e594941dcdd.setIcon(custom_icon_c9b59513d04a9977e4c9fe85005bc1ad);
         
     
-            marker_c0ac2228483a43987e833adfe90aa2a9.bindTooltip(
+            marker_3f7d6091d5d665e5ac6f9e594941dcdd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1062,17 +1062,17 @@
             );
         
     
-            var marker_742b71163c118283eb8fb89c1b38a2a9 = L.marker(
+            var marker_c67b2c627d0bddd744b89cfc763c070e = L.marker(
                 [-0.208016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_2aa4b832773aa9471f2b462e03ca2dc7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_742b71163c118283eb8fb89c1b38a2a9.setIcon(custom_icon_2aa4b832773aa9471f2b462e03ca2dc7);
+        var custom_icon_f03f34e475bd64245f7193f8b47269ae = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_c67b2c627d0bddd744b89cfc763c070e.setIcon(custom_icon_f03f34e475bd64245f7193f8b47269ae);
         
     
-            marker_742b71163c118283eb8fb89c1b38a2a9.bindTooltip(
+            marker_c67b2c627d0bddd744b89cfc763c070e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1084,17 +1084,17 @@
             );
         
     
-            var marker_fd0582a630a99e78b5b23a8c68819c1e = L.marker(
+            var marker_dd1656789894e72ed034d2600dd5733b = L.marker(
                 [-0.158016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_faa32fd2c13f5ffa3a22bcb33fca51e2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_fd0582a630a99e78b5b23a8c68819c1e.setIcon(custom_icon_faa32fd2c13f5ffa3a22bcb33fca51e2);
+        var custom_icon_e87fb0139c9fe4ee296348445307d650 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_dd1656789894e72ed034d2600dd5733b.setIcon(custom_icon_e87fb0139c9fe4ee296348445307d650);
         
     
-            marker_fd0582a630a99e78b5b23a8c68819c1e.bindTooltip(
+            marker_dd1656789894e72ed034d2600dd5733b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1106,17 +1106,17 @@
             );
         
     
-            var marker_4fac1e4e4501d46dc03a5875cf24bdb7 = L.marker(
+            var marker_5236683efcc4d1e9ab58bf16024897f0 = L.marker(
                 [-0.224517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_daa70e6701e4a0cbb13ee138d88da9bf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_4fac1e4e4501d46dc03a5875cf24bdb7.setIcon(custom_icon_daa70e6701e4a0cbb13ee138d88da9bf);
+        var custom_icon_f315b3114c26c126180e97e9a906c2f7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_5236683efcc4d1e9ab58bf16024897f0.setIcon(custom_icon_f315b3114c26c126180e97e9a906c2f7);
         
     
-            marker_4fac1e4e4501d46dc03a5875cf24bdb7.bindTooltip(
+            marker_5236683efcc4d1e9ab58bf16024897f0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1128,17 +1128,17 @@
             );
         
     
-            var marker_fc420074bb5a879be195c3bb76a1710d = L.marker(
+            var marker_823a7b2c0c9ed5314d45c43bbefec3aa = L.marker(
                 [-0.274517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_646e76586216c23a04c01decccca4507 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_fc420074bb5a879be195c3bb76a1710d.setIcon(custom_icon_646e76586216c23a04c01decccca4507);
+        var custom_icon_5082c144ed8b787033ece587c1c16b54 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_823a7b2c0c9ed5314d45c43bbefec3aa.setIcon(custom_icon_5082c144ed8b787033ece587c1c16b54);
         
     
-            marker_fc420074bb5a879be195c3bb76a1710d.bindTooltip(
+            marker_823a7b2c0c9ed5314d45c43bbefec3aa.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1150,17 +1150,17 @@
             );
         
     
-            var marker_640a9b9f565b7ee4bdfb529d4b90f7e1 = L.marker(
+            var marker_59608d058510f649f698eb7bb4cedfbe = L.marker(
                 [-0.224517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_a398f6a610970b96c916ac70fdf275b3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_640a9b9f565b7ee4bdfb529d4b90f7e1.setIcon(custom_icon_a398f6a610970b96c916ac70fdf275b3);
+        var custom_icon_e66505445dfaa1ac85b9178cf3b86a6d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_59608d058510f649f698eb7bb4cedfbe.setIcon(custom_icon_e66505445dfaa1ac85b9178cf3b86a6d);
         
     
-            marker_640a9b9f565b7ee4bdfb529d4b90f7e1.bindTooltip(
+            marker_59608d058510f649f698eb7bb4cedfbe.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1172,17 +1172,17 @@
             );
         
     
-            var marker_eb35102ccd54cabec8bc50ad2d648ace = L.marker(
+            var marker_9e9e94458dd284f7fbb2587847ef641e = L.marker(
                 [-0.274517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_c1192a9c0243a11d925478dc9d365cc4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_eb35102ccd54cabec8bc50ad2d648ace.setIcon(custom_icon_c1192a9c0243a11d925478dc9d365cc4);
+        var custom_icon_f3eb3cb9db148555bcac0722aba73e17 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_9e9e94458dd284f7fbb2587847ef641e.setIcon(custom_icon_f3eb3cb9db148555bcac0722aba73e17);
         
     
-            marker_eb35102ccd54cabec8bc50ad2d648ace.bindTooltip(
+            marker_9e9e94458dd284f7fbb2587847ef641e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1194,17 +1194,17 @@
             );
         
     
-            var marker_ae9a6e633c6396b8e08063707687760c = L.marker(
+            var marker_e08dd06029f59402fb4afd86860ddfb0 = L.marker(
                 [-0.944935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_5022cd02373454f413854233707d9f27 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_ae9a6e633c6396b8e08063707687760c.setIcon(custom_icon_5022cd02373454f413854233707d9f27);
+        var custom_icon_8454309b2eea1ab75f8fd016e9bc12b7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_e08dd06029f59402fb4afd86860ddfb0.setIcon(custom_icon_8454309b2eea1ab75f8fd016e9bc12b7);
         
     
-            marker_ae9a6e633c6396b8e08063707687760c.bindTooltip(
+            marker_e08dd06029f59402fb4afd86860ddfb0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1216,17 +1216,17 @@
             );
         
     
-            var marker_91610d015d7b1364ee29e1136ce7bfac = L.marker(
+            var marker_71582a287c1d3982e8b9ea2317f75fc3 = L.marker(
                 [-0.994935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_e1b9088152a73327f8b85fa64fc6e47b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_91610d015d7b1364ee29e1136ce7bfac.setIcon(custom_icon_e1b9088152a73327f8b85fa64fc6e47b);
+        var custom_icon_bb7192c9796c207305a618d2a71ff735 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_71582a287c1d3982e8b9ea2317f75fc3.setIcon(custom_icon_bb7192c9796c207305a618d2a71ff735);
         
     
-            marker_91610d015d7b1364ee29e1136ce7bfac.bindTooltip(
+            marker_71582a287c1d3982e8b9ea2317f75fc3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1238,17 +1238,17 @@
             );
         
     
-            var marker_f5302bdf86ee0dd24df3e0f7844da074 = L.marker(
+            var marker_85149d5293b72eef33e8ce2ad9233e6b = L.marker(
                 [-0.944935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_7986e90f4f22608f669f9c9c320b633d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_f5302bdf86ee0dd24df3e0f7844da074.setIcon(custom_icon_7986e90f4f22608f669f9c9c320b633d);
+        var custom_icon_1eedbc62937939c22ddde3f392db3cd6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_85149d5293b72eef33e8ce2ad9233e6b.setIcon(custom_icon_1eedbc62937939c22ddde3f392db3cd6);
         
     
-            marker_f5302bdf86ee0dd24df3e0f7844da074.bindTooltip(
+            marker_85149d5293b72eef33e8ce2ad9233e6b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1260,17 +1260,17 @@
             );
         
     
-            var marker_2246c452562c9c1f5df882f715d268ee = L.marker(
+            var marker_5e9c44a07347ad410eceb2bc19e2f781 = L.marker(
                 [-0.994935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_a909217890db091bf3c19a9af05ac3b1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_2246c452562c9c1f5df882f715d268ee.setIcon(custom_icon_a909217890db091bf3c19a9af05ac3b1);
+        var custom_icon_c6ce6cdafdbbb80d839026261dace370 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_5e9c44a07347ad410eceb2bc19e2f781.setIcon(custom_icon_c6ce6cdafdbbb80d839026261dace370);
         
     
-            marker_2246c452562c9c1f5df882f715d268ee.bindTooltip(
+            marker_5e9c44a07347ad410eceb2bc19e2f781.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1282,17 +1282,17 @@
             );
         
     
-            var marker_c22f2b5a22b4337c787f010a258a6c20 = L.marker(
+            var marker_4de19e4e1ca87f2f72a573d3d63a24ea = L.marker(
                 [-3.498380858986683, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_b75e8396fd839308fdd2becc89b9f1b1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_c22f2b5a22b4337c787f010a258a6c20.setIcon(custom_icon_b75e8396fd839308fdd2becc89b9f1b1);
+        var custom_icon_7b72a67fdc56233aac8d18af75b364e4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_4de19e4e1ca87f2f72a573d3d63a24ea.setIcon(custom_icon_7b72a67fdc56233aac8d18af75b364e4);
         
     
-            marker_c22f2b5a22b4337c787f010a258a6c20.bindTooltip(
+            marker_4de19e4e1ca87f2f72a573d3d63a24ea.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1304,17 +1304,17 @@
             );
         
     
-            var marker_3f744b88baadf99c51e4ef4418328f98 = L.marker(
+            var marker_76ced097ba7fd87482d274e375571adc = L.marker(
                 [-3.448380858986684, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_469a65a8f526fc28c981b2a5dce624dc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_3f744b88baadf99c51e4ef4418328f98.setIcon(custom_icon_469a65a8f526fc28c981b2a5dce624dc);
+        var custom_icon_2e39557386c0937728fb5d23fdc65272 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_76ced097ba7fd87482d274e375571adc.setIcon(custom_icon_2e39557386c0937728fb5d23fdc65272);
         
     
-            marker_3f744b88baadf99c51e4ef4418328f98.bindTooltip(
+            marker_76ced097ba7fd87482d274e375571adc.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1326,17 +1326,17 @@
             );
         
     
-            var marker_cd96df86aaf6d597e26fdb4da38c475c = L.marker(
+            var marker_b68064f8868d5db7b6cbe731865a7c6f = L.marker(
                 [-3.498380858986683, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_3898a9702b260a6140756dfb303e5bd5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_cd96df86aaf6d597e26fdb4da38c475c.setIcon(custom_icon_3898a9702b260a6140756dfb303e5bd5);
+        var custom_icon_dcec669a8d3417acd7d96ff3fe03cbe5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_b68064f8868d5db7b6cbe731865a7c6f.setIcon(custom_icon_dcec669a8d3417acd7d96ff3fe03cbe5);
         
     
-            marker_cd96df86aaf6d597e26fdb4da38c475c.bindTooltip(
+            marker_b68064f8868d5db7b6cbe731865a7c6f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1348,17 +1348,17 @@
             );
         
     
-            var marker_e29250c2f865e2f8c023d73ca8791adb = L.marker(
+            var marker_b45f5c897ed30e6d7828f7ff97edb1e3 = L.marker(
                 [-3.448380858986684, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_4413ce73f7bf87bc89819244f3bb8718 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_e29250c2f865e2f8c023d73ca8791adb.setIcon(custom_icon_4413ce73f7bf87bc89819244f3bb8718);
+        var custom_icon_9d7138f054f81364182383486fcea48e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_b45f5c897ed30e6d7828f7ff97edb1e3.setIcon(custom_icon_9d7138f054f81364182383486fcea48e);
         
     
-            marker_e29250c2f865e2f8c023d73ca8791adb.bindTooltip(
+            marker_b45f5c897ed30e6d7828f7ff97edb1e3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1370,17 +1370,17 @@
             );
         
     
-            var marker_5dcabe6d4ee993aa7c3a844da6597498 = L.marker(
+            var marker_69dc89439f2df4991d38803fd4103d6a = L.marker(
                 [-3.498380858986683, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_12069bc792e4de08d04dea00178199c9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_5dcabe6d4ee993aa7c3a844da6597498.setIcon(custom_icon_12069bc792e4de08d04dea00178199c9);
+        var custom_icon_8fdc799727fbb831c59312440146f8ef = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_69dc89439f2df4991d38803fd4103d6a.setIcon(custom_icon_8fdc799727fbb831c59312440146f8ef);
         
     
-            marker_5dcabe6d4ee993aa7c3a844da6597498.bindTooltip(
+            marker_69dc89439f2df4991d38803fd4103d6a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1392,17 +1392,17 @@
             );
         
     
-            var marker_81da753caf5228055bf8249bf111a914 = L.marker(
+            var marker_25a767941d7ed7b2c9cade1c6c7f9d1e = L.marker(
                 [-3.448380858986684, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_4baded74e49ce9adbc6d5b3394e43b0c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_81da753caf5228055bf8249bf111a914.setIcon(custom_icon_4baded74e49ce9adbc6d5b3394e43b0c);
+        var custom_icon_22730af81b443cfbe7fda81fca6f5905 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_25a767941d7ed7b2c9cade1c6c7f9d1e.setIcon(custom_icon_22730af81b443cfbe7fda81fca6f5905);
         
     
-            marker_81da753caf5228055bf8249bf111a914.bindTooltip(
+            marker_25a767941d7ed7b2c9cade1c6c7f9d1e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1414,17 +1414,17 @@
             );
         
     
-            var marker_211b32dc9ed0d8acea37c403f1c42d40 = L.marker(
+            var marker_948106fac27c5f6cd5da88d88f284831 = L.marker(
                 [-3.288910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_c598ac7a1e94baf37c92448e901aa777 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_211b32dc9ed0d8acea37c403f1c42d40.setIcon(custom_icon_c598ac7a1e94baf37c92448e901aa777);
+        var custom_icon_e4c80f3464da6d9af38b86414fa03075 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_948106fac27c5f6cd5da88d88f284831.setIcon(custom_icon_e4c80f3464da6d9af38b86414fa03075);
         
     
-            marker_211b32dc9ed0d8acea37c403f1c42d40.bindTooltip(
+            marker_948106fac27c5f6cd5da88d88f284831.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1436,17 +1436,17 @@
             );
         
     
-            var marker_b291b5b8e857f280a97b190f919bd280 = L.marker(
+            var marker_ed71215374cb5fa5e45369c9b07bd182 = L.marker(
                 [-3.238910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_4b00ea1faf2bcf67b06b23f30d4914b1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_b291b5b8e857f280a97b190f919bd280.setIcon(custom_icon_4b00ea1faf2bcf67b06b23f30d4914b1);
+        var custom_icon_904f07f87197004f042ad9a563d5e804 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_ed71215374cb5fa5e45369c9b07bd182.setIcon(custom_icon_904f07f87197004f042ad9a563d5e804);
         
     
-            marker_b291b5b8e857f280a97b190f919bd280.bindTooltip(
+            marker_ed71215374cb5fa5e45369c9b07bd182.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1458,17 +1458,17 @@
             );
         
     
-            var marker_c7b0c644c63e6ce52d24ee934acc152c = L.marker(
+            var marker_256fa2174815a57c31de58b12e658e00 = L.marker(
                 [-2.179143514241878, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_710204d02360fc96e07bd1d25a4011f6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_c7b0c644c63e6ce52d24ee934acc152c.setIcon(custom_icon_710204d02360fc96e07bd1d25a4011f6);
+        var custom_icon_1983b971f26ad1c40923c8005a5b6393 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_256fa2174815a57c31de58b12e658e00.setIcon(custom_icon_1983b971f26ad1c40923c8005a5b6393);
         
     
-            marker_c7b0c644c63e6ce52d24ee934acc152c.bindTooltip(
+            marker_256fa2174815a57c31de58b12e658e00.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1480,17 +1480,17 @@
             );
         
     
-            var marker_da301e3ced4c6b889cf6767adfcd549d = L.marker(
+            var marker_76e3fa2d0ab92a850c37032a8c4eab41 = L.marker(
                 [-2.129143514241879, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_f43a2281e0a17a1379669661eaeb3484 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
-        marker_da301e3ced4c6b889cf6767adfcd549d.setIcon(custom_icon_f43a2281e0a17a1379669661eaeb3484);
+        var custom_icon_d94cf1414c5023b45d6d3cd321c6235c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/ocefpaf/secoora_assets_map/gh-pages/secoora_icons/shore_station-orange.png"});
+        marker_76e3fa2d0ab92a850c37032a8c4eab41.setIcon(custom_icon_d94cf1414c5023b45d6d3cd321c6235c);
         
     
-            marker_da301e3ced4c6b889cf6767adfcd549d.bindTooltip(
+            marker_76e3fa2d0ab92a850c37032a8c4eab41.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1502,17 +1502,17 @@
             );
         
     
-            var marker_feecf3cd21b8dda17250171546a5136c = L.marker(
+            var marker_751b8b29c1923f8a506aa32e93c86d7c = L.marker(
                 [-2.179143514241878, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_9e39c608049e343b14e22e0ef030b947 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_feecf3cd21b8dda17250171546a5136c.setIcon(custom_icon_9e39c608049e343b14e22e0ef030b947);
+        var custom_icon_d17d97827af8274a1d95dbc49f5477e6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_751b8b29c1923f8a506aa32e93c86d7c.setIcon(custom_icon_d17d97827af8274a1d95dbc49f5477e6);
         
     
-            marker_feecf3cd21b8dda17250171546a5136c.bindTooltip(
+            marker_751b8b29c1923f8a506aa32e93c86d7c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1524,17 +1524,17 @@
             );
         
     
-            var marker_b135168fd3e801da8fc10ada0eeaaf6d = L.marker(
+            var marker_6edac7351b15c1966c0cc22b0002d6be = L.marker(
                 [-2.129143514241879, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_26bc5408e33cde6b39cdcd150c8f992e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_b135168fd3e801da8fc10ada0eeaaf6d.setIcon(custom_icon_26bc5408e33cde6b39cdcd150c8f992e);
+        var custom_icon_6e8608ab3bf7d798e8b6b026249d273c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_6edac7351b15c1966c0cc22b0002d6be.setIcon(custom_icon_6e8608ab3bf7d798e8b6b026249d273c);
         
     
-            marker_b135168fd3e801da8fc10ada0eeaaf6d.bindTooltip(
+            marker_6edac7351b15c1966c0cc22b0002d6be.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1546,17 +1546,17 @@
             );
         
     
-            var marker_ea32f835c3f2f65a8a379e8dc5e618a6 = L.marker(
+            var marker_9a1c4d0813f25cc304f0cc75b1686901 = L.marker(
                 [-2.228952302468575, -79.8869583051045],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_019433b7924959f209e505d069ca6b3b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_ea32f835c3f2f65a8a379e8dc5e618a6.setIcon(custom_icon_019433b7924959f209e505d069ca6b3b);
+        var custom_icon_7ae20620e6ca7c068f5ab49d2e07c6b8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_9a1c4d0813f25cc304f0cc75b1686901.setIcon(custom_icon_7ae20620e6ca7c068f5ab49d2e07c6b8);
         
     
-            marker_ea32f835c3f2f65a8a379e8dc5e618a6.bindTooltip(
+            marker_9a1c4d0813f25cc304f0cc75b1686901.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1568,17 +1568,17 @@
             );
         
     
-            var marker_c48fb17016b5a190f8a1cb6a19db5445 = L.marker(
+            var marker_b56716079f623157da608891b442fdb7 = L.marker(
                 [-2.228761090695273, -79.93620744402527],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_887d85e77bccc2a734402fcfc16c3ddd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_c48fb17016b5a190f8a1cb6a19db5445.setIcon(custom_icon_887d85e77bccc2a734402fcfc16c3ddd);
+        var custom_icon_551588a3970d4ad87a68d61eb2830bc5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_b56716079f623157da608891b442fdb7.setIcon(custom_icon_551588a3970d4ad87a68d61eb2830bc5);
         
     
-            marker_c48fb17016b5a190f8a1cb6a19db5445.bindTooltip(
+            marker_b56716079f623157da608891b442fdb7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1590,17 +1590,17 @@
             );
         
     
-            var marker_a39bf33a34579a95fed089f3f36a9152 = L.marker(
+            var marker_7e28456baccac394cbae4d6c02336056 = L.marker(
                 [-3.530696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_816193becc303aef26f1a67c703866fa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_a39bf33a34579a95fed089f3f36a9152.setIcon(custom_icon_816193becc303aef26f1a67c703866fa);
+        var custom_icon_b46a76ecbcb242e74992cf82f9d3fe56 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_7e28456baccac394cbae4d6c02336056.setIcon(custom_icon_b46a76ecbcb242e74992cf82f9d3fe56);
         
     
-            marker_a39bf33a34579a95fed089f3f36a9152.bindTooltip(
+            marker_7e28456baccac394cbae4d6c02336056.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1612,17 +1612,17 @@
             );
         
     
-            var marker_42a5a4e847c4812beecef5e377ad77ed = L.marker(
+            var marker_15e450c58322ec524fa1c8a1654db04e = L.marker(
                 [-3.480696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_a7716c1edae7077cb8301493f6459def = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_42a5a4e847c4812beecef5e377ad77ed.setIcon(custom_icon_a7716c1edae7077cb8301493f6459def);
+        var custom_icon_3f22677402e963f6066b711f1358d90e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_15e450c58322ec524fa1c8a1654db04e.setIcon(custom_icon_3f22677402e963f6066b711f1358d90e);
         
     
-            marker_42a5a4e847c4812beecef5e377ad77ed.bindTooltip(
+            marker_15e450c58322ec524fa1c8a1654db04e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1634,17 +1634,17 @@
             );
         
     
-            var marker_cc0dba544b5c6be7d18625c3616e7f5d = L.marker(
+            var marker_5befd69f88c764bc1a0c31390f718b2e = L.marker(
                 [-3.430696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_8f69bb63a3c46c45171edeb071c793ed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_cc0dba544b5c6be7d18625c3616e7f5d.setIcon(custom_icon_8f69bb63a3c46c45171edeb071c793ed);
+        var custom_icon_8f26d5c02ab75bb2aa401cd992f4ab53 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_5befd69f88c764bc1a0c31390f718b2e.setIcon(custom_icon_8f26d5c02ab75bb2aa401cd992f4ab53);
         
     
-            marker_cc0dba544b5c6be7d18625c3616e7f5d.bindTooltip(
+            marker_5befd69f88c764bc1a0c31390f718b2e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1656,17 +1656,17 @@
             );
         
     
-            var marker_d6d8d864c6516c85abdfaec0f49c4976 = L.marker(
+            var marker_1c350b7992b6ade3a26db3c13d4ff458 = L.marker(
                 [-3.530696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_f8c60ac5c14f24348ae81c97145f920c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_d6d8d864c6516c85abdfaec0f49c4976.setIcon(custom_icon_f8c60ac5c14f24348ae81c97145f920c);
+        var custom_icon_f2fc02a093b77ef89481f15d8d1c909f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_1c350b7992b6ade3a26db3c13d4ff458.setIcon(custom_icon_f2fc02a093b77ef89481f15d8d1c909f);
         
     
-            marker_d6d8d864c6516c85abdfaec0f49c4976.bindTooltip(
+            marker_1c350b7992b6ade3a26db3c13d4ff458.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1678,17 +1678,17 @@
             );
         
     
-            var marker_01e8a1b74c6f7bb48a363fc32b9d14db = L.marker(
+            var marker_dc7ac2106c65cda271ef88545d3dfbdf = L.marker(
                 [-3.480696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_7317fa9ab2f93997c58b7babfeb9f680 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_01e8a1b74c6f7bb48a363fc32b9d14db.setIcon(custom_icon_7317fa9ab2f93997c58b7babfeb9f680);
+        var custom_icon_1a7622f006c37e6bb51c495293c23c4c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_dc7ac2106c65cda271ef88545d3dfbdf.setIcon(custom_icon_1a7622f006c37e6bb51c495293c23c4c);
         
     
-            marker_01e8a1b74c6f7bb48a363fc32b9d14db.bindTooltip(
+            marker_dc7ac2106c65cda271ef88545d3dfbdf.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1700,17 +1700,17 @@
             );
         
     
-            var marker_f424e50b199f5cc9f44ff462ccbb8c9b = L.marker(
+            var marker_4fe7c6eb510785612a79291e55e02cd1 = L.marker(
                 [-3.430696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_6e609a23ac988182e400a93ca1b16925 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f424e50b199f5cc9f44ff462ccbb8c9b.setIcon(custom_icon_6e609a23ac988182e400a93ca1b16925);
+        var custom_icon_cdf83b040e9a91d9573b3a2a57835088 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_4fe7c6eb510785612a79291e55e02cd1.setIcon(custom_icon_cdf83b040e9a91d9573b3a2a57835088);
         
     
-            marker_f424e50b199f5cc9f44ff462ccbb8c9b.bindTooltip(
+            marker_4fe7c6eb510785612a79291e55e02cd1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1722,17 +1722,17 @@
             );
         
     
-            var marker_b03879192363eaab8ce95bc9ac36e282 = L.marker(
+            var marker_6e92a6066377c98dff7a9d967e84f428 = L.marker(
                 [-3.588587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_c36de780baacb6986d5dd9230eb2581b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_b03879192363eaab8ce95bc9ac36e282.setIcon(custom_icon_c36de780baacb6986d5dd9230eb2581b);
+        var custom_icon_cb50ed0bfcca05333ad4e6e00c8fe5c7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_6e92a6066377c98dff7a9d967e84f428.setIcon(custom_icon_cb50ed0bfcca05333ad4e6e00c8fe5c7);
         
     
-            marker_b03879192363eaab8ce95bc9ac36e282.bindTooltip(
+            marker_6e92a6066377c98dff7a9d967e84f428.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1744,17 +1744,17 @@
             );
         
     
-            var marker_67f306c609fd0f9e5a5e34fa3f5bcf19 = L.marker(
+            var marker_ee367b4bca54d6746782a60d9dac4c72 = L.marker(
                 [-3.538587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_ec59a1aca0df6bbf4138ee37cd590522 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_67f306c609fd0f9e5a5e34fa3f5bcf19.setIcon(custom_icon_ec59a1aca0df6bbf4138ee37cd590522);
+        var custom_icon_0b6240a1c65c0bb834a333a1cc8337c4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_ee367b4bca54d6746782a60d9dac4c72.setIcon(custom_icon_0b6240a1c65c0bb834a333a1cc8337c4);
         
     
-            marker_67f306c609fd0f9e5a5e34fa3f5bcf19.bindTooltip(
+            marker_ee367b4bca54d6746782a60d9dac4c72.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1766,17 +1766,17 @@
             );
         
     
-            var marker_82bae001722d0d79893a5c5120e547b4 = L.marker(
+            var marker_0b21f791a5bdf1b444adf00942c8fc5f = L.marker(
                 [-3.588587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_1b15e77cc1490074cc4b70378773e1e1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_82bae001722d0d79893a5c5120e547b4.setIcon(custom_icon_1b15e77cc1490074cc4b70378773e1e1);
+        var custom_icon_1d720915f38e983f01530c50cee1e799 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_0b21f791a5bdf1b444adf00942c8fc5f.setIcon(custom_icon_1d720915f38e983f01530c50cee1e799);
         
     
-            marker_82bae001722d0d79893a5c5120e547b4.bindTooltip(
+            marker_0b21f791a5bdf1b444adf00942c8fc5f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1788,17 +1788,17 @@
             );
         
     
-            var marker_03ee9e95f6475a0e2fefc2532dde2335 = L.marker(
+            var marker_dcf7331deb853cf9456bce4166af93a8 = L.marker(
                 [-3.538587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_500b6542ea79d949c09a42e9586c9db5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_03ee9e95f6475a0e2fefc2532dde2335.setIcon(custom_icon_500b6542ea79d949c09a42e9586c9db5);
+        var custom_icon_825dcfa667eb5ffaa18396b7966783d2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_dcf7331deb853cf9456bce4166af93a8.setIcon(custom_icon_825dcfa667eb5ffaa18396b7966783d2);
         
     
-            marker_03ee9e95f6475a0e2fefc2532dde2335.bindTooltip(
+            marker_dcf7331deb853cf9456bce4166af93a8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1810,17 +1810,17 @@
             );
         
     
-            var marker_f00429b93fbf9111ab5f27bd29c42bde = L.marker(
+            var marker_212ad6cf2e41cb3e76a5da04f1c59dd9 = L.marker(
                 [-3.588587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_81d4a65d9be3b3e2446c3f296855336b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_f00429b93fbf9111ab5f27bd29c42bde.setIcon(custom_icon_81d4a65d9be3b3e2446c3f296855336b);
+        var custom_icon_45d86a4a173b009e93e1b1bd63089350 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_212ad6cf2e41cb3e76a5da04f1c59dd9.setIcon(custom_icon_45d86a4a173b009e93e1b1bd63089350);
         
     
-            marker_f00429b93fbf9111ab5f27bd29c42bde.bindTooltip(
+            marker_212ad6cf2e41cb3e76a5da04f1c59dd9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1832,17 +1832,17 @@
             );
         
     
-            var marker_cf1f64b8fe300a65cb03801d2845a099 = L.marker(
+            var marker_29df5153b1336d570092277126f7151c = L.marker(
                 [-3.538587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_dd2fe51417165a9418aa84ea8a5b508b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_cf1f64b8fe300a65cb03801d2845a099.setIcon(custom_icon_dd2fe51417165a9418aa84ea8a5b508b);
+        var custom_icon_4af7f4bd5e051397c542e1af2dfead28 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_29df5153b1336d570092277126f7151c.setIcon(custom_icon_4af7f4bd5e051397c542e1af2dfead28);
         
     
-            marker_cf1f64b8fe300a65cb03801d2845a099.bindTooltip(
+            marker_29df5153b1336d570092277126f7151c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1854,17 +1854,17 @@
             );
         
     
-            var marker_4d4743d032edc37b09ab338db0523e61 = L.marker(
+            var marker_471e625d841c4288719588e07e8cfccd = L.marker(
                 [-4.606834467234112, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_63e4c23636dc7d897af0f65bf7aaf1cb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_4d4743d032edc37b09ab338db0523e61.setIcon(custom_icon_63e4c23636dc7d897af0f65bf7aaf1cb);
+        var custom_icon_3afd2a15c8484cfb661446cf6b7ce0ed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_471e625d841c4288719588e07e8cfccd.setIcon(custom_icon_3afd2a15c8484cfb661446cf6b7ce0ed);
         
     
-            marker_4d4743d032edc37b09ab338db0523e61.bindTooltip(
+            marker_471e625d841c4288719588e07e8cfccd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1876,17 +1876,17 @@
             );
         
     
-            var marker_c0a9306fe78f15aa8fdc444c87954ac3 = L.marker(
+            var marker_b8886ae3b65ccde62df5ce8499d7aa3b = L.marker(
                 [-4.556834467234113, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_22a6bead86dde3d6e44ce14bdf405b9a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_c0a9306fe78f15aa8fdc444c87954ac3.setIcon(custom_icon_22a6bead86dde3d6e44ce14bdf405b9a);
+        var custom_icon_8055fbc0a3471e856e8661b0bb7864ff = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_b8886ae3b65ccde62df5ce8499d7aa3b.setIcon(custom_icon_8055fbc0a3471e856e8661b0bb7864ff);
         
     
-            marker_c0a9306fe78f15aa8fdc444c87954ac3.bindTooltip(
+            marker_b8886ae3b65ccde62df5ce8499d7aa3b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1898,17 +1898,17 @@
             );
         
     
-            var marker_ad3d91e21469c1312f618d90f2771d8a = L.marker(
+            var marker_638ed1af985ee38bfbbb9235f652b237 = L.marker(
                 [-4.606834467234112, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_88f4d046f7b4eac8b828854b054f7840 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_ad3d91e21469c1312f618d90f2771d8a.setIcon(custom_icon_88f4d046f7b4eac8b828854b054f7840);
+        var custom_icon_2ca18c5820106706e77308dff990f2cd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_638ed1af985ee38bfbbb9235f652b237.setIcon(custom_icon_2ca18c5820106706e77308dff990f2cd);
         
     
-            marker_ad3d91e21469c1312f618d90f2771d8a.bindTooltip(
+            marker_638ed1af985ee38bfbbb9235f652b237.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1920,17 +1920,17 @@
             );
         
     
-            var marker_ba85e5d52c34d1f721da26260b1ac0db = L.marker(
+            var marker_cad90ff748352981e451a65869c66dce = L.marker(
                 [-4.556834467234113, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_e209986441a64178efc68d0fa0563d02 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_ba85e5d52c34d1f721da26260b1ac0db.setIcon(custom_icon_e209986441a64178efc68d0fa0563d02);
+        var custom_icon_8e76cbc1f175a6fcecf7f3691a0a0caa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_cad90ff748352981e451a65869c66dce.setIcon(custom_icon_8e76cbc1f175a6fcecf7f3691a0a0caa);
         
     
-            marker_ba85e5d52c34d1f721da26260b1ac0db.bindTooltip(
+            marker_cad90ff748352981e451a65869c66dce.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1942,17 +1942,17 @@
             );
         
     
-            var marker_8710a11c91b14588b79f6c0f92674c70 = L.marker(
+            var marker_a3c4f8aaa193524d67c3707e785037da = L.marker(
                 [-5.218793230120715, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_b8738d9eaba872db8c3aca715a6abe86 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_8710a11c91b14588b79f6c0f92674c70.setIcon(custom_icon_b8738d9eaba872db8c3aca715a6abe86);
+        var custom_icon_a9601eb5b8dac1b1f7395a54a14b7c7f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_a3c4f8aaa193524d67c3707e785037da.setIcon(custom_icon_a9601eb5b8dac1b1f7395a54a14b7c7f);
         
     
-            marker_8710a11c91b14588b79f6c0f92674c70.bindTooltip(
+            marker_a3c4f8aaa193524d67c3707e785037da.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1964,17 +1964,17 @@
             );
         
     
-            var marker_e5ee7201a21115b364f963021ca2c2d3 = L.marker(
+            var marker_3e81d2fad62d25f87571323e6fb1da4d = L.marker(
                 [-5.168793230120714, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_57c2bace0eccb4183dffc76f89b44ea5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_e5ee7201a21115b364f963021ca2c2d3.setIcon(custom_icon_57c2bace0eccb4183dffc76f89b44ea5);
+        var custom_icon_d939a8b8385486533246e0befbd941ee = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_3e81d2fad62d25f87571323e6fb1da4d.setIcon(custom_icon_d939a8b8385486533246e0befbd941ee);
         
     
-            marker_e5ee7201a21115b364f963021ca2c2d3.bindTooltip(
+            marker_3e81d2fad62d25f87571323e6fb1da4d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1986,17 +1986,17 @@
             );
         
     
-            var marker_49f19cf002f6a84c12571d794951a2b2 = L.marker(
+            var marker_d61814cd8fac1ffe5df3c0710a7fdc4e = L.marker(
                 [-5.218793230120715, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_6ee2a8c01eeb90c4332fdf17674c9eb3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_49f19cf002f6a84c12571d794951a2b2.setIcon(custom_icon_6ee2a8c01eeb90c4332fdf17674c9eb3);
+        var custom_icon_02540f3613fe9349e2cb72af72dbf6ee = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_d61814cd8fac1ffe5df3c0710a7fdc4e.setIcon(custom_icon_02540f3613fe9349e2cb72af72dbf6ee);
         
     
-            marker_49f19cf002f6a84c12571d794951a2b2.bindTooltip(
+            marker_d61814cd8fac1ffe5df3c0710a7fdc4e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2008,17 +2008,17 @@
             );
         
     
-            var marker_f2a95ede9a000f324794cf9782c0a16b = L.marker(
+            var marker_4e0c85728fa0494ad78d2b5be529c19a = L.marker(
                 [-5.168793230120714, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_85c56cf3226c47931841cd1b965882cf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_f2a95ede9a000f324794cf9782c0a16b.setIcon(custom_icon_85c56cf3226c47931841cd1b965882cf);
+        var custom_icon_3441cadcd1cdeecf626b7f473df7b231 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_4e0c85728fa0494ad78d2b5be529c19a.setIcon(custom_icon_3441cadcd1cdeecf626b7f473df7b231);
         
     
-            marker_f2a95ede9a000f324794cf9782c0a16b.bindTooltip(
+            marker_4e0c85728fa0494ad78d2b5be529c19a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2030,17 +2030,17 @@
             );
         
     
-            var marker_b907207053f8b3e4bd0dd66d85967274 = L.marker(
+            var marker_6cbf830d3538dbfe41d6f72fc994a1d6 = L.marker(
                 [-5.218793230120715, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_f4f190e879779ee50277b49aca950398 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_b907207053f8b3e4bd0dd66d85967274.setIcon(custom_icon_f4f190e879779ee50277b49aca950398);
+        var custom_icon_8c47773ce51072148644aa655788da2e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_6cbf830d3538dbfe41d6f72fc994a1d6.setIcon(custom_icon_8c47773ce51072148644aa655788da2e);
         
     
-            marker_b907207053f8b3e4bd0dd66d85967274.bindTooltip(
+            marker_6cbf830d3538dbfe41d6f72fc994a1d6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2052,17 +2052,17 @@
             );
         
     
-            var marker_38570e61620ec28c639bd51045e95afe = L.marker(
+            var marker_65adf5513201e4e799021b2d2d16ed0d = L.marker(
                 [-5.168793230120714, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_a3c578bd79fa8397426a0159b2cad192);
+            ).addTo(marker_cluster_449a29afe6080675eaf0b5a17ae17874);
         
     
-        var custom_icon_91f3630d5c9d34fdbe7f9447ac0bab07 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_38570e61620ec28c639bd51045e95afe.setIcon(custom_icon_91f3630d5c9d34fdbe7f9447ac0bab07);
+        var custom_icon_030ecb3c8f2c2e08554c200efac83fad = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_65adf5513201e4e799021b2d2d16ed0d.setIcon(custom_icon_030ecb3c8f2c2e08554c200efac83fad);
         
     
-            marker_38570e61620ec28c639bd51045e95afe.bindTooltip(
+            marker_65adf5513201e4e799021b2d2d16ed0d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2074,142 +2074,142 @@
             );
         
     
-            marker_cluster_a3c578bd79fa8397426a0159b2cad192.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            marker_cluster_449a29afe6080675eaf0b5a17ae17874.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            geo_json_38e20e0d250fb429aebbd111328f28b6.addTo(feature_group_d46ff4362908e599a5c9e851170f2715);
+            geo_json_88bd33469580b6e89904e341cb74056c.addTo(feature_group_147f8009e8e4a8f3009dc34966d77d2c);
         
     
-            var feature_group_ca6128eea4587fa6864196d0e4354f5c = L.featureGroup(
+            var feature_group_6e96f7a2fa03c39b94173078a9d086fe = L.featureGroup(
                 {}
             );
         
     
-            var marker_afcd2d8cb391eea23cb158def8b8592e = L.marker(
+            var marker_f98dcaea0765f17a6b3bd18abf10e9f5 = L.marker(
                 [0.405, -78.371],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_4e7c8f90165d1cb36a1525a73393f0a7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_afcd2d8cb391eea23cb158def8b8592e.setIcon(div_icon_4e7c8f90165d1cb36a1525a73393f0a7);
+            var div_icon_abbf77bc565d7d913f5f153b521d8675 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_f98dcaea0765f17a6b3bd18abf10e9f5.setIcon(div_icon_abbf77bc565d7d913f5f153b521d8675);
         
     
-            var marker_3f2cccca5332bfe746545746a1ba3dcb = L.marker(
+            var marker_3136710a91863666eb9d6f5bc3bb59dc = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_6bdc1a4ef026c79febf290132a0824cf = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_3f2cccca5332bfe746545746a1ba3dcb.setIcon(div_icon_6bdc1a4ef026c79febf290132a0824cf);
+            var div_icon_f88c75a43c44629d89ab4a868afce930 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_3136710a91863666eb9d6f5bc3bb59dc.setIcon(div_icon_f88c75a43c44629d89ab4a868afce930);
         
     
-            var marker_eb5f5efde4c07cef93f3562f6e1c3919 = L.marker(
+            var marker_bb7c985801722eb27a29a1cf796559b9 = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_1ef45f6e14c030c5b1a4bb99b3d6461b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_eb5f5efde4c07cef93f3562f6e1c3919.setIcon(div_icon_1ef45f6e14c030c5b1a4bb99b3d6461b);
+            var div_icon_921f331e51383d88b3ff9cb6061d95b2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_bb7c985801722eb27a29a1cf796559b9.setIcon(div_icon_921f331e51383d88b3ff9cb6061d95b2);
         
     
-            var marker_2d7973710eca8745d1813e1d9d693711 = L.marker(
+            var marker_007d54f8924a92286d4e9cdad9556cb0 = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_410945551444ec8accace115440f5116 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_2d7973710eca8745d1813e1d9d693711.setIcon(div_icon_410945551444ec8accace115440f5116);
+            var div_icon_4608adf8fa73186f13c84e40114f9cd7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_007d54f8924a92286d4e9cdad9556cb0.setIcon(div_icon_4608adf8fa73186f13c84e40114f9cd7);
         
     
-            var marker_495b45200df9f0ec9d6c4adef79e78ce = L.marker(
+            var marker_f30e9efce86728ae5a23cbf18f45edec = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_300af9c2e4e072f7a9bff0309f9f52c0 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_495b45200df9f0ec9d6c4adef79e78ce.setIcon(div_icon_300af9c2e4e072f7a9bff0309f9f52c0);
+            var div_icon_f37dbd22550447aa6282b5c19d425776 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_f30e9efce86728ae5a23cbf18f45edec.setIcon(div_icon_f37dbd22550447aa6282b5c19d425776);
         
     
-            var marker_76b094211ffb8c3a63c5698ffc9a5cb2 = L.marker(
+            var marker_2538de27e971bedcd4ead6d0d3d6b2c9 = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_df12eb2a8335b40c0d9a4be4499dd760 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_76b094211ffb8c3a63c5698ffc9a5cb2.setIcon(div_icon_df12eb2a8335b40c0d9a4be4499dd760);
+            var div_icon_191387125d3eb7e0b2d1f3d8382cfa8d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_2538de27e971bedcd4ead6d0d3d6b2c9.setIcon(div_icon_191387125d3eb7e0b2d1f3d8382cfa8d);
         
     
-            var marker_f6ef8fc76f619cc5fc8c44503d0edcac = L.marker(
+            var marker_53de2d97a471eea52c3a17bf4746bf25 = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_a727f6f39b2bffc2aa557cdf4c7ab329 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_f6ef8fc76f619cc5fc8c44503d0edcac.setIcon(div_icon_a727f6f39b2bffc2aa557cdf4c7ab329);
+            var div_icon_c4d66cb4e11351d3febd52f2b9d8e8d1 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_53de2d97a471eea52c3a17bf4746bf25.setIcon(div_icon_c4d66cb4e11351d3febd52f2b9d8e8d1);
         
     
-            var marker_da3f7bc59e30290725d175ed735cd649 = L.marker(
+            var marker_7f283ae5d8abe38b080177bdd8f3bd90 = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_6fb0cfba357b5ffa53214db773465cde = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_da3f7bc59e30290725d175ed735cd649.setIcon(div_icon_6fb0cfba357b5ffa53214db773465cde);
+            var div_icon_d7c1ba74e744064fd0cb3d976102caa7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_7f283ae5d8abe38b080177bdd8f3bd90.setIcon(div_icon_d7c1ba74e744064fd0cb3d976102caa7);
         
     
-            var marker_fb06832e7b2468b4287912b3d56f9345 = L.marker(
+            var marker_a2f72f647ee7c65c3d3326f72c437aaa = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_ce3aa8e4c1614d1f92861ba5645396c8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_fb06832e7b2468b4287912b3d56f9345.setIcon(div_icon_ce3aa8e4c1614d1f92861ba5645396c8);
+            var div_icon_3be0fe6afb96f67eeacc66b4488d02e5 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_a2f72f647ee7c65c3d3326f72c437aaa.setIcon(div_icon_3be0fe6afb96f67eeacc66b4488d02e5);
         
     
-            var marker_cc6976a8c4a0a91c0a920de2a8618dd6 = L.marker(
+            var marker_1606ebbc01518776718947c2353119d6 = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_1b3b4463678d92031620ff3979dec436 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_cc6976a8c4a0a91c0a920de2a8618dd6.setIcon(div_icon_1b3b4463678d92031620ff3979dec436);
+            var div_icon_a5f25f0e154c0f69db55b1c2be3cc8ad = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_1606ebbc01518776718947c2353119d6.setIcon(div_icon_a5f25f0e154c0f69db55b1c2be3cc8ad);
         
     
-            var marker_5b0f1794a6f83421177b321c283554fe = L.marker(
+            var marker_72b89fc172a167146c7b644ece2f8ae1 = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_ca6128eea4587fa6864196d0e4354f5c);
+            ).addTo(feature_group_6e96f7a2fa03c39b94173078a9d086fe);
         
     
-            var div_icon_fbbcff9d7324ed410e380d0ceef77b78 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_5b0f1794a6f83421177b321c283554fe.setIcon(div_icon_fbbcff9d7324ed410e380d0ceef77b78);
+            var div_icon_da2c854942617583062dfb4f537495cc = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_72b89fc172a167146c7b644ece2f8ae1.setIcon(div_icon_da2c854942617583062dfb4f537495cc);
         
     
-            feature_group_ca6128eea4587fa6864196d0e4354f5c.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            feature_group_6e96f7a2fa03c39b94173078a9d086fe.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            var mouse_position_4f444c53edc4b4b1ae49c0314563d519 = new L.Control.MousePosition(
+            var mouse_position_56b4ded0fd052d65bce07112012434fa = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_4f444c53edc4b4b1ae49c0314563d519.options["latFormatter"] =
+            mouse_position_56b4ded0fd052d65bce07112012434fa.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_4f444c53edc4b4b1ae49c0314563d519.options["lngFormatter"] =
+            mouse_position_56b4ded0fd052d65bce07112012434fa.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_c7a0cf97f43fb2101f83fb2e810cdf4d.addControl(mouse_position_4f444c53edc4b4b1ae49c0314563d519);
+            map_0146ae8a2c511e924d7e30e6fbe6b4d3.addControl(mouse_position_56b4ded0fd052d65bce07112012434fa);
         
     
-            var feature_group_d46ff4362908e599a5c9e851170f2715searchControl = new L.Control.Search({
-                layer: feature_group_d46ff4362908e599a5c9e851170f2715,
+            var feature_group_147f8009e8e4a8f3009dc34966d77d2csearchControl = new L.Control.Search({
+                layer: feature_group_147f8009e8e4a8f3009dc34966d77d2c,
                 
                 propertyName: 'clave',
                 
@@ -2224,8 +2224,8 @@
                 }
             
                 });
-                feature_group_d46ff4362908e599a5c9e851170f2715searchControl.on('search:locationfound', function(e) {
-                    feature_group_d46ff4362908e599a5c9e851170f2715.setStyle(function(feature){
+                feature_group_147f8009e8e4a8f3009dc34966d77d2csearchControl.on('search:locationfound', function(e) {
+                    feature_group_147f8009e8e4a8f3009dc34966d77d2c.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2234,32 +2234,32 @@
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_d46ff4362908e599a5c9e851170f2715searchControl.on('search:collapsed', function(e) {
-                        feature_group_d46ff4362908e599a5c9e851170f2715.setStyle(function(feature){
+                feature_group_147f8009e8e4a8f3009dc34966d77d2csearchControl.on('search:collapsed', function(e) {
+                        feature_group_147f8009e8e4a8f3009dc34966d77d2c.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_c7a0cf97f43fb2101f83fb2e810cdf4d.addControl( feature_group_d46ff4362908e599a5c9e851170f2715searchControl );
+            map_0146ae8a2c511e924d7e30e6fbe6b4d3.addControl( feature_group_147f8009e8e4a8f3009dc34966d77d2csearchControl );
 
         
     
-            var tile_layer_a3602002e2145e5a9929abf44390b60c = L.tileLayer(
+            var tile_layer_1100d1adae8c67d6bc970fbbd4066425 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_d397bab6b75435e58620de440315a733 = new L.Control.MiniMap(
-                tile_layer_a3602002e2145e5a9929abf44390b60c,
+            var mini_map_4dc959d5e05380dc8561e0563634dfbb = new L.Control.MiniMap(
+                tile_layer_1100d1adae8c67d6bc970fbbd4066425,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_c7a0cf97f43fb2101f83fb2e810cdf4d.addControl(mini_map_d397bab6b75435e58620de440315a733);
+            map_0146ae8a2c511e924d7e30e6fbe6b4d3.addControl(mini_map_4dc959d5e05380dc8561e0563634dfbb);
         
     
-            var tag_filter_button_bb5c7b5cd870d8deeaf9a9b7d1a1266d = L.control.tagFilterButton(
+            var tag_filter_button_670653c5a6f8fce467f41fb48a6768ad = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            ).addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            map_c7a0cf97f43fb2101f83fb2e810cdf4d.fitBounds(
+            map_0146ae8a2c511e924d7e30e6fbe6b4d3.fitBounds(
                 [[-8.97088985178516, -81.32819536512397], [1.19705808, -76.90124323628629]],
                 {}
             );
@@ -2270,49 +2270,49 @@
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_444626397282cb9c4988871cdd88b496,
-                        "Necesidad por tramo [66]" : marker_cluster_a3c578bd79fa8397426a0159b2cad192,
-                        "Paso fronterizo [5]" : feature_group_fb2249a99607b30c3d79b88ceccf88d2,
-                        "Riesgo por departamento [11]" : geo_json_38e20e0d250fb429aebbd111328f28b6,
+                        "Ruta identificada [10]" : geo_json_5e258ef0b5ce56ef5722fcb617922c91,
+                        "Necesidad por tramo [66]" : marker_cluster_449a29afe6080675eaf0b5a17ae17874,
+                        "Paso fronterizo [5]" : feature_group_dddcd3fd4bf111b0fb63005b773a9e55,
+                        "Riesgo por departamento [11]" : geo_json_88bd33469580b6e89904e341cb74056c,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_ca6128eea4587fa6864196d0e4354f5c,
+                        "Departamento / Provincia" : feature_group_6e96f7a2fa03c39b94173078a9d086fe,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_b347e5583f6e01db2c863893e6b4a1c0,
-                        "OpenStreetMap" : tile_layer_51dd9d9b49330127d6076fb6f005a71d,
-                        "Esri Sat\u00e9lite" : tile_layer_86c8e638598e6e225ae9c81f65b88964,
-                        "Google H\u00edbrido" : tile_layer_8da29b1b0820e290e2894b15d16bd118,
+                        "CartoDB Positron" : tile_layer_6cabb1d981531830e52ec2b1c95d76a9,
+                        "OpenStreetMap" : tile_layer_a6e961fdf09b1574c5d2ff4c588ac82a,
+                        "Esri Sat\u00e9lite" : tile_layer_acf97cdd646a59c4322450f523d99502,
+                        "Google H\u00edbrido" : tile_layer_681227fd0ae0c74d4a0997740c88e01b,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
-            feature_group_fb2249a99607b30c3d79b88ceccf88d2.remove();
-            tile_layer_86c8e638598e6e225ae9c81f65b88964.remove();
-            tile_layer_8da29b1b0820e290e2894b15d16bd118.remove();
-            tile_layer_51dd9d9b49330127d6076fb6f005a71d.remove();
+            ).addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
+            tile_layer_681227fd0ae0c74d4a0997740c88e01b.remove();
+            tile_layer_acf97cdd646a59c4322450f523d99502.remove();
+            tile_layer_a6e961fdf09b1574c5d2ff4c588ac82a.remove();
+            feature_group_dddcd3fd4bf111b0fb63005b773a9e55.remove();
 
         
     
-            tile_layer_b347e5583f6e01db2c863893e6b4a1c0.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            tile_layer_6cabb1d981531830e52ec2b1c95d76a9.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            geo_json_38e20e0d250fb429aebbd111328f28b6.addTo(feature_group_d46ff4362908e599a5c9e851170f2715);
+            geo_json_88bd33469580b6e89904e341cb74056c.addTo(feature_group_147f8009e8e4a8f3009dc34966d77d2c);
         
     
-            feature_group_d46ff4362908e599a5c9e851170f2715.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            feature_group_147f8009e8e4a8f3009dc34966d77d2c.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            geo_json_444626397282cb9c4988871cdd88b496.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            geo_json_5e258ef0b5ce56ef5722fcb617922c91.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            marker_cluster_a3c578bd79fa8397426a0159b2cad192.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            marker_cluster_449a29afe6080675eaf0b5a17ae17874.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
     
-            geo_json_38e20e0d250fb429aebbd111328f28b6.addTo(feature_group_d46ff4362908e599a5c9e851170f2715);
+            geo_json_88bd33469580b6e89904e341cb74056c.addTo(feature_group_147f8009e8e4a8f3009dc34966d77d2c);
         
     
-            feature_group_ca6128eea4587fa6864196d0e4354f5c.addTo(map_c7a0cf97f43fb2101f83fb2e810cdf4d);
+            feature_group_6e96f7a2fa03c39b94173078a9d086fe.addTo(map_0146ae8a2c511e924d7e30e6fbe6b4d3);
         
 </script>
 </html>
