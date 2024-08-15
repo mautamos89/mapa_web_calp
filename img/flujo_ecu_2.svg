@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 164 432">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #708284;
+      }
+
+      .cls-3 {
+        filter: url(#drop-shadow-1);
+      }
+
+      .cls-4 {
+        isolation: isolate;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x=".9" y="-8.5" width="176.2" height="464.1"/>
+    </clipPath>
+    <filter id="drop-shadow-1" x="-0.33913757" y="-0.033623096" width="1.7523018" height="1.0902403">
+      <feOffset dx="7" dy="7"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="svg2" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="flujo_ecu_2.svg">
+      <sodipodi:namedview id="namedview2" bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="svg2" inkscape:cx="82.095941" inkscape:cy="216" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1009" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="1.8819444" pagecolor="#ffffff"/>
+      <g class="cls-5">
+        <image id="image1" class="cls-4" width="166" height="434" transform="translate(-.2 456.7) scale(1.1)" xlink:href="flujo_ecu_2-1.png"/>
+      </g>
+      <g class="cls-3">
+        <path id="path2" class="cls-2" d="M17.2,431.2c-1.1-4-2.4-8.3-3.2-12.6l-1.1-6.4-.8-3.5-.3-3.2-.8-6.4c-.3-2.4-.5-4.6-.5-6.7l-.3-3.5c-.3-1.1-.3-2.1-.3-3.2v-6.7c-.3-2.1,0-4.6,0-6.7.3-2.1.3-4.6.3-6.7l.8-6.7.3-3.2.3-3.5,1.1-6.7,1.1-6.4c.8-4.6,1.9-8.9,2.7-13.2,1.1-4.3,2.1-8.6,3.5-12.9,1.1-4.3,2.4-8.6,3.5-12.9l2.1-6.2,1.9-6.4c1.3-4,3-8.3,4.3-12.4l4.3-12.4,4.3-12.4,8.3-24.2c1.3-4,3-8.1,4.3-12.1,1.1-4,2.4-8.1,3.8-12.1,1.1-4,2.4-8.1,3.5-12.4,1.1-4,2.1-8.1,3-12.1l3-12.4c.5-2.1.8-4,1.3-6.2l1.3-6.2c.5-1.9,1.1-4,1.3-6.2l1.6-5.9,3-12.4,1.6-5.9c.5-2.1,1.3-4,1.9-6.2.5-1.9,1.1-4,1.6-5.9.5-2.1,1.1-4,1.9-5.9,1.1-4,2.1-8.3,3.5-12.4.5-1.9,1.1-4,1.9-5.9.5-2.1,1.1-4,1.6-6.2,5.1-16.1,9.9-32.5,15.6-49.2l21.2,2.4c.8,8.9,1.3,17.7,1.6,26.6v13.4c-.3,4.6-.5,8.9-.8,13.4-1.1,17.7-3.2,35.5-7.5,52.9-.5,2.1-1.1,4.3-1.6,6.4l-2.1,6.4-1.9,6.4c-.5,2.1-1.3,4-2.1,6.2-3,8.6-6.4,16.7-9.9,25-1.9,4-3.5,8.1-5.4,12.1-1.6,4-3.5,8.1-5.4,12.1l-5.4,12.1c-1.6,4-3.5,8.1-5.4,12.1l-5.4,11.8-5.9,11.8-11.3,23.4c-7.3,15.3-14.8,30.6-20.7,46.2-6.2,15.6-11,31.7-13.4,48.3-2.4,16.4-3,33.6-1.3,50.5l-4.3.8Z"/>
+        <path id="path3" class="cls-2" d="M114.5,35.5c-9.9,8.1-28.2,10.7-40.6,9.9,17.7-10.7,33.8-25.5,43.8-44.3,5.9,20.1,19.9,37.1,34.6,51.6-13.2-2.1-29-7-37.9-17.2Z"/>
+      </g>
+    </g>
+  </g>
+</svg>
