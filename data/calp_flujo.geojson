@@ -3,7 +3,7 @@
 "name": "calp_flujo",
 "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
 "features": [
-{ "type": "Feature", "properties": { "latitud": -0.180823, "longitud": -79.363383, "id": 1, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_flujo_ecu_1.gif", "flujo": "Norte->Sur" }, "geometry": { "type": "Point", "coordinates": [ -79.36338327276448, -0.180823173381285 ] } },
-{ "type": "Feature", "properties": { "latitud": -2.649877, "longitud": -79.711118, "id": 2, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_flujo_ecu_1.gif", "flujo": "Sur->Norte" }, "geometry": { "type": "Point", "coordinates": [ -79.711117636689593, -2.649876809604617 ] } }
+{ "type": "Feature", "properties": { "latitud": -0.180823, "longitud": -79.363383, "id": 1, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg", "flujo": "Norte->Sur", "tamano": "66, 14" }, "geometry": { "type": "Point", "coordinates": [ -79.36338327276448, -0.180823173381285 ] } },
+{ "type": "Feature", "properties": { "latitud": -2.649877, "longitud": -79.711118, "id": 2, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg", "flujo": "Sur->Norte", "tamano": "22, 66" }, "geometry": { "type": "Point", "coordinates": [ -79.711117636689593, -2.649876809604617 ] } }
 ]
 }
