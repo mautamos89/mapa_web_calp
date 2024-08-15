@@ -3,101 +3,30 @@
   <defs>
     <style>
       .cls-1 {
-        clip-path: url(#clippath-4);
+        fill: #708284;
       }
 
       .cls-2 {
-        fill: none;
-      }
-
-      .cls-3 {
-        fill: #708284;
-        stroke: #708284;
-        stroke-miterlimit: 10;
-        stroke-width: 2px;
-      }
-
-      .cls-4 {
-        clip-path: url(#clippath-1);
-      }
-
-      .cls-5 {
         filter: url(#drop-shadow-1);
       }
-
-      .cls-6 {
-        isolation: isolate;
-      }
-
-      .cls-7 {
-        clip-path: url(#clippath-5);
-      }
-
-      .cls-8 {
-        clip-path: url(#clippath-3);
-      }
-
-      .cls-9 {
-        clip-path: url(#clippath-2);
-      }
-
-      .cls-10 {
-        clip-path: url(#clippath);
-      }
     </style>
-    <clipPath id="clippath">
-      <rect class="cls-2" x="152.9" width="176.2" height="464.1"/>
-    </clipPath>
-    <clipPath id="clippath-1">
-      <path class="cls-2" d="M321.6,542h-5c1.3,1.3,2.3,2.7,3.7,4,.3-1.3.7-2.7,1.3-4M362.3-8.7H-5.7v601.3h368v-50.7h-34c0,7,1.3,13.7,4,20.3-6.3-2.7-13.3-3.7-20.3-3.7s-7.7.3-11.3.7c4-3.7,9.3-7.3,15-8.7-3.3-3-7-5.7-10.3-8.7h-23v-20.3c-8.7-7.7-17-15.7-25-23.7-19.7-19.7-38.7-40.3-56-62-17.3-22-33-45-46.3-70-13.3-24.7-24.7-50.7-32.3-78-4-13.7-7-27.3-8.7-41.7-.7-3.3-.7-7-1.3-10.3,0-3.7-.7-7-.7-10.7-.3-7-.7-14-.7-21,.3-14,1-27.7,1.3-41.3.3-13.7,0-27-2.7-39.7-2.3-13-7.3-25.3-14.3-36.7-6.7-11.3-15.7-21.7-25.3-31.3-9.3-9.7-20-18.3-31-26.7C28.6,20.3,17.3,12.7,6,5l1-1.7c24,13.7,47.3,28.7,68,47,10.3,9.3,20.3,19.7,28.3,31.3s14,25.3,17.3,39c3.3,14,4.3,28.3,4.7,42.3.3,14,0,27.7.7,41,.7,13.7,1.7,27,3.7,40,2.3,13.3,5.3,26.3,9.7,39,4,12.7,9,25,15,37,5.7,12.3,12.3,24,19.3,35.3,3.3,6,7,11.3,10.7,17l5.7,8.7,2.7,4,3,4.3c7.7,11,15.7,22,23.7,32.7,20,27,41.3,53.3,63,79.3v-66h80V-8.7h0Z"/>
-    </clipPath>
-    <filter id="drop-shadow-1" x="-0.066897281" y="-0.045644421" width="1.1682365" height="1.1054038">
+    <filter id="drop-shadow-1" x="-0.097878102" y="-0.076238685" width="1.2395639" height="1.1592606">
       <feOffset dx="7" dy="7"/>
       <feGaussianBlur result="blur" stdDeviation="5"/>
       <feFlood flood-color="#000" flood-opacity=".75"/>
       <feComposite in2="blur" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
-    <clipPath id="clippath-2">
-      <rect class="cls-2" x="362.3" y="435.3" width="205.3" height="106.7"/>
-    </clipPath>
-    <clipPath id="clippath-3">
-      <path class="cls-2" d="M282.3,521.7v20.3h23c-7.7-6.7-15.3-13.3-23-20.3M362.3,435.3h-80v66c11.3,13.7,23,27,34.3,40.7h5c1.7-4.3,4.7-8.7,7.3-11.3-.7,3.7-1,7.7-.7,11.3h34v-106.7h0Z"/>
-    </clipPath>
-    <clipPath id="clippath-4">
-      <path class="cls-2" d="M282.3,501.3v20.3c7.7,7,15.3,13.7,23,20.3h11.3c-11.3-13.7-23-27-34.3-40.7Z"/>
-    </clipPath>
-    <clipPath id="clippath-5">
-      <path class="cls-2" d="M329,530.7c-2.7,2.7-5.7,7-7.3,11.3h6.7c-.3-3.7,0-7.7.7-11.3Z"/>
-    </clipPath>
   </defs>
   <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
   <g>
-    <g id="svg2" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="flujo_per_2.svg">
-      <sodipodi:namedview id="namedview4" bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="svg2" inkscape:cx="214.8155" inkscape:cy="465.72" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1009" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.87284205" pagecolor="#ffffff"/>
-      <g class="cls-10">
-        <g id="g4">
-          <image id="image1" class="cls-6" width="167" height="435" transform="translate(151.8 466) scale(1.1)" xlink:href="flujo_per_2-1.png"/>
+    <g id="svg11" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="flujo_per_2.svg">
+      <g id="g11" class="cls-2">
+        <g id="svg2" inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)" sodipodi:docname="flujo_per_2.svg">
+          <sodipodi:namedview id="namedview4" bordercolor="#000000" borderopacity="0.25" inkscape:current-layer="svg2" inkscape:cx="214.8155" inkscape:cy="464.57432" inkscape:deskcolor="#d1d1d1" inkscape:pagecheckerboard="0" inkscape:pageopacity="0.0" inkscape:showpageshadow="2" inkscape:window-height="1009" inkscape:window-maximized="1" inkscape:window-width="1920" inkscape:window-x="-8" inkscape:window-y="-8" inkscape:zoom="0.87284205" pagecolor="#ffffff"/>
+          <path id="path2-6" class="cls-1" d="M1.9,2c4.3,2.5,8.6,5.1,12.9,7.9l6.1,4.3,3.3,2,3,2.3,5.8,4.8c1,.8,2,1.5,3,2.3l2.8,2.5,3,2.5,1.5,1.3c.3.5.8,1,1.3,1.3l5.6,5.6c1.8,1.5,3.5,3.5,5.3,5.3,1.8,2,3.5,3.8,5.3,5.8l4.8,5.8,2.5,3,2.3,3,4.6,6.1,4.6,6.3,2,3.3c.8,1,1.5,2,2.3,3.3l4.1,6.3c1.3,2.3,2.5,4.3,4.1,6.6,1.3,2.3,2.5,4.3,3.8,6.6,2.5,4.6,5.1,8.9,7.3,13.4l3.5,6.6,3.3,6.8c2.5,4.6,4.6,8.9,6.8,13.4l6.6,13.4,6.3,13.4,12.9,26.6c2,4.3,4.3,8.9,6.3,13.2l3.3,6.3c1.3,2.3,2.3,4.3,3.5,6.6,2.3,4.3,4.6,8.4,7.1,12.7,2.3,4.1,4.8,8.4,7.3,12.4l7.6,12.4c1.3,2,2.8,4.1,4.1,6.1l3.8,6.1c1.3,2,2.5,4.1,3.8,6.1l3.8,6.1,7.3,12.4c1.3,2,2.3,4.1,3.5,6.1,1.3,2,2.3,4.3,3.5,6.3,2.3,4.1,4.6,8.4,6.8,12.7,2.3,4.1,4.8,8.4,7.1,12.7,1,2,2.3,4.3,3.3,6.3,1.3,2,2.3,4.3,3.5,6.3,2.3,4.3,4.6,8.6,6.8,12.9,2.3,4.3,4.6,8.6,6.8,12.9l3.5,6.6c1,2.3,2.3,4.3,3.3,6.6,2.3,4.6,4.6,8.9,6.6,13.4l-19,15.2c-3.8-3.3-7.6-6.6-11.6-9.9-1.8-1.8-3.8-3.3-5.6-5.1-2-1.8-3.8-3.5-5.6-5.3-3.8-3.5-7.3-7.1-10.9-10.9-3.5-3.8-6.8-7.6-10.4-11.4-13.4-15.2-26.1-31.4-36.5-49.1-1.5-2-2.8-4.3-4.1-6.6l-3.5-6.6-3.5-6.8c-1.3-2.3-2.3-4.6-3.3-6.8-4.6-9.4-8.4-18.7-12.2-28.1-2-4.8-3.8-9.6-5.6-14.2-2-4.8-3.8-9.6-5.6-14.4l-5.6-13.9c-1.8-4.8-3.5-9.4-5.3-14.2l-5.1-14.2-5.1-13.9-9.6-28.1c-6.3-18.5-12.9-37-20.5-54.4-7.9-17.5-17-34.4-28.4-49.9l-4.3-5.8c-.3-.5-.8-1-1-1.5l-1.3-1.3-2.3-2.8-2.3-2.8c-.8-.8-1.5-1.8-2.5-2.8l-4.8-5.3-2.5-2.5-2.5-2.5-5.3-5.1c-.8-1-1.8-1.8-2.8-2.5l-2.8-2.5L-.9,6,1.9,2Z"/>
+          <path id="path3-7" class="cls-1" d="M243.8,401.6c1.5-14.7,14.2-31.7,24.8-41-5.6,23-6.6,48.1.5,71.4-21.3-11.6-46.3-13.9-70.1-13.7,12.4-8.9,29.1-18,44.8-16.7h0Z"/>
         </g>
-      </g>
-      <g class="cls-4">
-        <image id="image5" class="cls-6" width="278" height="453" transform="translate(-7 594) scale(1.3)" xlink:href="flujo_per_2-2.png"/>
-      </g>
-      <g class="cls-5">
-        <path id="path6" class="cls-3" d="M6.8,3.3c18.7,10.6,36.9,22.3,53,36.6,8.1,7.3,15.8,15.3,22.1,24.4,6.2,9.1,10.9,19.7,13.5,30.4,2.6,10.9,3.4,22.1,3.6,33,.3,10.9,0,21.6.5,31.9.5,10.6,1.3,21,2.9,31.2,1.8,10.4,4.2,20.5,7.5,30.4,3.1,9.9,7,19.5,11.7,28.8,4.4,9.6,9.6,18.7,15.1,27.5,2.6,4.7,5.5,8.8,8.3,13.2l4.4,6.8,2.1,3.1,2.3,3.4c6,8.6,12.2,17.1,18.4,25.5,25.2,34,53,66.2,80.8,99.2l-3.1,3.1c-16.9-13.5-32.7-28.1-48.1-43.1-15.3-15.3-30.1-31.4-43.6-48.3-13.5-17.1-25.7-35.1-36.1-54.5-10.4-19.2-19.2-39.5-25.2-60.8-3.1-10.6-5.5-21.3-6.8-32.5-.5-2.6-.5-5.5-1-8.1,0-2.9-.5-5.5-.5-8.3-.3-5.5-.5-10.9-.5-16.4.3-10.9.8-21.6,1-32.2.3-10.6,0-21-2.1-30.9-1.8-10.1-5.7-19.7-11.2-28.6-5.2-8.8-12.2-16.9-19.7-24.4-7.3-7.5-15.6-14.3-24.2-20.8C23.6,16.6,14.8,10.6,6,4.6l.8-1.3Z"/>
-        <path id="path7" class="cls-3" d="M250.4,429.3c0-5.2,3.9-11.4,7.3-15.1-1.3,8.1-.8,16.9,2.6,24.7-7.8-3.4-16.6-3.4-24.7-2.3,3.9-3.4,9.4-7.3,14.8-7.3Z"/>
-      </g>
-      <g class="cls-9">
-        <image id="image7" class="cls-6" width="156" height="82" transform="translate(361 543.3) scale(1.3)" xlink:href="flujo_per_2-3.png"/>
-      </g>
-      <g class="cls-8">
-        <image id="image8" class="cls-6" width="252" height="335" transform="translate(282 542.3) scale(.3)" xlink:href="flujo_per_2-4.png"/>
-      </g>
-      <g class="cls-1">
-        <image id="image9" class="cls-6" width="28" height="33" transform="translate(281 543.3) scale(1.3)" xlink:href="flujo_per_2-5.png"/>
-      </g>
-      <g class="cls-7">
-        <image id="image10" class="cls-6" width="8" height="11" transform="translate(319.6 543.3) scale(1.3)" xlink:href="flujo_per_2-6.png"/>
       </g>
     </g>
   </g>
