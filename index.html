@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <html lang="es">
+    <html lang="es"></html>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     
         <script>
@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_fb6046ce47a013575c499b802f27d1ec {
+                #map_222e794bb8f5b02abda3c183c68be911 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -107,7 +107,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_fb6046ce47a013575c499b802f27d1ec" ></div>
+            <div class="folium-map" id="map_222e794bb8f5b02abda3c183c68be911" ></div>
         
     
 
@@ -166,8 +166,8 @@
   <div class='my-legend1'>
     <img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_reach_vector.svg' class='map-logo' />
     <div style='display: flex; flex-direction: column;'>
-      <div class='map-title'>Principales rutas de migrantes y desplazados</div>
-      <div class='map-header'>PROYECTO CALP | PER-ECU | IMPACT-REACH</div>
+      <div class='map-title'>Principales rutas de movilidad humana en Perú y Ecuador</div>
+      <div class='map-header'>PROYECTO CALP | PER-ECU | IMPACT-REACH 2024</div>
     </div>
   </div>
 </div>
@@ -195,8 +195,10 @@
     .map-info-text {
       font-size: 80%;
       max-width: 250px; /* Establecer ancho máximo */
+      max-height: 180px;
       text-align: justify; /* Justificar texto */
       white-space: pre-wrap;
+      overflow-y: auto; /* Agregar barra de scrolling vertical */
     }
   </style>
 
@@ -222,15 +224,15 @@
 
 <div id='mapinfo' class='mapinfo'
     style='position: absolute; z-index:9999; background-color:rgba(255, 255, 255, 0.75);
-     border-radius:2px; padding: 4px; font-size:14px; left: 10px; top: 217px;'>
+     border-radius:0px; padding: 6px; font-size:14px; left: 10px; top: 217px;'>
   <div class='my-legend1'>
     <div style='display: flex; flex-direction: column;'>
       <div class='map-info-title'>Información del mapa</div>
-      <div class='map-info-text'>El mapa enseña las rutas identificadas para migrantes y desplazados internos en Perú y Ecuador en marco del proyecto CALP de IMPACT-REACH.
+      <div class='map-info-text'>Esta herramienta tiene como objetivo visualizar las principales rutas de tránsito de personas en movimiento en Ecuador y Perú, así como destacar las necesidades y riesgos de protección más relevantes, identificados por informantes clave de organizaciones humanitarias locales e internacionales y representantes de entidades gubernamentales que participaron en grupos focales de discusión y en mapeos participativos.
 
-Los caminos refieren a las rutas principales identificadas en la región. Los íconos y su agrupación representan las necesidades identificadas. La coropleta muestra tres niveles de riesgo de motilidad por país en la evaluación.
+Las rutas identificadas están marcadas con una línea roja. Al hacer clic en los números, se pueden visualizar los íconos que representan las necesidades identificadas. La coropleta ilustra los niveles de riesgo a los que están expuestas las personas en tránsito. Puede hacer clic en la coropleta para consultar los detalles de los riesgos asociados.
 
-Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para obtener información adicional.</div>
+Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 5 de abril en Tumbes, Perú, y el 17 de abril en Quito, Ecuador. El estudio se basa en métodos cualitativos, que permiten una comprensión profunda de las perspectivas de los participantes. Sin embargo, es importante reconocer que este enfoque tiene limitaciones, como la subjetividad de las respuestas y el sesgo de percepción, por lo que los resultados del estudio deben considerarse indicativos.</div>
     </div>
   </div>
 </div>
@@ -351,8 +353,8 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
 <script>
     
     
-            var map_fb6046ce47a013575c499b802f27d1ec = L.map(
-                "map_fb6046ce47a013575c499b802f27d1ec",
+            var map_222e794bb8f5b02abda3c183c68be911 = L.map(
+                "map_222e794bb8f5b02abda3c183c68be911",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -361,51 +363,51 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            L.control.scale().addTo(map_222e794bb8f5b02abda3c183c68be911);
 
             
 
         
     
-            var tile_layer_d6c60ce2d11747a4733b8fa4210f3c59 = L.tileLayer(
+            var tile_layer_ea2e1397c37ef2a5f1cccba1763d2f2a = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_d6c60ce2d11747a4733b8fa4210f3c59.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            tile_layer_ea2e1397c37ef2a5f1cccba1763d2f2a.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            var tile_layer_a50aac0fa996b2c69308dccfd017c97c = L.tileLayer(
+            var tile_layer_de2f9f2881cee1a20e4d6c2737a87f87 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_53e7ab4318e103c2a473ac42a18e32d6 = L.tileLayer(
+            var tile_layer_64b0413f4d5d2d7890e343b15b8b1797 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_1ec93f9205552763419eadf7bd767202 = L.tileLayer(
+            var tile_layer_0ac69c0af5bac599c6e4e90c0e1a973b = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_db71cd4111126129970c157c68bcdf6d = L.tileLayer(
+            var tile_layer_c619ab0971bd395b0e278d3a52f1712f = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_bb03a1512a6f08d4dcabcb8be1358d52 = L.featureGroup(
+            var feature_group_cf302a85f183a5d14dce4ff347a25704 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_10b3e0a0e280808a0135c6d04a67d0c5_styler(feature) {
+        function geo_json_6e6a5122b326a5f76fb7b7b39f339cad_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Imbabura": case "Lambayeque": 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
@@ -415,59 +417,59 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_10b3e0a0e280808a0135c6d04a67d0c5_highlighter(feature) {
+        function geo_json_6e6a5122b326a5f76fb7b7b39f339cad_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_10b3e0a0e280808a0135c6d04a67d0c5_onEachFeature(feature, layer) {
+        function geo_json_6e6a5122b326a5f76fb7b7b39f339cad_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_10b3e0a0e280808a0135c6d04a67d0c5.resetStyle(e.target);
+                            geo_json_6e6a5122b326a5f76fb7b7b39f339cad.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_10b3e0a0e280808a0135c6d04a67d0c5_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_6e6a5122b326a5f76fb7b7b39f339cad_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_10b3e0a0e280808a0135c6d04a67d0c5_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_6e6a5122b326a5f76fb7b7b39f339cad_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_10b3e0a0e280808a0135c6d04a67d0c5.resetStyle(e.target);
+                        geo_json_6e6a5122b326a5f76fb7b7b39f339cad.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_10b3e0a0e280808a0135c6d04a67d0c5 = L.geoJson(null, {
+        var geo_json_6e6a5122b326a5f76fb7b7b39f339cad = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_10b3e0a0e280808a0135c6d04a67d0c5_onEachFeature,
+                onEachFeature: geo_json_6e6a5122b326a5f76fb7b7b39f339cad_onEachFeature,
             
-                style: geo_json_10b3e0a0e280808a0135c6d04a67d0c5_styler,
+                style: geo_json_6e6a5122b326a5f76fb7b7b39f339cad_styler,
         });
 
-        function geo_json_10b3e0a0e280808a0135c6d04a67d0c5_add (data) {
-            geo_json_10b3e0a0e280808a0135c6d04a67d0c5
+        function geo_json_6e6a5122b326a5f76fb7b7b39f339cad_add (data) {
+            geo_json_6e6a5122b326a5f76fb7b7b39f339cad
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_10b3e0a0e280808a0135c6d04a67d0c5_add);
+                .done(geo_json_6e6a5122b326a5f76fb7b7b39f339cad_add);
 
         
     
-    geo_json_10b3e0a0e280808a0135c6d04a67d0c5.bindPopup(
+    geo_json_6e6a5122b326a5f76fb7b7b39f339cad.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -491,13 +493,13 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
     ,{"className": "foliumpopup", "maxWidth": 250});
                      
     
-            geo_json_10b3e0a0e280808a0135c6d04a67d0c5.addTo(feature_group_bb03a1512a6f08d4dcabcb8be1358d52);
+            geo_json_6e6a5122b326a5f76fb7b7b39f339cad.addTo(feature_group_cf302a85f183a5d14dce4ff347a25704);
         
     
-            feature_group_bb03a1512a6f08d4dcabcb8be1358d52.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_cf302a85f183a5d14dce4ff347a25704.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-        function geo_json_a03793703e7ba76c10535ae15008f7d6_styler(feature) {
+        function geo_json_2445db813a12275a597280892c215991_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 22: case 24: case 31: case 34: case 40: case 49: case 51: case 73: case 75: case 81: case 82: case 98: case 112: case 113: case 114: case 122: case 124: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["B:Ibarra-Quito"], "weight": 4};
@@ -522,28 +524,28 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             }
         }
 
-        function geo_json_a03793703e7ba76c10535ae15008f7d6_onEachFeature(feature, layer) {
+        function geo_json_2445db813a12275a597280892c215991_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_a03793703e7ba76c10535ae15008f7d6 = L.geoJson(null, {
+        var geo_json_2445db813a12275a597280892c215991 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_a03793703e7ba76c10535ae15008f7d6_onEachFeature,
+                onEachFeature: geo_json_2445db813a12275a597280892c215991_onEachFeature,
             
-                style: geo_json_a03793703e7ba76c10535ae15008f7d6_styler,
+                style: geo_json_2445db813a12275a597280892c215991_styler,
                 localize: true,
         });
 
-        function geo_json_a03793703e7ba76c10535ae15008f7d6_add (data) {
-            geo_json_a03793703e7ba76c10535ae15008f7d6
+        function geo_json_2445db813a12275a597280892c215991_add (data) {
+            geo_json_2445db813a12275a597280892c215991
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_a03793703e7ba76c10535ae15008f7d6_add);
+                .done(geo_json_2445db813a12275a597280892c215991_add);
 
         
     
-    geo_json_a03793703e7ba76c10535ae15008f7d6.bindTooltip(
+    geo_json_2445db813a12275a597280892c215991.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -567,25 +569,25 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
     ,{"className": "foliumtooltip", "showCoverageOnHover": false, "sticky": true});
                      
     
-            geo_json_a03793703e7ba76c10535ae15008f7d6.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            geo_json_2445db813a12275a597280892c215991.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            var feature_group_bb7088f4d626ab024517ab2e1db40c73 = L.featureGroup(
+            var feature_group_484a56b3a6d5d374da8cc40673e60af0 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_080b3ee6afa781a983c0b02e90ae0663 = L.marker(
+            var marker_044f8e04cc4d74cadedc61e4fd0bcb93 = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_bb7088f4d626ab024517ab2e1db40c73);
+            ).addTo(feature_group_484a56b3a6d5d374da8cc40673e60af0);
         
     
-        var custom_icon_a241536f038681881ce3799c6c743f2d = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_080b3ee6afa781a983c0b02e90ae0663.setIcon(custom_icon_a241536f038681881ce3799c6c743f2d);
+        var custom_icon_77b5b2c612559cb4a107e6563c532b51 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_044f8e04cc4d74cadedc61e4fd0bcb93.setIcon(custom_icon_77b5b2c612559cb4a107e6563c532b51);
         
     
-            marker_080b3ee6afa781a983c0b02e90ae0663.bindTooltip(
+            marker_044f8e04cc4d74cadedc61e4fd0bcb93.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -597,17 +599,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_952111ab31cfeee8bf79ce52dc9dc896 = L.marker(
+            var marker_3428a27957013ddced72ee14b64062ee = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_bb7088f4d626ab024517ab2e1db40c73);
+            ).addTo(feature_group_484a56b3a6d5d374da8cc40673e60af0);
         
     
-        var custom_icon_206c6db6dd9b8241294970a25d494e7f = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_952111ab31cfeee8bf79ce52dc9dc896.setIcon(custom_icon_206c6db6dd9b8241294970a25d494e7f);
+        var custom_icon_696edc1271aa4af4fddececd2f894687 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_3428a27957013ddced72ee14b64062ee.setIcon(custom_icon_696edc1271aa4af4fddececd2f894687);
         
     
-            marker_952111ab31cfeee8bf79ce52dc9dc896.bindTooltip(
+            marker_3428a27957013ddced72ee14b64062ee.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -619,17 +621,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_018d0c841e00deb6fa21f936854dccc2 = L.marker(
+            var marker_60960857301101323cc1ac7731af9f8e = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_bb7088f4d626ab024517ab2e1db40c73);
+            ).addTo(feature_group_484a56b3a6d5d374da8cc40673e60af0);
         
     
-        var custom_icon_ce97f6d71c3a40b678af06851add31db = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_018d0c841e00deb6fa21f936854dccc2.setIcon(custom_icon_ce97f6d71c3a40b678af06851add31db);
+        var custom_icon_64ab5e1cdc4c4d9a1bb4dddb5d9e2825 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_60960857301101323cc1ac7731af9f8e.setIcon(custom_icon_64ab5e1cdc4c4d9a1bb4dddb5d9e2825);
         
     
-            marker_018d0c841e00deb6fa21f936854dccc2.bindTooltip(
+            marker_60960857301101323cc1ac7731af9f8e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -641,17 +643,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_5d2cf62a6f0244b77f3260469c680f4f = L.marker(
+            var marker_f2284fb6c360de06311f953e5dc6dbae = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_bb7088f4d626ab024517ab2e1db40c73);
+            ).addTo(feature_group_484a56b3a6d5d374da8cc40673e60af0);
         
     
-        var custom_icon_238a6653c95fa1153dc7e9b28ce17f4a = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_5d2cf62a6f0244b77f3260469c680f4f.setIcon(custom_icon_238a6653c95fa1153dc7e9b28ce17f4a);
+        var custom_icon_424e46d65b3db6eb09f6afee33ccb56b = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_f2284fb6c360de06311f953e5dc6dbae.setIcon(custom_icon_424e46d65b3db6eb09f6afee33ccb56b);
         
     
-            marker_5d2cf62a6f0244b77f3260469c680f4f.bindTooltip(
+            marker_f2284fb6c360de06311f953e5dc6dbae.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -663,25 +665,25 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            feature_group_bb7088f4d626ab024517ab2e1db40c73.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_484a56b3a6d5d374da8cc40673e60af0.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            var marker_cluster_fc9b9c54f04526c7c7532162fec186ac = L.markerClusterGroup(
+            var marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000 = L.markerClusterGroup(
                 {"embed": false, "showCoverageOnHover": false}
             );
         
     
-            var marker_6e3bf026ff894af2f50ff1b4015c2205 = L.marker(
+            var marker_fcefabc1f347b9772b4be0f7ba7ba8aa = L.marker(
                 [0.34629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_21daeb42b8adf45d62715a35bebd2ebb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_6e3bf026ff894af2f50ff1b4015c2205.setIcon(custom_icon_21daeb42b8adf45d62715a35bebd2ebb);
+        var custom_icon_eb29e17fc424096c84214e4ebae1d7f6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_fcefabc1f347b9772b4be0f7ba7ba8aa.setIcon(custom_icon_eb29e17fc424096c84214e4ebae1d7f6);
         
     
-            marker_6e3bf026ff894af2f50ff1b4015c2205.bindTooltip(
+            marker_fcefabc1f347b9772b4be0f7ba7ba8aa.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -693,17 +695,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_a231171c961f395a40d12f8b40a07844 = L.marker(
+            var marker_d7ed86f4b47b4cce910397d20bba3457 = L.marker(
                 [0.39629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_24ffb3ccf6eb3b646e5f2d66e8084fe0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_a231171c961f395a40d12f8b40a07844.setIcon(custom_icon_24ffb3ccf6eb3b646e5f2d66e8084fe0);
+        var custom_icon_61bf42f109433ad05aa342df11130ee4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_d7ed86f4b47b4cce910397d20bba3457.setIcon(custom_icon_61bf42f109433ad05aa342df11130ee4);
         
     
-            marker_a231171c961f395a40d12f8b40a07844.bindTooltip(
+            marker_d7ed86f4b47b4cce910397d20bba3457.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -715,17 +717,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_9a4de40611e0e2ff6fb015b91f650056 = L.marker(
+            var marker_9bad393f4161c3955476a6cace5857ac = L.marker(
                 [0.29629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_c3f7134333ac473bfbf72c00b683b665 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_9a4de40611e0e2ff6fb015b91f650056.setIcon(custom_icon_c3f7134333ac473bfbf72c00b683b665);
+        var custom_icon_12d1dfdbaaa0ccf5151fb26e759c8b19 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_9bad393f4161c3955476a6cace5857ac.setIcon(custom_icon_12d1dfdbaaa0ccf5151fb26e759c8b19);
         
     
-            marker_9a4de40611e0e2ff6fb015b91f650056.bindTooltip(
+            marker_9bad393f4161c3955476a6cace5857ac.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -737,17 +739,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_b462ac4bafce435124d216d8d18828e6 = L.marker(
+            var marker_fd58a0206fc56ae89be0ceb1c521560d = L.marker(
                 [0.39629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_5b7742283cabf5cfea8bc612a493fab4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_b462ac4bafce435124d216d8d18828e6.setIcon(custom_icon_5b7742283cabf5cfea8bc612a493fab4);
+        var custom_icon_a2a3855fb9783d81e663cbf6982622ee = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_fd58a0206fc56ae89be0ceb1c521560d.setIcon(custom_icon_a2a3855fb9783d81e663cbf6982622ee);
         
     
-            marker_b462ac4bafce435124d216d8d18828e6.bindTooltip(
+            marker_fd58a0206fc56ae89be0ceb1c521560d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -759,17 +761,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_81df251284ed82de71e3663248c51cca = L.marker(
+            var marker_830f0c03ac99022b19519b79badcf52f = L.marker(
                 [0.29629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_42234cec167095ca9895542809cba5a3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_81df251284ed82de71e3663248c51cca.setIcon(custom_icon_42234cec167095ca9895542809cba5a3);
+        var custom_icon_8fc4eb4ffab7632b50575d042692b2fc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_830f0c03ac99022b19519b79badcf52f.setIcon(custom_icon_8fc4eb4ffab7632b50575d042692b2fc);
         
     
-            marker_81df251284ed82de71e3663248c51cca.bindTooltip(
+            marker_830f0c03ac99022b19519b79badcf52f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -781,17 +783,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_0e855588b5729ab4bddd42ac5cbc9610 = L.marker(
+            var marker_c6c40054a5c3373f394ec058a241f358 = L.marker(
                 [0.34629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7bffc1c11bfdc444fbbd36b595a889d3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_0e855588b5729ab4bddd42ac5cbc9610.setIcon(custom_icon_7bffc1c11bfdc444fbbd36b595a889d3);
+        var custom_icon_b878f04ba343dd4775d0adcc2b07e514 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_c6c40054a5c3373f394ec058a241f358.setIcon(custom_icon_b878f04ba343dd4775d0adcc2b07e514);
         
     
-            marker_0e855588b5729ab4bddd42ac5cbc9610.bindTooltip(
+            marker_c6c40054a5c3373f394ec058a241f358.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -803,17 +805,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_15cb9320971a03c3940cb59b55f13837 = L.marker(
+            var marker_e447259356a4ebafa3525ac86deeaccb = L.marker(
                 [0.722885465378173, -77.78450695248989],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_8568ed9c38b20cef2f7b1377a40bf47e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_15cb9320971a03c3940cb59b55f13837.setIcon(custom_icon_8568ed9c38b20cef2f7b1377a40bf47e);
+        var custom_icon_c87f85757dd52b75a0aedab738597f0a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_e447259356a4ebafa3525ac86deeaccb.setIcon(custom_icon_c87f85757dd52b75a0aedab738597f0a);
         
     
-            marker_15cb9320971a03c3940cb59b55f13837.bindTooltip(
+            marker_e447259356a4ebafa3525ac86deeaccb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -825,17 +827,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_611539bb2f85811376a1c7c356209f21 = L.marker(
+            var marker_3d3ef8ba258470d8863777810a4816a8 = L.marker(
                 [0.722974078257829, -77.7346981642632],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_49f05819579ac459486527e5584faad2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_611539bb2f85811376a1c7c356209f21.setIcon(custom_icon_49f05819579ac459486527e5584faad2);
+        var custom_icon_3f5b60e067b76a32f48742d8f15f06bf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_3d3ef8ba258470d8863777810a4816a8.setIcon(custom_icon_3f5b60e067b76a32f48742d8f15f06bf);
         
     
-            marker_611539bb2f85811376a1c7c356209f21.bindTooltip(
+            marker_3d3ef8ba258470d8863777810a4816a8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -847,17 +849,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_b4fa6c0854fa6f18f7480d79191a0feb = L.marker(
+            var marker_75efed9d59f6c2cbe38f4d6639ed050b = L.marker(
                 [0.823342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_45b8a297bac3fcdec3f84dac36bfcc50 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_b4fa6c0854fa6f18f7480d79191a0feb.setIcon(custom_icon_45b8a297bac3fcdec3f84dac36bfcc50);
+        var custom_icon_5115e12a2d196496e122f8362b626106 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_75efed9d59f6c2cbe38f4d6639ed050b.setIcon(custom_icon_5115e12a2d196496e122f8362b626106);
         
     
-            marker_b4fa6c0854fa6f18f7480d79191a0feb.bindTooltip(
+            marker_75efed9d59f6c2cbe38f4d6639ed050b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -869,17 +871,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_008304990d3c79d4333540fc09f59303 = L.marker(
+            var marker_4ccaf83a0b8bfcded408ecf6ca3d942a = L.marker(
                 [0.773342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_c98e58d000183ed214293aac29670cbf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_008304990d3c79d4333540fc09f59303.setIcon(custom_icon_c98e58d000183ed214293aac29670cbf);
+        var custom_icon_eb472de78fdb9ebd91ac6060cbb47f2f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_4ccaf83a0b8bfcded408ecf6ca3d942a.setIcon(custom_icon_eb472de78fdb9ebd91ac6060cbb47f2f);
         
     
-            marker_008304990d3c79d4333540fc09f59303.bindTooltip(
+            marker_4ccaf83a0b8bfcded408ecf6ca3d942a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -891,17 +893,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_a5e480123a99e78dd0433a497bfd7cda = L.marker(
+            var marker_97d0d0d56fe076bbaa8297bbe0a26821 = L.marker(
                 [0.823342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_9ac1fcaf0026e705c3c545ab58173be2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_a5e480123a99e78dd0433a497bfd7cda.setIcon(custom_icon_9ac1fcaf0026e705c3c545ab58173be2);
+        var custom_icon_5ec2f4ca1e5b1deed085497ae0212468 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_97d0d0d56fe076bbaa8297bbe0a26821.setIcon(custom_icon_5ec2f4ca1e5b1deed085497ae0212468);
         
     
-            marker_a5e480123a99e78dd0433a497bfd7cda.bindTooltip(
+            marker_97d0d0d56fe076bbaa8297bbe0a26821.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -913,17 +915,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_7799f45d1789ba03d214c720ddc656a4 = L.marker(
+            var marker_56b8ef3ee5cd7141c81cd79d7703c01f = L.marker(
                 [0.773342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7f7951616dec5f53d42bc8e4df3ea848 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_7799f45d1789ba03d214c720ddc656a4.setIcon(custom_icon_7f7951616dec5f53d42bc8e4df3ea848);
+        var custom_icon_232c11e4c268adc6151ac1aee9408820 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_56b8ef3ee5cd7141c81cd79d7703c01f.setIcon(custom_icon_232c11e4c268adc6151ac1aee9408820);
         
     
-            marker_7799f45d1789ba03d214c720ddc656a4.bindTooltip(
+            marker_56b8ef3ee5cd7141c81cd79d7703c01f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -935,17 +937,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_17ec1f11a9e25e886ff85ccedfd8aa48 = L.marker(
+            var marker_750a8db6587221fd1dd08129a00c3a51 = L.marker(
                 [0.823342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_5833b4a8f47a76f445e0b819ac0f3bc8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_17ec1f11a9e25e886ff85ccedfd8aa48.setIcon(custom_icon_5833b4a8f47a76f445e0b819ac0f3bc8);
+        var custom_icon_3d4e97fd205dde4151a4f600bbdd7c2f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_750a8db6587221fd1dd08129a00c3a51.setIcon(custom_icon_3d4e97fd205dde4151a4f600bbdd7c2f);
         
     
-            marker_17ec1f11a9e25e886ff85ccedfd8aa48.bindTooltip(
+            marker_750a8db6587221fd1dd08129a00c3a51.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -957,17 +959,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_f4d96df507a68be7661d8a4ac40e9fde = L.marker(
+            var marker_53081dff3e7cfeedf9524e4d0d6ac909 = L.marker(
                 [0.773342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_1e76439297e961b4c0be62f742a8471c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f4d96df507a68be7661d8a4ac40e9fde.setIcon(custom_icon_1e76439297e961b4c0be62f742a8471c);
+        var custom_icon_4fa203d39dc522d538b3985a6413be13 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_53081dff3e7cfeedf9524e4d0d6ac909.setIcon(custom_icon_4fa203d39dc522d538b3985a6413be13);
         
     
-            marker_f4d96df507a68be7661d8a4ac40e9fde.bindTooltip(
+            marker_53081dff3e7cfeedf9524e4d0d6ac909.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -979,17 +981,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_1f148da10dedd3eddeb85c127aa4706b = L.marker(
+            var marker_92061992df715a47074e826f32735381 = L.marker(
                 [-0.258016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_43d1e158f757f206b8b9c8d9bdd8b41f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_1f148da10dedd3eddeb85c127aa4706b.setIcon(custom_icon_43d1e158f757f206b8b9c8d9bdd8b41f);
+        var custom_icon_9277a0bbbf97cc3290e29c0d2be6b97d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_92061992df715a47074e826f32735381.setIcon(custom_icon_9277a0bbbf97cc3290e29c0d2be6b97d);
         
     
-            marker_1f148da10dedd3eddeb85c127aa4706b.bindTooltip(
+            marker_92061992df715a47074e826f32735381.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1001,17 +1003,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_512cc54b475f6622e6dccc3fe2f2e7be = L.marker(
+            var marker_a3020a7ec2e8ed7d33768e5a43d211f3 = L.marker(
                 [-0.208016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_0cd67e85d8fab856f9ce5c683471c227 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_512cc54b475f6622e6dccc3fe2f2e7be.setIcon(custom_icon_0cd67e85d8fab856f9ce5c683471c227);
+        var custom_icon_58c43235e537c6cec8bbe90a813d817a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_a3020a7ec2e8ed7d33768e5a43d211f3.setIcon(custom_icon_58c43235e537c6cec8bbe90a813d817a);
         
     
-            marker_512cc54b475f6622e6dccc3fe2f2e7be.bindTooltip(
+            marker_a3020a7ec2e8ed7d33768e5a43d211f3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1023,17 +1025,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_1e99132b89d6300830f19a559114ae20 = L.marker(
+            var marker_9f8fc27d53edd4548e546c5cac09f9e6 = L.marker(
                 [-0.158016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_731b45c384d2ed9ff448689088e8fc82 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_1e99132b89d6300830f19a559114ae20.setIcon(custom_icon_731b45c384d2ed9ff448689088e8fc82);
+        var custom_icon_5ce074b23c490214f1f47421a2b2b40b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_9f8fc27d53edd4548e546c5cac09f9e6.setIcon(custom_icon_5ce074b23c490214f1f47421a2b2b40b);
         
     
-            marker_1e99132b89d6300830f19a559114ae20.bindTooltip(
+            marker_9f8fc27d53edd4548e546c5cac09f9e6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1045,17 +1047,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_8b7510b81ebdbdc677f7a845622a19d5 = L.marker(
+            var marker_7e8a9158172b4b8a0e8c0260ae68f215 = L.marker(
                 [-0.208016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_bd39c4418b3d9c969b8a1a02e64ad1a3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_8b7510b81ebdbdc677f7a845622a19d5.setIcon(custom_icon_bd39c4418b3d9c969b8a1a02e64ad1a3);
+        var custom_icon_2257301696f818e3afb944e999b15796 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_7e8a9158172b4b8a0e8c0260ae68f215.setIcon(custom_icon_2257301696f818e3afb944e999b15796);
         
     
-            marker_8b7510b81ebdbdc677f7a845622a19d5.bindTooltip(
+            marker_7e8a9158172b4b8a0e8c0260ae68f215.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1067,17 +1069,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_bec749daf069b8563e63022da5771196 = L.marker(
+            var marker_ac0d55e1aa4beb768d0c883b7b723ab4 = L.marker(
                 [-0.158016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_98d1873e61a6ac7b7637654baeccb279 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_bec749daf069b8563e63022da5771196.setIcon(custom_icon_98d1873e61a6ac7b7637654baeccb279);
+        var custom_icon_526dedc098b45d979fde74142d438c0d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_ac0d55e1aa4beb768d0c883b7b723ab4.setIcon(custom_icon_526dedc098b45d979fde74142d438c0d);
         
     
-            marker_bec749daf069b8563e63022da5771196.bindTooltip(
+            marker_ac0d55e1aa4beb768d0c883b7b723ab4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1089,17 +1091,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_d23589a83719278d264dbca3e780ea6c = L.marker(
+            var marker_5d35041f75ac6e752ad18a4ca627127d = L.marker(
                 [-0.258016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_b0f7a41bfee78106e04d75ca5f6b0815 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_d23589a83719278d264dbca3e780ea6c.setIcon(custom_icon_b0f7a41bfee78106e04d75ca5f6b0815);
+        var custom_icon_be5c8359b4fcc9ba56a8e8c1e1023b19 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_5d35041f75ac6e752ad18a4ca627127d.setIcon(custom_icon_be5c8359b4fcc9ba56a8e8c1e1023b19);
         
     
-            marker_d23589a83719278d264dbca3e780ea6c.bindTooltip(
+            marker_5d35041f75ac6e752ad18a4ca627127d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1111,17 +1113,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_8dc6d92a276438f4eafc8001e4719203 = L.marker(
+            var marker_d2568c274a0e5e3302ea07fc3810601d = L.marker(
                 [-0.208016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_f038d24b6a23c5e1e7ab22fe503ca4be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_8dc6d92a276438f4eafc8001e4719203.setIcon(custom_icon_f038d24b6a23c5e1e7ab22fe503ca4be);
+        var custom_icon_3153c65697bad7f4a77dffac55cc9e9e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_d2568c274a0e5e3302ea07fc3810601d.setIcon(custom_icon_3153c65697bad7f4a77dffac55cc9e9e);
         
     
-            marker_8dc6d92a276438f4eafc8001e4719203.bindTooltip(
+            marker_d2568c274a0e5e3302ea07fc3810601d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1133,17 +1135,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_333ff5f85b97c000fee9c69cc309257a = L.marker(
+            var marker_5018fa6aa05e4ab67cc902727f73aee5 = L.marker(
                 [-0.158016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_33237096959f422deb0c5d11e8998805 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_333ff5f85b97c000fee9c69cc309257a.setIcon(custom_icon_33237096959f422deb0c5d11e8998805);
+        var custom_icon_35e6e4f9ca9d1d5a75deb0e7f958bfdb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_5018fa6aa05e4ab67cc902727f73aee5.setIcon(custom_icon_35e6e4f9ca9d1d5a75deb0e7f958bfdb);
         
     
-            marker_333ff5f85b97c000fee9c69cc309257a.bindTooltip(
+            marker_5018fa6aa05e4ab67cc902727f73aee5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1155,17 +1157,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_99caff8f9a981454127745477656a1a2 = L.marker(
+            var marker_dc4f64b84872bef4a432add66dc1db56 = L.marker(
                 [-0.224517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_05ea4413edfedbe2598f54da600f1132 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_99caff8f9a981454127745477656a1a2.setIcon(custom_icon_05ea4413edfedbe2598f54da600f1132);
+        var custom_icon_15a64c3ff8c04fc09e8c424fb5445713 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_dc4f64b84872bef4a432add66dc1db56.setIcon(custom_icon_15a64c3ff8c04fc09e8c424fb5445713);
         
     
-            marker_99caff8f9a981454127745477656a1a2.bindTooltip(
+            marker_dc4f64b84872bef4a432add66dc1db56.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1177,17 +1179,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_5df3853561b00f6b35bb194a65c5abf7 = L.marker(
+            var marker_ba79048d8450e6229155027b346a0533 = L.marker(
                 [-0.274517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_92117e58247380e4318a7836f310e45e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_5df3853561b00f6b35bb194a65c5abf7.setIcon(custom_icon_92117e58247380e4318a7836f310e45e);
+        var custom_icon_d7ef1e8967d871165d397e7ee3d61da6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_ba79048d8450e6229155027b346a0533.setIcon(custom_icon_d7ef1e8967d871165d397e7ee3d61da6);
         
     
-            marker_5df3853561b00f6b35bb194a65c5abf7.bindTooltip(
+            marker_ba79048d8450e6229155027b346a0533.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1199,17 +1201,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_fa37354532bd911cfdda93cfeb74e47a = L.marker(
+            var marker_0d1c46e92461ef338a05ba4e0b1ede61 = L.marker(
                 [-0.224517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_efb87d78d6f788ca9bda297e44dc18d1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_fa37354532bd911cfdda93cfeb74e47a.setIcon(custom_icon_efb87d78d6f788ca9bda297e44dc18d1);
+        var custom_icon_be4a5dbb3e05dfa22b40be0c149b4f1a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_0d1c46e92461ef338a05ba4e0b1ede61.setIcon(custom_icon_be4a5dbb3e05dfa22b40be0c149b4f1a);
         
     
-            marker_fa37354532bd911cfdda93cfeb74e47a.bindTooltip(
+            marker_0d1c46e92461ef338a05ba4e0b1ede61.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1221,17 +1223,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_c031fec83e7bb00a0849fedc33bcb98d = L.marker(
+            var marker_709ec7deebb1c417c0291e3daf02d984 = L.marker(
                 [-0.274517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_70acbd7ef12dbaf3a758d803e1add4d9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_c031fec83e7bb00a0849fedc33bcb98d.setIcon(custom_icon_70acbd7ef12dbaf3a758d803e1add4d9);
+        var custom_icon_3fe2636804f86faef589813fcb26aab1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_709ec7deebb1c417c0291e3daf02d984.setIcon(custom_icon_3fe2636804f86faef589813fcb26aab1);
         
     
-            marker_c031fec83e7bb00a0849fedc33bcb98d.bindTooltip(
+            marker_709ec7deebb1c417c0291e3daf02d984.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1243,17 +1245,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_2169cadebbb2f01c5f11ea66d05b6d63 = L.marker(
+            var marker_9dfd947329ab034bafe59733e82ba8ee = L.marker(
                 [-0.944935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_eadfc531e715ecf0448c82de1d17ed22 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_2169cadebbb2f01c5f11ea66d05b6d63.setIcon(custom_icon_eadfc531e715ecf0448c82de1d17ed22);
+        var custom_icon_f729cea362ec1e2ee9e9be54bab60f80 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_9dfd947329ab034bafe59733e82ba8ee.setIcon(custom_icon_f729cea362ec1e2ee9e9be54bab60f80);
         
     
-            marker_2169cadebbb2f01c5f11ea66d05b6d63.bindTooltip(
+            marker_9dfd947329ab034bafe59733e82ba8ee.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1265,17 +1267,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_bd1a4f8e4be76fe54e3ba4f9d1e40f8c = L.marker(
+            var marker_c9ddca48d83b3622b6621ad9a73b8199 = L.marker(
                 [-0.994935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_cc9f76a27d1e528f99836ab7c6acd505 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_bd1a4f8e4be76fe54e3ba4f9d1e40f8c.setIcon(custom_icon_cc9f76a27d1e528f99836ab7c6acd505);
+        var custom_icon_641da2c4b0da40ac4b481d3088e2aafb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_c9ddca48d83b3622b6621ad9a73b8199.setIcon(custom_icon_641da2c4b0da40ac4b481d3088e2aafb);
         
     
-            marker_bd1a4f8e4be76fe54e3ba4f9d1e40f8c.bindTooltip(
+            marker_c9ddca48d83b3622b6621ad9a73b8199.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1287,17 +1289,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_d7619ac21110ce81976bbcac16bc6f7b = L.marker(
+            var marker_f8d0f17fb85f1d4e3e8621bb818c6fd0 = L.marker(
                 [-0.944935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_af3f9c1cebe8efa0b1b5c127dc708548 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_d7619ac21110ce81976bbcac16bc6f7b.setIcon(custom_icon_af3f9c1cebe8efa0b1b5c127dc708548);
+        var custom_icon_1ad9f0dbada7d283dd919bbe9f7c17a4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_f8d0f17fb85f1d4e3e8621bb818c6fd0.setIcon(custom_icon_1ad9f0dbada7d283dd919bbe9f7c17a4);
         
     
-            marker_d7619ac21110ce81976bbcac16bc6f7b.bindTooltip(
+            marker_f8d0f17fb85f1d4e3e8621bb818c6fd0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1309,17 +1311,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_13202b5e6dce7414cdf1ed268fbf339e = L.marker(
+            var marker_4de812c585eeecd7be77d942571bd546 = L.marker(
                 [-0.994935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_232353b65cf6e38f1c06805950458955 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_13202b5e6dce7414cdf1ed268fbf339e.setIcon(custom_icon_232353b65cf6e38f1c06805950458955);
+        var custom_icon_cb2400d3859723c8c70fd702d1a65cda = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_4de812c585eeecd7be77d942571bd546.setIcon(custom_icon_cb2400d3859723c8c70fd702d1a65cda);
         
     
-            marker_13202b5e6dce7414cdf1ed268fbf339e.bindTooltip(
+            marker_4de812c585eeecd7be77d942571bd546.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1331,17 +1333,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_647d57cd8d8b387562a989b137b2d6a2 = L.marker(
+            var marker_4518921f5540730c6105fa7d4fd538da = L.marker(
                 [-3.498380858986683, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_3746ce5f66d1510b450085f02da9929e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_647d57cd8d8b387562a989b137b2d6a2.setIcon(custom_icon_3746ce5f66d1510b450085f02da9929e);
+        var custom_icon_aabf51368bf4417295c7b52a5d9ec41c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_4518921f5540730c6105fa7d4fd538da.setIcon(custom_icon_aabf51368bf4417295c7b52a5d9ec41c);
         
     
-            marker_647d57cd8d8b387562a989b137b2d6a2.bindTooltip(
+            marker_4518921f5540730c6105fa7d4fd538da.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1353,17 +1355,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_22aee003edd0772ea5952d815cbda220 = L.marker(
+            var marker_e81f784572831663d10ceebf542ded81 = L.marker(
                 [-3.448380858986684, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_da1fa1a177743f9fc9af09e67db36327 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_22aee003edd0772ea5952d815cbda220.setIcon(custom_icon_da1fa1a177743f9fc9af09e67db36327);
+        var custom_icon_155f5e738be749cfb6841b2d6fa6fb9d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_e81f784572831663d10ceebf542ded81.setIcon(custom_icon_155f5e738be749cfb6841b2d6fa6fb9d);
         
     
-            marker_22aee003edd0772ea5952d815cbda220.bindTooltip(
+            marker_e81f784572831663d10ceebf542ded81.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1375,17 +1377,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_902f661a4d7f12c0b471f56445c1d239 = L.marker(
+            var marker_d33ccef58dc166a5bc2451463a96a7c1 = L.marker(
                 [-3.498380858986683, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_2eaafeaa6c187db9aba7941e10cb2197 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_902f661a4d7f12c0b471f56445c1d239.setIcon(custom_icon_2eaafeaa6c187db9aba7941e10cb2197);
+        var custom_icon_e4e9d8599f75adfe76a426f01835f608 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_d33ccef58dc166a5bc2451463a96a7c1.setIcon(custom_icon_e4e9d8599f75adfe76a426f01835f608);
         
     
-            marker_902f661a4d7f12c0b471f56445c1d239.bindTooltip(
+            marker_d33ccef58dc166a5bc2451463a96a7c1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1397,17 +1399,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_120ccab3ccdf361bbc300c4d0c051076 = L.marker(
+            var marker_5430aacc65e4c797f59b1dd304624f7c = L.marker(
                 [-3.448380858986684, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_500066a2400b0c2f476418e224aa3f8d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_120ccab3ccdf361bbc300c4d0c051076.setIcon(custom_icon_500066a2400b0c2f476418e224aa3f8d);
+        var custom_icon_42420c57be46596e6b43a3ab86f20437 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_5430aacc65e4c797f59b1dd304624f7c.setIcon(custom_icon_42420c57be46596e6b43a3ab86f20437);
         
     
-            marker_120ccab3ccdf361bbc300c4d0c051076.bindTooltip(
+            marker_5430aacc65e4c797f59b1dd304624f7c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1419,17 +1421,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_12ebdd88bc01bf21b968e6b832a99701 = L.marker(
+            var marker_7e55e319e5f400b67fd466abbdcac065 = L.marker(
                 [-3.498380858986683, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_646c8dba4705623cf640a9d969e19d09 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_12ebdd88bc01bf21b968e6b832a99701.setIcon(custom_icon_646c8dba4705623cf640a9d969e19d09);
+        var custom_icon_fab97317a86e48df9bdf835c6bc2b587 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_7e55e319e5f400b67fd466abbdcac065.setIcon(custom_icon_fab97317a86e48df9bdf835c6bc2b587);
         
     
-            marker_12ebdd88bc01bf21b968e6b832a99701.bindTooltip(
+            marker_7e55e319e5f400b67fd466abbdcac065.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1441,17 +1443,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_ee96044c6aac8e3ccb58e6d38a7d3da0 = L.marker(
+            var marker_a447ff430d201fbec6a446ae33d170e9 = L.marker(
                 [-3.448380858986684, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7bc58450e1bc638514274750ec8bf523 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_ee96044c6aac8e3ccb58e6d38a7d3da0.setIcon(custom_icon_7bc58450e1bc638514274750ec8bf523);
+        var custom_icon_e2db05fec6cefc4e5a50934dfc6d1914 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_a447ff430d201fbec6a446ae33d170e9.setIcon(custom_icon_e2db05fec6cefc4e5a50934dfc6d1914);
         
     
-            marker_ee96044c6aac8e3ccb58e6d38a7d3da0.bindTooltip(
+            marker_a447ff430d201fbec6a446ae33d170e9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1463,17 +1465,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_474e0b91d3b47cbfa6e97d3194282a19 = L.marker(
+            var marker_744d46d604ed1cd6cac7d6bfbf89a469 = L.marker(
                 [-3.288910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_02c77f40ca96adb60b73cad34256016a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_474e0b91d3b47cbfa6e97d3194282a19.setIcon(custom_icon_02c77f40ca96adb60b73cad34256016a);
+        var custom_icon_afeff9377805ffcbcd897cc4b20d0e77 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_744d46d604ed1cd6cac7d6bfbf89a469.setIcon(custom_icon_afeff9377805ffcbcd897cc4b20d0e77);
         
     
-            marker_474e0b91d3b47cbfa6e97d3194282a19.bindTooltip(
+            marker_744d46d604ed1cd6cac7d6bfbf89a469.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1485,17 +1487,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_ecfd9867f11fb004f4ebaa1dd92cc4bb = L.marker(
+            var marker_7cfa13166055dbd94f2e11cc35141640 = L.marker(
                 [-3.238910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_ccf48adb599e617f33eedb88a3498270 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_ecfd9867f11fb004f4ebaa1dd92cc4bb.setIcon(custom_icon_ccf48adb599e617f33eedb88a3498270);
+        var custom_icon_93110e406550e4a4d11f19cfb77400ed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_7cfa13166055dbd94f2e11cc35141640.setIcon(custom_icon_93110e406550e4a4d11f19cfb77400ed);
         
     
-            marker_ecfd9867f11fb004f4ebaa1dd92cc4bb.bindTooltip(
+            marker_7cfa13166055dbd94f2e11cc35141640.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1507,17 +1509,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_c5dee3135e036ce2e409484e6aff2618 = L.marker(
+            var marker_658f9ecb7e6d0da55b194e252fe78e97 = L.marker(
                 [-2.179143514241878, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7812629c3d73959a4d5d7eec41e70c3f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_c5dee3135e036ce2e409484e6aff2618.setIcon(custom_icon_7812629c3d73959a4d5d7eec41e70c3f);
+        var custom_icon_8182951fb2235dfb3d2a97712ba533dd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_658f9ecb7e6d0da55b194e252fe78e97.setIcon(custom_icon_8182951fb2235dfb3d2a97712ba533dd);
         
     
-            marker_c5dee3135e036ce2e409484e6aff2618.bindTooltip(
+            marker_658f9ecb7e6d0da55b194e252fe78e97.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1529,17 +1531,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_738c37e3af8490791277fcf13bc8a9bb = L.marker(
+            var marker_a5162baabe277d56123976fe707befad = L.marker(
                 [-2.129143514241879, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_5d51fa8b895a48572ba4d5821393015b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_738c37e3af8490791277fcf13bc8a9bb.setIcon(custom_icon_5d51fa8b895a48572ba4d5821393015b);
+        var custom_icon_8852ec93c2347094ed4a63120bb7a9a2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_a5162baabe277d56123976fe707befad.setIcon(custom_icon_8852ec93c2347094ed4a63120bb7a9a2);
         
     
-            marker_738c37e3af8490791277fcf13bc8a9bb.bindTooltip(
+            marker_a5162baabe277d56123976fe707befad.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1551,17 +1553,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_54c9ac637091e7f88088672b85f119d0 = L.marker(
+            var marker_7e9065d0521f221c43e9da6f5a66c5df = L.marker(
                 [-2.179143514241878, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_5423a9df07d22aed747aa2814f1d23df = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_54c9ac637091e7f88088672b85f119d0.setIcon(custom_icon_5423a9df07d22aed747aa2814f1d23df);
+        var custom_icon_d83b8b495bea55e2010b513ad4bdc0ab = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_7e9065d0521f221c43e9da6f5a66c5df.setIcon(custom_icon_d83b8b495bea55e2010b513ad4bdc0ab);
         
     
-            marker_54c9ac637091e7f88088672b85f119d0.bindTooltip(
+            marker_7e9065d0521f221c43e9da6f5a66c5df.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1573,17 +1575,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_0cc0e76d87f78d9076c0dd47e1d7ff8c = L.marker(
+            var marker_68c022401d825bfb33833e49c46c0a40 = L.marker(
                 [-2.129143514241879, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_4043b57b648622f0c5b6815ee554279d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_0cc0e76d87f78d9076c0dd47e1d7ff8c.setIcon(custom_icon_4043b57b648622f0c5b6815ee554279d);
+        var custom_icon_9050667c1a0abc0d3a768b1c8bc5aa8a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_68c022401d825bfb33833e49c46c0a40.setIcon(custom_icon_9050667c1a0abc0d3a768b1c8bc5aa8a);
         
     
-            marker_0cc0e76d87f78d9076c0dd47e1d7ff8c.bindTooltip(
+            marker_68c022401d825bfb33833e49c46c0a40.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1595,17 +1597,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_6525ff0063da06f59ab5da0b89d70567 = L.marker(
+            var marker_9ff85d8b77cb1dd5e2278ca8ed7cb8d1 = L.marker(
                 [-2.228952302468575, -79.8869583051045],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_81944589c9fb4cc50370436357c97e87 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_6525ff0063da06f59ab5da0b89d70567.setIcon(custom_icon_81944589c9fb4cc50370436357c97e87);
+        var custom_icon_31823ba70b3913edd8b82531bdd2f838 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_9ff85d8b77cb1dd5e2278ca8ed7cb8d1.setIcon(custom_icon_31823ba70b3913edd8b82531bdd2f838);
         
     
-            marker_6525ff0063da06f59ab5da0b89d70567.bindTooltip(
+            marker_9ff85d8b77cb1dd5e2278ca8ed7cb8d1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1617,17 +1619,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_4ac6a03ddf15b6c1007c9cf21e7e5c8b = L.marker(
+            var marker_6ceadad5f5c2662dbd4cc0fcfe3f9b03 = L.marker(
                 [-2.228761090695273, -79.93620744402527],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_f232ea76a60aa187cf7196d4aa130dbf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_4ac6a03ddf15b6c1007c9cf21e7e5c8b.setIcon(custom_icon_f232ea76a60aa187cf7196d4aa130dbf);
+        var custom_icon_2d35bfe7006403a5b41062f87c50fbb9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_6ceadad5f5c2662dbd4cc0fcfe3f9b03.setIcon(custom_icon_2d35bfe7006403a5b41062f87c50fbb9);
         
     
-            marker_4ac6a03ddf15b6c1007c9cf21e7e5c8b.bindTooltip(
+            marker_6ceadad5f5c2662dbd4cc0fcfe3f9b03.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1639,17 +1641,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_97ce1742aae682c3c58b5316b5a406eb = L.marker(
+            var marker_e0116cf4ea64a38da5d6b29181c7e22e = L.marker(
                 [-3.530696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_f485c8cf9d13760e1b21b8260bfb4448 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_97ce1742aae682c3c58b5316b5a406eb.setIcon(custom_icon_f485c8cf9d13760e1b21b8260bfb4448);
+        var custom_icon_fd5f9367999fc36fb70383f339858067 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_e0116cf4ea64a38da5d6b29181c7e22e.setIcon(custom_icon_fd5f9367999fc36fb70383f339858067);
         
     
-            marker_97ce1742aae682c3c58b5316b5a406eb.bindTooltip(
+            marker_e0116cf4ea64a38da5d6b29181c7e22e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1661,17 +1663,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_4d22d3f61cf1a827c024c577a8cbe8dc = L.marker(
+            var marker_8a05c17e69155a94b8cb8b79fcd1de4c = L.marker(
                 [-3.480696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_c67997bd34212c4c8b28803b697e258c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_4d22d3f61cf1a827c024c577a8cbe8dc.setIcon(custom_icon_c67997bd34212c4c8b28803b697e258c);
+        var custom_icon_44d8d4a846efb5c744147cf1fc13cd73 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_8a05c17e69155a94b8cb8b79fcd1de4c.setIcon(custom_icon_44d8d4a846efb5c744147cf1fc13cd73);
         
     
-            marker_4d22d3f61cf1a827c024c577a8cbe8dc.bindTooltip(
+            marker_8a05c17e69155a94b8cb8b79fcd1de4c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1683,17 +1685,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_40977c9ad86c5dac2e478c184a466756 = L.marker(
+            var marker_9cdb331c282d7063d3c7989a720267b6 = L.marker(
                 [-3.430696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7424e86cbb424af4a4c4572033444be2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_40977c9ad86c5dac2e478c184a466756.setIcon(custom_icon_7424e86cbb424af4a4c4572033444be2);
+        var custom_icon_85e58acd5833c43ae89ae90c464b1049 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_9cdb331c282d7063d3c7989a720267b6.setIcon(custom_icon_85e58acd5833c43ae89ae90c464b1049);
         
     
-            marker_40977c9ad86c5dac2e478c184a466756.bindTooltip(
+            marker_9cdb331c282d7063d3c7989a720267b6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1705,17 +1707,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_b68dae4a23553fddebb0f09b9e687da1 = L.marker(
+            var marker_67f70fa1f8364e6997d727fd7ea48698 = L.marker(
                 [-3.530696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_1cfe55cf8ad89fdf0daf85ab3e90cf90 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_b68dae4a23553fddebb0f09b9e687da1.setIcon(custom_icon_1cfe55cf8ad89fdf0daf85ab3e90cf90);
+        var custom_icon_8c67505673f52dc2d7a5ed83e61cb257 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_67f70fa1f8364e6997d727fd7ea48698.setIcon(custom_icon_8c67505673f52dc2d7a5ed83e61cb257);
         
     
-            marker_b68dae4a23553fddebb0f09b9e687da1.bindTooltip(
+            marker_67f70fa1f8364e6997d727fd7ea48698.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1727,17 +1729,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_b6e54db8b8499f2108f2fe11e597ff34 = L.marker(
+            var marker_fe53ea172436d8768c39e9b413121993 = L.marker(
                 [-3.480696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_a9bcb06dc000fa1c8b9460953daadf4b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_b6e54db8b8499f2108f2fe11e597ff34.setIcon(custom_icon_a9bcb06dc000fa1c8b9460953daadf4b);
+        var custom_icon_f5beeab73f0215ac2f5c0c971f9cfd69 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_fe53ea172436d8768c39e9b413121993.setIcon(custom_icon_f5beeab73f0215ac2f5c0c971f9cfd69);
         
     
-            marker_b6e54db8b8499f2108f2fe11e597ff34.bindTooltip(
+            marker_fe53ea172436d8768c39e9b413121993.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1749,17 +1751,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_44892ecb315a27ca46c460fbd34a07a1 = L.marker(
+            var marker_936c4c348a3ce0936f263bd01c694ab8 = L.marker(
                 [-3.430696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_335ef0ec4d0455797b4bffc91a080edb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_44892ecb315a27ca46c460fbd34a07a1.setIcon(custom_icon_335ef0ec4d0455797b4bffc91a080edb);
+        var custom_icon_9f9ce9c54df61d3479f1f2e139ec47c5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_936c4c348a3ce0936f263bd01c694ab8.setIcon(custom_icon_9f9ce9c54df61d3479f1f2e139ec47c5);
         
     
-            marker_44892ecb315a27ca46c460fbd34a07a1.bindTooltip(
+            marker_936c4c348a3ce0936f263bd01c694ab8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1771,17 +1773,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_6cd06543d8925a56663f92450dabcf87 = L.marker(
+            var marker_bc741397c71caf670c2d3176f59c974e = L.marker(
                 [-3.588587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_b0ada8612527b8e2e6d8fd3b732828fd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_6cd06543d8925a56663f92450dabcf87.setIcon(custom_icon_b0ada8612527b8e2e6d8fd3b732828fd);
+        var custom_icon_3a0c4c8fcabc179de28fd09f76a4bc85 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_bc741397c71caf670c2d3176f59c974e.setIcon(custom_icon_3a0c4c8fcabc179de28fd09f76a4bc85);
         
     
-            marker_6cd06543d8925a56663f92450dabcf87.bindTooltip(
+            marker_bc741397c71caf670c2d3176f59c974e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1793,17 +1795,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_d08cd9a15c657d822c7bcfe5e6da4e1a = L.marker(
+            var marker_eb430c60c6901760220883a321a4020f = L.marker(
                 [-3.538587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_6a29c4d77dc2f68a093e19f65fade600 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_d08cd9a15c657d822c7bcfe5e6da4e1a.setIcon(custom_icon_6a29c4d77dc2f68a093e19f65fade600);
+        var custom_icon_10292c62a2553414b8b991f40cab80b4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_eb430c60c6901760220883a321a4020f.setIcon(custom_icon_10292c62a2553414b8b991f40cab80b4);
         
     
-            marker_d08cd9a15c657d822c7bcfe5e6da4e1a.bindTooltip(
+            marker_eb430c60c6901760220883a321a4020f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1815,17 +1817,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_cf552ee273c38af21b579331d2e199f4 = L.marker(
+            var marker_7f0b5bed312b1fc71dd6fab94435cc34 = L.marker(
                 [-3.588587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_40db0753a752529024f7b4ae31df6184 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_cf552ee273c38af21b579331d2e199f4.setIcon(custom_icon_40db0753a752529024f7b4ae31df6184);
+        var custom_icon_c22e572ae9d8217783b673768a84e44c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_7f0b5bed312b1fc71dd6fab94435cc34.setIcon(custom_icon_c22e572ae9d8217783b673768a84e44c);
         
     
-            marker_cf552ee273c38af21b579331d2e199f4.bindTooltip(
+            marker_7f0b5bed312b1fc71dd6fab94435cc34.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1837,17 +1839,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_b1fdf7cd6883ebcaf55f37a6867e2426 = L.marker(
+            var marker_87e2541529766c9907364a819639b169 = L.marker(
                 [-3.538587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_b6e7107b3474a496d48faf56e81c305d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_b1fdf7cd6883ebcaf55f37a6867e2426.setIcon(custom_icon_b6e7107b3474a496d48faf56e81c305d);
+        var custom_icon_b17fd0304f9f52d97e9f3caf17470d17 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_87e2541529766c9907364a819639b169.setIcon(custom_icon_b17fd0304f9f52d97e9f3caf17470d17);
         
     
-            marker_b1fdf7cd6883ebcaf55f37a6867e2426.bindTooltip(
+            marker_87e2541529766c9907364a819639b169.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1859,17 +1861,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_af9da0bcdf6391b0d992c50eed102850 = L.marker(
+            var marker_5adc04e7feb9c1c9f7327a332f494865 = L.marker(
                 [-3.588587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_46e56182952b6467623ae76fcdbb513d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_af9da0bcdf6391b0d992c50eed102850.setIcon(custom_icon_46e56182952b6467623ae76fcdbb513d);
+        var custom_icon_126f59dea6d6bb245d2cbd6b1bfc0c99 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_5adc04e7feb9c1c9f7327a332f494865.setIcon(custom_icon_126f59dea6d6bb245d2cbd6b1bfc0c99);
         
     
-            marker_af9da0bcdf6391b0d992c50eed102850.bindTooltip(
+            marker_5adc04e7feb9c1c9f7327a332f494865.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1881,17 +1883,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_a2d5e2ea6b7f15a1791eaa56403a9449 = L.marker(
+            var marker_4e190de082fb3f65cdfbcc3b8eaa3f9e = L.marker(
                 [-3.538587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_257ebc9da8701eeee7f891f2642cde9d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_a2d5e2ea6b7f15a1791eaa56403a9449.setIcon(custom_icon_257ebc9da8701eeee7f891f2642cde9d);
+        var custom_icon_8f635d21c9a53f86e03193f021ec3cd8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_4e190de082fb3f65cdfbcc3b8eaa3f9e.setIcon(custom_icon_8f635d21c9a53f86e03193f021ec3cd8);
         
     
-            marker_a2d5e2ea6b7f15a1791eaa56403a9449.bindTooltip(
+            marker_4e190de082fb3f65cdfbcc3b8eaa3f9e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1903,17 +1905,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_e50ce623312ac435c88933b79c71b902 = L.marker(
+            var marker_073d61c386d33989091658635637d500 = L.marker(
                 [-4.606834467234112, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_ec51c5c2379092f19307a9ab306c9ca0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_e50ce623312ac435c88933b79c71b902.setIcon(custom_icon_ec51c5c2379092f19307a9ab306c9ca0);
+        var custom_icon_a5c62d7d2a9f519a951d9724e38a8bf7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_073d61c386d33989091658635637d500.setIcon(custom_icon_a5c62d7d2a9f519a951d9724e38a8bf7);
         
     
-            marker_e50ce623312ac435c88933b79c71b902.bindTooltip(
+            marker_073d61c386d33989091658635637d500.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1925,17 +1927,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_33db3891df2cc844e14950824810b3d0 = L.marker(
+            var marker_374ea83533e677e125beae74ee1574df = L.marker(
                 [-4.556834467234113, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7bbcea7aa4bc3e6478b7df14ccd3746d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_33db3891df2cc844e14950824810b3d0.setIcon(custom_icon_7bbcea7aa4bc3e6478b7df14ccd3746d);
+        var custom_icon_b38300ddd917f9872e99eb212d62c676 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_374ea83533e677e125beae74ee1574df.setIcon(custom_icon_b38300ddd917f9872e99eb212d62c676);
         
     
-            marker_33db3891df2cc844e14950824810b3d0.bindTooltip(
+            marker_374ea83533e677e125beae74ee1574df.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1947,17 +1949,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_6040332558e8cb14bed528c96717260d = L.marker(
+            var marker_e183476d12f6a4dfbc895ae1c37b23af = L.marker(
                 [-4.606834467234112, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_cab6e1650ca13aad35f4ff6a60fb5e24 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_6040332558e8cb14bed528c96717260d.setIcon(custom_icon_cab6e1650ca13aad35f4ff6a60fb5e24);
+        var custom_icon_3cf79aa014286f2f7ab5122c9c3a0d70 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_e183476d12f6a4dfbc895ae1c37b23af.setIcon(custom_icon_3cf79aa014286f2f7ab5122c9c3a0d70);
         
     
-            marker_6040332558e8cb14bed528c96717260d.bindTooltip(
+            marker_e183476d12f6a4dfbc895ae1c37b23af.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1969,17 +1971,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_e0e422b0c7a36a6834623b6c51d4e264 = L.marker(
+            var marker_4147f6787e8ee39b8777440e11c1af43 = L.marker(
                 [-4.556834467234113, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_85254b53b2bbdd56680875e51801326d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_e0e422b0c7a36a6834623b6c51d4e264.setIcon(custom_icon_85254b53b2bbdd56680875e51801326d);
+        var custom_icon_a938cf46bdc9497e55ef766ecbe29ca1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_4147f6787e8ee39b8777440e11c1af43.setIcon(custom_icon_a938cf46bdc9497e55ef766ecbe29ca1);
         
     
-            marker_e0e422b0c7a36a6834623b6c51d4e264.bindTooltip(
+            marker_4147f6787e8ee39b8777440e11c1af43.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1991,17 +1993,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_21508eaf015d337c289d29f320d8b3ef = L.marker(
+            var marker_8ba161365ae80fcb15968e21c19f8020 = L.marker(
                 [-5.218793230120715, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_825b4c4937fd2c64c375aad755a3eb54 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_21508eaf015d337c289d29f320d8b3ef.setIcon(custom_icon_825b4c4937fd2c64c375aad755a3eb54);
+        var custom_icon_d6a728f197424f294ab9088aa4b213f5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_8ba161365ae80fcb15968e21c19f8020.setIcon(custom_icon_d6a728f197424f294ab9088aa4b213f5);
         
     
-            marker_21508eaf015d337c289d29f320d8b3ef.bindTooltip(
+            marker_8ba161365ae80fcb15968e21c19f8020.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2013,17 +2015,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_c0466430f9af0c825e85dec4f05fa330 = L.marker(
+            var marker_f68517b2115b4332145ff3bd993a3c9b = L.marker(
                 [-5.168793230120714, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_8ac78fa9155a8e3a6120195e2fd4bcd8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_c0466430f9af0c825e85dec4f05fa330.setIcon(custom_icon_8ac78fa9155a8e3a6120195e2fd4bcd8);
+        var custom_icon_be37085802d8ad94b4b623b134c76edf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_f68517b2115b4332145ff3bd993a3c9b.setIcon(custom_icon_be37085802d8ad94b4b623b134c76edf);
         
     
-            marker_c0466430f9af0c825e85dec4f05fa330.bindTooltip(
+            marker_f68517b2115b4332145ff3bd993a3c9b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2035,17 +2037,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_c6971a17e6a6e76844719c581aa2b371 = L.marker(
+            var marker_cbe2827a22df66bc30a094b878399ab1 = L.marker(
                 [-5.218793230120715, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_699fa0079e72d1616e147e84cbe68f7e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_c6971a17e6a6e76844719c581aa2b371.setIcon(custom_icon_699fa0079e72d1616e147e84cbe68f7e);
+        var custom_icon_7095045e3190cb5144909f83c3c08f56 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_cbe2827a22df66bc30a094b878399ab1.setIcon(custom_icon_7095045e3190cb5144909f83c3c08f56);
         
     
-            marker_c6971a17e6a6e76844719c581aa2b371.bindTooltip(
+            marker_cbe2827a22df66bc30a094b878399ab1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2057,17 +2059,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_e63b06f2823e6754b18ecf4bcc43e247 = L.marker(
+            var marker_50919f55f9a7b25ae5cbc2a340db575a = L.marker(
                 [-5.168793230120714, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_7a6a2aabcc3e828cce5ab528084d3ad5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_e63b06f2823e6754b18ecf4bcc43e247.setIcon(custom_icon_7a6a2aabcc3e828cce5ab528084d3ad5);
+        var custom_icon_eedd5a309ebfa0ff0a5a46219b26de70 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_50919f55f9a7b25ae5cbc2a340db575a.setIcon(custom_icon_eedd5a309ebfa0ff0a5a46219b26de70);
         
     
-            marker_e63b06f2823e6754b18ecf4bcc43e247.bindTooltip(
+            marker_50919f55f9a7b25ae5cbc2a340db575a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2079,17 +2081,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_6f3c36203d49e266e0b34cd87e9ba7a4 = L.marker(
+            var marker_d42a20228736be42d5d5417286d15aeb = L.marker(
                 [-5.218793230120715, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_4a07e4ca19bc416cacae5e957918a74b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_6f3c36203d49e266e0b34cd87e9ba7a4.setIcon(custom_icon_4a07e4ca19bc416cacae5e957918a74b);
+        var custom_icon_84f488474744c3b4c05773fe9606c62a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_d42a20228736be42d5d5417286d15aeb.setIcon(custom_icon_84f488474744c3b4c05773fe9606c62a);
         
     
-            marker_6f3c36203d49e266e0b34cd87e9ba7a4.bindTooltip(
+            marker_d42a20228736be42d5d5417286d15aeb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2101,17 +2103,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_c19619de6ff26afb31092e89cbd5493d = L.marker(
+            var marker_379aaad0044523d359ad70b7d0287033 = L.marker(
                 [-5.168793230120714, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_fc9b9c54f04526c7c7532162fec186ac);
+            ).addTo(marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000);
         
     
-        var custom_icon_76fee510aeedfa054a4c525850fc5b4c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_c19619de6ff26afb31092e89cbd5493d.setIcon(custom_icon_76fee510aeedfa054a4c525850fc5b4c);
+        var custom_icon_ba5276a94ef304f7cc02b24e31fc268b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_379aaad0044523d359ad70b7d0287033.setIcon(custom_icon_ba5276a94ef304f7cc02b24e31fc268b);
         
     
-            marker_c19619de6ff26afb31092e89cbd5493d.bindTooltip(
+            marker_379aaad0044523d359ad70b7d0287033.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2123,146 +2125,146 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            marker_cluster_fc9b9c54f04526c7c7532162fec186ac.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            geo_json_10b3e0a0e280808a0135c6d04a67d0c5.addTo(feature_group_bb03a1512a6f08d4dcabcb8be1358d52);
+            geo_json_6e6a5122b326a5f76fb7b7b39f339cad.addTo(feature_group_cf302a85f183a5d14dce4ff347a25704);
         
     
-            var feature_group_17525ddeb0ff071e2362c66c47cd2498 = L.featureGroup(
+            var feature_group_18b22b7611fcd0e0b48b0b3e432aacf7 = L.featureGroup(
                 {}
             );
         
     
-            var marker_24a9fa6a27e0d8ce0f13c7e7daf6ce6b = L.marker(
+            var marker_feb02fd804ad18ff73196839182d8768 = L.marker(
                 [0.366, -78.672],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_84b27fc30f38c0bebc1baed7ce0799f4 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_24a9fa6a27e0d8ce0f13c7e7daf6ce6b.setIcon(div_icon_84b27fc30f38c0bebc1baed7ce0799f4);
+            var div_icon_928ada436ee382148c6f461ccfac18d7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_feb02fd804ad18ff73196839182d8768.setIcon(div_icon_928ada436ee382148c6f461ccfac18d7);
         
     
-            var marker_c0b91b173fdd74a8487ab985f8a98535 = L.marker(
+            var marker_9747982540104c73cc8695595eb83ff0 = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_c9aa29d4c682c5d2bbf6aa8c21bd1638 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_c0b91b173fdd74a8487ab985f8a98535.setIcon(div_icon_c9aa29d4c682c5d2bbf6aa8c21bd1638);
+            var div_icon_4d8bb940c7fafe7c1b7695d3f8a8797a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_9747982540104c73cc8695595eb83ff0.setIcon(div_icon_4d8bb940c7fafe7c1b7695d3f8a8797a);
         
     
-            var marker_1413da58e7df211a2345215f025298ef = L.marker(
+            var marker_ab8605d6f3d80c6327f525efcab83a3d = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_6d3771678862a263f0645ccd84c326f2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_1413da58e7df211a2345215f025298ef.setIcon(div_icon_6d3771678862a263f0645ccd84c326f2);
+            var div_icon_37c6b2225ee9533d3b267f78ae5582b8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_ab8605d6f3d80c6327f525efcab83a3d.setIcon(div_icon_37c6b2225ee9533d3b267f78ae5582b8);
         
     
-            var marker_46bdaf6d300388dd686561543cd90e97 = L.marker(
+            var marker_6c6630b23140dd68e45d997e54c2fee9 = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_caf2103ca61c457bb63eceed7505bd4e = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_46bdaf6d300388dd686561543cd90e97.setIcon(div_icon_caf2103ca61c457bb63eceed7505bd4e);
+            var div_icon_e1d8f9df7bb628c84786972171a4ec25 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_6c6630b23140dd68e45d997e54c2fee9.setIcon(div_icon_e1d8f9df7bb628c84786972171a4ec25);
         
     
-            var marker_05b290109ab07329d988c3b92f49bbe5 = L.marker(
+            var marker_925a2307db0d10cf7d7e0d0830e3f740 = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_90968004bca187692afc2fde15c73af8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_05b290109ab07329d988c3b92f49bbe5.setIcon(div_icon_90968004bca187692afc2fde15c73af8);
+            var div_icon_2b05d1597239959fdbebc2e32e8b86c2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_925a2307db0d10cf7d7e0d0830e3f740.setIcon(div_icon_2b05d1597239959fdbebc2e32e8b86c2);
         
     
-            var marker_6fbbfa5de828f95698ac903314f3e77c = L.marker(
+            var marker_fc080aaa320ca875f9d6614703cfb74d = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_450a83de8186c903e090d8f12522a6d2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_6fbbfa5de828f95698ac903314f3e77c.setIcon(div_icon_450a83de8186c903e090d8f12522a6d2);
+            var div_icon_9e168165a72c28badb3e993481fa4878 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_fc080aaa320ca875f9d6614703cfb74d.setIcon(div_icon_9e168165a72c28badb3e993481fa4878);
         
     
-            var marker_1cead2ae4bdf7757f8f9a77fcb85c115 = L.marker(
+            var marker_4773de85d5e75d49d0ebc9f15106d0d8 = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_866d375885d8b5ea60c6fa1c265dc67c = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_1cead2ae4bdf7757f8f9a77fcb85c115.setIcon(div_icon_866d375885d8b5ea60c6fa1c265dc67c);
+            var div_icon_eaf3171baca23bffff85280a92f8a546 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_4773de85d5e75d49d0ebc9f15106d0d8.setIcon(div_icon_eaf3171baca23bffff85280a92f8a546);
         
     
-            var marker_7ba70b61ad9daa25a62ea45e51c4adcd = L.marker(
+            var marker_e1087220816a39765865e4f2cf580739 = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_53df085aa805f07a4e53c4ee81777fd4 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_7ba70b61ad9daa25a62ea45e51c4adcd.setIcon(div_icon_53df085aa805f07a4e53c4ee81777fd4);
+            var div_icon_42bd047584f2f66339c072163cb5b963 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_e1087220816a39765865e4f2cf580739.setIcon(div_icon_42bd047584f2f66339c072163cb5b963);
         
     
-            var marker_214976ab12fb44af0fdb33772bffb347 = L.marker(
+            var marker_26a8993a2a54fd31d43f45feb4904a17 = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_e0575879242c6b59d43af23b44af939c = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_214976ab12fb44af0fdb33772bffb347.setIcon(div_icon_e0575879242c6b59d43af23b44af939c);
+            var div_icon_2571b7b8e7cc07026e80b84ec833082f = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_26a8993a2a54fd31d43f45feb4904a17.setIcon(div_icon_2571b7b8e7cc07026e80b84ec833082f);
         
     
-            var marker_25c2f44ee3595fc3f0a8cab3c5884e63 = L.marker(
+            var marker_8db95c22a51f77ab8dcab29394413a7d = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_1d178050df2a534730dc82a9f0939392 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_25c2f44ee3595fc3f0a8cab3c5884e63.setIcon(div_icon_1d178050df2a534730dc82a9f0939392);
+            var div_icon_0e47443b9e5d593333802a93b7906736 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_8db95c22a51f77ab8dcab29394413a7d.setIcon(div_icon_0e47443b9e5d593333802a93b7906736);
         
     
-            var marker_1f75fe4040f0502ce59c4678a801f7e1 = L.marker(
+            var marker_b31537db184441179651a176fce2d585 = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_17525ddeb0ff071e2362c66c47cd2498);
+            ).addTo(feature_group_18b22b7611fcd0e0b48b0b3e432aacf7);
         
     
-            var div_icon_09fd81cea7b5d2a24a532c9b142e3952 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_1f75fe4040f0502ce59c4678a801f7e1.setIcon(div_icon_09fd81cea7b5d2a24a532c9b142e3952);
+            var div_icon_45817c62f8534cc5ec707af83023fc02 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_b31537db184441179651a176fce2d585.setIcon(div_icon_45817c62f8534cc5ec707af83023fc02);
         
     
-            feature_group_17525ddeb0ff071e2362c66c47cd2498.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_18b22b7611fcd0e0b48b0b3e432aacf7.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            var feature_group_9beecea528b5551b509d2ae8b7773857 = L.featureGroup(
+            var feature_group_7141a125e7341b1d64d5fdf5a3983b21 = L.featureGroup(
                 {"maxZoom": 12, "minZoom": 7, "showCoverageOnHover": false}
             );
         
     
-            var marker_fecaeeb1d5298e33c63c07344033c2a2 = L.marker(
+            var marker_b465f0bb920516aeb3b4e5ee7f097190 = L.marker(
                 [-0.348127355546816, -79.95821348135885],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_9beecea528b5551b509d2ae8b7773857);
+            ).addTo(feature_group_7141a125e7341b1d64d5fdf5a3983b21);
         
     
-        var custom_icon_c95c06cba4094d94f41387a5a1461933 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
-        marker_fecaeeb1d5298e33c63c07344033c2a2.setIcon(custom_icon_c95c06cba4094d94f41387a5a1461933);
+        var custom_icon_0d3feeb6bcab376d6e3bcbd13275d471 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
+        marker_b465f0bb920516aeb3b4e5ee7f097190.setIcon(custom_icon_0d3feeb6bcab376d6e3bcbd13275d471);
         
     
-            marker_fecaeeb1d5298e33c63c07344033c2a2.bindTooltip(
+            marker_b465f0bb920516aeb3b4e5ee7f097190.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2274,17 +2276,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_ab20b5f5f84bb6c08fe4596292848ba3 = L.marker(
-                [-2.649876809604617, -79.7111176366896],
+            var marker_4a752be86c7a1705d75762ec1528c2f5 = L.marker(
+                [-2.64652038, -79.77028656],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_9beecea528b5551b509d2ae8b7773857);
+            ).addTo(feature_group_7141a125e7341b1d64d5fdf5a3983b21);
         
     
-        var custom_icon_27bd25e43e760411aaa3817ab27cfe14 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
-        marker_ab20b5f5f84bb6c08fe4596292848ba3.setIcon(custom_icon_27bd25e43e760411aaa3817ab27cfe14);
+        var custom_icon_e7fc2e8d77741d1226f546c121f81826 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
+        marker_4a752be86c7a1705d75762ec1528c2f5.setIcon(custom_icon_e7fc2e8d77741d1226f546c121f81826);
         
     
-            marker_ab20b5f5f84bb6c08fe4596292848ba3.bindTooltip(
+            marker_4a752be86c7a1705d75762ec1528c2f5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2296,17 +2298,17 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            var marker_1df5ab8562f346cd09bbaef7153df74a = L.marker(
+            var marker_3784b4e8c37f41d2f2012766b2d3e2d5 = L.marker(
                 [-7.522111527923194, -79.18943944930979],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_9beecea528b5551b509d2ae8b7773857);
+            ).addTo(feature_group_7141a125e7341b1d64d5fdf5a3983b21);
         
     
-        var custom_icon_3adfafc9dcfbdb73630fab4aa095efe5 = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
-        marker_1df5ab8562f346cd09bbaef7153df74a.setIcon(custom_icon_3adfafc9dcfbdb73630fab4aa095efe5);
+        var custom_icon_0235c238f37aa000d2c688f4802bb7b8 = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
+        marker_3784b4e8c37f41d2f2012766b2d3e2d5.setIcon(custom_icon_0235c238f37aa000d2c688f4802bb7b8);
         
     
-            marker_1df5ab8562f346cd09bbaef7153df74a.bindTooltip(
+            marker_3784b4e8c37f41d2f2012766b2d3e2d5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2318,21 +2320,21 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
             );
         
     
-            feature_group_9beecea528b5551b509d2ae8b7773857.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_7141a125e7341b1d64d5fdf5a3983b21.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            var mouse_position_6516023a885797816814130aa2532b71 = new L.Control.MousePosition(
+            var mouse_position_afd463dd8235b2c081c0f05254a4d829 = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_6516023a885797816814130aa2532b71.options["latFormatter"] =
+            mouse_position_afd463dd8235b2c081c0f05254a4d829.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_6516023a885797816814130aa2532b71.options["lngFormatter"] =
+            mouse_position_afd463dd8235b2c081c0f05254a4d829.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_fb6046ce47a013575c499b802f27d1ec.addControl(mouse_position_6516023a885797816814130aa2532b71);
+            map_222e794bb8f5b02abda3c183c68be911.addControl(mouse_position_afd463dd8235b2c081c0f05254a4d829);
         
     
-            var feature_group_bb03a1512a6f08d4dcabcb8be1358d52searchControl = new L.Control.Search({
-                layer: feature_group_bb03a1512a6f08d4dcabcb8be1358d52,
+            var feature_group_cf302a85f183a5d14dce4ff347a25704searchControl = new L.Control.Search({
+                layer: feature_group_cf302a85f183a5d14dce4ff347a25704,
                 
                 propertyName: 'clave',
                 
@@ -2347,8 +2349,8 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
                 }
             
                 });
-                feature_group_bb03a1512a6f08d4dcabcb8be1358d52searchControl.on('search:locationfound', function(e) {
-                    feature_group_bb03a1512a6f08d4dcabcb8be1358d52.setStyle(function(feature){
+                feature_group_cf302a85f183a5d14dce4ff347a25704searchControl.on('search:locationfound', function(e) {
+                    feature_group_cf302a85f183a5d14dce4ff347a25704.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2357,29 +2359,29 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_bb03a1512a6f08d4dcabcb8be1358d52searchControl.on('search:collapsed', function(e) {
-                        feature_group_bb03a1512a6f08d4dcabcb8be1358d52.setStyle(function(feature){
+                feature_group_cf302a85f183a5d14dce4ff347a25704searchControl.on('search:collapsed', function(e) {
+                        feature_group_cf302a85f183a5d14dce4ff347a25704.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_fb6046ce47a013575c499b802f27d1ec.addControl( feature_group_bb03a1512a6f08d4dcabcb8be1358d52searchControl );
+            map_222e794bb8f5b02abda3c183c68be911.addControl( feature_group_cf302a85f183a5d14dce4ff347a25704searchControl );
 
         
     
-            var tile_layer_a2bcd4db5796fc886f9b3c0e03c94542 = L.tileLayer(
+            var tile_layer_361d813f147ebb234164382e11f0e151 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_537b89b226b55ea3a5af3eaf211b7694 = new L.Control.MiniMap(
-                tile_layer_a2bcd4db5796fc886f9b3c0e03c94542,
+            var mini_map_011d980cab4edd4d09316d9c2daf02a5 = new L.Control.MiniMap(
+                tile_layer_361d813f147ebb234164382e11f0e151,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_fb6046ce47a013575c499b802f27d1ec.addControl(mini_map_537b89b226b55ea3a5af3eaf211b7694);
+            map_222e794bb8f5b02abda3c183c68be911.addControl(mini_map_011d980cab4edd4d09316d9c2daf02a5);
         
     
-            var tag_filter_button_8b81bbc1b91d9f543add18fec7f9f261 = L.control.tagFilterButton(
+            var tag_filter_button_bbec6a03d7f2d389164c6bdfe423a15d = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            ).addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
         L.easyButton(
@@ -2394,10 +2396,10 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
         }
     }
     
-        ).addTo(map_fb6046ce47a013575c499b802f27d1ec);
+        ).addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            map_fb6046ce47a013575c499b802f27d1ec.fitBounds(
+            map_222e794bb8f5b02abda3c183c68be911.fitBounds(
                 [[-8.97088985178516, -81.32819536512397], [1.19705808, -76.90124323628629]],
                 {}
             );
@@ -2408,55 +2410,55 @@ Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_a03793703e7ba76c10535ae15008f7d6,
-                        "Necesidad por tramo [66]" : marker_cluster_fc9b9c54f04526c7c7532162fec186ac,
-                        "Paso fronterizo [4]" : feature_group_bb7088f4d626ab024517ab2e1db40c73,
-                        "Riesgo por departamento [11]" : geo_json_10b3e0a0e280808a0135c6d04a67d0c5,
+                        "Ruta identificada [10]" : geo_json_2445db813a12275a597280892c215991,
+                        "Necesidad por tramo [66]" : marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000,
+                        "Paso fronterizo [4]" : feature_group_484a56b3a6d5d374da8cc40673e60af0,
+                        "Riesgo por departamento [11]" : geo_json_6e6a5122b326a5f76fb7b7b39f339cad,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_17525ddeb0ff071e2362c66c47cd2498,
-                        "Flujo migratorio" : feature_group_9beecea528b5551b509d2ae8b7773857,
+                        "Departamento / Provincia" : feature_group_18b22b7611fcd0e0b48b0b3e432aacf7,
+                        "Flujo migratorio" : feature_group_7141a125e7341b1d64d5fdf5a3983b21,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_d6c60ce2d11747a4733b8fa4210f3c59,
-                        "OpenStreetMap" : tile_layer_a50aac0fa996b2c69308dccfd017c97c,
-                        "Esri Sat\u00e9lite" : tile_layer_53e7ab4318e103c2a473ac42a18e32d6,
-                        "Google H\u00edbrido" : tile_layer_1ec93f9205552763419eadf7bd767202,
+                        "CartoDB Positron" : tile_layer_ea2e1397c37ef2a5f1cccba1763d2f2a,
+                        "OpenStreetMap" : tile_layer_de2f9f2881cee1a20e4d6c2737a87f87,
+                        "Esri Sat\u00e9lite" : tile_layer_64b0413f4d5d2d7890e343b15b8b1797,
+                        "Google H\u00edbrido" : tile_layer_0ac69c0af5bac599c6e4e90c0e1a973b,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_fb6046ce47a013575c499b802f27d1ec);
-            tile_layer_1ec93f9205552763419eadf7bd767202.remove();
-            tile_layer_53e7ab4318e103c2a473ac42a18e32d6.remove();
-            tile_layer_a50aac0fa996b2c69308dccfd017c97c.remove();
+            ).addTo(map_222e794bb8f5b02abda3c183c68be911);
+            tile_layer_de2f9f2881cee1a20e4d6c2737a87f87.remove();
+            tile_layer_0ac69c0af5bac599c6e4e90c0e1a973b.remove();
+            tile_layer_64b0413f4d5d2d7890e343b15b8b1797.remove();
 
         
     
-            tile_layer_d6c60ce2d11747a4733b8fa4210f3c59.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            tile_layer_ea2e1397c37ef2a5f1cccba1763d2f2a.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            geo_json_10b3e0a0e280808a0135c6d04a67d0c5.addTo(feature_group_bb03a1512a6f08d4dcabcb8be1358d52);
+            geo_json_6e6a5122b326a5f76fb7b7b39f339cad.addTo(feature_group_cf302a85f183a5d14dce4ff347a25704);
         
     
-            feature_group_bb03a1512a6f08d4dcabcb8be1358d52.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_cf302a85f183a5d14dce4ff347a25704.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            geo_json_a03793703e7ba76c10535ae15008f7d6.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            geo_json_2445db813a12275a597280892c215991.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            feature_group_bb7088f4d626ab024517ab2e1db40c73.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_484a56b3a6d5d374da8cc40673e60af0.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            marker_cluster_fc9b9c54f04526c7c7532162fec186ac.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            marker_cluster_4b0d17e8e8a1cd5faf39933a7ec1b000.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            geo_json_10b3e0a0e280808a0135c6d04a67d0c5.addTo(feature_group_bb03a1512a6f08d4dcabcb8be1358d52);
+            geo_json_6e6a5122b326a5f76fb7b7b39f339cad.addTo(feature_group_cf302a85f183a5d14dce4ff347a25704);
         
     
-            feature_group_17525ddeb0ff071e2362c66c47cd2498.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_18b22b7611fcd0e0b48b0b3e432aacf7.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
     
-            feature_group_9beecea528b5551b509d2ae8b7773857.addTo(map_fb6046ce47a013575c499b802f27d1ec);
+            feature_group_7141a125e7341b1d64d5fdf5a3983b21.addTo(map_222e794bb8f5b02abda3c183c68be911);
         
 </script>
 </html>
