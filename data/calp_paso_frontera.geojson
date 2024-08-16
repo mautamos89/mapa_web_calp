@@ -6,7 +6,6 @@
 { "type": "Feature", "properties": { "nombre": "Puente De Rumichaca", "id": 1, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg" }, "geometry": { "type": "Point", "coordinates": [ -77.664149099701149, 0.814105499669097, 0.0 ] } },
 { "type": "Feature", "properties": { "nombre": "Puesto Senae - Aduana Del Ecuador", "id": 2, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg" }, "geometry": { "type": "Point", "coordinates": [ -79.964007000422669, -4.392645400165065, 0.0 ] } },
 { "type": "Feature", "properties": { "nombre": "Puente Internacional Perú - Ecuador", "id": 3, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg" }, "geometry": { "type": "Point", "coordinates": [ -80.243390499671762, -3.481409599673214, 0.0 ] } },
-{ "type": "Feature", "properties": { "nombre": "Puente Internacional Colombia - Ecuador", "id": 4, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg" }, "geometry": { "type": "Point", "coordinates": [ -76.875963399691102, 0.25128970025952, 0.0 ] } },
 { "type": "Feature", "properties": { "nombre": "Puente Internacional Perú - Ecuador", "id": 5, "icon": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg" }, "geometry": { "type": "Point", "coordinates": [ -80.396068600385547, -4.477067999988151, 0.0 ] } }
 ]
 }
