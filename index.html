@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_9a29172732b6d3cc65a49dd7298368f5 {
+                #map_7391d43ce25848d33c3bbfe986f1e91d {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -107,7 +107,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_9a29172732b6d3cc65a49dd7298368f5" ></div>
+            <div class="folium-map" id="map_7391d43ce25848d33c3bbfe986f1e91d" ></div>
         
     
 
@@ -229,6 +229,8 @@
       <div class='map-info-text'>El mapa enseña las rutas identificadas para migrantes y desplazados internos en Perú y Ecuador en marco del proyecto CALP de IMPACT-REACH.
 
 Los caminos refieren a las rutas principales identificadas en la region. Los íconos y su agrupación representan las necesidades identificadas. La coropleta muestra tres niveles de riesgo de motilidad por país en la evaluación.
+
+Le invitamos a navegar el mapa y hacer clic sobre los elementos de interés para obtener información adicional.
 </div>
     </div>
   </div>
@@ -350,8 +352,8 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
 <script>
     
     
-            var map_9a29172732b6d3cc65a49dd7298368f5 = L.map(
-                "map_9a29172732b6d3cc65a49dd7298368f5",
+            var map_7391d43ce25848d33c3bbfe986f1e91d = L.map(
+                "map_7391d43ce25848d33c3bbfe986f1e91d",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -360,51 +362,51 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            L.control.scale().addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
 
             
 
         
     
-            var tile_layer_8be8133a5a5a87f4237f5bf4d3c0d44a = L.tileLayer(
+            var tile_layer_4d7293fc112892542a36883a0b1762a7 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_8be8133a5a5a87f4237f5bf4d3c0d44a.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            tile_layer_4d7293fc112892542a36883a0b1762a7.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            var tile_layer_e0973cecc8c5e4ae7bcfd149cd15ef8c = L.tileLayer(
+            var tile_layer_68ac4f847e884988934d1201bb28cce8 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_4227b2bf46f4c1e291f70c5d5c2d4362 = L.tileLayer(
+            var tile_layer_5f72b984a42eccd96e64b575c8a18f90 = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_7a90f7f3357a7ece6108a341836f5afb = L.tileLayer(
+            var tile_layer_1b57b212c4ebdb86e0160957da320dd9 = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_368913e3a0987e0c4aca02c937f9821f = L.tileLayer(
+            var tile_layer_ee25db571e7404be7aa58bfd3f8baa7a = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_da50d080e0e59c89e717112ab5c0ec07 = L.featureGroup(
+            var feature_group_b567d2ebd977e885cd3b297e54065f4b = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_2fa859b11abb9b01c1de0e42716e6fe9_styler(feature) {
+        function geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Imbabura": case "Lambayeque": 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
@@ -414,59 +416,59 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_2fa859b11abb9b01c1de0e42716e6fe9_highlighter(feature) {
+        function geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_2fa859b11abb9b01c1de0e42716e6fe9_onEachFeature(feature, layer) {
+        function geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_2fa859b11abb9b01c1de0e42716e6fe9.resetStyle(e.target);
+                            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_2fa859b11abb9b01c1de0e42716e6fe9_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_2fa859b11abb9b01c1de0e42716e6fe9_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_2fa859b11abb9b01c1de0e42716e6fe9.resetStyle(e.target);
+                        geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_2fa859b11abb9b01c1de0e42716e6fe9 = L.geoJson(null, {
+        var geo_json_af8a1656cfc6eb70db9cc6b738cd78eb = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_2fa859b11abb9b01c1de0e42716e6fe9_onEachFeature,
+                onEachFeature: geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_onEachFeature,
             
-                style: geo_json_2fa859b11abb9b01c1de0e42716e6fe9_styler,
+                style: geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_styler,
         });
 
-        function geo_json_2fa859b11abb9b01c1de0e42716e6fe9_add (data) {
-            geo_json_2fa859b11abb9b01c1de0e42716e6fe9
+        function geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_add (data) {
+            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_2fa859b11abb9b01c1de0e42716e6fe9_add);
+                .done(geo_json_af8a1656cfc6eb70db9cc6b738cd78eb_add);
 
         
     
-    geo_json_2fa859b11abb9b01c1de0e42716e6fe9.bindPopup(
+    geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -490,13 +492,13 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
     ,{"className": "foliumpopup", "maxWidth": 250});
                      
     
-            geo_json_2fa859b11abb9b01c1de0e42716e6fe9.addTo(feature_group_da50d080e0e59c89e717112ab5c0ec07);
+            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.addTo(feature_group_b567d2ebd977e885cd3b297e54065f4b);
         
     
-            feature_group_da50d080e0e59c89e717112ab5c0ec07.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_b567d2ebd977e885cd3b297e54065f4b.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-        function geo_json_2cb280dda0833e82251a3880254fb838_styler(feature) {
+        function geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 22: case 24: case 31: case 34: case 40: case 49: case 51: case 73: case 75: case 81: case 82: case 98: case 112: case 113: case 114: case 122: case 124: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["B:Ibarra-Quito"], "weight": 4};
@@ -521,28 +523,28 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             }
         }
 
-        function geo_json_2cb280dda0833e82251a3880254fb838_onEachFeature(feature, layer) {
+        function geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_2cb280dda0833e82251a3880254fb838 = L.geoJson(null, {
+        var geo_json_4c0727390df2b78c8d7c6bfbec57fa3d = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_2cb280dda0833e82251a3880254fb838_onEachFeature,
+                onEachFeature: geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_onEachFeature,
             
-                style: geo_json_2cb280dda0833e82251a3880254fb838_styler,
+                style: geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_styler,
                 localize: true,
         });
 
-        function geo_json_2cb280dda0833e82251a3880254fb838_add (data) {
-            geo_json_2cb280dda0833e82251a3880254fb838
+        function geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_add (data) {
+            geo_json_4c0727390df2b78c8d7c6bfbec57fa3d
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_2cb280dda0833e82251a3880254fb838_add);
+                .done(geo_json_4c0727390df2b78c8d7c6bfbec57fa3d_add);
 
         
     
-    geo_json_2cb280dda0833e82251a3880254fb838.bindTooltip(
+    geo_json_4c0727390df2b78c8d7c6bfbec57fa3d.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -566,25 +568,25 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
     ,{"className": "foliumtooltip", "showCoverageOnHover": false, "sticky": true});
                      
     
-            geo_json_2cb280dda0833e82251a3880254fb838.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            geo_json_4c0727390df2b78c8d7c6bfbec57fa3d.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            var feature_group_b85df7339e7db1aad1808f322b36e14c = L.featureGroup(
+            var feature_group_5a49f03b0b15f2367a21304d631e3de9 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_7cf77e32412a4bf41ed893bd1306261e = L.marker(
+            var marker_91a387081a7b2cf821b6ef92edba669b = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_b85df7339e7db1aad1808f322b36e14c);
+            ).addTo(feature_group_5a49f03b0b15f2367a21304d631e3de9);
         
     
-        var custom_icon_af354af58220189ad907ab9ca5d47296 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_7cf77e32412a4bf41ed893bd1306261e.setIcon(custom_icon_af354af58220189ad907ab9ca5d47296);
+        var custom_icon_a20b23bd6557a1d57920fcd8bbd7fc4e = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_91a387081a7b2cf821b6ef92edba669b.setIcon(custom_icon_a20b23bd6557a1d57920fcd8bbd7fc4e);
         
     
-            marker_7cf77e32412a4bf41ed893bd1306261e.bindTooltip(
+            marker_91a387081a7b2cf821b6ef92edba669b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -596,17 +598,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_debe214286e73aeb049fa2f380d17e6b = L.marker(
+            var marker_05d87f261cb7e6905834359c7c11ccb3 = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_b85df7339e7db1aad1808f322b36e14c);
+            ).addTo(feature_group_5a49f03b0b15f2367a21304d631e3de9);
         
     
-        var custom_icon_de4248af0bb9f8b5e036b80952e9640f = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_debe214286e73aeb049fa2f380d17e6b.setIcon(custom_icon_de4248af0bb9f8b5e036b80952e9640f);
+        var custom_icon_d65ad855c1277bd24a9f9f05e9c63527 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_05d87f261cb7e6905834359c7c11ccb3.setIcon(custom_icon_d65ad855c1277bd24a9f9f05e9c63527);
         
     
-            marker_debe214286e73aeb049fa2f380d17e6b.bindTooltip(
+            marker_05d87f261cb7e6905834359c7c11ccb3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -618,17 +620,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_6136d38a2a6f3460e0c1ed3a15a596c4 = L.marker(
+            var marker_676c04746e02e527473c473130bae4e5 = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_b85df7339e7db1aad1808f322b36e14c);
+            ).addTo(feature_group_5a49f03b0b15f2367a21304d631e3de9);
         
     
-        var custom_icon_156e429db9f12f4eadb672e717b26a51 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_6136d38a2a6f3460e0c1ed3a15a596c4.setIcon(custom_icon_156e429db9f12f4eadb672e717b26a51);
+        var custom_icon_dfc2f0ce74f83f002b9826a519df375f = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_676c04746e02e527473c473130bae4e5.setIcon(custom_icon_dfc2f0ce74f83f002b9826a519df375f);
         
     
-            marker_6136d38a2a6f3460e0c1ed3a15a596c4.bindTooltip(
+            marker_676c04746e02e527473c473130bae4e5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -640,17 +642,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_052ecde26ed2cc5a070ccdfaac4d083f = L.marker(
+            var marker_68fe91bc68d7916c9c88a09074bcd2b4 = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_b85df7339e7db1aad1808f322b36e14c);
+            ).addTo(feature_group_5a49f03b0b15f2367a21304d631e3de9);
         
     
-        var custom_icon_715a6fb6f486d988b7233891fb962991 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_052ecde26ed2cc5a070ccdfaac4d083f.setIcon(custom_icon_715a6fb6f486d988b7233891fb962991);
+        var custom_icon_b87947eb344ee86ac7fed3e15ec6d2ff = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_68fe91bc68d7916c9c88a09074bcd2b4.setIcon(custom_icon_b87947eb344ee86ac7fed3e15ec6d2ff);
         
     
-            marker_052ecde26ed2cc5a070ccdfaac4d083f.bindTooltip(
+            marker_68fe91bc68d7916c9c88a09074bcd2b4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -662,25 +664,25 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            feature_group_b85df7339e7db1aad1808f322b36e14c.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_5a49f03b0b15f2367a21304d631e3de9.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            var marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207 = L.markerClusterGroup(
+            var marker_cluster_aa4555ebd3a64e2b17218f89cf09805b = L.markerClusterGroup(
                 {"embed": false, "showCoverageOnHover": false}
             );
         
     
-            var marker_379611b8e655140718b6db46845eb65d = L.marker(
+            var marker_557d7dd6cf069e0d060e9b6eec7393be = L.marker(
                 [0.34629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_ffc31d282a640653d2538f3f5b29f6f3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_379611b8e655140718b6db46845eb65d.setIcon(custom_icon_ffc31d282a640653d2538f3f5b29f6f3);
+        var custom_icon_e3bb0fe61b8e9d7ea4a647f6d8cf4c4f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_557d7dd6cf069e0d060e9b6eec7393be.setIcon(custom_icon_e3bb0fe61b8e9d7ea4a647f6d8cf4c4f);
         
     
-            marker_379611b8e655140718b6db46845eb65d.bindTooltip(
+            marker_557d7dd6cf069e0d060e9b6eec7393be.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -692,17 +694,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_9a6d6278b2f30fbd43169d1589da3dba = L.marker(
+            var marker_70ce9134a5bf3d292e292e3a5af4fea9 = L.marker(
                 [0.39629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_d6e5e9d22d21838ffad49277f0259ac8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_9a6d6278b2f30fbd43169d1589da3dba.setIcon(custom_icon_d6e5e9d22d21838ffad49277f0259ac8);
+        var custom_icon_6fea7670c1f0a01cd43a7e21509685be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_70ce9134a5bf3d292e292e3a5af4fea9.setIcon(custom_icon_6fea7670c1f0a01cd43a7e21509685be);
         
     
-            marker_9a6d6278b2f30fbd43169d1589da3dba.bindTooltip(
+            marker_70ce9134a5bf3d292e292e3a5af4fea9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -714,17 +716,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_e1143138bfc4ba01fc93ec147c54f70f = L.marker(
+            var marker_8375c29608e545055111dd879183d899 = L.marker(
                 [0.29629002347783, -78.08665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_90f6719714587d24e4c1713e2468e693 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_e1143138bfc4ba01fc93ec147c54f70f.setIcon(custom_icon_90f6719714587d24e4c1713e2468e693);
+        var custom_icon_54412a584a8d215f231642b9bc2e0f57 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_8375c29608e545055111dd879183d899.setIcon(custom_icon_54412a584a8d215f231642b9bc2e0f57);
         
     
-            marker_e1143138bfc4ba01fc93ec147c54f70f.bindTooltip(
+            marker_8375c29608e545055111dd879183d899.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -736,17 +738,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_34408bf39b9ae3dbd3136288125011ff = L.marker(
+            var marker_b5edc57bceff2dc15934cc5310e8b2da = L.marker(
                 [0.39629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b70f1a3daf58ef096bc98ac6aa775fa7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_34408bf39b9ae3dbd3136288125011ff.setIcon(custom_icon_b70f1a3daf58ef096bc98ac6aa775fa7);
+        var custom_icon_43258cf1db24e7f73f86d25de202c929 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_b5edc57bceff2dc15934cc5310e8b2da.setIcon(custom_icon_43258cf1db24e7f73f86d25de202c929);
         
     
-            marker_34408bf39b9ae3dbd3136288125011ff.bindTooltip(
+            marker_b5edc57bceff2dc15934cc5310e8b2da.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -758,17 +760,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_61a00acbe7a3c319bac9c5951845a1b2 = L.marker(
+            var marker_916aceaf906aa449b693ae440cbd6bc0 = L.marker(
                 [0.29629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_bdfa9ce1227cda58ad1b144c57b9fd16 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_61a00acbe7a3c319bac9c5951845a1b2.setIcon(custom_icon_bdfa9ce1227cda58ad1b144c57b9fd16);
+        var custom_icon_7d9d1408f4bd2b1b4fb77f7f897afdd1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_916aceaf906aa449b693ae440cbd6bc0.setIcon(custom_icon_7d9d1408f4bd2b1b4fb77f7f897afdd1);
         
     
-            marker_61a00acbe7a3c319bac9c5951845a1b2.bindTooltip(
+            marker_916aceaf906aa449b693ae440cbd6bc0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -780,17 +782,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_cde12e852757984542d88351b74f11eb = L.marker(
+            var marker_67dfc53fee39621394c36518d50b6ade = L.marker(
                 [0.34629002347783, -78.13665768927213],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_1740cd6b7ee52fffa2deb1f4a0ed373e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_cde12e852757984542d88351b74f11eb.setIcon(custom_icon_1740cd6b7ee52fffa2deb1f4a0ed373e);
+        var custom_icon_f8a7fab913f3d7e42a6b1d5719a12cc4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_67dfc53fee39621394c36518d50b6ade.setIcon(custom_icon_f8a7fab913f3d7e42a6b1d5719a12cc4);
         
     
-            marker_cde12e852757984542d88351b74f11eb.bindTooltip(
+            marker_67dfc53fee39621394c36518d50b6ade.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -802,17 +804,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_1a708730815ea6679e1e2b55e32f8dcf = L.marker(
+            var marker_f511fdcff97c644a35e04e253a45c3ec = L.marker(
                 [0.722885465378173, -77.78450695248989],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_8500028232a3d8d0a6eb2cf00ab0b599 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_1a708730815ea6679e1e2b55e32f8dcf.setIcon(custom_icon_8500028232a3d8d0a6eb2cf00ab0b599);
+        var custom_icon_d93ce80a39b5a4ddc817bb92eb572a68 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_f511fdcff97c644a35e04e253a45c3ec.setIcon(custom_icon_d93ce80a39b5a4ddc817bb92eb572a68);
         
     
-            marker_1a708730815ea6679e1e2b55e32f8dcf.bindTooltip(
+            marker_f511fdcff97c644a35e04e253a45c3ec.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -824,17 +826,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_b34e4d502638a2d3daffc7ea334651a1 = L.marker(
+            var marker_a6ad1199abaafa8bb48d6da6b8a14c38 = L.marker(
                 [0.722974078257829, -77.7346981642632],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_6723c259727f5bb0ffa70f4b80dac806 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_b34e4d502638a2d3daffc7ea334651a1.setIcon(custom_icon_6723c259727f5bb0ffa70f4b80dac806);
+        var custom_icon_a18c55800a33e9c31a4142c3529652b5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_a6ad1199abaafa8bb48d6da6b8a14c38.setIcon(custom_icon_a18c55800a33e9c31a4142c3529652b5);
         
     
-            marker_b34e4d502638a2d3daffc7ea334651a1.bindTooltip(
+            marker_a6ad1199abaafa8bb48d6da6b8a14c38.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -846,17 +848,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_bc580ce5225090217b992398fdc7e45e = L.marker(
+            var marker_9460b01ac45a3f91f1faf6de7b32f838 = L.marker(
                 [0.823342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_e735aa73b689380cc1df9eb9edba846c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_bc580ce5225090217b992398fdc7e45e.setIcon(custom_icon_e735aa73b689380cc1df9eb9edba846c);
+        var custom_icon_7dde356354c93cd3ba9b209dd86ebbcb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_9460b01ac45a3f91f1faf6de7b32f838.setIcon(custom_icon_7dde356354c93cd3ba9b209dd86ebbcb);
         
     
-            marker_bc580ce5225090217b992398fdc7e45e.bindTooltip(
+            marker_9460b01ac45a3f91f1faf6de7b32f838.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -868,17 +870,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_e6484b2345a83576bc40a42ca3345cf4 = L.marker(
+            var marker_29de62174fd8a18f68e54bdd29a1b186 = L.marker(
                 [0.773342515790444, -77.78543503932843],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_e9321bc7e5aa08bb25875814378d6102 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_e6484b2345a83576bc40a42ca3345cf4.setIcon(custom_icon_e9321bc7e5aa08bb25875814378d6102);
+        var custom_icon_e9b8a30227f30582bc4b81494df0da4c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_29de62174fd8a18f68e54bdd29a1b186.setIcon(custom_icon_e9b8a30227f30582bc4b81494df0da4c);
         
     
-            marker_e6484b2345a83576bc40a42ca3345cf4.bindTooltip(
+            marker_29de62174fd8a18f68e54bdd29a1b186.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -890,17 +892,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_f6073ae0b6204432c36a59bdb0aec157 = L.marker(
+            var marker_0563ddfb731b4cd5ffb282749e0a79b9 = L.marker(
                 [0.823342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a30c8ae9f7f936ebde7e306d20e3c6d4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_f6073ae0b6204432c36a59bdb0aec157.setIcon(custom_icon_a30c8ae9f7f936ebde7e306d20e3c6d4);
+        var custom_icon_92b7dc87a84ddd14f0ba1d85d90e2749 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_0563ddfb731b4cd5ffb282749e0a79b9.setIcon(custom_icon_92b7dc87a84ddd14f0ba1d85d90e2749);
         
     
-            marker_f6073ae0b6204432c36a59bdb0aec157.bindTooltip(
+            marker_0563ddfb731b4cd5ffb282749e0a79b9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -912,17 +914,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_60a008ce542e8fa27bc28b8a658e47b3 = L.marker(
+            var marker_30e243ba5cc0f82d196718d206f46332 = L.marker(
                 [0.773342515790444, -77.73543503932844],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_5bb482d435e323e533633f5e873e38e6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_60a008ce542e8fa27bc28b8a658e47b3.setIcon(custom_icon_5bb482d435e323e533633f5e873e38e6);
+        var custom_icon_636c1f22e29b5d928de50036c7d06f94 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_30e243ba5cc0f82d196718d206f46332.setIcon(custom_icon_636c1f22e29b5d928de50036c7d06f94);
         
     
-            marker_60a008ce542e8fa27bc28b8a658e47b3.bindTooltip(
+            marker_30e243ba5cc0f82d196718d206f46332.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -934,17 +936,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_33f3c63465e31f0b98581ac9960c5a21 = L.marker(
+            var marker_8cf436e936d0366b725f81022f3c4082 = L.marker(
                 [0.823342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_8a127a163e47ea6538a2046b6a21780c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_33f3c63465e31f0b98581ac9960c5a21.setIcon(custom_icon_8a127a163e47ea6538a2046b6a21780c);
+        var custom_icon_4c8eedd2f6f19ad5c128802ebf5d512f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_8cf436e936d0366b725f81022f3c4082.setIcon(custom_icon_4c8eedd2f6f19ad5c128802ebf5d512f);
         
     
-            marker_33f3c63465e31f0b98581ac9960c5a21.bindTooltip(
+            marker_8cf436e936d0366b725f81022f3c4082.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -956,17 +958,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_83240b7874192b40a27d775295679b0c = L.marker(
+            var marker_66dc26dc55f7bda00351a0f1e2f3f579 = L.marker(
                 [0.773342515790444, -77.68543503932842],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a9ced490dca78ee62e0aa9c3607cd5c4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_83240b7874192b40a27d775295679b0c.setIcon(custom_icon_a9ced490dca78ee62e0aa9c3607cd5c4);
+        var custom_icon_561ffa48f58b715661ea534b0f63eb84 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_66dc26dc55f7bda00351a0f1e2f3f579.setIcon(custom_icon_561ffa48f58b715661ea534b0f63eb84);
         
     
-            marker_83240b7874192b40a27d775295679b0c.bindTooltip(
+            marker_66dc26dc55f7bda00351a0f1e2f3f579.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -978,17 +980,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_83c518c49af2943d61dd82751780c235 = L.marker(
+            var marker_64b63fd6d0673d264bba499bbfe47595 = L.marker(
                 [-0.258016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_cb2f810527a82faa6a7a7359ac0f6ea0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_83c518c49af2943d61dd82751780c235.setIcon(custom_icon_cb2f810527a82faa6a7a7359ac0f6ea0);
+        var custom_icon_bbef4665244e4752c37110fd60d2bee9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_64b63fd6d0673d264bba499bbfe47595.setIcon(custom_icon_bbef4665244e4752c37110fd60d2bee9);
         
     
-            marker_83c518c49af2943d61dd82751780c235.bindTooltip(
+            marker_64b63fd6d0673d264bba499bbfe47595.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1000,17 +1002,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_37ea502b83b3e296af8da936e34b841d = L.marker(
+            var marker_502548484fdc72d0659cb457212c7fb4 = L.marker(
                 [-0.208016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_ddba2680431289eca5046762f0dae4df = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_37ea502b83b3e296af8da936e34b841d.setIcon(custom_icon_ddba2680431289eca5046762f0dae4df);
+        var custom_icon_ffe3898ca53d92fbcdbe17422a90c265 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_502548484fdc72d0659cb457212c7fb4.setIcon(custom_icon_ffe3898ca53d92fbcdbe17422a90c265);
         
     
-            marker_37ea502b83b3e296af8da936e34b841d.bindTooltip(
+            marker_502548484fdc72d0659cb457212c7fb4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1022,17 +1024,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_b4b1879fe5802faa8bfe2db070b85ad4 = L.marker(
+            var marker_1aa3e7d497a8a5ed4986fd42979ce8c7 = L.marker(
                 [-0.158016283263898, -78.48368244663462],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_518232ecba7a63230ee648839968cbf8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_b4b1879fe5802faa8bfe2db070b85ad4.setIcon(custom_icon_518232ecba7a63230ee648839968cbf8);
+        var custom_icon_18fb678cbba95da13006812eccbbc5b5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_1aa3e7d497a8a5ed4986fd42979ce8c7.setIcon(custom_icon_18fb678cbba95da13006812eccbbc5b5);
         
     
-            marker_b4b1879fe5802faa8bfe2db070b85ad4.bindTooltip(
+            marker_1aa3e7d497a8a5ed4986fd42979ce8c7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1044,17 +1046,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_41158293aebae50f4584ab4a44e3cc93 = L.marker(
+            var marker_570870705aab2d03d27f9c1cc4c998f5 = L.marker(
                 [-0.208016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a7eb2547a39ee0d2c07e79e401bc9190 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_41158293aebae50f4584ab4a44e3cc93.setIcon(custom_icon_a7eb2547a39ee0d2c07e79e401bc9190);
+        var custom_icon_214386739cfe443d6d0d71916402e8ef = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_570870705aab2d03d27f9c1cc4c998f5.setIcon(custom_icon_214386739cfe443d6d0d71916402e8ef);
         
     
-            marker_41158293aebae50f4584ab4a44e3cc93.bindTooltip(
+            marker_570870705aab2d03d27f9c1cc4c998f5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1066,17 +1068,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_0f95b55e2a641365c945e9eb15eb4f3b = L.marker(
+            var marker_33c3626323b7e4573f0b386a538ecdf3 = L.marker(
                 [-0.158016283263898, -78.4336824466346],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a486682cedaf95dece0a8956e49e9db7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_0f95b55e2a641365c945e9eb15eb4f3b.setIcon(custom_icon_a486682cedaf95dece0a8956e49e9db7);
+        var custom_icon_78219ee95e1be4c5088986c86727e08a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_33c3626323b7e4573f0b386a538ecdf3.setIcon(custom_icon_78219ee95e1be4c5088986c86727e08a);
         
     
-            marker_0f95b55e2a641365c945e9eb15eb4f3b.bindTooltip(
+            marker_33c3626323b7e4573f0b386a538ecdf3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1088,17 +1090,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_a020279c9c9f47822243cb661d6fbddc = L.marker(
+            var marker_928f36adc12cf3140884ffb42a8911b5 = L.marker(
                 [-0.258016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_2d83c105d2a8784cff35dc7343c5e987 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_a020279c9c9f47822243cb661d6fbddc.setIcon(custom_icon_2d83c105d2a8784cff35dc7343c5e987);
+        var custom_icon_8080871e5ad7c353119a4bde6eb00fb7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_928f36adc12cf3140884ffb42a8911b5.setIcon(custom_icon_8080871e5ad7c353119a4bde6eb00fb7);
         
     
-            marker_a020279c9c9f47822243cb661d6fbddc.bindTooltip(
+            marker_928f36adc12cf3140884ffb42a8911b5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1110,17 +1112,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_9b4deb98a937ab147584996c045c8a7a = L.marker(
+            var marker_37c5268a2e594d98d77b7ac896c93c57 = L.marker(
                 [-0.208016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_38aa98b316b080eb523860039a9542fc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_9b4deb98a937ab147584996c045c8a7a.setIcon(custom_icon_38aa98b316b080eb523860039a9542fc);
+        var custom_icon_60376d97fcf2b7892e62f6fe7255265c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_37c5268a2e594d98d77b7ac896c93c57.setIcon(custom_icon_60376d97fcf2b7892e62f6fe7255265c);
         
     
-            marker_9b4deb98a937ab147584996c045c8a7a.bindTooltip(
+            marker_37c5268a2e594d98d77b7ac896c93c57.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1132,17 +1134,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_6d750045133088e590d66cf1cb9c1ec7 = L.marker(
+            var marker_7ab62cf2a2816d1e68a8bafc17cbe378 = L.marker(
                 [-0.158016283263898, -78.53368244663461],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_8e0c60664e5b56fa3acf15f6918607a6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_6d750045133088e590d66cf1cb9c1ec7.setIcon(custom_icon_8e0c60664e5b56fa3acf15f6918607a6);
+        var custom_icon_178749aa68775dc62afd6072cb3e8509 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_7ab62cf2a2816d1e68a8bafc17cbe378.setIcon(custom_icon_178749aa68775dc62afd6072cb3e8509);
         
     
-            marker_6d750045133088e590d66cf1cb9c1ec7.bindTooltip(
+            marker_7ab62cf2a2816d1e68a8bafc17cbe378.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1154,17 +1156,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_0213d05808a8595f13a30e6bf1885ed0 = L.marker(
+            var marker_0bf6a0b80560e09b3a9e3257e5f3c076 = L.marker(
                 [-0.224517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_8708941425fed384d1cf4cf48211eab7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_0213d05808a8595f13a30e6bf1885ed0.setIcon(custom_icon_8708941425fed384d1cf4cf48211eab7);
+        var custom_icon_1b8e1527e559951e224d63cb1e633fc2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_0bf6a0b80560e09b3a9e3257e5f3c076.setIcon(custom_icon_1b8e1527e559951e224d63cb1e633fc2);
         
     
-            marker_0213d05808a8595f13a30e6bf1885ed0.bindTooltip(
+            marker_0bf6a0b80560e09b3a9e3257e5f3c076.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1176,17 +1178,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_d15521e140c6f9a5c60cf2323e3f96b5 = L.marker(
+            var marker_67055b2f2f51f2495bd35a0312f81547 = L.marker(
                 [-0.274517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_7bbadb8a2a536d458cb1ef40c20337ed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_d15521e140c6f9a5c60cf2323e3f96b5.setIcon(custom_icon_7bbadb8a2a536d458cb1ef40c20337ed);
+        var custom_icon_a99fca49b86f2ecf1fe34ef823648efe = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_67055b2f2f51f2495bd35a0312f81547.setIcon(custom_icon_a99fca49b86f2ecf1fe34ef823648efe);
         
     
-            marker_d15521e140c6f9a5c60cf2323e3f96b5.bindTooltip(
+            marker_67055b2f2f51f2495bd35a0312f81547.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1198,17 +1200,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_75ecd9eba956c5d22b9869dacf58ff1c = L.marker(
+            var marker_074ae7822085e2e15c1bd7007864cd36 = L.marker(
                 [-0.224517256763815, -79.19786164576409],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_1020a8a1904f6eaed7d1870dc6b70fc9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_75ecd9eba956c5d22b9869dacf58ff1c.setIcon(custom_icon_1020a8a1904f6eaed7d1870dc6b70fc9);
+        var custom_icon_b0faa38d0fdf474352541e70bf5aa115 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_074ae7822085e2e15c1bd7007864cd36.setIcon(custom_icon_b0faa38d0fdf474352541e70bf5aa115);
         
     
-            marker_75ecd9eba956c5d22b9869dacf58ff1c.bindTooltip(
+            marker_074ae7822085e2e15c1bd7007864cd36.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1220,17 +1222,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_346370149bdee712b33975bce99a2fff = L.marker(
+            var marker_8f5644f9e125a2d3015a65fda5af9ab4 = L.marker(
                 [-0.274517256763815, -79.1478616457641],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_08f127ee2dbbfd24ffe429037ae449d0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_346370149bdee712b33975bce99a2fff.setIcon(custom_icon_08f127ee2dbbfd24ffe429037ae449d0);
+        var custom_icon_0277c610f124464a576cb2b2ec14372f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_8f5644f9e125a2d3015a65fda5af9ab4.setIcon(custom_icon_0277c610f124464a576cb2b2ec14372f);
         
     
-            marker_346370149bdee712b33975bce99a2fff.bindTooltip(
+            marker_8f5644f9e125a2d3015a65fda5af9ab4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1242,17 +1244,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_d9ca359bdb3dd7624b4f95ee219f7d56 = L.marker(
+            var marker_1d774a454db901d686ce3014b771194e = L.marker(
                 [-0.944935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_9b3a0ea9b94d62869647091b27cd77a8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_d9ca359bdb3dd7624b4f95ee219f7d56.setIcon(custom_icon_9b3a0ea9b94d62869647091b27cd77a8);
+        var custom_icon_48a1d075da346a5cd8cfd7a68e3f5f55 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_1d774a454db901d686ce3014b771194e.setIcon(custom_icon_48a1d075da346a5cd8cfd7a68e3f5f55);
         
     
-            marker_d9ca359bdb3dd7624b4f95ee219f7d56.bindTooltip(
+            marker_1d774a454db901d686ce3014b771194e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1264,17 +1266,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_81965dfbcb80a5a91727ce58b96c6567 = L.marker(
+            var marker_375043e8afe39fdf65944f34b472f644 = L.marker(
                 [-0.994935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_7b217ecbadf38a2d556602b22c2f20d8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_81965dfbcb80a5a91727ce58b96c6567.setIcon(custom_icon_7b217ecbadf38a2d556602b22c2f20d8);
+        var custom_icon_e29da3f8fd1d8d1d0caaee9b353562a4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_375043e8afe39fdf65944f34b472f644.setIcon(custom_icon_e29da3f8fd1d8d1d0caaee9b353562a4);
         
     
-            marker_81965dfbcb80a5a91727ce58b96c6567.bindTooltip(
+            marker_375043e8afe39fdf65944f34b472f644.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1286,17 +1288,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_859cce131677e4946058458a2a7e9f1c = L.marker(
+            var marker_6b28d8b1d5dbca45e7bfc831ecb55eb6 = L.marker(
                 [-0.944935258389684, -80.75763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_6f38a154b46134deccea7b9426a0b900 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_859cce131677e4946058458a2a7e9f1c.setIcon(custom_icon_6f38a154b46134deccea7b9426a0b900);
+        var custom_icon_cfa171682d2939a00e5395210dc68868 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_6b28d8b1d5dbca45e7bfc831ecb55eb6.setIcon(custom_icon_cfa171682d2939a00e5395210dc68868);
         
     
-            marker_859cce131677e4946058458a2a7e9f1c.bindTooltip(
+            marker_6b28d8b1d5dbca45e7bfc831ecb55eb6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1308,17 +1310,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_60992e43a30b230edb14b541ce60c8bd = L.marker(
+            var marker_ef1f0a37993429ccecf5435710808afb = L.marker(
                 [-0.994935258389684, -80.70763923061047],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b8566ed3e407a0ef9f16bcb6a29579e6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_60992e43a30b230edb14b541ce60c8bd.setIcon(custom_icon_b8566ed3e407a0ef9f16bcb6a29579e6);
+        var custom_icon_22966ef9398848fc14c4a11c5d42b832 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_ef1f0a37993429ccecf5435710808afb.setIcon(custom_icon_22966ef9398848fc14c4a11c5d42b832);
         
     
-            marker_60992e43a30b230edb14b541ce60c8bd.bindTooltip(
+            marker_ef1f0a37993429ccecf5435710808afb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1330,17 +1332,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_a969cb98c2748465afba02946288035d = L.marker(
+            var marker_39225cd1a4f1f0d0b3dee01ce059ba3e = L.marker(
                 [-3.498380858986683, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_449d41c759f7d53b577d880d1dd6c370 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_a969cb98c2748465afba02946288035d.setIcon(custom_icon_449d41c759f7d53b577d880d1dd6c370);
+        var custom_icon_1f919bedace4d42368d39aa08f337362 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_39225cd1a4f1f0d0b3dee01ce059ba3e.setIcon(custom_icon_1f919bedace4d42368d39aa08f337362);
         
     
-            marker_a969cb98c2748465afba02946288035d.bindTooltip(
+            marker_39225cd1a4f1f0d0b3dee01ce059ba3e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1352,17 +1354,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_40d1feb51b92c3136903b800f1bc5860 = L.marker(
+            var marker_d9071ca56a93ee521052901871bd6287 = L.marker(
                 [-3.448380858986684, -80.17851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b4d28dcab7ae5171a91ad90766c88307 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_40d1feb51b92c3136903b800f1bc5860.setIcon(custom_icon_b4d28dcab7ae5171a91ad90766c88307);
+        var custom_icon_e54dd923ecd6f393d190efe57016b89d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_d9071ca56a93ee521052901871bd6287.setIcon(custom_icon_e54dd923ecd6f393d190efe57016b89d);
         
     
-            marker_40d1feb51b92c3136903b800f1bc5860.bindTooltip(
+            marker_d9071ca56a93ee521052901871bd6287.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1374,17 +1376,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_7e7cc68eb53b0aee52e0b83724d69c55 = L.marker(
+            var marker_18e436717e9079810b16b7ac89e10695 = L.marker(
                 [-3.498380858986683, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_412a7b0b32d37f79e4bbee16e09e015a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_7e7cc68eb53b0aee52e0b83724d69c55.setIcon(custom_icon_412a7b0b32d37f79e4bbee16e09e015a);
+        var custom_icon_5dd306b507f8da1d9051d31fa9fb5c37 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_18e436717e9079810b16b7ac89e10695.setIcon(custom_icon_5dd306b507f8da1d9051d31fa9fb5c37);
         
     
-            marker_7e7cc68eb53b0aee52e0b83724d69c55.bindTooltip(
+            marker_18e436717e9079810b16b7ac89e10695.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1396,17 +1398,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_1657b0007d8b31d5a7faa64150268fae = L.marker(
+            var marker_8fad00a15f6c3435d89f1645cf56abd9 = L.marker(
                 [-3.448380858986684, -80.12851242262873],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_c7ccb26d78ed98b4254ac7cd799f7ace = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_1657b0007d8b31d5a7faa64150268fae.setIcon(custom_icon_c7ccb26d78ed98b4254ac7cd799f7ace);
+        var custom_icon_80183a360dde6895561b11eb22148f5e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_8fad00a15f6c3435d89f1645cf56abd9.setIcon(custom_icon_80183a360dde6895561b11eb22148f5e);
         
     
-            marker_1657b0007d8b31d5a7faa64150268fae.bindTooltip(
+            marker_8fad00a15f6c3435d89f1645cf56abd9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1418,17 +1420,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_64c28f3ddba2feb673a1b36a93b3c208 = L.marker(
+            var marker_ad0a926f15616eb53d6e8adc05f138b7 = L.marker(
                 [-3.498380858986683, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_bfd3d315c37567ed2e0339b25a120d62 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_64c28f3ddba2feb673a1b36a93b3c208.setIcon(custom_icon_bfd3d315c37567ed2e0339b25a120d62);
+        var custom_icon_3c059827647d52ba5c99ea31f3124ca0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_ad0a926f15616eb53d6e8adc05f138b7.setIcon(custom_icon_3c059827647d52ba5c99ea31f3124ca0);
         
     
-            marker_64c28f3ddba2feb673a1b36a93b3c208.bindTooltip(
+            marker_ad0a926f15616eb53d6e8adc05f138b7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1440,17 +1442,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_96489b374c56e52e249513aec273e6db = L.marker(
+            var marker_e705fef13c70bb488398f335c3075d04 = L.marker(
                 [-3.448380858986684, -80.22851242262874],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_03e77a22e550e483255709c52a0267fc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_96489b374c56e52e249513aec273e6db.setIcon(custom_icon_03e77a22e550e483255709c52a0267fc);
+        var custom_icon_3d2d1e792337e137a5041ec7ac07ba90 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_e705fef13c70bb488398f335c3075d04.setIcon(custom_icon_3d2d1e792337e137a5041ec7ac07ba90);
         
     
-            marker_96489b374c56e52e249513aec273e6db.bindTooltip(
+            marker_e705fef13c70bb488398f335c3075d04.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1462,17 +1464,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_ede69dbe98bac1dd9680c78c4e5f6b49 = L.marker(
+            var marker_d6f347947a7d6dfc0493d0d95879e3ce = L.marker(
                 [-3.288910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b51e601ea1907633d98a457fb443582b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_ede69dbe98bac1dd9680c78c4e5f6b49.setIcon(custom_icon_b51e601ea1907633d98a457fb443582b);
+        var custom_icon_f2710338af003e767e9dbcf896fce333 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_d6f347947a7d6dfc0493d0d95879e3ce.setIcon(custom_icon_f2710338af003e767e9dbcf896fce333);
         
     
-            marker_ede69dbe98bac1dd9680c78c4e5f6b49.bindTooltip(
+            marker_d6f347947a7d6dfc0493d0d95879e3ce.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1484,17 +1486,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_2bc95f878d224fcea7bcbfd5a1181a93 = L.marker(
+            var marker_f975a439fa3a77f131ec9e696e2f0942 = L.marker(
                 [-3.238910553173096, -79.95127017234172],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_c3227ff183e584b9b573344308b02d33 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_2bc95f878d224fcea7bcbfd5a1181a93.setIcon(custom_icon_c3227ff183e584b9b573344308b02d33);
+        var custom_icon_d41afef547f4dbe00383c87f51eaecef = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_f975a439fa3a77f131ec9e696e2f0942.setIcon(custom_icon_d41afef547f4dbe00383c87f51eaecef);
         
     
-            marker_2bc95f878d224fcea7bcbfd5a1181a93.bindTooltip(
+            marker_f975a439fa3a77f131ec9e696e2f0942.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1506,17 +1508,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_10e94cd0d80508e1d905623d6aa68c84 = L.marker(
+            var marker_707d05694b68b1265a12f0c0f6f55352 = L.marker(
                 [-2.179143514241878, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_5fe6e52310c59ae0701d7616679f2b95 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_10e94cd0d80508e1d905623d6aa68c84.setIcon(custom_icon_5fe6e52310c59ae0701d7616679f2b95);
+        var custom_icon_ed02dbac3ee8369c107121f2e3f26746 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_707d05694b68b1265a12f0c0f6f55352.setIcon(custom_icon_ed02dbac3ee8369c107121f2e3f26746);
         
     
-            marker_10e94cd0d80508e1d905623d6aa68c84.bindTooltip(
+            marker_707d05694b68b1265a12f0c0f6f55352.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1528,17 +1530,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_272b4141f15731051dc5bb205f5cc5ee = L.marker(
+            var marker_ee08b60a451d299f5e788a80d24951ed = L.marker(
                 [-2.129143514241879, -79.93601623225197],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_84a57bc42797e6ca8f17e186ef857ec6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_272b4141f15731051dc5bb205f5cc5ee.setIcon(custom_icon_84a57bc42797e6ca8f17e186ef857ec6);
+        var custom_icon_5834a56a38752c77652884573d40b399 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_ee08b60a451d299f5e788a80d24951ed.setIcon(custom_icon_5834a56a38752c77652884573d40b399);
         
     
-            marker_272b4141f15731051dc5bb205f5cc5ee.bindTooltip(
+            marker_ee08b60a451d299f5e788a80d24951ed.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1550,17 +1552,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_c7e82187deaa408aa7d2d33dabb6b505 = L.marker(
+            var marker_e2dba8b28bb77cd38cb9feb7799c4f32 = L.marker(
                 [-2.179143514241878, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_8bd974e1efea76b63bec592e26a9c4ce = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_c7e82187deaa408aa7d2d33dabb6b505.setIcon(custom_icon_8bd974e1efea76b63bec592e26a9c4ce);
+        var custom_icon_3b5d70939f453c2a6e47f270f42e1aaf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_e2dba8b28bb77cd38cb9feb7799c4f32.setIcon(custom_icon_3b5d70939f453c2a6e47f270f42e1aaf);
         
     
-            marker_c7e82187deaa408aa7d2d33dabb6b505.bindTooltip(
+            marker_e2dba8b28bb77cd38cb9feb7799c4f32.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1572,17 +1574,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_1e05b2a47fd0ca0ede051e8c35211d45 = L.marker(
+            var marker_5f477fc07049333949d4464e78b2d3d4 = L.marker(
                 [-2.129143514241879, -79.88601623225196],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_d19d7fefecf2b09572fac334d7e1ce1f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_1e05b2a47fd0ca0ede051e8c35211d45.setIcon(custom_icon_d19d7fefecf2b09572fac334d7e1ce1f);
+        var custom_icon_7640bd3e7c5ef735bab656525c15c3dc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_5f477fc07049333949d4464e78b2d3d4.setIcon(custom_icon_7640bd3e7c5ef735bab656525c15c3dc);
         
     
-            marker_1e05b2a47fd0ca0ede051e8c35211d45.bindTooltip(
+            marker_5f477fc07049333949d4464e78b2d3d4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1594,17 +1596,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_de9003ad9d74c166a3705a42810f665a = L.marker(
+            var marker_ad4ec3cab60f2d6ae560b5039197d551 = L.marker(
                 [-2.228952302468575, -79.8869583051045],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_922ed3a8c7c9ad3b2e2f1119d4dc0803 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_de9003ad9d74c166a3705a42810f665a.setIcon(custom_icon_922ed3a8c7c9ad3b2e2f1119d4dc0803);
+        var custom_icon_9211b16d63c1bcc200ee320ebd15e289 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_ad4ec3cab60f2d6ae560b5039197d551.setIcon(custom_icon_9211b16d63c1bcc200ee320ebd15e289);
         
     
-            marker_de9003ad9d74c166a3705a42810f665a.bindTooltip(
+            marker_ad4ec3cab60f2d6ae560b5039197d551.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1616,17 +1618,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_845a7d452946635929472869e560002f = L.marker(
+            var marker_bd5439c5c6a68b4b4ec784092af74e4a = L.marker(
                 [-2.228761090695273, -79.93620744402527],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_6662bd8eb6aa88e02d8918d87e3f4556 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_845a7d452946635929472869e560002f.setIcon(custom_icon_6662bd8eb6aa88e02d8918d87e3f4556);
+        var custom_icon_4c09f7d1b889a513a66dac9fc1588654 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_bd5439c5c6a68b4b4ec784092af74e4a.setIcon(custom_icon_4c09f7d1b889a513a66dac9fc1588654);
         
     
-            marker_845a7d452946635929472869e560002f.bindTooltip(
+            marker_bd5439c5c6a68b4b4ec784092af74e4a.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1638,17 +1640,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_a30ad24edbef919b19580ae82c145c7c = L.marker(
+            var marker_f5d576f5ab0fb3ec98a56ad29dedbe0e = L.marker(
                 [-3.530696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_2131c4ebfe9502e7b241902405af72f2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_a30ad24edbef919b19580ae82c145c7c.setIcon(custom_icon_2131c4ebfe9502e7b241902405af72f2);
+        var custom_icon_7aaa7b3dfd668da7499333e989ac4c6a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_f5d576f5ab0fb3ec98a56ad29dedbe0e.setIcon(custom_icon_7aaa7b3dfd668da7499333e989ac4c6a);
         
     
-            marker_a30ad24edbef919b19580ae82c145c7c.bindTooltip(
+            marker_f5d576f5ab0fb3ec98a56ad29dedbe0e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1660,17 +1662,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_487f3f0fe0a125019ab470c6da24878c = L.marker(
+            var marker_5274438ee9d372ec8408d615e36d18b4 = L.marker(
                 [-3.480696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_359a68886a3a46b3ee6303989f61b24c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_487f3f0fe0a125019ab470c6da24878c.setIcon(custom_icon_359a68886a3a46b3ee6303989f61b24c);
+        var custom_icon_705675090fb65d7d08f8238979747450 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_5274438ee9d372ec8408d615e36d18b4.setIcon(custom_icon_705675090fb65d7d08f8238979747450);
         
     
-            marker_487f3f0fe0a125019ab470c6da24878c.bindTooltip(
+            marker_5274438ee9d372ec8408d615e36d18b4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1682,17 +1684,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_3c497ac651ef2d62701516c7fcc7d4f1 = L.marker(
+            var marker_0747c165e415d4ac4372552b34ad870f = L.marker(
                 [-3.430696695635045, -80.27842471467584],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b1eea65d72b299f3aaf7d0bc771f1fb7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_3c497ac651ef2d62701516c7fcc7d4f1.setIcon(custom_icon_b1eea65d72b299f3aaf7d0bc771f1fb7);
+        var custom_icon_21e2e8980222ca4d4c0f90c19e30872d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_0747c165e415d4ac4372552b34ad870f.setIcon(custom_icon_21e2e8980222ca4d4c0f90c19e30872d);
         
     
-            marker_3c497ac651ef2d62701516c7fcc7d4f1.bindTooltip(
+            marker_0747c165e415d4ac4372552b34ad870f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1704,17 +1706,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_9e32da3db537fd05b0b4e1b47d94f29a = L.marker(
+            var marker_862193bb88bb36cc30c8ad8a08eacede = L.marker(
                 [-3.530696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_b4ef9328752e1fb271739abc69371447 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_9e32da3db537fd05b0b4e1b47d94f29a.setIcon(custom_icon_b4ef9328752e1fb271739abc69371447);
+        var custom_icon_4971b6cdbaf529b0b39aeb5110fb95ed = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_862193bb88bb36cc30c8ad8a08eacede.setIcon(custom_icon_4971b6cdbaf529b0b39aeb5110fb95ed);
         
     
-            marker_9e32da3db537fd05b0b4e1b47d94f29a.bindTooltip(
+            marker_862193bb88bb36cc30c8ad8a08eacede.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1726,17 +1728,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_5db3d0246a58018aecd29c0b9cbdd4aa = L.marker(
+            var marker_d2d86f17225664015bdc0b0ccd94d0af = L.marker(
                 [-3.480696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_236ff9a0f0be0644b243ea96037e7dbb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_5db3d0246a58018aecd29c0b9cbdd4aa.setIcon(custom_icon_236ff9a0f0be0644b243ea96037e7dbb);
+        var custom_icon_88fd55d6713a64fd53f14e5e465503d8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_d2d86f17225664015bdc0b0ccd94d0af.setIcon(custom_icon_88fd55d6713a64fd53f14e5e465503d8);
         
     
-            marker_5db3d0246a58018aecd29c0b9cbdd4aa.bindTooltip(
+            marker_d2d86f17225664015bdc0b0ccd94d0af.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1748,17 +1750,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_9a34b73044d8baf9613c4a30efb5e93a = L.marker(
+            var marker_d6c156178c03a7ccdaaa8e6c0696a552 = L.marker(
                 [-3.430696695635045, -80.32842471467583],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_0f4895c0da2dad5e6c9b52f7d3e04916 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_9a34b73044d8baf9613c4a30efb5e93a.setIcon(custom_icon_0f4895c0da2dad5e6c9b52f7d3e04916);
+        var custom_icon_3f4e47e19221a9de3cb7e8dbc21eae62 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_d6c156178c03a7ccdaaa8e6c0696a552.setIcon(custom_icon_3f4e47e19221a9de3cb7e8dbc21eae62);
         
     
-            marker_9a34b73044d8baf9613c4a30efb5e93a.bindTooltip(
+            marker_d6c156178c03a7ccdaaa8e6c0696a552.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1770,17 +1772,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_7ec31f3bfb820c7f2eb81c29588fabe9 = L.marker(
+            var marker_f26d0d1aa32e722f3a213d4a27b30288 = L.marker(
                 [-3.588587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_e0f9ca9cd81ae0ce14d00e2776d9aa39 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_7ec31f3bfb820c7f2eb81c29588fabe9.setIcon(custom_icon_e0f9ca9cd81ae0ce14d00e2776d9aa39);
+        var custom_icon_96a527fbbedb5f8fc8d03d23aadc36d2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_f26d0d1aa32e722f3a213d4a27b30288.setIcon(custom_icon_96a527fbbedb5f8fc8d03d23aadc36d2);
         
     
-            marker_7ec31f3bfb820c7f2eb81c29588fabe9.bindTooltip(
+            marker_f26d0d1aa32e722f3a213d4a27b30288.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1792,17 +1794,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_ebbaf9eefb1cdbb9d8bfaea4f9649db6 = L.marker(
+            var marker_69b21aea6cecffc77e2947aa0ca55b0d = L.marker(
                 [-3.538587044553694, -80.44407943293803],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a7e7c47e9e41a20fceeff1f6c4d6a88a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_ebbaf9eefb1cdbb9d8bfaea4f9649db6.setIcon(custom_icon_a7e7c47e9e41a20fceeff1f6c4d6a88a);
+        var custom_icon_06a2f56c8730dd0d35551309ebc0a12f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_69b21aea6cecffc77e2947aa0ca55b0d.setIcon(custom_icon_06a2f56c8730dd0d35551309ebc0a12f);
         
     
-            marker_ebbaf9eefb1cdbb9d8bfaea4f9649db6.bindTooltip(
+            marker_69b21aea6cecffc77e2947aa0ca55b0d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1814,17 +1816,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_c446a75aaa53e25c1868cde96326c0af = L.marker(
+            var marker_ad1c7a878384335699b5d4ac4600048c = L.marker(
                 [-3.588587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_d033bc71c1ab0b2dd968b81dd6613d52 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_c446a75aaa53e25c1868cde96326c0af.setIcon(custom_icon_d033bc71c1ab0b2dd968b81dd6613d52);
+        var custom_icon_d506d1db91e3d2fdda1d34f05944cc3e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_ad1c7a878384335699b5d4ac4600048c.setIcon(custom_icon_d506d1db91e3d2fdda1d34f05944cc3e);
         
     
-            marker_c446a75aaa53e25c1868cde96326c0af.bindTooltip(
+            marker_ad1c7a878384335699b5d4ac4600048c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1836,17 +1838,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_9f86734855ba6381e02fc37fb178d757 = L.marker(
+            var marker_4cc833432cb25234ac4a2a0dad74d7fb = L.marker(
                 [-3.538587044553694, -80.39407943293801],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_97cf42d917e93d287677b7a096e49656 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_9f86734855ba6381e02fc37fb178d757.setIcon(custom_icon_97cf42d917e93d287677b7a096e49656);
+        var custom_icon_0e94292779ba611a7dcf417c8fbd4c2d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_4cc833432cb25234ac4a2a0dad74d7fb.setIcon(custom_icon_0e94292779ba611a7dcf417c8fbd4c2d);
         
     
-            marker_9f86734855ba6381e02fc37fb178d757.bindTooltip(
+            marker_4cc833432cb25234ac4a2a0dad74d7fb.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1858,17 +1860,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_80be2953ccfe11d9c93605082cc7773a = L.marker(
+            var marker_35b330ec05a1ed163d52749cf7ce1140 = L.marker(
                 [-3.588587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_01030b35f4e2bf7986df5818fb331d62 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_80be2953ccfe11d9c93605082cc7773a.setIcon(custom_icon_01030b35f4e2bf7986df5818fb331d62);
+        var custom_icon_1ad20600ecc1e11558ab64d6c4121688 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_35b330ec05a1ed163d52749cf7ce1140.setIcon(custom_icon_1ad20600ecc1e11558ab64d6c4121688);
         
     
-            marker_80be2953ccfe11d9c93605082cc7773a.bindTooltip(
+            marker_35b330ec05a1ed163d52749cf7ce1140.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1880,17 +1882,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_109ed30175216f7929cb46bb255bd1fe = L.marker(
+            var marker_eaedddde0e9407d5dad55cd912954982 = L.marker(
                 [-3.538587044553694, -80.49407943293802],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_87152bb839099044a3d17ef5db7dcd0a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_109ed30175216f7929cb46bb255bd1fe.setIcon(custom_icon_87152bb839099044a3d17ef5db7dcd0a);
+        var custom_icon_46e92e71b42e0b9858b677212f28dc6b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_eaedddde0e9407d5dad55cd912954982.setIcon(custom_icon_46e92e71b42e0b9858b677212f28dc6b);
         
     
-            marker_109ed30175216f7929cb46bb255bd1fe.bindTooltip(
+            marker_eaedddde0e9407d5dad55cd912954982.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1902,17 +1904,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_8e51f6a8f2b2b34b1d8b106475f7bc38 = L.marker(
+            var marker_6968efb884060d2c34add47fca2fb19b = L.marker(
                 [-4.606834467234112, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a91d0c02c8f2e2ed07b36940931418d0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_8e51f6a8f2b2b34b1d8b106475f7bc38.setIcon(custom_icon_a91d0c02c8f2e2ed07b36940931418d0);
+        var custom_icon_d3f76a4ecc160b8d274a06d44cc47d4f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_6968efb884060d2c34add47fca2fb19b.setIcon(custom_icon_d3f76a4ecc160b8d274a06d44cc47d4f);
         
     
-            marker_8e51f6a8f2b2b34b1d8b106475f7bc38.bindTooltip(
+            marker_6968efb884060d2c34add47fca2fb19b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1924,17 +1926,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_821ebaa02d622c1168aba497f35cb436 = L.marker(
+            var marker_9165e14d866a618f04c71ef71d9c239c = L.marker(
                 [-4.556834467234113, -81.22851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_f5b680c95e109fef47ae318467910dba = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_821ebaa02d622c1168aba497f35cb436.setIcon(custom_icon_f5b680c95e109fef47ae318467910dba);
+        var custom_icon_66d37b23eec77d2bab9701adc9e0c518 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_9165e14d866a618f04c71ef71d9c239c.setIcon(custom_icon_66d37b23eec77d2bab9701adc9e0c518);
         
     
-            marker_821ebaa02d622c1168aba497f35cb436.bindTooltip(
+            marker_9165e14d866a618f04c71ef71d9c239c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1946,17 +1948,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_6007f8e05449460eccf2095f32cb32b7 = L.marker(
+            var marker_b44c751d893a5001ab4c7c12cd19a2da = L.marker(
                 [-4.606834467234112, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_0415b70bc516ef170a9fb5f7d34bc906 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_6007f8e05449460eccf2095f32cb32b7.setIcon(custom_icon_0415b70bc516ef170a9fb5f7d34bc906);
+        var custom_icon_ea54752ebf2e9d4206cf81c9251ccd2c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_b44c751d893a5001ab4c7c12cd19a2da.setIcon(custom_icon_ea54752ebf2e9d4206cf81c9251ccd2c);
         
     
-            marker_6007f8e05449460eccf2095f32cb32b7.bindTooltip(
+            marker_b44c751d893a5001ab4c7c12cd19a2da.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1968,17 +1970,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_5960d5da2fcab4c22a55284c9e2982e9 = L.marker(
+            var marker_b4c447839eba48cd2e3e65f4b8a259b1 = L.marker(
                 [-4.556834467234113, -81.27851242262871],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_49d2c06d985e386deedfc1007cfe5a65 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_5960d5da2fcab4c22a55284c9e2982e9.setIcon(custom_icon_49d2c06d985e386deedfc1007cfe5a65);
+        var custom_icon_ffee1f3e510f6b2c689549dd1bb12450 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_b4c447839eba48cd2e3e65f4b8a259b1.setIcon(custom_icon_ffee1f3e510f6b2c689549dd1bb12450);
         
     
-            marker_5960d5da2fcab4c22a55284c9e2982e9.bindTooltip(
+            marker_b4c447839eba48cd2e3e65f4b8a259b1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1990,17 +1992,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_b385bd864c9b08474230fa5c85b1ff63 = L.marker(
+            var marker_4a6323e01c7904d24a1561c86c3aee33 = L.marker(
                 [-5.218793230120715, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_c48f82a54e0e896669341f0ace4398d3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_b385bd864c9b08474230fa5c85b1ff63.setIcon(custom_icon_c48f82a54e0e896669341f0ace4398d3);
+        var custom_icon_d7f0fc4ea13371dae0809c4eb81f9110 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_4a6323e01c7904d24a1561c86c3aee33.setIcon(custom_icon_d7f0fc4ea13371dae0809c4eb81f9110);
         
     
-            marker_b385bd864c9b08474230fa5c85b1ff63.bindTooltip(
+            marker_4a6323e01c7904d24a1561c86c3aee33.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2012,17 +2014,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_f95335cad5c53e68ce4ab27441f2be0d = L.marker(
+            var marker_82277b1f9d29996cd79b2a8f2e6fd329 = L.marker(
                 [-5.168793230120714, -80.63531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_9e89d368f03e4f8640d79d2dd3752482 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_f95335cad5c53e68ce4ab27441f2be0d.setIcon(custom_icon_9e89d368f03e4f8640d79d2dd3752482);
+        var custom_icon_cfde9d90daf43510718b614fa63af568 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_82277b1f9d29996cd79b2a8f2e6fd329.setIcon(custom_icon_cfde9d90daf43510718b614fa63af568);
         
     
-            marker_f95335cad5c53e68ce4ab27441f2be0d.bindTooltip(
+            marker_82277b1f9d29996cd79b2a8f2e6fd329.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2034,17 +2036,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_3fa2162957ae26739c2912678dfc5644 = L.marker(
+            var marker_307940bfe4d1c3bd6d0979d8a33ffc69 = L.marker(
                 [-5.218793230120715, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_a03dd009655974714af3136bd6c1f513 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_3fa2162957ae26739c2912678dfc5644.setIcon(custom_icon_a03dd009655974714af3136bd6c1f513);
+        var custom_icon_c03f085290c6c889d83426194df6684a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_307940bfe4d1c3bd6d0979d8a33ffc69.setIcon(custom_icon_c03f085290c6c889d83426194df6684a);
         
     
-            marker_3fa2162957ae26739c2912678dfc5644.bindTooltip(
+            marker_307940bfe4d1c3bd6d0979d8a33ffc69.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2056,17 +2058,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_7f182179feede514f63bd6c17a4031e6 = L.marker(
+            var marker_b29fff7fac980cb9cdf8d77c524a095d = L.marker(
                 [-5.168793230120714, -80.58531654634007],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_79ab4357e1565c1ccaa89f0284f81866 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_7f182179feede514f63bd6c17a4031e6.setIcon(custom_icon_79ab4357e1565c1ccaa89f0284f81866);
+        var custom_icon_47fbff80ca73e54a9b67ef09e7ec5e80 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_b29fff7fac980cb9cdf8d77c524a095d.setIcon(custom_icon_47fbff80ca73e54a9b67ef09e7ec5e80);
         
     
-            marker_7f182179feede514f63bd6c17a4031e6.bindTooltip(
+            marker_b29fff7fac980cb9cdf8d77c524a095d.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2078,17 +2080,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_78c22d5e96f58cb200772d8f9d045d7b = L.marker(
+            var marker_4e7be01b27d939d71eb6e4ebf0e3bd61 = L.marker(
                 [-5.218793230120715, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_17d014df20aca31ab00d0ad657b3ef68 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_78c22d5e96f58cb200772d8f9d045d7b.setIcon(custom_icon_17d014df20aca31ab00d0ad657b3ef68);
+        var custom_icon_25687c234084a141b116482573f1e98b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_4e7be01b27d939d71eb6e4ebf0e3bd61.setIcon(custom_icon_25687c234084a141b116482573f1e98b);
         
     
-            marker_78c22d5e96f58cb200772d8f9d045d7b.bindTooltip(
+            marker_4e7be01b27d939d71eb6e4ebf0e3bd61.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2100,17 +2102,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_a86792a5612e137967d693a0678f9732 = L.marker(
+            var marker_5d440f8834cc4ea45e690da018ece6dc = L.marker(
                 [-5.168793230120714, -80.68531654634008],
                 {"embed": false}
-            ).addTo(marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207);
+            ).addTo(marker_cluster_aa4555ebd3a64e2b17218f89cf09805b);
         
     
-        var custom_icon_9a39d83e748874fe663d45e80176a827 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_a86792a5612e137967d693a0678f9732.setIcon(custom_icon_9a39d83e748874fe663d45e80176a827);
+        var custom_icon_2047d064b10c3abd934f5b277f93ce1b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_5d440f8834cc4ea45e690da018ece6dc.setIcon(custom_icon_2047d064b10c3abd934f5b277f93ce1b);
         
     
-            marker_a86792a5612e137967d693a0678f9732.bindTooltip(
+            marker_5d440f8834cc4ea45e690da018ece6dc.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2122,146 +2124,146 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            marker_cluster_aa4555ebd3a64e2b17218f89cf09805b.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            geo_json_2fa859b11abb9b01c1de0e42716e6fe9.addTo(feature_group_da50d080e0e59c89e717112ab5c0ec07);
+            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.addTo(feature_group_b567d2ebd977e885cd3b297e54065f4b);
         
     
-            var feature_group_2438b2b3b3cc3f714c3b85424911e8d3 = L.featureGroup(
+            var feature_group_cd8d3a66d853ae464741bc529cc8ba70 = L.featureGroup(
                 {}
             );
         
     
-            var marker_6125d01090341a1bd504d22d9bf0a320 = L.marker(
+            var marker_31babd7f99b4372bc7ee5991e5e31754 = L.marker(
                 [0.366, -78.672],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_7b3d3ef49c72d89fc6030a42b754ac23 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_6125d01090341a1bd504d22d9bf0a320.setIcon(div_icon_7b3d3ef49c72d89fc6030a42b754ac23);
+            var div_icon_74ac28bf29b840b4f07ca75fb8bc408a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_31babd7f99b4372bc7ee5991e5e31754.setIcon(div_icon_74ac28bf29b840b4f07ca75fb8bc408a);
         
     
-            var marker_4fe69edd438b5c937042ca4cfdcd860a = L.marker(
+            var marker_e354691d44aedae2b563bb78203b2595 = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_8df0cc0c4ef66fbecbedc27acb2c81a6 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_4fe69edd438b5c937042ca4cfdcd860a.setIcon(div_icon_8df0cc0c4ef66fbecbedc27acb2c81a6);
+            var div_icon_1df527cad205269d694913c6bd255455 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_e354691d44aedae2b563bb78203b2595.setIcon(div_icon_1df527cad205269d694913c6bd255455);
         
     
-            var marker_e4f6cb51c10bbff27d762458c49cf62e = L.marker(
+            var marker_090d99a1b2c1b657537f52798cee897f = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_88323c2b88a3c4ca7575ad145c853d98 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_e4f6cb51c10bbff27d762458c49cf62e.setIcon(div_icon_88323c2b88a3c4ca7575ad145c853d98);
+            var div_icon_daa96e9e046fe5bd84607ac48abd99ab = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_090d99a1b2c1b657537f52798cee897f.setIcon(div_icon_daa96e9e046fe5bd84607ac48abd99ab);
         
     
-            var marker_125c32c167964ad5a669105bb1d057e1 = L.marker(
+            var marker_e3f4d3d58f6efa2a4ae6ed8f8c791988 = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_5d84db5b33258f041b1e8e32867f2c58 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_125c32c167964ad5a669105bb1d057e1.setIcon(div_icon_5d84db5b33258f041b1e8e32867f2c58);
+            var div_icon_5ad8cca4798c1e534a08c0286fe3ba04 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_e3f4d3d58f6efa2a4ae6ed8f8c791988.setIcon(div_icon_5ad8cca4798c1e534a08c0286fe3ba04);
         
     
-            var marker_ffca66904cda34c1117ce4b520424b90 = L.marker(
+            var marker_bcd67b749e941f62d1fb87e08cd717e9 = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_c2e02ccfbae3ba05788297204054c0f8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_ffca66904cda34c1117ce4b520424b90.setIcon(div_icon_c2e02ccfbae3ba05788297204054c0f8);
+            var div_icon_e2c1c946ee2eb143958f33d20f221d37 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_bcd67b749e941f62d1fb87e08cd717e9.setIcon(div_icon_e2c1c946ee2eb143958f33d20f221d37);
         
     
-            var marker_bb75d157e28524de5583203b21154f54 = L.marker(
+            var marker_7c6e16c9b7248f0ffb5893c0adcb5bde = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_90904c27603cbf97fb3a68b83971b6ab = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_bb75d157e28524de5583203b21154f54.setIcon(div_icon_90904c27603cbf97fb3a68b83971b6ab);
+            var div_icon_af4785d012b0c9818f14f092832ae48e = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_7c6e16c9b7248f0ffb5893c0adcb5bde.setIcon(div_icon_af4785d012b0c9818f14f092832ae48e);
         
     
-            var marker_362a6bdcefc8697f86cb63b844679ff0 = L.marker(
+            var marker_32dba50279488c57792fe5dcf378a772 = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_3c984b39f02f3f4effa45605ddebc9e1 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_362a6bdcefc8697f86cb63b844679ff0.setIcon(div_icon_3c984b39f02f3f4effa45605ddebc9e1);
+            var div_icon_243389a60cc80109c7bf8b377da02022 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_32dba50279488c57792fe5dcf378a772.setIcon(div_icon_243389a60cc80109c7bf8b377da02022);
         
     
-            var marker_6d4ace37461ff8401f29735e45f51fbf = L.marker(
+            var marker_b2bab6184a10e2e0ada62808eabb36e2 = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_58664c9d5b4d33d46592b53bd7be7fde = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_6d4ace37461ff8401f29735e45f51fbf.setIcon(div_icon_58664c9d5b4d33d46592b53bd7be7fde);
+            var div_icon_9314e5743a5b9d43ecbb716777771110 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_b2bab6184a10e2e0ada62808eabb36e2.setIcon(div_icon_9314e5743a5b9d43ecbb716777771110);
         
     
-            var marker_de5ac5ff83bf511d818c8a4b9262d006 = L.marker(
+            var marker_62eac210cd7ffab44ee42f72f31dd11e = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_9486ae9f39ae3251efe76fd6dc74e4ee = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_de5ac5ff83bf511d818c8a4b9262d006.setIcon(div_icon_9486ae9f39ae3251efe76fd6dc74e4ee);
+            var div_icon_d444259d7010d822bd0de4d0308ba951 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_62eac210cd7ffab44ee42f72f31dd11e.setIcon(div_icon_d444259d7010d822bd0de4d0308ba951);
         
     
-            var marker_5fae36d45fa5aab5a9b5113b677cda00 = L.marker(
+            var marker_c63060c1bbc619eca8d553dd0d1436a5 = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_625f23376e0cbb872993026417acb992 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_5fae36d45fa5aab5a9b5113b677cda00.setIcon(div_icon_625f23376e0cbb872993026417acb992);
+            var div_icon_c82bcbe27757e38880681009277febb7 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_c63060c1bbc619eca8d553dd0d1436a5.setIcon(div_icon_c82bcbe27757e38880681009277febb7);
         
     
-            var marker_108297b8a7c61127cd0ee8f4af04dd9d = L.marker(
+            var marker_eed1d8c420d73f671ffdc0946faa32f4 = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_2438b2b3b3cc3f714c3b85424911e8d3);
+            ).addTo(feature_group_cd8d3a66d853ae464741bc529cc8ba70);
         
     
-            var div_icon_eb949f26a50eafd0eff863e635c6d084 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_108297b8a7c61127cd0ee8f4af04dd9d.setIcon(div_icon_eb949f26a50eafd0eff863e635c6d084);
+            var div_icon_e891b56eb884332123fb2e3c3ecb3257 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_eed1d8c420d73f671ffdc0946faa32f4.setIcon(div_icon_e891b56eb884332123fb2e3c3ecb3257);
         
     
-            feature_group_2438b2b3b3cc3f714c3b85424911e8d3.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_cd8d3a66d853ae464741bc529cc8ba70.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            var feature_group_4cc583eb7d93663af8ee8a4e8b356293 = L.featureGroup(
+            var feature_group_c5d9078e300e0d61b4002ae5a00466e2 = L.featureGroup(
                 {"maxZoom": 12, "minZoom": 7, "showCoverageOnHover": false}
             );
         
     
-            var marker_e05ae02f3f1b77312bf323d6fbadfaec = L.marker(
+            var marker_d08654583780f4aa9806fbfa39a6c12b = L.marker(
                 [-0.348127355546816, -79.95821348135885],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4cc583eb7d93663af8ee8a4e8b356293);
+            ).addTo(feature_group_c5d9078e300e0d61b4002ae5a00466e2);
         
     
-        var custom_icon_f097cf7ebf7ad177717a49d1cb88e199 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
-        marker_e05ae02f3f1b77312bf323d6fbadfaec.setIcon(custom_icon_f097cf7ebf7ad177717a49d1cb88e199);
+        var custom_icon_1f1215de04f6a18eeb333415ee857ae7 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
+        marker_d08654583780f4aa9806fbfa39a6c12b.setIcon(custom_icon_1f1215de04f6a18eeb333415ee857ae7);
         
     
-            marker_e05ae02f3f1b77312bf323d6fbadfaec.bindTooltip(
+            marker_d08654583780f4aa9806fbfa39a6c12b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2273,17 +2275,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_5b296539fe3074198b676b2256333401 = L.marker(
+            var marker_752e3f054f354563108c90bbcd2ae6c0 = L.marker(
                 [-2.649876809604617, -79.7111176366896],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4cc583eb7d93663af8ee8a4e8b356293);
+            ).addTo(feature_group_c5d9078e300e0d61b4002ae5a00466e2);
         
     
-        var custom_icon_8c7f43299136472ac0b6a60c7c84e395 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
-        marker_5b296539fe3074198b676b2256333401.setIcon(custom_icon_8c7f43299136472ac0b6a60c7c84e395);
+        var custom_icon_e204a647268eaec5aa5e87e9a7eaaba6 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
+        marker_752e3f054f354563108c90bbcd2ae6c0.setIcon(custom_icon_e204a647268eaec5aa5e87e9a7eaaba6);
         
     
-            marker_5b296539fe3074198b676b2256333401.bindTooltip(
+            marker_752e3f054f354563108c90bbcd2ae6c0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2295,17 +2297,17 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            var marker_0e748b5f9f8525c8e46baf4681b0f3cd = L.marker(
+            var marker_fb8615d41318a03320b0e66567666a1b = L.marker(
                 [-7.522111527923194, -79.18943944930979],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4cc583eb7d93663af8ee8a4e8b356293);
+            ).addTo(feature_group_c5d9078e300e0d61b4002ae5a00466e2);
         
     
-        var custom_icon_dfe3fcf4e968478944c16fe480f9a81f = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
-        marker_0e748b5f9f8525c8e46baf4681b0f3cd.setIcon(custom_icon_dfe3fcf4e968478944c16fe480f9a81f);
+        var custom_icon_d51035e7108b30bf9a066c3fecf64615 = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
+        marker_fb8615d41318a03320b0e66567666a1b.setIcon(custom_icon_d51035e7108b30bf9a066c3fecf64615);
         
     
-            marker_0e748b5f9f8525c8e46baf4681b0f3cd.bindTooltip(
+            marker_fb8615d41318a03320b0e66567666a1b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2317,21 +2319,21 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
             );
         
     
-            feature_group_4cc583eb7d93663af8ee8a4e8b356293.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_c5d9078e300e0d61b4002ae5a00466e2.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            var mouse_position_c894b2654b69c1b59821831040447a81 = new L.Control.MousePosition(
+            var mouse_position_ae2e00dac5adf9f84274bd9cb8bda9b2 = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_c894b2654b69c1b59821831040447a81.options["latFormatter"] =
+            mouse_position_ae2e00dac5adf9f84274bd9cb8bda9b2.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_c894b2654b69c1b59821831040447a81.options["lngFormatter"] =
+            mouse_position_ae2e00dac5adf9f84274bd9cb8bda9b2.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_9a29172732b6d3cc65a49dd7298368f5.addControl(mouse_position_c894b2654b69c1b59821831040447a81);
+            map_7391d43ce25848d33c3bbfe986f1e91d.addControl(mouse_position_ae2e00dac5adf9f84274bd9cb8bda9b2);
         
     
-            var feature_group_da50d080e0e59c89e717112ab5c0ec07searchControl = new L.Control.Search({
-                layer: feature_group_da50d080e0e59c89e717112ab5c0ec07,
+            var feature_group_b567d2ebd977e885cd3b297e54065f4bsearchControl = new L.Control.Search({
+                layer: feature_group_b567d2ebd977e885cd3b297e54065f4b,
                 
                 propertyName: 'clave',
                 
@@ -2346,8 +2348,8 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
                 }
             
                 });
-                feature_group_da50d080e0e59c89e717112ab5c0ec07searchControl.on('search:locationfound', function(e) {
-                    feature_group_da50d080e0e59c89e717112ab5c0ec07.setStyle(function(feature){
+                feature_group_b567d2ebd977e885cd3b297e54065f4bsearchControl.on('search:locationfound', function(e) {
+                    feature_group_b567d2ebd977e885cd3b297e54065f4b.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2356,29 +2358,29 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_da50d080e0e59c89e717112ab5c0ec07searchControl.on('search:collapsed', function(e) {
-                        feature_group_da50d080e0e59c89e717112ab5c0ec07.setStyle(function(feature){
+                feature_group_b567d2ebd977e885cd3b297e54065f4bsearchControl.on('search:collapsed', function(e) {
+                        feature_group_b567d2ebd977e885cd3b297e54065f4b.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_9a29172732b6d3cc65a49dd7298368f5.addControl( feature_group_da50d080e0e59c89e717112ab5c0ec07searchControl );
+            map_7391d43ce25848d33c3bbfe986f1e91d.addControl( feature_group_b567d2ebd977e885cd3b297e54065f4bsearchControl );
 
         
     
-            var tile_layer_b9590b17b337ddea6e534cc6493cd7ad = L.tileLayer(
+            var tile_layer_9ff3a233d7f6c1ad240c6a56d5b36b24 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_13d65642917cdf24e716734b28be9e6c = new L.Control.MiniMap(
-                tile_layer_b9590b17b337ddea6e534cc6493cd7ad,
+            var mini_map_49669e2085a3612a44a129cf72f6a0ba = new L.Control.MiniMap(
+                tile_layer_9ff3a233d7f6c1ad240c6a56d5b36b24,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_9a29172732b6d3cc65a49dd7298368f5.addControl(mini_map_13d65642917cdf24e716734b28be9e6c);
+            map_7391d43ce25848d33c3bbfe986f1e91d.addControl(mini_map_49669e2085a3612a44a129cf72f6a0ba);
         
     
-            var tag_filter_button_394e9e00a87716e7fc9c44404aebb3a6 = L.control.tagFilterButton(
+            var tag_filter_button_560a6342fdc290af3b2b958059b27b92 = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            ).addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
         L.easyButton(
@@ -2393,10 +2395,10 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
         }
     }
     
-        ).addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+        ).addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            map_9a29172732b6d3cc65a49dd7298368f5.fitBounds(
+            map_7391d43ce25848d33c3bbfe986f1e91d.fitBounds(
                 [[-8.97088985178516, -81.32819536512397], [1.19705808, -76.90124323628629]],
                 {}
             );
@@ -2407,55 +2409,55 @@ Los caminos refieren a las rutas principales identificadas en la region. Los íc
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_2cb280dda0833e82251a3880254fb838,
-                        "Necesidad por tramo [66]" : marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207,
-                        "Paso fronterizo [4]" : feature_group_b85df7339e7db1aad1808f322b36e14c,
-                        "Riesgo por departamento [11]" : geo_json_2fa859b11abb9b01c1de0e42716e6fe9,
+                        "Ruta identificada [10]" : geo_json_4c0727390df2b78c8d7c6bfbec57fa3d,
+                        "Necesidad por tramo [66]" : marker_cluster_aa4555ebd3a64e2b17218f89cf09805b,
+                        "Paso fronterizo [4]" : feature_group_5a49f03b0b15f2367a21304d631e3de9,
+                        "Riesgo por departamento [11]" : geo_json_af8a1656cfc6eb70db9cc6b738cd78eb,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_2438b2b3b3cc3f714c3b85424911e8d3,
-                        "Flujo migratorio" : feature_group_4cc583eb7d93663af8ee8a4e8b356293,
+                        "Departamento / Provincia" : feature_group_cd8d3a66d853ae464741bc529cc8ba70,
+                        "Flujo migratorio" : feature_group_c5d9078e300e0d61b4002ae5a00466e2,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_8be8133a5a5a87f4237f5bf4d3c0d44a,
-                        "OpenStreetMap" : tile_layer_e0973cecc8c5e4ae7bcfd149cd15ef8c,
-                        "Esri Sat\u00e9lite" : tile_layer_4227b2bf46f4c1e291f70c5d5c2d4362,
-                        "Google H\u00edbrido" : tile_layer_7a90f7f3357a7ece6108a341836f5afb,
+                        "CartoDB Positron" : tile_layer_4d7293fc112892542a36883a0b1762a7,
+                        "OpenStreetMap" : tile_layer_68ac4f847e884988934d1201bb28cce8,
+                        "Esri Sat\u00e9lite" : tile_layer_5f72b984a42eccd96e64b575c8a18f90,
+                        "Google H\u00edbrido" : tile_layer_1b57b212c4ebdb86e0160957da320dd9,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_9a29172732b6d3cc65a49dd7298368f5);
-            tile_layer_4227b2bf46f4c1e291f70c5d5c2d4362.remove();
-            tile_layer_e0973cecc8c5e4ae7bcfd149cd15ef8c.remove();
-            tile_layer_7a90f7f3357a7ece6108a341836f5afb.remove();
+            ).addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
+            tile_layer_1b57b212c4ebdb86e0160957da320dd9.remove();
+            tile_layer_68ac4f847e884988934d1201bb28cce8.remove();
+            tile_layer_5f72b984a42eccd96e64b575c8a18f90.remove();
 
         
     
-            tile_layer_8be8133a5a5a87f4237f5bf4d3c0d44a.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            tile_layer_4d7293fc112892542a36883a0b1762a7.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            geo_json_2fa859b11abb9b01c1de0e42716e6fe9.addTo(feature_group_da50d080e0e59c89e717112ab5c0ec07);
+            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.addTo(feature_group_b567d2ebd977e885cd3b297e54065f4b);
         
     
-            feature_group_da50d080e0e59c89e717112ab5c0ec07.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_b567d2ebd977e885cd3b297e54065f4b.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            geo_json_2cb280dda0833e82251a3880254fb838.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            geo_json_4c0727390df2b78c8d7c6bfbec57fa3d.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            feature_group_b85df7339e7db1aad1808f322b36e14c.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_5a49f03b0b15f2367a21304d631e3de9.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            marker_cluster_4dbef4f4aad077fb11cd1cc832cf1207.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            marker_cluster_aa4555ebd3a64e2b17218f89cf09805b.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            geo_json_2fa859b11abb9b01c1de0e42716e6fe9.addTo(feature_group_da50d080e0e59c89e717112ab5c0ec07);
+            geo_json_af8a1656cfc6eb70db9cc6b738cd78eb.addTo(feature_group_b567d2ebd977e885cd3b297e54065f4b);
         
     
-            feature_group_2438b2b3b3cc3f714c3b85424911e8d3.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_cd8d3a66d853ae464741bc529cc8ba70.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
     
-            feature_group_4cc583eb7d93663af8ee8a4e8b356293.addTo(map_9a29172732b6d3cc65a49dd7298368f5);
+            feature_group_c5d9078e300e0d61b4002ae5a00466e2.addTo(map_7391d43ce25848d33c3bbfe986f1e91d);
         
 </script>
 </html>
