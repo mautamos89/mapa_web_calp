@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_f774e99b64d51d1b8b2ee6b1a3b1b6db {
+                #map_bc270123c970e5d85b0575a50a7e8005 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -107,12 +107,12 @@
 <body>
     
     
-            <div class="folium-map" id="map_f774e99b64d51d1b8b2ee6b1a3b1b6db" ></div>
+            <div class="folium-map" id="map_bc270123c970e5d85b0575a50a7e8005" ></div>
         
     
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -126,17 +126,17 @@
       align-items: center; /* Centrar verticalmente */
     }
     .map-logo {
-      width: 140px; /* ajustar el ancho de la imagen */
-      height: 30.787px; /* ajustar el alto de la imagen */
+      width: 145px; /* ajustar el ancho de la imagen */
+      height: 31.886px; /* ajustar el alto de la imagen */
       margin-right: 4px; /* agregar espacio entre la imagen y el título */
       margin-left: 0px;
     }
     .map-title {
       font-weight: bold;
-      font-size: 85%;
+      font-size: 90%;
     }
     .map-header {
-      font-size: 55%;
+      font-size: 70%;
     }
   </style>
 
@@ -175,7 +175,7 @@
     
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -189,13 +189,13 @@
     }
     .map-info-title {
       font-weight: bold;
-      font-size: 85%;
+      font-size: 95%;
       text-align: center; /* Centrar texto */
     }
     .map-info-text {
-      font-size: 80%;
-      max-width: 250px; /* Establecer ancho máximo */
-      max-height: 160px;
+      font-size: 93%;
+      max-width: 312px; /* Establecer ancho máximo */
+      max-height: 170px;
       text-align: justify; /* Justificar texto */
       white-space: pre-wrap;
       overflow-y: auto; /* Agregar barra de scrolling vertical */
@@ -230,7 +230,7 @@
       <div class='map-info-title'>Información del mapa</div>
       <div class='map-info-text'>Esta herramienta tiene como objetivo visualizar las principales rutas de tránsito de personas en movimiento en Ecuador y Perú, así como destacar las necesidades y riesgos de protección más relevantes, identificados por informantes clave de organizaciones humanitarias locales e internacionales y representantes de entidades gubernamentales que participaron en grupos focales de discusión y en mapeos participativos.
 
-Las rutas identificadas están marcadas con una línea roja. Al hacer clic en los números, se pueden visualizar los íconos que representan las necesidades identificadas. La coropleta ilustra los niveles de riesgo a los que están expuestas las personas en tránsito. Puede hacer clic en la coropleta para consultar los detalles de los riesgos asociados.
+Las rutas identificadas están marcadas con una línea roja. Al hacer clic en los números, se pueden visualizar los íconos que representan las necesidades identificadas. La capa de Departamento / Provincia ilustra los niveles de riesgo a los que están expuestas las personas en tránsito. Puede hacer clic en la capa temática para consultar los detalles de los riesgos asociados.
 
 Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 5 de abril en Tumbes, Perú, y el 17 de abril en Quito, Ecuador. El estudio se basa en métodos cualitativos, que permiten una comprensión profunda de las perspectivas de los participantes. Sin embargo, es importante reconocer que este enfoque tiene limitaciones, como la subjetividad de las respuestas y el sesgo de percepción, por lo que los resultados del estudio deben considerarse indicativos.</div>
     </div>
@@ -240,7 +240,7 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -271,42 +271,60 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
 <div id='maplegend' class='maplegend'
     style='position: absolute; z-index:9999; background-color:rgba(255, 255, 255, 0.75);
      border-radius:2px; padding: 5px; font-size:14px; left: 5px; bottom: 40px;'>
-
-<div class='my-legend'>
-<div class='legend-title'>Leyenda</div>
-<div class='legend-header'>Nivel de riesgo</div>
-<div class='legend-scale'>
-  <ul class='legend-labels'>
-    <li><span style='background:#DCE9F0;'></span>Bajo [2]</li>
-    <li><span style='background:#B3D4E7;'></span>Medio [6]</li>
-    <li><span style='background:#7296BC;'></span>Alto [3]</li>
-  </ul>
-</div>
-<div class='legend-vertical'>
-  <ul class='legend-vertical-labels'>
-    <li><span style='background:#A4303F;'></span>Ruta identificada</li>
-  </ul>
-</div>
+  <div class='my-legend'>
+    <div class='legend-title'>Leyenda</div>
+    <div class='legend-header'>Nivel de riesgo (Admin 1):</div>
+    <div class='legend-container'>
+      <div class='legend-left'>
+        <div class='legend-scale'>
+          <ul class='legend-labels'>
+            <li><span style='background:#DCE9F0;'></span>Bajo [2]</li>
+            <li><span style='background:#B3D4E7;'></span>Medio [6]</li>
+            <li><span style='background:#7296BC;'></span>Alto [3]</li>
+          </ul>
+        </div>
+        <div class='legend-vertical'>
+          <ul class='legend-vertical-labels'>
+            <li><span style='background:#A4303F;'></span>Ruta identificada</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg'  /></span>Agua, saneamiento e higiene</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg'  /></span>Alimentos</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg'  /></span>Medios de vida e integración</li>
+          </ul>
+        </div>
+      </div>
+      <div class='legend-right'>
+        <div class='legend-vertical-right'>
+          <ul class='legend-vertical-labels'>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg'  /></span>Alojamiento</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg'  /></span>Artículos no alimentarios</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg'  /></span>Protección y regularización</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg'  /></span>Salud</li>
+            <li><span><img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg'  /></span>Transporte</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 <style type='text/css'>
   .my-legend .legend-title {
     text-align: center;
-    margin-bottom: 3px;
+    margin-bottom: 2px;
     font-weight: bold;
-    font-size: 80%;
-    }
+    font-size: 85%;
+  }
   .my-legend .legend-header {
     text-align: left;
     margin-bottom: 1px;
     font-size: 80%;
-    }
+  }
   .my-legend .legend-scale ul {
     margin: 0;
     padding: 0;
     float: left;
     list-style: none;
-    }
+  }
   .my-legend .legend-scale ul li {
     display: block;
     float: left;
@@ -315,13 +333,13 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     text-align: center;
     font-size: 80%;
     list-style: none;
-    }
+  }
   .my-legend ul.legend-labels li span {
     display: block;
     float: left;
     height: 15px;
     width: 45px;
-    }
+  }
     .my-legend .legend-vertical ul {
     margin: 0;
     margin-bottom: 2px;
@@ -330,31 +348,59 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     padding: 0;
     float: left;
     list-style: none;
-    }
+  }
   .my-legend .legend-vertical ul li {
     font-size: 80%;
     list-style: none;
     margin-left: 0px;
     margin-right: 0px;
-    line-height: 18px;
+    line-height: 20px;
     margin-bottom: 2px;
-    }
+  }
   .my-legend ul.legend-vertical-labels li span {
     display: block;
     float: right;
-    height: 16px;
-    width: 18px;
-    margin-right: 5px;
-    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+    margin-right: 2px;
+    margin-left: 2px;
     margin-bottom: 2px;
-    }
+  }
+
+  .my-legend .legend-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .my-legend .legend-left {
+    flex: 1;
+    margin-right: 0px;
+  }
+
+  .my-legend .legend-right {
+    flex: 1;
+  }
+
+  .my-legend .legend-vertical-right {
+    margin-left: 0;
+  }
+
+  .my-legend .legend-vertical-right ul li {
+    font-size: 80%;
+    list-style: none;
+    margin-left: 2px;
+    margin-right: 2px;
+    line-height: 20px;
+    margin-bottom: 2px;
+  }
+
 </style>
 </body>
 <script>
     
     
-            var map_f774e99b64d51d1b8b2ee6b1a3b1b6db = L.map(
-                "map_f774e99b64d51d1b8b2ee6b1a3b1b6db",
+            var map_bc270123c970e5d85b0575a50a7e8005 = L.map(
+                "map_bc270123c970e5d85b0575a50a7e8005",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -363,51 +409,51 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            L.control.scale().addTo(map_bc270123c970e5d85b0575a50a7e8005);
 
             
 
         
     
-            var tile_layer_d0869742596bfcf92a3bcabeeab22c3d = L.tileLayer(
+            var tile_layer_4a303c637fdfcf93cb3de3abc721491b = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
-                {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_d0869742596bfcf92a3bcabeeab22c3d.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            tile_layer_4a303c637fdfcf93cb3de3abc721491b.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            var tile_layer_f57be31b5c860163ef413b651518937f = L.tileLayer(
+            var tile_layer_f259307c42464140395b8347f8de18e2 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-                {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_36d38b282655d341d801a65425f57bac = L.tileLayer(
+            var tile_layer_89f56057d6fcac2ec385d01761ad631c = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
-                {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_c3fe6bdccafd3869cd72ca3ae9a99119 = L.tileLayer(
+            var tile_layer_f582a26c15f9d607259ceafc3d817918 = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
-                {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_e2ef2e83eeeafb3b1f7304192bf47bdf = L.tileLayer(
+            var tile_layer_cbabb5915d7ef8b091d7fcb4e6aabb6c = L.tileLayer(
                 "",
-                {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 12, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+                {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_be839608072fa1d779cc709816d34cd8 = L.featureGroup(
+            var feature_group_546eeebb2f01cb9d06b937c4fa2de562 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_a5a9a53317b25a20310af92d80cef250_styler(feature) {
+        function geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Imbabura": case "Lambayeque": 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
@@ -417,59 +463,59 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     return {"color": "black", "fill": true, "fillColor": "#6baed6", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_a5a9a53317b25a20310af92d80cef250_highlighter(feature) {
+        function geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_a5a9a53317b25a20310af92d80cef250_onEachFeature(feature, layer) {
+        function geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_a5a9a53317b25a20310af92d80cef250.resetStyle(e.target);
+                            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_a5a9a53317b25a20310af92d80cef250_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_a5a9a53317b25a20310af92d80cef250_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_a5a9a53317b25a20310af92d80cef250.resetStyle(e.target);
+                        geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_a5a9a53317b25a20310af92d80cef250 = L.geoJson(null, {
+        var geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_a5a9a53317b25a20310af92d80cef250_onEachFeature,
+                onEachFeature: geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_onEachFeature,
             
-                style: geo_json_a5a9a53317b25a20310af92d80cef250_styler,
+                style: geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_styler,
         });
 
-        function geo_json_a5a9a53317b25a20310af92d80cef250_add (data) {
-            geo_json_a5a9a53317b25a20310af92d80cef250
+        function geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_add (data) {
+            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_a5a9a53317b25a20310af92d80cef250_add);
+                .done(geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb_add);
 
         
     
-    geo_json_a5a9a53317b25a20310af92d80cef250.bindPopup(
+    geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -493,13 +539,13 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     ,{"className": "foliumpopup", "maxWidth": 250});
                      
     
-            geo_json_a5a9a53317b25a20310af92d80cef250.addTo(feature_group_be839608072fa1d779cc709816d34cd8);
+            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.addTo(feature_group_546eeebb2f01cb9d06b937c4fa2de562);
         
     
-            feature_group_be839608072fa1d779cc709816d34cd8.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_546eeebb2f01cb9d06b937c4fa2de562.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-        function geo_json_66ccff09535b9f2e353712d14af1c9b8_styler(feature) {
+        function geo_json_3332cc347b81b9d27d768de1a9051eed_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 22: case 24: case 31: case 34: case 40: case 49: case 51: case 73: case 75: case 81: case 82: case 98: case 112: case 113: case 114: case 122: case 124: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["B:Ibarra-Quito"], "weight": 4};
@@ -524,28 +570,28 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             }
         }
 
-        function geo_json_66ccff09535b9f2e353712d14af1c9b8_onEachFeature(feature, layer) {
+        function geo_json_3332cc347b81b9d27d768de1a9051eed_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_66ccff09535b9f2e353712d14af1c9b8 = L.geoJson(null, {
+        var geo_json_3332cc347b81b9d27d768de1a9051eed = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_66ccff09535b9f2e353712d14af1c9b8_onEachFeature,
+                onEachFeature: geo_json_3332cc347b81b9d27d768de1a9051eed_onEachFeature,
             
-                style: geo_json_66ccff09535b9f2e353712d14af1c9b8_styler,
+                style: geo_json_3332cc347b81b9d27d768de1a9051eed_styler,
                 localize: true,
         });
 
-        function geo_json_66ccff09535b9f2e353712d14af1c9b8_add (data) {
-            geo_json_66ccff09535b9f2e353712d14af1c9b8
+        function geo_json_3332cc347b81b9d27d768de1a9051eed_add (data) {
+            geo_json_3332cc347b81b9d27d768de1a9051eed
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_66ccff09535b9f2e353712d14af1c9b8_add);
+                .done(geo_json_3332cc347b81b9d27d768de1a9051eed_add);
 
         
     
-    geo_json_66ccff09535b9f2e353712d14af1c9b8.bindTooltip(
+    geo_json_3332cc347b81b9d27d768de1a9051eed.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -569,25 +615,25 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     ,{"className": "foliumtooltip", "showCoverageOnHover": false, "sticky": true});
                      
     
-            geo_json_66ccff09535b9f2e353712d14af1c9b8.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            geo_json_3332cc347b81b9d27d768de1a9051eed.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            var feature_group_e11775e6c8db923dcbaafed03eee381d = L.featureGroup(
+            var feature_group_ded274ad22e358135811b1779cd872b0 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_2d1a7c462e49972b7987842bf80abafb = L.marker(
+            var marker_2496284c6a8d64d99a1dcccac34c4673 = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_e11775e6c8db923dcbaafed03eee381d);
+            ).addTo(feature_group_ded274ad22e358135811b1779cd872b0);
         
     
-        var custom_icon_8ed58ae0418da4b80545aa0ecc166824 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_2d1a7c462e49972b7987842bf80abafb.setIcon(custom_icon_8ed58ae0418da4b80545aa0ecc166824);
+        var custom_icon_edd24b39ca60a09e785bcfbde2cbaa76 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_2496284c6a8d64d99a1dcccac34c4673.setIcon(custom_icon_edd24b39ca60a09e785bcfbde2cbaa76);
         
     
-            marker_2d1a7c462e49972b7987842bf80abafb.bindTooltip(
+            marker_2496284c6a8d64d99a1dcccac34c4673.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -599,17 +645,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_66744869735b5f30824a7bceb4ebfc10 = L.marker(
+            var marker_49cf010abfe7c13cb1a47bdce66ea60f = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_e11775e6c8db923dcbaafed03eee381d);
+            ).addTo(feature_group_ded274ad22e358135811b1779cd872b0);
         
     
-        var custom_icon_2e7c21542bd84f3a47ca5a0d721b1ccd = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_66744869735b5f30824a7bceb4ebfc10.setIcon(custom_icon_2e7c21542bd84f3a47ca5a0d721b1ccd);
+        var custom_icon_894f95f6e6832e65ba4bcbc688c60985 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_49cf010abfe7c13cb1a47bdce66ea60f.setIcon(custom_icon_894f95f6e6832e65ba4bcbc688c60985);
         
     
-            marker_66744869735b5f30824a7bceb4ebfc10.bindTooltip(
+            marker_49cf010abfe7c13cb1a47bdce66ea60f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -621,17 +667,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_3105fdfa74b17c377eeef70e2bdc92b2 = L.marker(
+            var marker_4d9fbea965dee7320fc88ba7bd552200 = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_e11775e6c8db923dcbaafed03eee381d);
+            ).addTo(feature_group_ded274ad22e358135811b1779cd872b0);
         
     
-        var custom_icon_3e6de3752fdf27862db3b5da38ae72ca = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_3105fdfa74b17c377eeef70e2bdc92b2.setIcon(custom_icon_3e6de3752fdf27862db3b5da38ae72ca);
+        var custom_icon_3612b1ad97e7a6a13171beabfc990585 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_4d9fbea965dee7320fc88ba7bd552200.setIcon(custom_icon_3612b1ad97e7a6a13171beabfc990585);
         
     
-            marker_3105fdfa74b17c377eeef70e2bdc92b2.bindTooltip(
+            marker_4d9fbea965dee7320fc88ba7bd552200.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -643,17 +689,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_fbb8bb7ac5c518b2c2ae617fa6f0aafe = L.marker(
+            var marker_ba2f59c1815349bc49992fee63d682c8 = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_e11775e6c8db923dcbaafed03eee381d);
+            ).addTo(feature_group_ded274ad22e358135811b1779cd872b0);
         
     
-        var custom_icon_ce4b66d7b4098930474c892c69d8c52c = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_fbb8bb7ac5c518b2c2ae617fa6f0aafe.setIcon(custom_icon_ce4b66d7b4098930474c892c69d8c52c);
+        var custom_icon_d67870376253eafd8b214a60d3027887 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_ba2f59c1815349bc49992fee63d682c8.setIcon(custom_icon_d67870376253eafd8b214a60d3027887);
         
     
-            marker_fbb8bb7ac5c518b2c2ae617fa6f0aafe.bindTooltip(
+            marker_ba2f59c1815349bc49992fee63d682c8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -665,25 +711,25 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            feature_group_e11775e6c8db923dcbaafed03eee381d.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_ded274ad22e358135811b1779cd872b0.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            var marker_cluster_557f433202f7f32b9784bf7499ff563a = L.markerClusterGroup(
+            var marker_cluster_765a8a754d11f05fb0056b6b63813941 = L.markerClusterGroup(
                 {"embed": false, "showCoverageOnHover": false}
             );
         
     
-            var marker_5be3db3d31126cbc781c18c1cfc9a539 = L.marker(
-                [0.34629002347783, -78.08665768927213],
+            var marker_caa5c57386e08f32d5f3e5be96cb01a5 = L.marker(
+                [0.34392553572693, -78.1072746077203],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_b424270a2a447bac94e74a2b54515d39 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_5be3db3d31126cbc781c18c1cfc9a539.setIcon(custom_icon_b424270a2a447bac94e74a2b54515d39);
+        var custom_icon_fef393afa06d6e0d031794ff1050e417 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_caa5c57386e08f32d5f3e5be96cb01a5.setIcon(custom_icon_fef393afa06d6e0d031794ff1050e417);
         
     
-            marker_5be3db3d31126cbc781c18c1cfc9a539.bindTooltip(
+            marker_caa5c57386e08f32d5f3e5be96cb01a5.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -695,17 +741,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f2dcf54ae66bde6966cd040114b37f21 = L.marker(
-                [0.39629002347783, -78.08665768927213],
+            var marker_fb1de7efa82ca914a3ce9b8abaa9b201 = L.marker(
+                [0.368494432992633, -78.11318438095611],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_764aa4c1d3ac52ec682cff11b625bfec = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_f2dcf54ae66bde6966cd040114b37f21.setIcon(custom_icon_764aa4c1d3ac52ec682cff11b625bfec);
+        var custom_icon_477812cd960c4bc016468e269f40be84 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_fb1de7efa82ca914a3ce9b8abaa9b201.setIcon(custom_icon_477812cd960c4bc016468e269f40be84);
         
     
-            marker_f2dcf54ae66bde6966cd040114b37f21.bindTooltip(
+            marker_fb1de7efa82ca914a3ce9b8abaa9b201.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -717,17 +763,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_d7edb98ffdd6d0ffd0a7b34842a74fe8 = L.marker(
-                [0.29629002347783, -78.08665768927213],
+            var marker_3ab4913e1c4ba7c599f2890f6e05113b = L.marker(
+                [0.326022862671228, -78.12215147687927],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_f83f405669b0707f30b6722c796de498 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_d7edb98ffdd6d0ffd0a7b34842a74fe8.setIcon(custom_icon_f83f405669b0707f30b6722c796de498);
+        var custom_icon_527c5460947f745d8161984fd29821e2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_3ab4913e1c4ba7c599f2890f6e05113b.setIcon(custom_icon_527c5460947f745d8161984fd29821e2);
         
     
-            marker_d7edb98ffdd6d0ffd0a7b34842a74fe8.bindTooltip(
+            marker_3ab4913e1c4ba7c599f2890f6e05113b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -739,17 +785,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_e134804b0e4ede7f1511216960eaf063 = L.marker(
-                [0.39629002347783, -78.13665768927213],
+            var marker_60dba2f2ef447340092271e82fa535c9 = L.marker(
+                [0.368131966900836, -78.13778479701242],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_18c197ae13ea1209b400c624119b696a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_e134804b0e4ede7f1511216960eaf063.setIcon(custom_icon_18c197ae13ea1209b400c624119b696a);
+        var custom_icon_0b72d9326082a0f5404b8d6fc64132b3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_60dba2f2ef447340092271e82fa535c9.setIcon(custom_icon_0b72d9326082a0f5404b8d6fc64132b3);
         
     
-            marker_e134804b0e4ede7f1511216960eaf063.bindTooltip(
+            marker_60dba2f2ef447340092271e82fa535c9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -761,17 +807,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a1d4521abed72ea1fb4c44617e50a2ee = L.marker(
-                [0.29629002347783, -78.13665768927213],
+            var marker_f34d9a45b78a24877dd241cc056e4910 = L.marker(
+                [0.328040065269054, -78.14635790805318],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_9868cf2c54ad4fb8e888a28250f21cd6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_a1d4521abed72ea1fb4c44617e50a2ee.setIcon(custom_icon_9868cf2c54ad4fb8e888a28250f21cd6);
+        var custom_icon_925b11cb7f26ba96eb47cf01a088891b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_f34d9a45b78a24877dd241cc056e4910.setIcon(custom_icon_925b11cb7f26ba96eb47cf01a088891b);
         
     
-            marker_a1d4521abed72ea1fb4c44617e50a2ee.bindTooltip(
+            marker_f34d9a45b78a24877dd241cc056e4910.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -783,17 +829,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_253c54f8e8884efaa401e9e1ddb6cca7 = L.marker(
-                [0.34629002347783, -78.13665768927213],
+            var marker_cc5f8947349ccd5e5f71eb38279207d7 = L.marker(
+                [0.349220692546222, -78.1546788687692],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_6a090e00f0b51738dffc45ebc1f22a17 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_253c54f8e8884efaa401e9e1ddb6cca7.setIcon(custom_icon_6a090e00f0b51738dffc45ebc1f22a17);
+        var custom_icon_03d9e73fc51c2241395f76c53860880d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_cc5f8947349ccd5e5f71eb38279207d7.setIcon(custom_icon_03d9e73fc51c2241395f76c53860880d);
         
     
-            marker_253c54f8e8884efaa401e9e1ddb6cca7.bindTooltip(
+            marker_cc5f8947349ccd5e5f71eb38279207d7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -805,17 +851,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_57a152f7ca7466ce0a6b677d24c5575e = L.marker(
-                [0.722885465378173, -77.78450695248989],
+            var marker_2e4843efc56a3c57ffc36367dbadc5b1 = L.marker(
+                [0.766529479971382, -77.74720394400845],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_e10f1d6886c6bd6ea7d0581d8e0b8bbb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_57a152f7ca7466ce0a6b677d24c5575e.setIcon(custom_icon_e10f1d6886c6bd6ea7d0581d8e0b8bbb);
+        var custom_icon_a88d9fa94ee1270ee64784387876d227 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_2e4843efc56a3c57ffc36367dbadc5b1.setIcon(custom_icon_a88d9fa94ee1270ee64784387876d227);
         
     
-            marker_57a152f7ca7466ce0a6b677d24c5575e.bindTooltip(
+            marker_2e4843efc56a3c57ffc36367dbadc5b1.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -827,17 +873,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b07341826b98c9e8764fbd77c3601b44 = L.marker(
-                [0.722974078257829, -77.7346981642632],
+            var marker_534ec25cd1b4a8256e0c4b417a4c2745 = L.marker(
+                [0.779641296857248, -77.72829266965383],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_c328d58157c113763d281416c8c3f441 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_b07341826b98c9e8764fbd77c3601b44.setIcon(custom_icon_c328d58157c113763d281416c8c3f441);
+        var custom_icon_b613d127337c18910eaf5a904b8ffe76 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_534ec25cd1b4a8256e0c4b417a4c2745.setIcon(custom_icon_b613d127337c18910eaf5a904b8ffe76);
         
     
-            marker_b07341826b98c9e8764fbd77c3601b44.bindTooltip(
+            marker_534ec25cd1b4a8256e0c4b417a4c2745.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -849,17 +895,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_2f8198f6a8b462703f219ca4f8eae724 = L.marker(
-                [0.823342515790444, -77.78543503932843],
+            var marker_ca97c70a9556d7b057b52dac5131f0f3 = L.marker(
+                [0.804099878355883, -77.74291738848807],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_2ca3d141536b1935fc0667be6bb937d8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_2f8198f6a8b462703f219ca4f8eae724.setIcon(custom_icon_2ca3d141536b1935fc0667be6bb937d8);
+        var custom_icon_37053b52bab6bcdbd0a8486dbfd2014e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_ca97c70a9556d7b057b52dac5131f0f3.setIcon(custom_icon_37053b52bab6bcdbd0a8486dbfd2014e);
         
     
-            marker_2f8198f6a8b462703f219ca4f8eae724.bindTooltip(
+            marker_ca97c70a9556d7b057b52dac5131f0f3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -871,17 +917,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_06b86b00af453c7ff76b69f3365b3765 = L.marker(
-                [0.773342515790444, -77.78543503932843],
+            var marker_31e00b2b37e78ba46f1885139152b3b2 = L.marker(
+                [0.785945054975453, -77.7487168459568],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_8642eadbf3bc850fc8b0bfb0028aaee7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_06b86b00af453c7ff76b69f3365b3765.setIcon(custom_icon_8642eadbf3bc850fc8b0bfb0028aaee7);
+        var custom_icon_8a03ae8c4e1fe0dac4b857ef77da3fc3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_31e00b2b37e78ba46f1885139152b3b2.setIcon(custom_icon_8a03ae8c4e1fe0dac4b857ef77da3fc3);
         
     
-            marker_06b86b00af453c7ff76b69f3365b3765.bindTooltip(
+            marker_31e00b2b37e78ba46f1885139152b3b2.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -893,17 +939,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_dd5a8256bf5350fed62394a8b6453a92 = L.marker(
-                [0.823342515790444, -77.73543503932844],
+            var marker_392f92ba3c878b584ba84b7aaec59b6e = L.marker(
+                [0.819228897839575, -77.71770235601524],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_838147c147e7d7be9d4d9c0a5786db16 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_dd5a8256bf5350fed62394a8b6453a92.setIcon(custom_icon_838147c147e7d7be9d4d9c0a5786db16);
+        var custom_icon_d44075c024f37f8dab592ee1506dc7d3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_392f92ba3c878b584ba84b7aaec59b6e.setIcon(custom_icon_d44075c024f37f8dab592ee1506dc7d3);
         
     
-            marker_dd5a8256bf5350fed62394a8b6453a92.bindTooltip(
+            marker_392f92ba3c878b584ba84b7aaec59b6e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -915,17 +961,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_5b09f2305c7c1a1515ee8777fadbb008 = L.marker(
-                [0.773342515790444, -77.73543503932844],
+            var marker_7cb827ac27fe8e59b180e246a4cb8240 = L.marker(
+                [0.791744512444202, -77.71543300309268],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_34f1033b8b1ed589393f581669361489 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_5b09f2305c7c1a1515ee8777fadbb008.setIcon(custom_icon_34f1033b8b1ed589393f581669361489);
+        var custom_icon_1c1349abc66108fa84f3edf5d7a8b89f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_7cb827ac27fe8e59b180e246a4cb8240.setIcon(custom_icon_1c1349abc66108fa84f3edf5d7a8b89f);
         
     
-            marker_5b09f2305c7c1a1515ee8777fadbb008.bindTooltip(
+            marker_7cb827ac27fe8e59b180e246a4cb8240.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -937,17 +983,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b70d0277b4435271fcc135ba7d37e5aa = L.marker(
-                [0.823342515790444, -77.68543503932842],
+            var marker_721e2b8fc3d6d3cb9eef6a399631c36c = L.marker(
+                [0.828054159205062, -77.6940002254908],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_114f98e5ba262e045c6d26672ad171a0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_b70d0277b4435271fcc135ba7d37e5aa.setIcon(custom_icon_114f98e5ba262e045c6d26672ad171a0);
+        var custom_icon_c2eb4922fc691629d2935e9fc20ddbfa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_721e2b8fc3d6d3cb9eef6a399631c36c.setIcon(custom_icon_c2eb4922fc691629d2935e9fc20ddbfa);
         
     
-            marker_b70d0277b4435271fcc135ba7d37e5aa.bindTooltip(
+            marker_721e2b8fc3d6d3cb9eef6a399631c36c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -959,17 +1005,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_d9f5282ae06052881d7d1b4524c1b851 = L.marker(
-                [0.773342515790444, -77.68543503932842],
+            var marker_98cfe00b8ad57dc9b38ea92b0128faf8 = L.marker(
+                [0.799813322835504, -77.69425237581552],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_2a530c233444e00db03fe2a3319265c7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_d9f5282ae06052881d7d1b4524c1b851.setIcon(custom_icon_2a530c233444e00db03fe2a3319265c7);
+        var custom_icon_246883aa8251a431ae508575ca8511e5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_98cfe00b8ad57dc9b38ea92b0128faf8.setIcon(custom_icon_246883aa8251a431ae508575ca8511e5);
         
     
-            marker_d9f5282ae06052881d7d1b4524c1b851.bindTooltip(
+            marker_98cfe00b8ad57dc9b38ea92b0128faf8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -981,17 +1027,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b5b986d02d2c75d49573d5e47230672b = L.marker(
-                [-0.258016283263898, -78.48368244663462],
+            var marker_fe155d38ccd491d999921d2d185de610 = L.marker(
+                [-0.251921441001087, -78.4785502014873],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_76d9c84cfb468db99fc4cfae27d77d37 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_b5b986d02d2c75d49573d5e47230672b.setIcon(custom_icon_76d9c84cfb468db99fc4cfae27d77d37);
+        var custom_icon_7a09d93ed63c8409eb37a4f7954d9f8f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_fe155d38ccd491d999921d2d185de610.setIcon(custom_icon_7a09d93ed63c8409eb37a4f7954d9f8f);
         
     
-            marker_b5b986d02d2c75d49573d5e47230672b.bindTooltip(
+            marker_fe155d38ccd491d999921d2d185de610.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1003,17 +1049,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4de8efbb057925e3edb56a9355680a0d = L.marker(
-                [-0.208016283263898, -78.48368244663462],
+            var marker_479c673079eebbd73d17377c20b648a7 = L.marker(
+                [-0.227462859502452, -78.46291688135415],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_35dfdf047db3cab1713415fa546c14b3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_4de8efbb057925e3edb56a9355680a0d.setIcon(custom_icon_35dfdf047db3cab1713415fa546c14b3);
+        var custom_icon_faa1bbc50d157ca3f4a57d222583939e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_479c673079eebbd73d17377c20b648a7.setIcon(custom_icon_faa1bbc50d157ca3f4a57d222583939e);
         
     
-            marker_4de8efbb057925e3edb56a9355680a0d.bindTooltip(
+            marker_479c673079eebbd73d17377c20b648a7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1025,17 +1071,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_562153ff77378779b100991ea6262438 = L.marker(
-                [-0.158016283263898, -78.48368244663462],
+            var marker_540bae163d383fc0752eb1313bc2fcee = L.marker(
+                [-0.167198931892414, -78.47375934531749],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_49ec6325e8074ace594dc7b28e31b946 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_562153ff77378779b100991ea6262438.setIcon(custom_icon_49ec6325e8074ace594dc7b28e31b946);
+        var custom_icon_9431fd894db231ecc0753b23485a9dbb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_540bae163d383fc0752eb1313bc2fcee.setIcon(custom_icon_9431fd894db231ecc0753b23485a9dbb);
         
     
-            marker_562153ff77378779b100991ea6262438.bindTooltip(
+            marker_540bae163d383fc0752eb1313bc2fcee.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1047,17 +1093,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_ef24146e051fb657ed6b4b04a6ce1948 = L.marker(
-                [-0.208016283263898, -78.4336824466346],
+            var marker_218fd0da592f67cb7a794a6dd2bf8843 = L.marker(
+                [-0.195187617937243, -78.44778786187041],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_0842795c00bda5884303822df14a0adb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_ef24146e051fb657ed6b4b04a6ce1948.setIcon(custom_icon_0842795c00bda5884303822df14a0adb);
+        var custom_icon_598c9740b07c1995ebefa58d1b735388 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_218fd0da592f67cb7a794a6dd2bf8843.setIcon(custom_icon_598c9740b07c1995ebefa58d1b735388);
         
     
-            marker_ef24146e051fb657ed6b4b04a6ce1948.bindTooltip(
+            marker_218fd0da592f67cb7a794a6dd2bf8843.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1069,17 +1115,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_1a15cee87acfac1a3dd783453c57f851 = L.marker(
-                [-0.158016283263898, -78.4336824466346],
+            var marker_e817b8b829572df285f837f5f917b7d7 = L.marker(
+                [-0.160138722800025, -78.44097980310273],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_453dcccb8d2390172400204dda527dbb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_1a15cee87acfac1a3dd783453c57f851.setIcon(custom_icon_453dcccb8d2390172400204dda527dbb);
+        var custom_icon_1ed06dc64ddae52dff1a3e13aa97ca3c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_e817b8b829572df285f837f5f917b7d7.setIcon(custom_icon_1ed06dc64ddae52dff1a3e13aa97ca3c);
         
     
-            marker_1a15cee87acfac1a3dd783453c57f851.bindTooltip(
+            marker_e817b8b829572df285f837f5f917b7d7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1091,17 +1137,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_2de2ebd8d0bd589d043cf9cde550da40 = L.marker(
-                [-0.258016283263898, -78.53368244663461],
+            var marker_e86ad653924cd0ce43f48818c0046a36 = L.marker(
+                [-0.241583277687231, -78.5072953385063],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_1d5af88e86cf7a774849a83d4eddf9de = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_2de2ebd8d0bd589d043cf9cde550da40.setIcon(custom_icon_1d5af88e86cf7a774849a83d4eddf9de);
+        var custom_icon_bd88f10b3f7c07fe750d75930530a0c4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_e86ad653924cd0ce43f48818c0046a36.setIcon(custom_icon_bd88f10b3f7c07fe750d75930530a0c4);
         
     
-            marker_2de2ebd8d0bd589d043cf9cde550da40.bindTooltip(
+            marker_e86ad653924cd0ce43f48818c0046a36.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1113,17 +1159,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_d48593199df9ade94ac0d03eaf6ffcdb = L.marker(
-                [-0.208016283263898, -78.53368244663461],
+            var marker_144c04da956047e75590e68ff11bdbad = L.marker(
+                [-0.215611794240227, -78.49947867843976],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_0d3abee0d4d049c627eddec6112db758 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_d48593199df9ade94ac0d03eaf6ffcdb.setIcon(custom_icon_0d3abee0d4d049c627eddec6112db758);
+        var custom_icon_584bb5664699cde0047dec64a3b79553 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_144c04da956047e75590e68ff11bdbad.setIcon(custom_icon_584bb5664699cde0047dec64a3b79553);
         
     
-            marker_d48593199df9ade94ac0d03eaf6ffcdb.bindTooltip(
+            marker_144c04da956047e75590e68ff11bdbad.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1135,17 +1181,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_33ed5ef8c3df08718087153c6e53caa6 = L.marker(
-                [-0.158016283263898, -78.53368244663461],
+            var marker_c01545d4c426e2ea6c0da6e7be70facd = L.marker(
+                [-0.189136010143767, -78.48661901187859],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_6ddbae19f3f0a05299acef830fc2ef51 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_33ed5ef8c3df08718087153c6e53caa6.setIcon(custom_icon_6ddbae19f3f0a05299acef830fc2ef51);
+        var custom_icon_04bddb715a47eeff2a6eb47b751757f7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_c01545d4c426e2ea6c0da6e7be70facd.setIcon(custom_icon_04bddb715a47eeff2a6eb47b751757f7);
         
     
-            marker_33ed5ef8c3df08718087153c6e53caa6.bindTooltip(
+            marker_c01545d4c426e2ea6c0da6e7be70facd.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1157,17 +1203,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_45abfee411334845c81a1fbb50f7b552 = L.marker(
-                [-0.224517256763815, -79.1478616457641],
+            var marker_2f47adc03ef8bb5fa5b7310e19e93dc6 = L.marker(
+                [-0.233010166646473, -79.15355662078467],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_10fb39a990ab544fd28758e6228eb6aa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_45abfee411334845c81a1fbb50f7b552.setIcon(custom_icon_10fb39a990ab544fd28758e6228eb6aa);
+        var custom_icon_186bd4ee0b4963f87f418ba8907fe3c3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_2f47adc03ef8bb5fa5b7310e19e93dc6.setIcon(custom_icon_186bd4ee0b4963f87f418ba8907fe3c3);
         
     
-            marker_45abfee411334845c81a1fbb50f7b552.bindTooltip(
+            marker_2f47adc03ef8bb5fa5b7310e19e93dc6.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1179,17 +1225,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_0a9b40dd6d5f5c20115f5ada694429c6 = L.marker(
-                [-0.274517256763815, -79.19786164576409],
+            var marker_9564cedc0e5a710aff842d1f6907ece2 = L.marker(
+                [-0.263268205613856, -79.18356250942732],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_7fb5d378eb9d74226403c0891129278a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_0a9b40dd6d5f5c20115f5ada694429c6.setIcon(custom_icon_7fb5d378eb9d74226403c0891129278a);
+        var custom_icon_e9ee5fd5faf012acd3be57875cdaad26 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_9564cedc0e5a710aff842d1f6907ece2.setIcon(custom_icon_e9ee5fd5faf012acd3be57875cdaad26);
         
     
-            marker_0a9b40dd6d5f5c20115f5ada694429c6.bindTooltip(
+            marker_9564cedc0e5a710aff842d1f6907ece2.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1201,17 +1247,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_74df18fd5dc3a1ddf0f5d242329c8d17 = L.marker(
-                [-0.224517256763815, -79.19786164576409],
+            var marker_7e326eaa4c046dedf0b566306c1d2197 = L.marker(
+                [-0.235027369244298, -79.19011841787025],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_d17ccf5037e0b7bd3655c5d34d602f06 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_74df18fd5dc3a1ddf0f5d242329c8d17.setIcon(custom_icon_d17ccf5037e0b7bd3655c5d34d602f06);
+        var custom_icon_b6746ddf816546e2b2bd88cdbffe6c06 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_7e326eaa4c046dedf0b566306c1d2197.setIcon(custom_icon_b6746ddf816546e2b2bd88cdbffe6c06);
         
     
-            marker_74df18fd5dc3a1ddf0f5d242329c8d17.bindTooltip(
+            marker_7e326eaa4c046dedf0b566306c1d2197.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1223,17 +1269,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_e7092740ee686bdb0394eb94c8ccf0fc = L.marker(
-                [-0.274517256763815, -79.1478616457641],
+            var marker_5f27dfbbed22a29de0196d303bce45e7 = L.marker(
+                [-0.263016055289128, -79.15103511753739],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_08d97707e4f85319fd0e33704cc56314 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_e7092740ee686bdb0394eb94c8ccf0fc.setIcon(custom_icon_08d97707e4f85319fd0e33704cc56314);
+        var custom_icon_977ccd524ce8149851bd6e33651c5056 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_5f27dfbbed22a29de0196d303bce45e7.setIcon(custom_icon_977ccd524ce8149851bd6e33651c5056);
         
     
-            marker_e7092740ee686bdb0394eb94c8ccf0fc.bindTooltip(
+            marker_5f27dfbbed22a29de0196d303bce45e7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1245,17 +1291,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_7cd081f268cd3794919cc630970371b6 = L.marker(
-                [-0.944935258389684, -80.70763923061047],
+            var marker_d79c01643a6900f09655764f0b00b9d7 = L.marker(
+                [-0.96071600381204, -80.71537573215109],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_0176eee1d94eda77b503423a557d87aa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_7cd081f268cd3794919cc630970371b6.setIcon(custom_icon_0176eee1d94eda77b503423a557d87aa);
+        var custom_icon_2efbbcf701ec25df0b0b5c800476deb4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_d79c01643a6900f09655764f0b00b9d7.setIcon(custom_icon_2efbbcf701ec25df0b0b5c800476deb4);
         
     
-            marker_7cd081f268cd3794919cc630970371b6.bindTooltip(
+            marker_d79c01643a6900f09655764f0b00b9d7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1267,17 +1313,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a284077b425bc6d4cff4e2a4c02d1d95 = L.marker(
-                [-0.994935258389684, -80.75763923061047],
+            var marker_e1c8da03d65aa747a51cfce1c82ac38c = L.marker(
+                [-0.987948238882685, -80.72344454254238],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_5c96eca99fbab3f5e8b2240187fc39e5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_a284077b425bc6d4cff4e2a4c02d1d95.setIcon(custom_icon_5c96eca99fbab3f5e8b2240187fc39e5);
+        var custom_icon_bd71fd0994c71cd8bfec2b935eb3e876 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_e1c8da03d65aa747a51cfce1c82ac38c.setIcon(custom_icon_bd71fd0994c71cd8bfec2b935eb3e876);
         
     
-            marker_a284077b425bc6d4cff4e2a4c02d1d95.bindTooltip(
+            marker_e1c8da03d65aa747a51cfce1c82ac38c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1289,17 +1335,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_06107236860f06954ef49995dc1ddb7d = L.marker(
-                [-0.944935258389684, -80.75763923061047],
+            var marker_3b04977b83355965dad0e2b47babd7c4 = L.marker(
+                [-0.959455252188399, -80.74286011754646],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_4496df4033da8cc1810a03e149ab8571 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_06107236860f06954ef49995dc1ddb7d.setIcon(custom_icon_4496df4033da8cc1810a03e149ab8571);
+        var custom_icon_889ed8f5c01cf86de19a8a8c47ae9161 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_3b04977b83355965dad0e2b47babd7c4.setIcon(custom_icon_889ed8f5c01cf86de19a8a8c47ae9161);
         
     
-            marker_06107236860f06954ef49995dc1ddb7d.bindTooltip(
+            marker_3b04977b83355965dad0e2b47babd7c4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1311,17 +1357,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f7f16b12bd7538b20415b25b5ad73d8d = L.marker(
-                [-0.994935258389684, -80.70763923061047],
+            var marker_4126e59b7451b77a8ed70a679856afd7 = L.marker(
+                [-0.987696088557956, -80.69369080422446],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_697059412345d876dc04fc7c470ea2be = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_f7f16b12bd7538b20415b25b5ad73d8d.setIcon(custom_icon_697059412345d876dc04fc7c470ea2be);
+        var custom_icon_3fbaa2f1a6465139b652f4367bb2dc49 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_4126e59b7451b77a8ed70a679856afd7.setIcon(custom_icon_3fbaa2f1a6465139b652f4367bb2dc49);
         
     
-            marker_f7f16b12bd7538b20415b25b5ad73d8d.bindTooltip(
+            marker_4126e59b7451b77a8ed70a679856afd7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1333,17 +1379,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f8d6e906292e38b860236991caa4878d = L.marker(
-                [-3.498380858986683, -80.17851242262874],
+            var marker_d2aad51d5d4554294d3db53bbf3d0f91 = L.marker(
+                [-3.493187790219654, -80.2241868995806],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_d1e127b94bcf721ca7f7f0add123528e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_f8d6e906292e38b860236991caa4878d.setIcon(custom_icon_d1e127b94bcf721ca7f7f0add123528e);
+        var custom_icon_6ecfafac70bb697e4592a0be8eea94bd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_d2aad51d5d4554294d3db53bbf3d0f91.setIcon(custom_icon_6ecfafac70bb697e4592a0be8eea94bd);
         
     
-            marker_f8d6e906292e38b860236991caa4878d.bindTooltip(
+            marker_d2aad51d5d4554294d3db53bbf3d0f91.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1355,17 +1401,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_dc9c04c7494d694985f73972badd3f42 = L.marker(
-                [-3.448380858986684, -80.17851242262874],
+            var marker_90acb11bbb92ea1c709e0efd971366ce = L.marker(
+                [-3.463812277388825, -80.21044470688308],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_cd072d583cbc37f242b99c65293a9279 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_dc9c04c7494d694985f73972badd3f42.setIcon(custom_icon_cd072d583cbc37f242b99c65293a9279);
+        var custom_icon_6dc63ab803ea06276ad5b0eed3902764 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_90acb11bbb92ea1c709e0efd971366ce.setIcon(custom_icon_6dc63ab803ea06276ad5b0eed3902764);
         
     
-            marker_dc9c04c7494d694985f73972badd3f42.bindTooltip(
+            marker_90acb11bbb92ea1c709e0efd971366ce.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1377,17 +1423,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_087176d13a02a933c3d5f4b15d9f75fc = L.marker(
-                [-3.498380858986683, -80.12851242262873],
+            var marker_3aefdcd6aec010d9e8251720e05a31a3 = L.marker(
+                [-3.493944241193838, -80.20325842262817],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_0760cd7d7065adc1c96e4157a720615d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_087176d13a02a933c3d5f4b15d9f75fc.setIcon(custom_icon_0760cd7d7065adc1c96e4157a720615d);
+        var custom_icon_2e3bc6e8eb2231e744652c590019bced = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_3aefdcd6aec010d9e8251720e05a31a3.setIcon(custom_icon_2e3bc6e8eb2231e744652c590019bced);
         
     
-            marker_087176d13a02a933c3d5f4b15d9f75fc.bindTooltip(
+            marker_3aefdcd6aec010d9e8251720e05a31a3.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1399,17 +1445,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a6a61964100470261f0949626f166f39 = L.marker(
-                [-3.448380858986684, -80.12851242262873],
+            var marker_30af9cd83716394b89ca96f856574178 = L.marker(
+                [-3.478815221710153, -80.19745896515957],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_89714781632a80eaf62518aa075b860a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_a6a61964100470261f0949626f166f39.setIcon(custom_icon_89714781632a80eaf62518aa075b860a);
+        var custom_icon_42044c37e798ef6d85fd0ee93deb37e4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_30af9cd83716394b89ca96f856574178.setIcon(custom_icon_42044c37e798ef6d85fd0ee93deb37e4);
         
     
-            marker_a6a61964100470261f0949626f166f39.bindTooltip(
+            marker_30af9cd83716394b89ca96f856574178.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1421,17 +1467,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_cd479603e2c135f7a637c4800f433104 = L.marker(
-                [-3.498380858986683, -80.22851242262874],
+            var marker_565d1de9ceacdae45f25e6bc8940dc4f = L.marker(
+                [-3.477554470086506, -80.23578581451811],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_882f5573acef0e2411025bc1f554f98b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_cd479603e2c135f7a637c4800f433104.setIcon(custom_icon_882f5573acef0e2411025bc1f554f98b);
+        var custom_icon_929110b123b8af85ac3349d487be2064 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_565d1de9ceacdae45f25e6bc8940dc4f.setIcon(custom_icon_929110b123b8af85ac3349d487be2064);
         
     
-            marker_cd479603e2c135f7a637c4800f433104.bindTooltip(
+            marker_565d1de9ceacdae45f25e6bc8940dc4f.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1443,17 +1489,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_954ba0cee62b75ef10110905d9851e25 = L.marker(
-                [-3.448380858986684, -80.22851242262874],
+            var marker_e946ac236f8ebfa16fe586cb35452cb7 = L.marker(
+                [-3.461416849303907, -80.23011243221188],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_d65139d417933220dfdd063229b294f8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_954ba0cee62b75ef10110905d9851e25.setIcon(custom_icon_d65139d417933220dfdd063229b294f8);
+        var custom_icon_5c95c166c7d9df1cd079d0a71a2bf06c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_e946ac236f8ebfa16fe586cb35452cb7.setIcon(custom_icon_5c95c166c7d9df1cd079d0a71a2bf06c);
         
     
-            marker_954ba0cee62b75ef10110905d9851e25.bindTooltip(
+            marker_e946ac236f8ebfa16fe586cb35452cb7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1465,17 +1511,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_63590a1c58e93e7a3c76367cf7cc73e5 = L.marker(
-                [-3.288910553173096, -79.95127017234172],
+            var marker_1369cf70b4b607f88f14091d3f34d017 = L.marker(
+                [-3.311261330928261, -79.87672375210512],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_094809bfe15941f6605640f31d38c76b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_63590a1c58e93e7a3c76367cf7cc73e5.setIcon(custom_icon_094809bfe15941f6605640f31d38c76b);
+        var custom_icon_1e0d630a2aed710f57c5538145485eda = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_1369cf70b4b607f88f14091d3f34d017.setIcon(custom_icon_1e0d630a2aed710f57c5538145485eda);
         
     
-            marker_63590a1c58e93e7a3c76367cf7cc73e5.bindTooltip(
+            marker_1369cf70b4b607f88f14091d3f34d017.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1487,17 +1533,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_728debfdab137804f298071b7b57f9ae = L.marker(
-                [-3.238910553173096, -79.95127017234172],
+            var marker_a44b704efd052d5c7aad788c98658d22 = L.marker(
+                [-3.2946194094962, -79.90496458847468],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_fbca348860cc82cc139d042f02f4abc8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_728debfdab137804f298071b7b57f9ae.setIcon(custom_icon_fbca348860cc82cc139d042f02f4abc8);
+        var custom_icon_b8879e8ae713159ff7360ccc132344af = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_a44b704efd052d5c7aad788c98658d22.setIcon(custom_icon_b8879e8ae713159ff7360ccc132344af);
         
     
-            marker_728debfdab137804f298071b7b57f9ae.bindTooltip(
+            marker_a44b704efd052d5c7aad788c98658d22.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1509,17 +1555,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_834fb6871fb694faec43bc4cf06b6690 = L.marker(
-                [-2.179143514241878, -79.93601623225197],
+            var marker_e88092becfdabc34da94c1fd5585227e = L.marker(
+                [-2.160195098544056, -79.9301796209475],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_3b8ccab34d163d35b38b59b00772e78a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_834fb6871fb694faec43bc4cf06b6690.setIcon(custom_icon_3b8ccab34d163d35b38b59b00772e78a);
+        var custom_icon_c10eccdf47c882d01c1b08b03fca459a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_e88092becfdabc34da94c1fd5585227e.setIcon(custom_icon_c10eccdf47c882d01c1b08b03fca459a);
         
     
-            marker_834fb6871fb694faec43bc4cf06b6690.bindTooltip(
+            marker_e88092becfdabc34da94c1fd5585227e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1531,17 +1577,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b01758d16f7135ec846e4a768e8a43f3 = L.marker(
-                [-2.129143514241879, -79.93601623225197],
+            var marker_6342d50c01e80fe2f5c70fc2238137ef = L.marker(
+                [-2.144813928735636, -79.90975544464452],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_363990cc2f88ac69dcc3b84ffcc3889a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_b01758d16f7135ec846e4a768e8a43f3.setIcon(custom_icon_363990cc2f88ac69dcc3b84ffcc3889a);
+        var custom_icon_bff4b1ebd7ba5df05dbb771f52f7f54c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_6342d50c01e80fe2f5c70fc2238137ef.setIcon(custom_icon_bff4b1ebd7ba5df05dbb771f52f7f54c);
         
     
-            marker_b01758d16f7135ec846e4a768e8a43f3.bindTooltip(
+            marker_6342d50c01e80fe2f5c70fc2238137ef.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1553,17 +1599,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_59861ff010973e18683f0ea46bca6c79 = L.marker(
-                [-2.179143514241878, -79.88601623225196],
+            var marker_231e4793a0890b34afe9c68d8e9a8215 = L.marker(
+                [-2.185662281341604, -79.8764716017804],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_223f52d955b82ee03b354809799c3cf1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_59861ff010973e18683f0ea46bca6c79.setIcon(custom_icon_223f52d955b82ee03b354809799c3cf1);
+        var custom_icon_09f194a4664f47c6890eabc32c6f9317 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_231e4793a0890b34afe9c68d8e9a8215.setIcon(custom_icon_09f194a4664f47c6890eabc32c6f9317);
         
     
-            marker_59861ff010973e18683f0ea46bca6c79.bindTooltip(
+            marker_231e4793a0890b34afe9c68d8e9a8215.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1575,17 +1621,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b3d8aa86e8927e24edd27910cd2509a5 = L.marker(
-                [-2.129143514241879, -79.88601623225196],
+            var marker_a52f1b58ab8eba996ca8890556a1773b = L.marker(
+                [-2.159942948219328, -79.88403611152224],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_ea2e31e355d63422ed05ee86074ba47d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_b3d8aa86e8927e24edd27910cd2509a5.setIcon(custom_icon_ea2e31e355d63422ed05ee86074ba47d);
+        var custom_icon_9d784fd9bb1a6ae9cc6d173711565bbc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_a52f1b58ab8eba996ca8890556a1773b.setIcon(custom_icon_9d784fd9bb1a6ae9cc6d173711565bbc);
         
     
-            marker_b3d8aa86e8927e24edd27910cd2509a5.bindTooltip(
+            marker_a52f1b58ab8eba996ca8890556a1773b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1597,17 +1643,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_60d694354299413c592384b79d3c69e6 = L.marker(
-                [-2.228952302468575, -79.8869583051045],
+            var marker_3d3320a15719f25171190f58eada5275 = L.marker(
+                [-2.202808503423121, -79.90193878457795],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_ddaed0384f989b19ac02b24b1d706d3d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_60d694354299413c592384b79d3c69e6.setIcon(custom_icon_ddaed0384f989b19ac02b24b1d706d3d);
+        var custom_icon_a3f9cd3dba2cc3809a22f9a12865c6de = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_3d3320a15719f25171190f58eada5275.setIcon(custom_icon_a3f9cd3dba2cc3809a22f9a12865c6de);
         
     
-            marker_60d694354299413c592384b79d3c69e6.bindTooltip(
+            marker_3d3320a15719f25171190f58eada5275.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1619,17 +1665,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_2b5a739b5342672a3319b7b81b266b6c = L.marker(
-                [-2.228761090695273, -79.93620744402527],
+            var marker_71a0c14c26fda9dcce30c4a9013a73ee = L.marker(
+                [-2.188688085238342, -79.92614521575184],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_9695e859683c6699662f569d8b1b6920 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_2b5a739b5342672a3319b7b81b266b6c.setIcon(custom_icon_9695e859683c6699662f569d8b1b6920);
+        var custom_icon_d8bbe1de04f80f3308e3eb8ec1586291 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_71a0c14c26fda9dcce30c4a9013a73ee.setIcon(custom_icon_d8bbe1de04f80f3308e3eb8ec1586291);
         
     
-            marker_2b5a739b5342672a3319b7b81b266b6c.bindTooltip(
+            marker_71a0c14c26fda9dcce30c4a9013a73ee.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1641,17 +1687,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_dbf4c8661e3e2f8f2310e5bbd1c1ab2a = L.marker(
-                [-3.530696695635045, -80.27842471467584],
+            var marker_27459bc8f45704739accf25e2f122921 = L.marker(
+                [-3.510081861976444, -80.26856535673282],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_cdd05b7e2098150cffe4a0e967ff5579 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_dbf4c8661e3e2f8f2310e5bbd1c1ab2a.setIcon(custom_icon_cdd05b7e2098150cffe4a0e967ff5579);
+        var custom_icon_7bd1ef8c38502299ae44f000d6ee33a7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_27459bc8f45704739accf25e2f122921.setIcon(custom_icon_7bd1ef8c38502299ae44f000d6ee33a7);
         
     
-            marker_dbf4c8661e3e2f8f2310e5bbd1c1ab2a.bindTooltip(
+            marker_27459bc8f45704739accf25e2f122921.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1663,17 +1709,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4a53b244663ef79cf94d072f5bd4acae = L.marker(
-                [-3.480696695635045, -80.27842471467584],
+            var marker_99d8f4ac5fd140e43fcd2c281dc62eff = L.marker(
+                [-3.481084574632702, -80.26591777832317],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_28885602f28f5630301ba522f8c1820d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_4a53b244663ef79cf94d072f5bd4acae.setIcon(custom_icon_28885602f28f5630301ba522f8c1820d);
+        var custom_icon_bf49a22fd8c3bb8144a7f3ae098affe8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_99d8f4ac5fd140e43fcd2c281dc62eff.setIcon(custom_icon_bf49a22fd8c3bb8144a7f3ae098affe8);
         
     
-            marker_4a53b244663ef79cf94d072f5bd4acae.bindTooltip(
+            marker_99d8f4ac5fd140e43fcd2c281dc62eff.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1685,17 +1731,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f2ae8b013b26e12f6ed54272b455a593 = L.marker(
-                [-3.430696695635045, -80.27842471467584],
+            var marker_f8d6f65e02d4b1ab4490f1a2ea959806 = L.marker(
+                [-3.496970045090579, -80.2584793437437],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_fbf8fa2f64bf0635af249e5811d0e689 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_f2ae8b013b26e12f6ed54272b455a593.setIcon(custom_icon_fbf8fa2f64bf0635af249e5811d0e689);
+        var custom_icon_08ad13e2bbfa206e4af70c1a579a6bbc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_f8d6f65e02d4b1ab4490f1a2ea959806.setIcon(custom_icon_08ad13e2bbfa206e4af70c1a579a6bbc);
         
     
-            marker_f2ae8b013b26e12f6ed54272b455a593.bindTooltip(
+            marker_f8d6f65e02d4b1ab4490f1a2ea959806.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1707,17 +1753,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_33f3279cd1963bbb985f2fc032c71503 = L.marker(
-                [-3.530696695635045, -80.32842471467583],
+            var marker_c0514e9b2f5c81a21949c43b5f1bc2d7 = L.marker(
+                [-3.510334012301173, -80.28545942848962],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_1de1be7a2807e71fd607261eac3cb574 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_33f3279cd1963bbb985f2fc032c71503.setIcon(custom_icon_1de1be7a2807e71fd607261eac3cb574);
+        var custom_icon_ca904c1991bb8479e78143466e5d855f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_c0514e9b2f5c81a21949c43b5f1bc2d7.setIcon(custom_icon_ca904c1991bb8479e78143466e5d855f);
         
     
-            marker_33f3279cd1963bbb985f2fc032c71503.bindTooltip(
+            marker_c0514e9b2f5c81a21949c43b5f1bc2d7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1729,17 +1775,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4990e905224393631a8ac7d1cdea4723 = L.marker(
-                [-3.480696695635045, -80.32842471467583],
+            var marker_5e494a029989518be16f200cbf05efb9 = L.marker(
+                [-3.494952842492751, -80.29302393823141],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_72793ebe70c4a3e760faab416f68a7d2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_4990e905224393631a8ac7d1cdea4723.setIcon(custom_icon_72793ebe70c4a3e760faab416f68a7d2);
+        var custom_icon_9f3303f7ac7ef714b0d274be2c3c71d8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_5e494a029989518be16f200cbf05efb9.setIcon(custom_icon_9f3303f7ac7ef714b0d274be2c3c71d8);
         
     
-            marker_4990e905224393631a8ac7d1cdea4723.bindTooltip(
+            marker_5e494a029989518be16f200cbf05efb9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1751,17 +1797,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_021f38dd01b9fe3ed33a99911114fd89 = L.marker(
-                [-3.430696695635045, -80.32842471467583],
+            var marker_8c91551f3380bbafa43ff54523b34fe0 = L.marker(
+                [-3.48411037852944, -80.28319007556706],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_fa785af676f0b68747ede4d991c141e9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_021f38dd01b9fe3ed33a99911114fd89.setIcon(custom_icon_fa785af676f0b68747ede4d991c141e9);
+        var custom_icon_c113ab7e3617c96fa533b33408fceeb3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_8c91551f3380bbafa43ff54523b34fe0.setIcon(custom_icon_c113ab7e3617c96fa533b33408fceeb3);
         
     
-            marker_021f38dd01b9fe3ed33a99911114fd89.bindTooltip(
+            marker_8c91551f3380bbafa43ff54523b34fe0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1773,17 +1819,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_cc17253cff5ccefa79a72e42747a6055 = L.marker(
-                [-3.588587044553694, -80.44407943293803],
+            var marker_7e2cc1dc60fafd2135387768d2942d4b = L.marker(
+                [-3.576019171892866, -80.44002757754798],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_6de9cae885aadb935789e0b7cedbafdf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_cc17253cff5ccefa79a72e42747a6055.setIcon(custom_icon_6de9cae885aadb935789e0b7cedbafdf);
+        var custom_icon_3dae04661b7b1c3aaa51e93a7e3cb844 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_7e2cc1dc60fafd2135387768d2942d4b.setIcon(custom_icon_3dae04661b7b1c3aaa51e93a7e3cb844);
         
     
-            marker_cc17253cff5ccefa79a72e42747a6055.bindTooltip(
+            marker_7e2cc1dc60fafd2135387768d2942d4b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1795,17 +1841,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_00708b8cd244fc4e5784c921062543c1 = L.marker(
-                [-3.538587044553694, -80.44407943293803],
+            var marker_f1024a308b58d989e190645122fb5517 = L.marker(
+                [-3.546391508737304, -80.44406198274362],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_e8d1feef021bb25e48f50b6e60262f7d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_00708b8cd244fc4e5784c921062543c1.setIcon(custom_icon_e8d1feef021bb25e48f50b6e60262f7d);
+        var custom_icon_c8bbec92ec8feb887a230f1d29935a61 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_f1024a308b58d989e190645122fb5517.setIcon(custom_icon_c8bbec92ec8feb887a230f1d29935a61);
         
     
-            marker_00708b8cd244fc4e5784c921062543c1.bindTooltip(
+            marker_f1024a308b58d989e190645122fb5517.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1817,17 +1863,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_b33c023f3048125a7306256e34730935 = L.marker(
-                [-3.588587044553694, -80.39407943293801],
+            var marker_8f765a37200425f113f92c274947e0c8 = L.marker(
+                [-3.568076436663929, -80.42162060384281],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_403b51299dd9621f551102611a7e902e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_b33c023f3048125a7306256e34730935.setIcon(custom_icon_403b51299dd9621f551102611a7e902e);
+        var custom_icon_c70893562f67fdf57470a73fbf3bf511 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_8f765a37200425f113f92c274947e0c8.setIcon(custom_icon_c70893562f67fdf57470a73fbf3bf511);
         
     
-            marker_b33c023f3048125a7306256e34730935.bindTooltip(
+            marker_8f765a37200425f113f92c274947e0c8.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1839,17 +1885,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_e5eb53f9d7d3c40ad1238d4e8b2648ff = L.marker(
-                [-3.538587044553694, -80.39407943293801],
+            var marker_d7f734da4d358c7f839ed7ca7883f381 = L.marker(
+                [-3.549417312634042, -80.42540285871375],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_b074ce61cd7ed7d4dda5c63bcef38889 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_e5eb53f9d7d3c40ad1238d4e8b2648ff.setIcon(custom_icon_b074ce61cd7ed7d4dda5c63bcef38889);
+        var custom_icon_086217dc9cb1c831a225fc697a611d45 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_d7f734da4d358c7f839ed7ca7883f381.setIcon(custom_icon_086217dc9cb1c831a225fc697a611d45);
         
     
-            marker_e5eb53f9d7d3c40ad1238d4e8b2648ff.bindTooltip(
+            marker_d7f734da4d358c7f839ed7ca7883f381.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1861,17 +1907,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_af96faa564ac5f0fe8fe28ba2f69d071 = L.marker(
-                [-3.588587044553694, -80.49407943293802],
+            var marker_bc83905f19531804798df2cba772c475 = L.marker(
+                [-3.574632345106862, -80.4599474532015],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_953809c4a55135bb714b1df2e4c2975c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_af96faa564ac5f0fe8fe28ba2f69d071.setIcon(custom_icon_953809c4a55135bb714b1df2e4c2975c);
+        var custom_icon_816cceacea95a65bb1a570bdd2520005 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_bc83905f19531804798df2cba772c475.setIcon(custom_icon_816cceacea95a65bb1a570bdd2520005);
         
     
-            marker_af96faa564ac5f0fe8fe28ba2f69d071.bindTooltip(
+            marker_bc83905f19531804798df2cba772c475.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1883,17 +1929,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f297ab6ae3d82ed879907a6c4fc17d58 = L.marker(
-                [-3.538587044553694, -80.49407943293802],
+            var marker_fa8f8efc5a92cdf391191c3993f857a9 = L.marker(
+                [-3.55672967205116, -80.46322540742298],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_c6f611ac9ea0d34717069cf86310ddaa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f297ab6ae3d82ed879907a6c4fc17d58.setIcon(custom_icon_c6f611ac9ea0d34717069cf86310ddaa);
+        var custom_icon_b6d7c004afbd075f183fe9897ba403c3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_fa8f8efc5a92cdf391191c3993f857a9.setIcon(custom_icon_b6d7c004afbd075f183fe9897ba403c3);
         
     
-            marker_f297ab6ae3d82ed879907a6c4fc17d58.bindTooltip(
+            marker_fa8f8efc5a92cdf391191c3993f857a9.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1905,17 +1951,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_6a46c34513e1b50a400217683f70cc73 = L.marker(
-                [-4.606834467234112, -81.22851242262871],
+            var marker_ee0b5facefed0eda1a27e7632ee9b1b7 = L.marker(
+                [-4.576047359764887, -81.18525786228224],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_df8174f7d04bded1b046b182360c4fe9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_6a46c34513e1b50a400217683f70cc73.setIcon(custom_icon_df8174f7d04bded1b046b182360c4fe9);
+        var custom_icon_c81d0e76080d6668ec67b2d6adbaeb75 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_ee0b5facefed0eda1a27e7632ee9b1b7.setIcon(custom_icon_c81d0e76080d6668ec67b2d6adbaeb75);
         
     
-            marker_6a46c34513e1b50a400217683f70cc73.bindTooltip(
+            marker_ee0b5facefed0eda1a27e7632ee9b1b7.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1927,17 +1973,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_7e81124926a1ea356dead13b690971bd = L.marker(
-                [-4.556834467234113, -81.22851242262871],
+            var marker_c48dc1079b87b73319f863545666361e = L.marker(
+                [-4.549067275018971, -81.2036648359874],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_08a1a863bda146045bc68be4a898b67f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_7e81124926a1ea356dead13b690971bd.setIcon(custom_icon_08a1a863bda146045bc68be4a898b67f);
+        var custom_icon_100519e83651fae183536cc4ef8f97e5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_c48dc1079b87b73319f863545666361e.setIcon(custom_icon_100519e83651fae183536cc4ef8f97e5);
         
     
-            marker_7e81124926a1ea356dead13b690971bd.bindTooltip(
+            marker_c48dc1079b87b73319f863545666361e.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1949,17 +1995,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_62f72bd478cd240808180a0155039260 = L.marker(
-                [-4.606834467234112, -81.27851242262871],
+            var marker_61f4e06b1eb63d4b03de7264741b2c01 = L.marker(
+                [-4.58537692177983, -81.21803740449691],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_afbdeeee3e75e98a7576a6071494317e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_62f72bd478cd240808180a0155039260.setIcon(custom_icon_afbdeeee3e75e98a7576a6071494317e);
+        var custom_icon_10a45ea653d299fab7a9f5e47c4301af = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_61f4e06b1eb63d4b03de7264741b2c01.setIcon(custom_icon_10a45ea653d299fab7a9f5e47c4301af);
         
     
-            marker_62f72bd478cd240808180a0155039260.bindTooltip(
+            marker_61f4e06b1eb63d4b03de7264741b2c01.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1971,17 +2017,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_43342de0120a444a89f1bab5eea35d0b = L.marker(
-                [-4.556834467234113, -81.27851242262871],
+            var marker_1ab899617c95e9c56fb37e8fe7a48838 = L.marker(
+                [-4.55890113768337, -81.23417502527951],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_bc1d47a0878d3924b159add575bc9aad = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_43342de0120a444a89f1bab5eea35d0b.setIcon(custom_icon_bc1d47a0878d3924b159add575bc9aad);
+        var custom_icon_0ae7178e9ceb3a0848c1a8d551f4f52c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_1ab899617c95e9c56fb37e8fe7a48838.setIcon(custom_icon_0ae7178e9ceb3a0848c1a8d551f4f52c);
         
     
-            marker_43342de0120a444a89f1bab5eea35d0b.bindTooltip(
+            marker_1ab899617c95e9c56fb37e8fe7a48838.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -1993,17 +2039,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_37a21a97970c555f4fbd910493ba560c = L.marker(
-                [-5.218793230120715, -80.63531654634008],
+            var marker_ee4f6820fc42344cba0034e5928cc079 = L.marker(
+                [-5.211970478729391, -80.61943253359219],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_199213fd7ba622be1253928d2d6dc4a1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_37a21a97970c555f4fbd910493ba560c.setIcon(custom_icon_199213fd7ba622be1253928d2d6dc4a1);
+        var custom_icon_8235d61130966a686c73d36e4b394db1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_ee4f6820fc42344cba0034e5928cc079.setIcon(custom_icon_8235d61130966a686c73d36e4b394db1);
         
     
-            marker_37a21a97970c555f4fbd910493ba560c.bindTooltip(
+            marker_ee4f6820fc42344cba0034e5928cc079.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2015,17 +2061,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_dc501ba25cd7501edfb816fd2a6f47e1 = L.marker(
-                [-5.168793230120714, -80.63531654634008],
+            var marker_df9a6c8108b105c85675eab507e7fce0 = L.marker(
+                [-5.162296864757937, -80.63405725242643],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_bfb1f0a77ad456b9cd1075f44d8effc7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_dc501ba25cd7501edfb816fd2a6f47e1.setIcon(custom_icon_bfb1f0a77ad456b9cd1075f44d8effc7);
+        var custom_icon_6f89e04012d8f7add90c61324d5f54e7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_df9a6c8108b105c85675eab507e7fce0.setIcon(custom_icon_6f89e04012d8f7add90c61324d5f54e7);
         
     
-            marker_dc501ba25cd7501edfb816fd2a6f47e1.bindTooltip(
+            marker_df9a6c8108b105c85675eab507e7fce0.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2037,17 +2083,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_be406455b9b5bb367497b80084268fa5 = L.marker(
-                [-5.218793230120715, -80.58531654634007],
+            var marker_f2653c162cfc8c08cbe043c21127744b = L.marker(
+                [-5.198606511518797, -80.58614869072807],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_adc1a67483d92662cf67cc831bc64a66 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_be406455b9b5bb367497b80084268fa5.setIcon(custom_icon_adc1a67483d92662cf67cc831bc64a66);
+        var custom_icon_7dd438dcb4effad49ad0ecf64cf88384 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_f2653c162cfc8c08cbe043c21127744b.setIcon(custom_icon_7dd438dcb4effad49ad0ecf64cf88384);
         
     
-            marker_be406455b9b5bb367497b80084268fa5.bindTooltip(
+            marker_f2653c162cfc8c08cbe043c21127744b.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2059,17 +2105,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_0c8fb64e635c110dec164866e4d48ffe = L.marker(
-                [-5.168793230120714, -80.58531654634007],
+            var marker_712c656dc00f68263c3f4cf6d56cf00c = L.marker(
+                [-5.168096322226686, -80.5944696514441],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_814cdf63353641a20a6d582ae98000f5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_0c8fb64e635c110dec164866e4d48ffe.setIcon(custom_icon_814cdf63353641a20a6d582ae98000f5);
+        var custom_icon_dc0b353ca96400d9ec213bc7441dc008 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_712c656dc00f68263c3f4cf6d56cf00c.setIcon(custom_icon_dc0b353ca96400d9ec213bc7441dc008);
         
     
-            marker_0c8fb64e635c110dec164866e4d48ffe.bindTooltip(
+            marker_712c656dc00f68263c3f4cf6d56cf00c.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2081,17 +2127,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8f7e07392514251fb5418a351ddf50a2 = L.marker(
-                [-5.218793230120715, -80.68531654634008],
+            var marker_f388511cadb0afb89f39bf29a14a2ef4 = L.marker(
+                [-5.203145217363904, -80.66355884041963],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_3ee148146b6018f45c785ea76d99b9ae = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_8f7e07392514251fb5418a351ddf50a2.setIcon(custom_icon_3ee148146b6018f45c785ea76d99b9ae);
+        var custom_icon_44fb64e81d3991e5a6bd14673d2660b9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_f388511cadb0afb89f39bf29a14a2ef4.setIcon(custom_icon_44fb64e81d3991e5a6bd14673d2660b9);
         
     
-            marker_8f7e07392514251fb5418a351ddf50a2.bindTooltip(
+            marker_f388511cadb0afb89f39bf29a14a2ef4.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2103,17 +2149,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_c2a253b24a141211fe2036929e23c9e4 = L.marker(
-                [-5.168793230120714, -80.68531654634008],
+            var marker_a89e37fb988f7041ab54040f28cf4c72 = L.marker(
+                [-5.172635028071793, -80.66406314106908],
                 {"embed": false}
-            ).addTo(marker_cluster_557f433202f7f32b9784bf7499ff563a);
+            ).addTo(marker_cluster_765a8a754d11f05fb0056b6b63813941);
         
     
-        var custom_icon_10cb1c66930d12b8cafc52e66198fa46 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_c2a253b24a141211fe2036929e23c9e4.setIcon(custom_icon_10cb1c66930d12b8cafc52e66198fa46);
+        var custom_icon_3b4f8a3dfd89d4451e0ffbb0a113bebf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_a89e37fb988f7041ab54040f28cf4c72.setIcon(custom_icon_3b4f8a3dfd89d4451e0ffbb0a113bebf);
         
     
-            marker_c2a253b24a141211fe2036929e23c9e4.bindTooltip(
+            marker_a89e37fb988f7041ab54040f28cf4c72.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2125,146 +2171,146 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            marker_cluster_557f433202f7f32b9784bf7499ff563a.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            marker_cluster_765a8a754d11f05fb0056b6b63813941.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            geo_json_a5a9a53317b25a20310af92d80cef250.addTo(feature_group_be839608072fa1d779cc709816d34cd8);
+            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.addTo(feature_group_546eeebb2f01cb9d06b937c4fa2de562);
         
     
-            var feature_group_750cc71a9d7c5501955a8ba07d7f228b = L.featureGroup(
+            var feature_group_0368231f63f42723d08d34e6a0bf3c44 = L.featureGroup(
                 {}
             );
         
     
-            var marker_bc8ff71948fbbdb1a1aaf14a9a51aacc = L.marker(
+            var marker_6df685c77f4fe3517c0514bd90bac934 = L.marker(
                 [0.366, -78.672],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_f78b45903186e9f2eba7c8b77127591f = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_bc8ff71948fbbdb1a1aaf14a9a51aacc.setIcon(div_icon_f78b45903186e9f2eba7c8b77127591f);
+            var div_icon_eb4a95c4fe19ec069d9c5d70099c64cd = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_6df685c77f4fe3517c0514bd90bac934.setIcon(div_icon_eb4a95c4fe19ec069d9c5d70099c64cd);
         
     
-            var marker_ed95d7f6af286d13def52506e57aac71 = L.marker(
+            var marker_2a496032798fe520782fd99412307311 = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_6748e2faf5aa83a02c2e361b056b7278 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_ed95d7f6af286d13def52506e57aac71.setIcon(div_icon_6748e2faf5aa83a02c2e361b056b7278);
+            var div_icon_67effdf39270de68d4007484b292c973 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_2a496032798fe520782fd99412307311.setIcon(div_icon_67effdf39270de68d4007484b292c973);
         
     
-            var marker_1685cac2465237f99b6a35dd7ac3fed2 = L.marker(
+            var marker_9c834dcafb60e7456631a9a0dd3f8c0f = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_0ca733e025e1009c303c2e19d2a0dc8e = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_1685cac2465237f99b6a35dd7ac3fed2.setIcon(div_icon_0ca733e025e1009c303c2e19d2a0dc8e);
+            var div_icon_e54e1aaf72dea2c5f6eefd6109909198 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_9c834dcafb60e7456631a9a0dd3f8c0f.setIcon(div_icon_e54e1aaf72dea2c5f6eefd6109909198);
         
     
-            var marker_e56ead653d9fe37c503d822e0f0bac07 = L.marker(
+            var marker_989a94646a98a335c0acefaf6b2d385b = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_2d5acf48cdc9529c5a577340bffaba07 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_e56ead653d9fe37c503d822e0f0bac07.setIcon(div_icon_2d5acf48cdc9529c5a577340bffaba07);
+            var div_icon_10dd3f407ac8a5b657fd6a2a074e803a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_989a94646a98a335c0acefaf6b2d385b.setIcon(div_icon_10dd3f407ac8a5b657fd6a2a074e803a);
         
     
-            var marker_2ffae64a5ce652b8953f6d8bc6d5ebc1 = L.marker(
+            var marker_690900355ae1b23f424170da9ff5034c = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_3c27d294669aa0337a9172f358afd006 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_2ffae64a5ce652b8953f6d8bc6d5ebc1.setIcon(div_icon_3c27d294669aa0337a9172f358afd006);
+            var div_icon_05ab11d0bea124482265d062176a950b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_690900355ae1b23f424170da9ff5034c.setIcon(div_icon_05ab11d0bea124482265d062176a950b);
         
     
-            var marker_2f8e7ed3a31341a71c0c0d7c1742a91a = L.marker(
+            var marker_9a403afed1972940124cc33014e94dd4 = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_e6faa355ee6a0aef2fd7c1623e2b8fd0 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_2f8e7ed3a31341a71c0c0d7c1742a91a.setIcon(div_icon_e6faa355ee6a0aef2fd7c1623e2b8fd0);
+            var div_icon_5976305689645537562d1c33fc0557df = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_9a403afed1972940124cc33014e94dd4.setIcon(div_icon_5976305689645537562d1c33fc0557df);
         
     
-            var marker_229c6415a60f709e3a73be44e40aefe5 = L.marker(
+            var marker_535b3b3dfe0423e0939123e60abef37b = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_0e3df1a979f1ea535fc029072235b4cd = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_229c6415a60f709e3a73be44e40aefe5.setIcon(div_icon_0e3df1a979f1ea535fc029072235b4cd);
+            var div_icon_b8bb869d98627e1101a01a1b6f1f0665 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_535b3b3dfe0423e0939123e60abef37b.setIcon(div_icon_b8bb869d98627e1101a01a1b6f1f0665);
         
     
-            var marker_fc46d7f78a4a55ecf54d0b7e4c7b7df4 = L.marker(
+            var marker_45f802f409016e8df3f066baee142cc0 = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_5af264793d031052076c9160fb843323 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_fc46d7f78a4a55ecf54d0b7e4c7b7df4.setIcon(div_icon_5af264793d031052076c9160fb843323);
+            var div_icon_bafff997fa5ed62246559301c7071a8b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_45f802f409016e8df3f066baee142cc0.setIcon(div_icon_bafff997fa5ed62246559301c7071a8b);
         
     
-            var marker_12ae1b8c5439c7aaaa4d5753be589e68 = L.marker(
+            var marker_5b81e344d0d6b7870a3167f3c13c3351 = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_fa2e9661ff55a3d42f9fe0f07f81692b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_12ae1b8c5439c7aaaa4d5753be589e68.setIcon(div_icon_fa2e9661ff55a3d42f9fe0f07f81692b);
+            var div_icon_19079bf6cb981a28d26bd03e5083eb5a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_5b81e344d0d6b7870a3167f3c13c3351.setIcon(div_icon_19079bf6cb981a28d26bd03e5083eb5a);
         
     
-            var marker_90980ae4f66b93693a892f2cd1f81864 = L.marker(
+            var marker_ae41ab0f97bb60445b75534dd25464c7 = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_5e5a68111210fd3a00c3abf20e26cf3c = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_90980ae4f66b93693a892f2cd1f81864.setIcon(div_icon_5e5a68111210fd3a00c3abf20e26cf3c);
+            var div_icon_d0764de4ed2d967e9771363b5383d01b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_ae41ab0f97bb60445b75534dd25464c7.setIcon(div_icon_d0764de4ed2d967e9771363b5383d01b);
         
     
-            var marker_d932d470ae853379c342b947053cfb4e = L.marker(
+            var marker_61ec2139d5cf8a04a7fc55aec34eead9 = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_750cc71a9d7c5501955a8ba07d7f228b);
+            ).addTo(feature_group_0368231f63f42723d08d34e6a0bf3c44);
         
     
-            var div_icon_157e3ea16b39bdf4f41c57102da5e018 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_d932d470ae853379c342b947053cfb4e.setIcon(div_icon_157e3ea16b39bdf4f41c57102da5e018);
+            var div_icon_cf5ed10ffe8fedffef70b8b4c60c6f6a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_61ec2139d5cf8a04a7fc55aec34eead9.setIcon(div_icon_cf5ed10ffe8fedffef70b8b4c60c6f6a);
         
     
-            feature_group_750cc71a9d7c5501955a8ba07d7f228b.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_0368231f63f42723d08d34e6a0bf3c44.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            var feature_group_4ce059c03b4dad30bb26a4aa697a1bf1 = L.featureGroup(
+            var feature_group_fdadea4a08e34d4a73e209a589259b7c = L.featureGroup(
                 {"maxZoom": 12, "minZoom": 7, "showCoverageOnHover": false}
             );
         
     
-            var marker_ecdc0d5055dabbe39fa34fda96f5f587 = L.marker(
+            var marker_e9f7c3ebd0bb7a047897fc0c449df858 = L.marker(
                 [-0.348127355546816, -79.95821348135885],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4ce059c03b4dad30bb26a4aa697a1bf1);
+            ).addTo(feature_group_fdadea4a08e34d4a73e209a589259b7c);
         
     
-        var custom_icon_5c5264087eeedb6c731ae00e51a994e1 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
-        marker_ecdc0d5055dabbe39fa34fda96f5f587.setIcon(custom_icon_5c5264087eeedb6c731ae00e51a994e1);
+        var custom_icon_a946ba580da319754accf1bfee24f91b = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
+        marker_e9f7c3ebd0bb7a047897fc0c449df858.setIcon(custom_icon_a946ba580da319754accf1bfee24f91b);
         
     
-            marker_ecdc0d5055dabbe39fa34fda96f5f587.bindTooltip(
+            marker_e9f7c3ebd0bb7a047897fc0c449df858.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2276,17 +2322,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_08dafc87b5033b7fb7d3605077059520 = L.marker(
+            var marker_e28cf3a3671f8b5de9575c40de374302 = L.marker(
                 [-2.64652038, -79.77028656],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4ce059c03b4dad30bb26a4aa697a1bf1);
+            ).addTo(feature_group_fdadea4a08e34d4a73e209a589259b7c);
         
     
-        var custom_icon_fb9f0fc1fd6909bc4c44f67ce48a4815 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
-        marker_08dafc87b5033b7fb7d3605077059520.setIcon(custom_icon_fb9f0fc1fd6909bc4c44f67ce48a4815);
+        var custom_icon_4d6082c7e8838fc0af78dd2e53c47f9d = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
+        marker_e28cf3a3671f8b5de9575c40de374302.setIcon(custom_icon_4d6082c7e8838fc0af78dd2e53c47f9d);
         
     
-            marker_08dafc87b5033b7fb7d3605077059520.bindTooltip(
+            marker_e28cf3a3671f8b5de9575c40de374302.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2298,17 +2344,17 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f714555216c2c377bbf1fed262eb1051 = L.marker(
+            var marker_5dfeb3d43cc7ed94819501181a35a910 = L.marker(
                 [-7.522111527923194, -79.18943944930979],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_4ce059c03b4dad30bb26a4aa697a1bf1);
+            ).addTo(feature_group_fdadea4a08e34d4a73e209a589259b7c);
         
     
-        var custom_icon_99cfef94758508a8a90e541160d4097b = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
-        marker_f714555216c2c377bbf1fed262eb1051.setIcon(custom_icon_99cfef94758508a8a90e541160d4097b);
+        var custom_icon_31aebbc4543cd6adb4a36a5dcab1f017 = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
+        marker_5dfeb3d43cc7ed94819501181a35a910.setIcon(custom_icon_31aebbc4543cd6adb4a36a5dcab1f017);
         
     
-            marker_f714555216c2c377bbf1fed262eb1051.bindTooltip(
+            marker_5dfeb3d43cc7ed94819501181a35a910.bindTooltip(
                 `<div>
                      
             <div style="font-family: Arial; font-size: 11px;">
@@ -2320,21 +2366,21 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            feature_group_4ce059c03b4dad30bb26a4aa697a1bf1.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_fdadea4a08e34d4a73e209a589259b7c.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            var mouse_position_3f723e07fc3fb6445b65289a1aef39c4 = new L.Control.MousePosition(
+            var mouse_position_5c51cebf473fc83ef1db7b766d0eb55f = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_3f723e07fc3fb6445b65289a1aef39c4.options["latFormatter"] =
+            mouse_position_5c51cebf473fc83ef1db7b766d0eb55f.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_3f723e07fc3fb6445b65289a1aef39c4.options["lngFormatter"] =
+            mouse_position_5c51cebf473fc83ef1db7b766d0eb55f.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_f774e99b64d51d1b8b2ee6b1a3b1b6db.addControl(mouse_position_3f723e07fc3fb6445b65289a1aef39c4);
+            map_bc270123c970e5d85b0575a50a7e8005.addControl(mouse_position_5c51cebf473fc83ef1db7b766d0eb55f);
         
     
-            var feature_group_be839608072fa1d779cc709816d34cd8searchControl = new L.Control.Search({
-                layer: feature_group_be839608072fa1d779cc709816d34cd8,
+            var feature_group_546eeebb2f01cb9d06b937c4fa2de562searchControl = new L.Control.Search({
+                layer: feature_group_546eeebb2f01cb9d06b937c4fa2de562,
                 
                 propertyName: 'clave',
                 
@@ -2349,8 +2395,8 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                 }
             
                 });
-                feature_group_be839608072fa1d779cc709816d34cd8searchControl.on('search:locationfound', function(e) {
-                    feature_group_be839608072fa1d779cc709816d34cd8.setStyle(function(feature){
+                feature_group_546eeebb2f01cb9d06b937c4fa2de562searchControl.on('search:locationfound', function(e) {
+                    feature_group_546eeebb2f01cb9d06b937c4fa2de562.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2359,29 +2405,29 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_be839608072fa1d779cc709816d34cd8searchControl.on('search:collapsed', function(e) {
-                        feature_group_be839608072fa1d779cc709816d34cd8.setStyle(function(feature){
+                feature_group_546eeebb2f01cb9d06b937c4fa2de562searchControl.on('search:collapsed', function(e) {
+                        feature_group_546eeebb2f01cb9d06b937c4fa2de562.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_f774e99b64d51d1b8b2ee6b1a3b1b6db.addControl( feature_group_be839608072fa1d779cc709816d34cd8searchControl );
+            map_bc270123c970e5d85b0575a50a7e8005.addControl( feature_group_546eeebb2f01cb9d06b937c4fa2de562searchControl );
 
         
     
-            var tile_layer_378c76204d25a7a4f3b08c9d547421dd = L.tileLayer(
+            var tile_layer_32fe059374ad042c89b421a7c4a4a1ba = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_1fec376b30a7047a9074ed23a9ebb5d0 = new L.Control.MiniMap(
-                tile_layer_378c76204d25a7a4f3b08c9d547421dd,
+            var mini_map_68f29802a40139af2d1744c302b2cac6 = new L.Control.MiniMap(
+                tile_layer_32fe059374ad042c89b421a7c4a4a1ba,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_f774e99b64d51d1b8b2ee6b1a3b1b6db.addControl(mini_map_1fec376b30a7047a9074ed23a9ebb5d0);
+            map_bc270123c970e5d85b0575a50a7e8005.addControl(mini_map_68f29802a40139af2d1744c302b2cac6);
         
     
-            var tag_filter_button_c591b937d8b23938173a46690dde2ba7 = L.control.tagFilterButton(
+            var tag_filter_button_8ad5a3b1ad83508c24fd170f0dd46cc6 = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            ).addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
         L.easyButton(
@@ -2396,10 +2442,10 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
         }
     }
     
-        ).addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+        ).addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            map_f774e99b64d51d1b8b2ee6b1a3b1b6db.fitBounds(
+            map_bc270123c970e5d85b0575a50a7e8005.fitBounds(
                 [[-8.97088985178516, -81.32819536512397], [1.19705808, -76.90124323628629]],
                 {}
             );
@@ -2410,55 +2456,55 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_66ccff09535b9f2e353712d14af1c9b8,
-                        "Flujo migratorio [3]" : feature_group_4ce059c03b4dad30bb26a4aa697a1bf1,
-                        "Necesidad por tramo [66]" : marker_cluster_557f433202f7f32b9784bf7499ff563a,
-                        "Paso fronterizo [4]" : feature_group_e11775e6c8db923dcbaafed03eee381d,
-                        "Riesgo por departamento [11]" : geo_json_a5a9a53317b25a20310af92d80cef250,
+                        "Ruta identificada [10]" : geo_json_3332cc347b81b9d27d768de1a9051eed,
+                        "Flujo migratorio [3]" : feature_group_fdadea4a08e34d4a73e209a589259b7c,
+                        "Necesidad por tramo [66]" : marker_cluster_765a8a754d11f05fb0056b6b63813941,
+                        "Paso fronterizo [4]" : feature_group_ded274ad22e358135811b1779cd872b0,
+                        "Nivel de riesgo [11]" : geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_750cc71a9d7c5501955a8ba07d7f228b,
+                        "Departamento / Provincia" : feature_group_0368231f63f42723d08d34e6a0bf3c44,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_d0869742596bfcf92a3bcabeeab22c3d,
-                        "OpenStreetMap" : tile_layer_f57be31b5c860163ef413b651518937f,
-                        "Esri Sat\u00e9lite" : tile_layer_36d38b282655d341d801a65425f57bac,
-                        "Google H\u00edbrido" : tile_layer_c3fe6bdccafd3869cd72ca3ae9a99119,
+                        "CartoDB Positron" : tile_layer_4a303c637fdfcf93cb3de3abc721491b,
+                        "OpenStreetMap" : tile_layer_f259307c42464140395b8347f8de18e2,
+                        "Esri Sat\u00e9lite" : tile_layer_89f56057d6fcac2ec385d01761ad631c,
+                        "Google H\u00edbrido" : tile_layer_f582a26c15f9d607259ceafc3d817918,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
-            tile_layer_f57be31b5c860163ef413b651518937f.remove();
-            tile_layer_36d38b282655d341d801a65425f57bac.remove();
-            tile_layer_c3fe6bdccafd3869cd72ca3ae9a99119.remove();
+            ).addTo(map_bc270123c970e5d85b0575a50a7e8005);
+            tile_layer_89f56057d6fcac2ec385d01761ad631c.remove();
+            tile_layer_f259307c42464140395b8347f8de18e2.remove();
+            tile_layer_f582a26c15f9d607259ceafc3d817918.remove();
 
         
     
-            tile_layer_d0869742596bfcf92a3bcabeeab22c3d.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            tile_layer_4a303c637fdfcf93cb3de3abc721491b.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            geo_json_a5a9a53317b25a20310af92d80cef250.addTo(feature_group_be839608072fa1d779cc709816d34cd8);
+            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.addTo(feature_group_546eeebb2f01cb9d06b937c4fa2de562);
         
     
-            feature_group_be839608072fa1d779cc709816d34cd8.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_546eeebb2f01cb9d06b937c4fa2de562.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            geo_json_66ccff09535b9f2e353712d14af1c9b8.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            geo_json_3332cc347b81b9d27d768de1a9051eed.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            feature_group_e11775e6c8db923dcbaafed03eee381d.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_ded274ad22e358135811b1779cd872b0.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            marker_cluster_557f433202f7f32b9784bf7499ff563a.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            marker_cluster_765a8a754d11f05fb0056b6b63813941.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            geo_json_a5a9a53317b25a20310af92d80cef250.addTo(feature_group_be839608072fa1d779cc709816d34cd8);
+            geo_json_d5d363f68cdf370c5eb0f5d84ddf7ddb.addTo(feature_group_546eeebb2f01cb9d06b937c4fa2de562);
         
     
-            feature_group_750cc71a9d7c5501955a8ba07d7f228b.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_0368231f63f42723d08d34e6a0bf3c44.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
     
-            feature_group_4ce059c03b4dad30bb26a4aa697a1bf1.addTo(map_f774e99b64d51d1b8b2ee6b1a3b1b6db);
+            feature_group_fdadea4a08e34d4a73e209a589259b7c.addTo(map_bc270123c970e5d85b0575a50a7e8005);
         
 </script>
 </html>
