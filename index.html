@@ -27,7 +27,7 @@
             <meta name="viewport" content="width=device-width,
                 initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
             <style>
-                #map_8b91f3a83de40f8bb44c928e7cfcfd4b {
+                #map_647e0f8e8c0cd18e058c08a564b7c3e1 {
                     position: relative;
                     width: 100.0%;
                     height: 100.0%;
@@ -40,7 +40,7 @@
     
                     <style>
                         .foliumpopup {
-                            font-family: arial; font-size: 10px; padding: 2px;
+                            font-family: Segoe UI; font-size: 10px; padding: 2px;
                         }
                        .foliumpopup table{
                             margin: auto;
@@ -57,7 +57,7 @@
                     <style>
                         .foliumtooltip {
                             
-        font-family: Arial;
+        font-family: Segoe UI;
         font-size: 11px;
         padding: 5px;
     
@@ -107,7 +107,7 @@
 <body>
     
     
-            <div class="folium-map" id="map_8b91f3a83de40f8bb44c928e7cfcfd4b" ></div>
+            <div class="folium-map" id="map_647e0f8e8c0cd18e058c08a564b7c3e1" ></div>
         
     
 
@@ -162,7 +162,7 @@
 
 <div id='maptitle1' class='maptitle1'
     style='position: absolute; z-index:9999; background-color:rgba(255, 255, 255, 0.75);
-     border-radius:2px; padding: 4px; font-size:14px; left: 50px; top: 10px;'>
+     border-radius:2px; padding: 4px; font-size:14px; font-family: Segoe UI; left: 50px; top: 10px;'>
   <div class='my-legend1'>
     <img src='https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/logo_reach_vector.svg' class='map-logo' />
     <div style='display: flex; flex-direction: column;'>
@@ -224,7 +224,7 @@
 
 <div id='mapinfo' class='mapinfo'
     style='position: absolute; z-index:9999; background-color:rgba(255, 255, 255, 0.75);
-     border-radius:0px; padding: 6px; font-size:14px; left: 10px; top: 217px;'>
+     border-radius:0px; padding: 6px; font-size:14px; font-family: Segoe UI;left: 10px; top: 217px;'>
   <div class='my-legend1'>
     <div style='display: flex; flex-direction: column;'>
       <div class='map-info-title'>Información del mapa</div>
@@ -270,7 +270,7 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
 
 <div id='maplegend' class='maplegend'
     style='position: absolute; z-index:9999; background-color:rgba(255, 255, 255, 0.75);
-     border-radius:2px; padding: 5px; font-size:14px; left: 5px; bottom: 40px;'>
+     border-radius:2px; padding: 5px; font-size:14px; font-family: Segoe UI;left: 5px; bottom: 40px;'>
   <div class='my-legend'>
     <div class='legend-title'>Leyenda</div>
     <div class='legend-header'>Nivel de riesgo (Admin 1):</div>
@@ -332,7 +332,7 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     width: 49px;
     margin-bottom: 2px;
     text-align: center;
-    font-size: 85%;
+    font-size: 82%;
     list-style: none;
   }
   .my-legend ul.legend-labels li span {
@@ -400,8 +400,8 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
 <script>
     
     
-            var map_8b91f3a83de40f8bb44c928e7cfcfd4b = L.map(
-                "map_8b91f3a83de40f8bb44c928e7cfcfd4b",
+            var map_647e0f8e8c0cd18e058c08a564b7c3e1 = L.map(
+                "map_647e0f8e8c0cd18e058c08a564b7c3e1",
                 {
                     center: [-6.5, -80.0],
                     crs: L.CRS.EPSG3857,
@@ -410,51 +410,51 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     preferCanvas: false,
                 }
             );
-            L.control.scale().addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            L.control.scale().addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
 
             
 
         
     
-            var tile_layer_de12234e26f8158b45e4be249cdafaf7 = L.tileLayer(
+            var tile_layer_734ecd804461269a596bbb111857c482 = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "CartoDB \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            tile_layer_de12234e26f8158b45e4be249cdafaf7.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            tile_layer_734ecd804461269a596bbb111857c482.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            var tile_layer_abef4fcb364b16c791f7ff1df1fc14bd = L.tileLayer(
+            var tile_layer_73624557981915fe81e1ce69f6958ae4 = L.tileLayer(
                 "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
                 {"attribution": "OSM \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 6, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_252775bfaeab4229a275c7cbc5940e97 = L.tileLayer(
+            var tile_layer_eb1233ebd7dc9a70606f66b34dcee27c = L.tileLayer(
                 "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
                 {"attribution": "Esri \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_0087f04c550b28599ba8dc8a263cf6a7 = L.tileLayer(
+            var tile_layer_59dcbc54fdbcdddd61c8424dc54178fc = L.tileLayer(
                 "https://mt1.google.com/vt/lyrs=y\u0026x={x}\u0026y={y}\u0026z={z}",
                 {"attribution": "Google \u0026copy; | Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var tile_layer_e43d7eea97944c62015c372e7ea58d5b = L.tileLayer(
+            var tile_layer_9fba91540a30cfd415294f0fd5e298b6 = L.tileLayer(
                 "",
                 {"attribution": "Autor: \u003ca href=\"https://www.impact-initiatives.org/where-we-work/colombia/\" target=\"_blank\"\u003eREACH-COL\u003c/a\u003e", "detectRetina": false, "maxZoom": 13, "minZoom": 7, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
             );
         
     
-            var feature_group_3352c6df4d4aaee1283045f8a3cd6f4e = L.featureGroup(
+            var feature_group_0599b2b001754b1733a2c46e8cc38529 = L.featureGroup(
                 {}
             );
         
     
-        function geo_json_b25acba5bd5aa7751a32cef506ba6104_styler(feature) {
+        function geo_json_a65677bafd3c3769b3a3f12ad3235831_styler(feature) {
             switch(feature.properties.provincia) {
                 case "Carchi": case "El Oro": case "Tumbes": 
                     return {"color": "black", "fill": true, "fillColor": "#08519c", "fillOpacity": 0.5, "weight": 0.2};
@@ -464,59 +464,59 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     return {"color": "black", "fill": true, "fillColor": "#bdd7e7", "fillOpacity": 0.5, "weight": 0.2};
             }
         }
-        function geo_json_b25acba5bd5aa7751a32cef506ba6104_highlighter(feature) {
+        function geo_json_a65677bafd3c3769b3a3f12ad3235831_highlighter(feature) {
             switch(feature.properties.provincia) {
                 default:
                     return {"fillColor": "#fff998"};
             }
         }
 
-        function geo_json_b25acba5bd5aa7751a32cef506ba6104_onEachFeature(feature, layer) {
+        function geo_json_a65677bafd3c3769b3a3f12ad3235831_onEachFeature(feature, layer) {
             layer.on({
                 mouseout: function(e) {
                     if(typeof e.target.setStyle === "function"){
                         if (!e.target.isPopupOpen())
-                            geo_json_b25acba5bd5aa7751a32cef506ba6104.resetStyle(e.target);
+                            geo_json_a65677bafd3c3769b3a3f12ad3235831.resetStyle(e.target);
                     }
                 },
                 mouseover: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_b25acba5bd5aa7751a32cef506ba6104_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_a65677bafd3c3769b3a3f12ad3235831_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                     }
                 },
                 popupopen: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        const highlightStyle = geo_json_b25acba5bd5aa7751a32cef506ba6104_highlighter(e.target.feature)
+                        const highlightStyle = geo_json_a65677bafd3c3769b3a3f12ad3235831_highlighter(e.target.feature)
                         e.target.setStyle(highlightStyle);
                         e.target.bindPopup(e.popup)
                     }
                 },
                 popupclose: function(e) {
                     if(typeof e.target.setStyle === "function"){
-                        geo_json_b25acba5bd5aa7751a32cef506ba6104.resetStyle(e.target);
+                        geo_json_a65677bafd3c3769b3a3f12ad3235831.resetStyle(e.target);
                         e.target.unbindPopup()
                     }
                 },
             });
         };
-        var geo_json_b25acba5bd5aa7751a32cef506ba6104 = L.geoJson(null, {
+        var geo_json_a65677bafd3c3769b3a3f12ad3235831 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_b25acba5bd5aa7751a32cef506ba6104_onEachFeature,
+                onEachFeature: geo_json_a65677bafd3c3769b3a3f12ad3235831_onEachFeature,
             
-                style: geo_json_b25acba5bd5aa7751a32cef506ba6104_styler,
+                style: geo_json_a65677bafd3c3769b3a3f12ad3235831_styler,
         });
 
-        function geo_json_b25acba5bd5aa7751a32cef506ba6104_add (data) {
-            geo_json_b25acba5bd5aa7751a32cef506ba6104
+        function geo_json_a65677bafd3c3769b3a3f12ad3235831_add (data) {
+            geo_json_a65677bafd3c3769b3a3f12ad3235831
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_admin1.geojson", {dataType: 'json', async: false})
-                .done(geo_json_b25acba5bd5aa7751a32cef506ba6104_add);
+                .done(geo_json_a65677bafd3c3769b3a3f12ad3235831_add);
 
         
     
-    geo_json_b25acba5bd5aa7751a32cef506ba6104.bindPopup(
+    geo_json_a65677bafd3c3769b3a3f12ad3235831.bindPopup(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -540,13 +540,13 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     ,{"className": "foliumpopup", "maxWidth": 250});
                      
     
-            geo_json_b25acba5bd5aa7751a32cef506ba6104.addTo(feature_group_3352c6df4d4aaee1283045f8a3cd6f4e);
+            geo_json_a65677bafd3c3769b3a3f12ad3235831.addTo(feature_group_0599b2b001754b1733a2c46e8cc38529);
         
     
-            feature_group_3352c6df4d4aaee1283045f8a3cd6f4e.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_0599b2b001754b1733a2c46e8cc38529.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-        function geo_json_912be736a75ae022108c3776c0183e2c_styler(feature) {
+        function geo_json_2288fb9586c90978b632e40aeda6f0d3_styler(feature) {
             switch(feature.properties.id) {
                 case 1: case 22: case 24: case 31: case 34: case 40: case 49: case 51: case 73: case 75: case 81: case 82: case 98: case 112: case 113: case 114: case 122: case 124: 
                     return {"color": "#A4303F", "fillcolor": "#A4303F", "tags": ["B:Ibarra-Quito"], "weight": 4};
@@ -571,28 +571,28 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             }
         }
 
-        function geo_json_912be736a75ae022108c3776c0183e2c_onEachFeature(feature, layer) {
+        function geo_json_2288fb9586c90978b632e40aeda6f0d3_onEachFeature(feature, layer) {
             layer.on({
             });
         };
-        var geo_json_912be736a75ae022108c3776c0183e2c = L.geoJson(null, {
+        var geo_json_2288fb9586c90978b632e40aeda6f0d3 = L.geoJson(null, {
                 smoothFactor: 1,
-                onEachFeature: geo_json_912be736a75ae022108c3776c0183e2c_onEachFeature,
+                onEachFeature: geo_json_2288fb9586c90978b632e40aeda6f0d3_onEachFeature,
             
-                style: geo_json_912be736a75ae022108c3776c0183e2c_styler,
+                style: geo_json_2288fb9586c90978b632e40aeda6f0d3_styler,
                 localize: true,
         });
 
-        function geo_json_912be736a75ae022108c3776c0183e2c_add (data) {
-            geo_json_912be736a75ae022108c3776c0183e2c
+        function geo_json_2288fb9586c90978b632e40aeda6f0d3_add (data) {
+            geo_json_2288fb9586c90978b632e40aeda6f0d3
                 .addData(data);
         }
             $.ajax("https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/data/calp_rutas.geojson", {dataType: 'json', async: false})
-                .done(geo_json_912be736a75ae022108c3776c0183e2c_add);
+                .done(geo_json_2288fb9586c90978b632e40aeda6f0d3_add);
 
         
     
-    geo_json_912be736a75ae022108c3776c0183e2c.bindTooltip(
+    geo_json_2288fb9586c90978b632e40aeda6f0d3.bindTooltip(
     function(layer){
     let div = L.DomUtil.create('div');
     
@@ -616,28 +616,28 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
     ,{"className": "foliumtooltip", "showCoverageOnHover": false, "sticky": true});
                      
     
-            geo_json_912be736a75ae022108c3776c0183e2c.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            geo_json_2288fb9586c90978b632e40aeda6f0d3.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            var feature_group_1bffc180e658f1a3d3849eb1ef19118c = L.featureGroup(
+            var feature_group_fed6c046125fd4c099d1c9d785255b93 = L.featureGroup(
                 {"showCoverageOnHover": false}
             );
         
     
-            var marker_0d2a207c7fac66ada0b1713b2521d771 = L.marker(
+            var marker_8c6c2366ff882a1c21edd54aba9052b3 = L.marker(
                 [0.814105499669097, -77.66414909970115],
                 {"embed": false}
-            ).addTo(feature_group_1bffc180e658f1a3d3849eb1ef19118c);
+            ).addTo(feature_group_fed6c046125fd4c099d1c9d785255b93);
         
     
-        var custom_icon_d6b99ea992dd6205beadd719cc01e6d6 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_0d2a207c7fac66ada0b1713b2521d771.setIcon(custom_icon_d6b99ea992dd6205beadd719cc01e6d6);
+        var custom_icon_786d004fedb87ad98073b933904d9c93 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_8c6c2366ff882a1c21edd54aba9052b3.setIcon(custom_icon_786d004fedb87ad98073b933904d9c93);
         
     
-            marker_0d2a207c7fac66ada0b1713b2521d771.bindTooltip(
+            marker_8c6c2366ff882a1c21edd54aba9052b3.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Paso fronterizo:</b> Puente De Rumichaca<br>
             </div>
             
@@ -646,20 +646,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f20e3da275725f04417aff8752a6d998 = L.marker(
+            var marker_bb57fe110b2c0bd5d8651bf2d742efe3 = L.marker(
                 [-4.392645400165065, -79.96400700042267],
                 {"embed": false}
-            ).addTo(feature_group_1bffc180e658f1a3d3849eb1ef19118c);
+            ).addTo(feature_group_fed6c046125fd4c099d1c9d785255b93);
         
     
-        var custom_icon_ed01ca63ac2f5657899108bb9b568e61 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_f20e3da275725f04417aff8752a6d998.setIcon(custom_icon_ed01ca63ac2f5657899108bb9b568e61);
+        var custom_icon_ebc8e53f1ab57aa60f372b01694151b1 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_bb57fe110b2c0bd5d8651bf2d742efe3.setIcon(custom_icon_ebc8e53f1ab57aa60f372b01694151b1);
         
     
-            marker_f20e3da275725f04417aff8752a6d998.bindTooltip(
+            marker_bb57fe110b2c0bd5d8651bf2d742efe3.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Paso fronterizo:</b> Puesto Senae - Aduana Del Ecuador<br>
             </div>
             
@@ -668,20 +668,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_060963bb5bf0f5b3b27ef1bcf3f61a40 = L.marker(
+            var marker_71e7262489311861b0da9e5f2f712bc8 = L.marker(
                 [-3.481409599673214, -80.24339049967176],
                 {"embed": false}
-            ).addTo(feature_group_1bffc180e658f1a3d3849eb1ef19118c);
+            ).addTo(feature_group_fed6c046125fd4c099d1c9d785255b93);
         
     
-        var custom_icon_244f107a992c1274d43065732392483a = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_060963bb5bf0f5b3b27ef1bcf3f61a40.setIcon(custom_icon_244f107a992c1274d43065732392483a);
+        var custom_icon_7e01000a06ade4e73f8648cccc5b6812 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_71e7262489311861b0da9e5f2f712bc8.setIcon(custom_icon_7e01000a06ade4e73f8648cccc5b6812);
         
     
-            marker_060963bb5bf0f5b3b27ef1bcf3f61a40.bindTooltip(
+            marker_71e7262489311861b0da9e5f2f712bc8.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Paso fronterizo:</b> Puente Internacional Perú - Ecuador<br>
             </div>
             
@@ -690,20 +690,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_824001a37866b268eec69a643371224b = L.marker(
+            var marker_8901df77a5f5fbb0d48972fcbf9bde73 = L.marker(
                 [-4.477067999988151, -80.39606860038555],
                 {"embed": false}
-            ).addTo(feature_group_1bffc180e658f1a3d3849eb1ef19118c);
+            ).addTo(feature_group_fed6c046125fd4c099d1c9d785255b93);
         
     
-        var custom_icon_29371f24e41a811082a7c918fb352ba1 = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
-        marker_824001a37866b268eec69a643371224b.setIcon(custom_icon_29371f24e41a811082a7c918fb352ba1);
+        var custom_icon_7d09a3565f1e1c426539ae687969390a = L.icon({"iconSize": [25, 25], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_paso_fronterizo.svg"});
+        marker_8901df77a5f5fbb0d48972fcbf9bde73.setIcon(custom_icon_7d09a3565f1e1c426539ae687969390a);
         
     
-            marker_824001a37866b268eec69a643371224b.bindTooltip(
+            marker_8901df77a5f5fbb0d48972fcbf9bde73.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Paso fronterizo:</b> Puente Internacional Perú - Ecuador<br>
             </div>
             
@@ -712,28 +712,28 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            feature_group_1bffc180e658f1a3d3849eb1ef19118c.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_fed6c046125fd4c099d1c9d785255b93.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            var marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3 = L.markerClusterGroup(
+            var marker_cluster_997c24988dbc3a90eba8c594618cb678 = L.markerClusterGroup(
                 {"embed": false, "maxClusterRadius": 30, "showCoverageOnHover": false}
             );
         
     
-            var marker_f89b8d844d72fa50bb92238a41998b01 = L.marker(
+            var marker_a0350b0afe211961526b4e284f9b4003 = L.marker(
                 [0.348523732823907, -78.13327968163645],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_a138a724445707b346aaf028de397b16 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_f89b8d844d72fa50bb92238a41998b01.setIcon(custom_icon_a138a724445707b346aaf028de397b16);
+        var custom_icon_8a05f5f3fba876534e05ff952aefc346 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_a0350b0afe211961526b4e284f9b4003.setIcon(custom_icon_8a05f5f3fba876534e05ff952aefc346);
         
     
-            marker_f89b8d844d72fa50bb92238a41998b01.bindTooltip(
+            marker_a0350b0afe211961526b4e284f9b4003.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -745,20 +745,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_c9975e5e0c67eff0224e50407a24e9cf = L.marker(
+            var marker_eeb9ca1dcd55e7dcacffd2ff740d19cf = L.marker(
                 [0.355750688130165, -78.13328209682959],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_293ec915fa5f672c6a7951d4c91950f3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_c9975e5e0c67eff0224e50407a24e9cf.setIcon(custom_icon_293ec915fa5f672c6a7951d4c91950f3);
+        var custom_icon_4a9da6d1e78fe455f4cb8601920bf99f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_eeb9ca1dcd55e7dcacffd2ff740d19cf.setIcon(custom_icon_4a9da6d1e78fe455f4cb8601920bf99f);
         
     
-            marker_c9975e5e0c67eff0224e50407a24e9cf.bindTooltip(
+            marker_eeb9ca1dcd55e7dcacffd2ff740d19cf.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -770,20 +770,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_feae2f8b3678df6b985187778ec6c8c6 = L.marker(
+            var marker_12ccb4da3ce68d3a597b4e26b7c7f0cc = L.marker(
                 [0.341296777389899, -78.13327731601363],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_28ef23edce2a236717a1a82b27a453c8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_feae2f8b3678df6b985187778ec6c8c6.setIcon(custom_icon_28ef23edce2a236717a1a82b27a453c8);
+        var custom_icon_318ad35d3684e68fef3fb8c1ec5dc7ac = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_12ccb4da3ce68d3a597b4e26b7c7f0cc.setIcon(custom_icon_318ad35d3684e68fef3fb8c1ec5dc7ac);
         
     
-            marker_feae2f8b3678df6b985187778ec6c8c6.bindTooltip(
+            marker_12ccb4da3ce68d3a597b4e26b7c7f0cc.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -795,20 +795,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_7777886338d5c115cc76cadcc595d8c9 = L.marker(
+            var marker_5410bcd111084b6d8a7c05fce4830542 = L.marker(
                 [0.355748228952912, -78.14046078751109],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_43fc2a68a501b657e2b2c1705ad59a0f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_7777886338d5c115cc76cadcc595d8c9.setIcon(custom_icon_43fc2a68a501b657e2b2c1705ad59a0f);
+        var custom_icon_6cd06bcd5822b49c9e044bff0f528707 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_5410bcd111084b6d8a7c05fce4830542.setIcon(custom_icon_6cd06bcd5822b49c9e044bff0f528707);
         
     
-            marker_7777886338d5c115cc76cadcc595d8c9.bindTooltip(
+            marker_5410bcd111084b6d8a7c05fce4830542.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -820,20 +820,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_22dcfc923ece638ef2b4e660a73d1a27 = L.marker(
+            var marker_a0e4ff145bdda6641a3f94428584943c = L.marker(
                 [0.341294418129677, -78.1404559957856],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_c4cf7a448bec5f9fc0f67e3e12a07b87 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_22dcfc923ece638ef2b4e660a73d1a27.setIcon(custom_icon_c4cf7a448bec5f9fc0f67e3e12a07b87);
+        var custom_icon_63fddd8680d70e906405328878cdb88b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_a0e4ff145bdda6641a3f94428584943c.setIcon(custom_icon_63fddd8680d70e906405328878cdb88b);
         
     
-            marker_22dcfc923ece638ef2b4e660a73d1a27.bindTooltip(
+            marker_a0e4ff145bdda6641a3f94428584943c.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -845,20 +845,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_5b77710547d580f5fdeb8041a2f57ada = L.marker(
+            var marker_212ca5cf2be7afc24cc562c0b56f9483 = L.marker(
                 [0.348521323605206, -78.14045836680663],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_4ada247b6fae7a757f5588e38139a5b5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_5b77710547d580f5fdeb8041a2f57ada.setIcon(custom_icon_4ada247b6fae7a757f5588e38139a5b5);
+        var custom_icon_15faff3254323517bec6f42382e7e201 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_212ca5cf2be7afc24cc562c0b56f9483.setIcon(custom_icon_15faff3254323517bec6f42382e7e201);
         
     
-            marker_5b77710547d580f5fdeb8041a2f57ada.bindTooltip(
+            marker_212ca5cf2be7afc24cc562c0b56f9483.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Imbabura<br>
                 <b>Municipio:</b> Ibarra<br>
@@ -870,20 +870,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_267599d65be4d22b5aef3bac8cd6a134 = L.marker(
+            var marker_89b1bc8cf92002e9af772c9c17e47174 = L.marker(
                 [0.804754189829462, -77.7244050991098],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_bae3ba92dfe92339743ee9dff256fa14 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_267599d65be4d22b5aef3bac8cd6a134.setIcon(custom_icon_bae3ba92dfe92339743ee9dff256fa14);
+        var custom_icon_f2e8807eb842df84b1e10f73e50836b1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_89b1bc8cf92002e9af772c9c17e47174.setIcon(custom_icon_f2e8807eb842df84b1e10f73e50836b1);
         
     
-            marker_267599d65be4d22b5aef3bac8cd6a134.bindTooltip(
+            marker_89b1bc8cf92002e9af772c9c17e47174.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -895,20 +895,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_83fbcdf4f4dadc42192ea5ad66f21007 = L.marker(
+            var marker_39cc496b7c8bbb73e779bf649089fd7a = L.marker(
                 [0.804759015445359, -77.71722315667246],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_ba797785dafad3d1635fbfa96ede9e6d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_83fbcdf4f4dadc42192ea5ad66f21007.setIcon(custom_icon_ba797785dafad3d1635fbfa96ede9e6d);
+        var custom_icon_8bb46ef17266ba07b0c8db1df1d006cf = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_39cc496b7c8bbb73e779bf649089fd7a.setIcon(custom_icon_8bb46ef17266ba07b0c8db1df1d006cf);
         
     
-            marker_83fbcdf4f4dadc42192ea5ad66f21007.bindTooltip(
+            marker_39cc496b7c8bbb73e779bf649089fd7a.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -920,20 +920,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_94a9d24ad1a3c3a76d674dd9dc4d5f00 = L.marker(
+            var marker_33d58bcc0d77f730d86b4c4ae68b85fe = L.marker(
                 [0.819213390632487, -77.72441478557974],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_a7c41812f2b1f8550730392fd33d5b19 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_94a9d24ad1a3c3a76d674dd9dc4d5f00.setIcon(custom_icon_a7c41812f2b1f8550730392fd33d5b19);
+        var custom_icon_ed7b11883c5bc22597ffd0f0cd0aa87a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_33d58bcc0d77f730d86b4c4ae68b85fe.setIcon(custom_icon_ed7b11883c5bc22597ffd0f0cd0aa87a);
         
     
-            marker_94a9d24ad1a3c3a76d674dd9dc4d5f00.bindTooltip(
+            marker_33d58bcc0d77f730d86b4c4ae68b85fe.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -945,20 +945,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_6300d55c3de456474e9f663349d86b65 = L.marker(
+            var marker_7550890d70875673ea8837214a15bfb4 = L.marker(
                 [0.811983790375216, -77.72440992077644],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_ecba01735953fa70e41c453d4b938624 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_6300d55c3de456474e9f663349d86b65.setIcon(custom_icon_ecba01735953fa70e41c453d4b938624);
+        var custom_icon_95626239f7bab40558419d405e677ee1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_7550890d70875673ea8837214a15bfb4.setIcon(custom_icon_95626239f7bab40558419d405e677ee1);
         
     
-            marker_6300d55c3de456474e9f663349d86b65.bindTooltip(
+            marker_7550890d70875673ea8837214a15bfb4.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -970,20 +970,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_c3459ffcf27eb421e6a4d378174239c1 = L.marker(
+            var marker_1723833af161bcd1a7dd68db7137fea1 = L.marker(
                 [0.819218302962561, -77.71723281768413],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_2ea21b13b88d73f5dbb6ea23babefd36 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_c3459ffcf27eb421e6a4d378174239c1.setIcon(custom_icon_2ea21b13b88d73f5dbb6ea23babefd36);
+        var custom_icon_671cfcf6b1d3424418190f06f067c6c3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_1723833af161bcd1a7dd68db7137fea1.setIcon(custom_icon_671cfcf6b1d3424418190f06f067c6c3);
         
     
-            marker_c3459ffcf27eb421e6a4d378174239c1.bindTooltip(
+            marker_1723833af161bcd1a7dd68db7137fea1.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -995,20 +995,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_7480d93a357e8bb3cb303f8a3de57802 = L.marker(
+            var marker_09d49a83d6862cc3a3b7b74409cccc4a = L.marker(
                 [0.811988659348128, -77.71722796566664],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_306c3fe13d7d20a99fb0016814643e47 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_7480d93a357e8bb3cb303f8a3de57802.setIcon(custom_icon_306c3fe13d7d20a99fb0016814643e47);
+        var custom_icon_818b0a063d171eabde0a6b2b34e3a022 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_09d49a83d6862cc3a3b7b74409cccc4a.setIcon(custom_icon_818b0a063d171eabde0a6b2b34e3a022);
         
     
-            marker_7480d93a357e8bb3cb303f8a3de57802.bindTooltip(
+            marker_09d49a83d6862cc3a3b7b74409cccc4a.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -1020,20 +1020,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4d97796b4801066ea1a4dd131d4d2879 = L.marker(
+            var marker_55d1a59410131f19bfa2f35bcb3bac35 = L.marker(
                 [0.819223202364712, -77.71005080676484],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_c590a2c22a3306f34fe3e5111ee2b36a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_4d97796b4801066ea1a4dd131d4d2879.setIcon(custom_icon_c590a2c22a3306f34fe3e5111ee2b36a);
+        var custom_icon_b3f0e62711a5943a66fdf3cd2e2416e6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_55d1a59410131f19bfa2f35bcb3bac35.setIcon(custom_icon_b3f0e62711a5943a66fdf3cd2e2416e6);
         
     
-            marker_4d97796b4801066ea1a4dd131d4d2879.bindTooltip(
+            marker_55d1a59410131f19bfa2f35bcb3bac35.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -1045,20 +1045,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f10ba9048e39c4c07e0a38a835ae5bff = L.marker(
+            var marker_bab6e5eb6d215a5aec1ea4b8284b8400 = L.marker(
                 [0.811993515507221, -77.71004596753355],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_260a2f0a6942ecf65ad4b78cb556550b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f10ba9048e39c4c07e0a38a835ae5bff.setIcon(custom_icon_260a2f0a6942ecf65ad4b78cb556550b);
+        var custom_icon_2a20e8da279967d41116bea33e06d3e0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_bab6e5eb6d215a5aec1ea4b8284b8400.setIcon(custom_icon_2a20e8da279967d41116bea33e06d3e0);
         
     
-            marker_f10ba9048e39c4c07e0a38a835ae5bff.bindTooltip(
+            marker_bab6e5eb6d215a5aec1ea4b8284b8400.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Carchi<br>
                 <b>Municipio:</b> Tulcán<br>
@@ -1070,20 +1070,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_3da9ba23da382549210e13a023e853f8 = L.marker(
+            var marker_956f701bc09d508fa4d9cd70ce0173c0 = L.marker(
                 [-0.191997568256638, -78.4842600904288],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_59e0ab872cde513ea5342763d010adc7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_3da9ba23da382549210e13a023e853f8.setIcon(custom_icon_59e0ab872cde513ea5342763d010adc7);
+        var custom_icon_41c75706921d576de8261e4906aa702e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_956f701bc09d508fa4d9cd70ce0173c0.setIcon(custom_icon_41c75706921d576de8261e4906aa702e);
         
     
-            marker_3da9ba23da382549210e13a023e853f8.bindTooltip(
+            marker_956f701bc09d508fa4d9cd70ce0173c0.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1095,20 +1095,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4a893dd76c2c05f0c15f88f0282ed22a = L.marker(
+            var marker_b5bb2011d3e92abbac0855a2cb8534b2 = L.marker(
                 [-0.184785349935754, -78.47707035077602],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_cf26eccef8560d39e76b2c1993e469aa = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_4a893dd76c2c05f0c15f88f0282ed22a.setIcon(custom_icon_cf26eccef8560d39e76b2c1993e469aa);
+        var custom_icon_0b96c93ee3cf34ded2bb80241439235c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_b5bb2011d3e92abbac0855a2cb8534b2.setIcon(custom_icon_0b96c93ee3cf34ded2bb80241439235c);
         
     
-            marker_4a893dd76c2c05f0c15f88f0282ed22a.bindTooltip(
+            marker_b5bb2011d3e92abbac0855a2cb8534b2.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1120,20 +1120,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4e00348e091fa5b97890429e6d8bd7e1 = L.marker(
+            var marker_a52b8e4f007817cee155977e2b378635 = L.marker(
                 [-0.177545883100482, -78.49142262655404],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_7358d10ce70801a0b2f6151e9e09121b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_4e00348e091fa5b97890429e6d8bd7e1.setIcon(custom_icon_7358d10ce70801a0b2f6151e9e09121b);
+        var custom_icon_1ad6b1e7ee60687ca93fa3ac5b69d570 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_a52b8e4f007817cee155977e2b378635.setIcon(custom_icon_1ad6b1e7ee60687ca93fa3ac5b69d570);
         
     
-            marker_4e00348e091fa5b97890429e6d8bd7e1.bindTooltip(
+            marker_a52b8e4f007817cee155977e2b378635.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1145,20 +1145,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f522986d1f99c5529db421cd3674b96b = L.marker(
+            var marker_a44e893d3487d093dc5387f54c934eb8 = L.marker(
                 [-0.184783930326172, -78.48425865589651],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_bd5bee04021fda3207a02c3e27813df8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f522986d1f99c5529db421cd3674b96b.setIcon(custom_icon_bd5bee04021fda3207a02c3e27813df8);
+        var custom_icon_20df90a7779bdf0d73df44194ccdf633 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_a44e893d3487d093dc5387f54c934eb8.setIcon(custom_icon_20df90a7779bdf0d73df44194ccdf633);
         
     
-            marker_f522986d1f99c5529db421cd3674b96b.bindTooltip(
+            marker_a44e893d3487d093dc5387f54c934eb8.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1170,20 +1170,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_d6cb06d49532a6dc6022f4254cfbbe45 = L.marker(
+            var marker_d5814b76098fdd87a0b740e79b857ce1 = L.marker(
                 [-0.177547245559289, -78.48425727197494],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e4724b19d3cf58c16dce389ea728862d = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_d6cb06d49532a6dc6022f4254cfbbe45.setIcon(custom_icon_e4724b19d3cf58c16dce389ea728862d);
+        var custom_icon_a750d31aa7347a9ef6c188740b89e603 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_d5814b76098fdd87a0b740e79b857ce1.setIcon(custom_icon_a750d31aa7347a9ef6c188740b89e603);
         
     
-            marker_d6cb06d49532a6dc6022f4254cfbbe45.bindTooltip(
+            marker_d5814b76098fdd87a0b740e79b857ce1.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1195,20 +1195,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_89328ec5355b7145c2170779a61ba263 = L.marker(
+            var marker_12e76116143722d0192fb8490947f8a0 = L.marker(
                 [-0.192019141498022, -78.49142545545611],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_d7edc11a6e3228b7b0538032989f174b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_89328ec5355b7145c2170779a61ba263.setIcon(custom_icon_d7edc11a6e3228b7b0538032989f174b);
+        var custom_icon_42f50e55b9433cc2a44c0d9c0c8d50de = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_12e76116143722d0192fb8490947f8a0.setIcon(custom_icon_42f50e55b9433cc2a44c0d9c0c8d50de);
         
     
-            marker_89328ec5355b7145c2170779a61ba263.bindTooltip(
+            marker_12e76116143722d0192fb8490947f8a0.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1220,20 +1220,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_9191a83138ae29e3ac89c62c60874838 = L.marker(
+            var marker_22bbd5567727906f83bee3d0334045ae = L.marker(
                 [-0.184782512334264, -78.49142401330755],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_7735e152ae1c10f57bfcba05284d69c3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_9191a83138ae29e3ac89c62c60874838.setIcon(custom_icon_7735e152ae1c10f57bfcba05284d69c3);
+        var custom_icon_f58fcc4fe1b1016357ada473609604e5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_22bbd5567727906f83bee3d0334045ae.setIcon(custom_icon_f58fcc4fe1b1016357ada473609604e5);
         
     
-            marker_9191a83138ae29e3ac89c62c60874838.bindTooltip(
+            marker_22bbd5567727906f83bee3d0334045ae.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1245,20 +1245,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_65b5caecda25f066f78d13b80741d0e9 = L.marker(
+            var marker_a8a18112fba3369a9710b0fed5999210 = L.marker(
                 [-0.177548609572415, -78.47706896969554],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_aa1962f9c517d72f9f5fb63e722161da = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_65b5caecda25f066f78d13b80741d0e9.setIcon(custom_icon_aa1962f9c517d72f9f5fb63e722161da);
+        var custom_icon_7bb1f5bd9e10cd31270c63fb8b284717 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_a8a18112fba3369a9710b0fed5999210.setIcon(custom_icon_7bb1f5bd9e10cd31270c63fb8b284717);
         
     
-            marker_65b5caecda25f066f78d13b80741d0e9.bindTooltip(
+            marker_a8a18112fba3369a9710b0fed5999210.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Pichincha<br>
                 <b>Municipio:</b> Quito<br>
@@ -1270,20 +1270,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a90a2600ed56675c3ac3e1308cb2047e = L.marker(
+            var marker_f5120d6c8fe862d4fbb25b8d587134e2 = L.marker(
                 [-0.234557894501295, -79.17758702075808],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_4a73479f9fd5f47f7d9e61fca1f21ce5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_a90a2600ed56675c3ac3e1308cb2047e.setIcon(custom_icon_4a73479f9fd5f47f7d9e61fca1f21ce5);
+        var custom_icon_a7d19ed5e20223550caabddfe89deb37 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_f5120d6c8fe862d4fbb25b8d587134e2.setIcon(custom_icon_a7d19ed5e20223550caabddfe89deb37);
         
     
-            marker_a90a2600ed56675c3ac3e1308cb2047e.bindTooltip(
+            marker_f5120d6c8fe862d4fbb25b8d587134e2.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Santo Domingo de los Tsachilas<br>
                 <b>Municipio:</b> Santo Domingo<br>
@@ -1295,20 +1295,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_06557a23b3a3d764283374552e0ec0be = L.marker(
+            var marker_678644f1bd11cdcc60c4ccc27e591631 = L.marker(
                 [-0.241774156940683, -79.18475939550284],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_3a7455f08469bde8ba7b8da5c5f85290 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_06557a23b3a3d764283374552e0ec0be.setIcon(custom_icon_3a7455f08469bde8ba7b8da5c5f85290);
+        var custom_icon_736929d3f894e36b5d8df88c4cbd5937 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_678644f1bd11cdcc60c4ccc27e591631.setIcon(custom_icon_736929d3f894e36b5d8df88c4cbd5937);
         
     
-            marker_06557a23b3a3d764283374552e0ec0be.bindTooltip(
+            marker_678644f1bd11cdcc60c4ccc27e591631.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Santo Domingo de los Tsachilas<br>
                 <b>Municipio:</b> Santo Domingo<br>
@@ -1320,20 +1320,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_e26a404859f33c815c6525c37c87739a = L.marker(
+            var marker_0efdf491f47567332a367a2fc6d0b7cb = L.marker(
                 [-0.234555734114348, -79.18475721468359],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_576d37031c65736316d5f464d547b4ac = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_e26a404859f33c815c6525c37c87739a.setIcon(custom_icon_576d37031c65736316d5f464d547b4ac);
+        var custom_icon_c79c0ae79700f28b8c70dadc0479ec22 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_0efdf491f47567332a367a2fc6d0b7cb.setIcon(custom_icon_c79c0ae79700f28b8c70dadc0479ec22);
         
     
-            marker_e26a404859f33c815c6525c37c87739a.bindTooltip(
+            marker_0efdf491f47567332a367a2fc6d0b7cb.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Santo Domingo de los Tsachilas<br>
                 <b>Municipio:</b> Santo Domingo<br>
@@ -1345,20 +1345,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_6e6689d8e7bc6c40f064e3605f28e7e6 = L.marker(
+            var marker_a077b2af94406064f190964317eb6c2e = L.marker(
                 [-0.241776383814009, -79.17758919786723],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_98c21629018c3741031c1d2b07789740 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_6e6689d8e7bc6c40f064e3605f28e7e6.setIcon(custom_icon_98c21629018c3741031c1d2b07789740);
+        var custom_icon_1f0e5707593e1cb46fe6b7c0d6d413d1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_a077b2af94406064f190964317eb6c2e.setIcon(custom_icon_1f0e5707593e1cb46fe6b7c0d6d413d1);
         
     
-            marker_6e6689d8e7bc6c40f064e3605f28e7e6.bindTooltip(
+            marker_a077b2af94406064f190964317eb6c2e.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Santo Domingo de los Tsachilas<br>
                 <b>Municipio:</b> Santo Domingo<br>
@@ -1370,20 +1370,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_de76ca90f96a8555af2926ba2209adf6 = L.marker(
+            var marker_1dbbd853bff7f86c7318b69bb4d60f2e = L.marker(
                 [-0.971842700787611, -80.71890408159422],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_dc814267135757c7fa9825fa3eb59d4a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_de76ca90f96a8555af2926ba2209adf6.setIcon(custom_icon_dc814267135757c7fa9825fa3eb59d4a);
+        var custom_icon_fbbb280a1e3e34f91277465fb9d4f254 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_1dbbd853bff7f86c7318b69bb4d60f2e.setIcon(custom_icon_fbbb280a1e3e34f91277465fb9d4f254);
         
     
-            marker_de76ca90f96a8555af2926ba2209adf6.bindTooltip(
+            marker_1dbbd853bff7f86c7318b69bb4d60f2e.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Manabi<br>
                 <b>Municipio:</b> Manta<br>
@@ -1395,20 +1395,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a7dab20314bbc857cf22de50c5e68d3c = L.marker(
+            var marker_20831a38ee60592ba13acbc709a7a8ba = L.marker(
                 [-0.979031931227514, -80.72607064503703],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e35f11fc8768312ea8bd21b4a9ecfb69 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_a7dab20314bbc857cf22de50c5e68d3c.setIcon(custom_icon_e35f11fc8768312ea8bd21b4a9ecfb69);
+        var custom_icon_1f912f58e414bba38fe97f86475483c0 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_20831a38ee60592ba13acbc709a7a8ba.setIcon(custom_icon_1f912f58e414bba38fe97f86475483c0);
         
     
-            marker_a7dab20314bbc857cf22de50c5e68d3c.bindTooltip(
+            marker_20831a38ee60592ba13acbc709a7a8ba.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Manabi<br>
                 <b>Municipio:</b> Manta<br>
@@ -1420,20 +1420,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8ed0c685bd5e873302887e223f2df975 = L.marker(
+            var marker_25744051d44a214bfd4a0e96f7006a27 = L.marker(
                 [-0.971830459912654, -80.72605843172802],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_26058534a7fdaf5348bc3f2cb520fcf9 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_8ed0c685bd5e873302887e223f2df975.setIcon(custom_icon_26058534a7fdaf5348bc3f2cb520fcf9);
+        var custom_icon_797168af40348d2d6584eb178ed54bfb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_25744051d44a214bfd4a0e96f7006a27.setIcon(custom_icon_797168af40348d2d6584eb178ed54bfb);
         
     
-            marker_8ed0c685bd5e873302887e223f2df975.bindTooltip(
+            marker_25744051d44a214bfd4a0e96f7006a27.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Manabi<br>
                 <b>Municipio:</b> Manta<br>
@@ -1445,20 +1445,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_08178473da1db3d6fb4ad417d95bfa02 = L.marker(
+            var marker_6e5a9b66a387b9b480c29a147e89697e = L.marker(
                 [-0.979044262826857, -80.71891627984684],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_376093fd108ab647dffcfcf4d632a62f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_08178473da1db3d6fb4ad417d95bfa02.setIcon(custom_icon_376093fd108ab647dffcfcf4d632a62f);
+        var custom_icon_00b35dc2bbca6806f316853602663226 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_6e5a9b66a387b9b480c29a147e89697e.setIcon(custom_icon_00b35dc2bbca6806f316853602663226);
         
     
-            marker_08178473da1db3d6fb4ad417d95bfa02.bindTooltip(
+            marker_6e5a9b66a387b9b480c29a147e89697e.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Manabi<br>
                 <b>Municipio:</b> Manta<br>
@@ -1470,20 +1470,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_88edd5674e892e755861b1d0053ef5ca = L.marker(
+            var marker_c4b2e1018f106d071c624cd3e45c125d = L.marker(
                 [-3.487026404741144, -80.21600873703046],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_71a67f8270779dfef625b555419d42e1 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_88edd5674e892e755861b1d0053ef5ca.setIcon(custom_icon_71a67f8270779dfef625b555419d42e1);
+        var custom_icon_98210b924205e6eed5865ecb4509cfc6 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_c4b2e1018f106d071c624cd3e45c125d.setIcon(custom_icon_98210b924205e6eed5865ecb4509cfc6);
         
     
-            marker_88edd5674e892e755861b1d0053ef5ca.bindTooltip(
+            marker_c4b2e1018f106d071c624cd3e45c125d.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1495,20 +1495,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_5edc09554eb40173427fb605b41724e0 = L.marker(
+            var marker_54d94ef682bad883a000580f55efe4f4 = L.marker(
                 [-3.486946117596005, -80.23037823813415],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_b5a618ce28b0d88995bcb0d214c51b69 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_5edc09554eb40173427fb605b41724e0.setIcon(custom_icon_b5a618ce28b0d88995bcb0d214c51b69);
+        var custom_icon_dc0f70078175b955128a7d4b2fc5735e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_54d94ef682bad883a000580f55efe4f4.setIcon(custom_icon_dc0f70078175b955128a7d4b2fc5735e);
         
     
-            marker_5edc09554eb40173427fb605b41724e0.bindTooltip(
+            marker_54d94ef682bad883a000580f55efe4f4.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1520,20 +1520,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8114e32c640c3655dbf94d8ddbcaf6e4 = L.marker(
+            var marker_49f792b27da616199974ff854b87ffc7 = L.marker(
                 [-3.4798067185383, -80.21596888314221],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_902cad7811420fbce1caf02fb911bffd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_8114e32c640c3655dbf94d8ddbcaf6e4.setIcon(custom_icon_902cad7811420fbce1caf02fb911bffd);
+        var custom_icon_a73041555075ff999a09844ead3d8ea8 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_49f792b27da616199974ff854b87ffc7.setIcon(custom_icon_a73041555075ff999a09844ead3d8ea8);
         
     
-            marker_8114e32c640c3655dbf94d8ddbcaf6e4.bindTooltip(
+            marker_49f792b27da616199974ff854b87ffc7.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1545,20 +1545,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_500476952307aacef5d0979f97495ed4 = L.marker(
+            var marker_0508f50c4bac29fa0d766e019b8f04b8 = L.marker(
                 [-3.486986544162978, -80.2231477664486],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_47d458763c5fbc657f50996c6c5b71b3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_500476952307aacef5d0979f97495ed4.setIcon(custom_icon_47d458763c5fbc657f50996c6c5b71b3);
+        var custom_icon_80fa91e1b4f576c5dec298bea61d258c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_0508f50c4bac29fa0d766e019b8f04b8.setIcon(custom_icon_80fa91e1b4f576c5dec298bea61d258c);
         
     
-            marker_500476952307aacef5d0979f97495ed4.bindTooltip(
+            marker_0508f50c4bac29fa0d766e019b8f04b8.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1570,20 +1570,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8b11d7adff617307a9b59a190d25d8ba = L.marker(
+            var marker_22dfa770e97920aa04d7008da233c6de = L.marker(
                 [-3.479812670261821, -80.22315387494584],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e614087f9bd8e30dd74ef1b4e3a3858c = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_8b11d7adff617307a9b59a190d25d8ba.setIcon(custom_icon_e614087f9bd8e30dd74ef1b4e3a3858c);
+        var custom_icon_a3c0a592e2604212490534133e4a0f62 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_22dfa770e97920aa04d7008da233c6de.setIcon(custom_icon_a3c0a592e2604212490534133e4a0f62);
         
     
-            marker_8b11d7adff617307a9b59a190d25d8ba.bindTooltip(
+            marker_22dfa770e97920aa04d7008da233c6de.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1595,20 +1595,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_1b884584f25ed5c40c89a0721032ffa4 = L.marker(
+            var marker_b1afef92f20ad81cf568ddf5dc436978 = L.marker(
                 [-3.479766961952075, -80.23031561722918],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_43ecd5594c608d9eebb19d96c37e1545 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_1b884584f25ed5c40c89a0721032ffa4.setIcon(custom_icon_43ecd5594c608d9eebb19d96c37e1545);
+        var custom_icon_19ad76dd8ff90f8563a31b08f6c36fc5 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_b1afef92f20ad81cf568ddf5dc436978.setIcon(custom_icon_19ad76dd8ff90f8563a31b08f6c36fc5);
         
     
-            marker_1b884584f25ed5c40c89a0721032ffa4.bindTooltip(
+            marker_b1afef92f20ad81cf568ddf5dc436978.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Huaquillas<br>
@@ -1620,20 +1620,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_bc03e0fe4467464eb840735506c3971e = L.marker(
+            var marker_138c3b4de34d8677b9c87c418109ec4b = L.marker(
                 [-3.260468084419818, -79.95361268728205],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_2bb459c454834454d256c503dd9f6408 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_bc03e0fe4467464eb840735506c3971e.setIcon(custom_icon_2bb459c454834454d256c503dd9f6408);
+        var custom_icon_4188a8c9d9feb01ae7e873ce2d5a5601 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_138c3b4de34d8677b9c87c418109ec4b.setIcon(custom_icon_4188a8c9d9feb01ae7e873ce2d5a5601);
         
     
-            marker_bc03e0fe4467464eb840735506c3971e.bindTooltip(
+            marker_138c3b4de34d8677b9c87c418109ec4b.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Machala<br>
@@ -1645,20 +1645,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_d3705a6e9421a16eedb79793e167f18f = L.marker(
+            var marker_72c60b11233b4870347861cf20d55499 = L.marker(
                 [-3.260432513187263, -79.96078654782985],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_41d6b602aa4e53e7ad8925886af8d8cd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_d3705a6e9421a16eedb79793e167f18f.setIcon(custom_icon_41d6b602aa4e53e7ad8925886af8d8cd);
+        var custom_icon_63524b9d308137c76b8446d2a07f2b52 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_72c60b11233b4870347861cf20d55499.setIcon(custom_icon_63524b9d308137c76b8446d2a07f2b52);
         
     
-            marker_d3705a6e9421a16eedb79793e167f18f.bindTooltip(
+            marker_72c60b11233b4870347861cf20d55499.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> El Oro<br>
                 <b>Municipio:</b> Machala<br>
@@ -1670,20 +1670,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_ac75a0ec977c6cf391d88d78554b5ad3 = L.marker(
+            var marker_69f091a8ac25d593a3feddfb1a2fdbed = L.marker(
                 [-2.168817542925111, -79.89980006309914],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e0f00711378646b24f24dfaf9c86759b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
-        marker_ac75a0ec977c6cf391d88d78554b5ad3.setIcon(custom_icon_e0f00711378646b24f24dfaf9c86759b);
+        var custom_icon_e920d669eae63705aa249360357aee82 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_medio_vida.svg"});
+        marker_69f091a8ac25d593a3feddfb1a2fdbed.setIcon(custom_icon_e920d669eae63705aa249360357aee82);
         
     
-            marker_ac75a0ec977c6cf391d88d78554b5ad3.bindTooltip(
+            marker_69f091a8ac25d593a3feddfb1a2fdbed.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1695,20 +1695,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_e79e69317b8566f1f87bdfa537d82eb2 = L.marker(
+            var marker_235839c10c7fbf4d134d1c99146b953b = L.marker(
                 [-2.168793626380146, -79.91415477788254],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_4915157033ea5a0b31944c88d82fb489 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
-        marker_e79e69317b8566f1f87bdfa537d82eb2.setIcon(custom_icon_4915157033ea5a0b31944c88d82fb489);
+        var custom_icon_451a079bd4fd2a80f0d7b048aeb0df07 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_no_alimentario.svg"});
+        marker_235839c10c7fbf4d134d1c99146b953b.setIcon(custom_icon_451a079bd4fd2a80f0d7b048aeb0df07);
         
     
-            marker_e79e69317b8566f1f87bdfa537d82eb2.bindTooltip(
+            marker_235839c10c7fbf4d134d1c99146b953b.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1720,20 +1720,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_93d1a87e153a13538ea449f786effa02 = L.marker(
+            var marker_0dc138c391d39d18319eff5ffd00a490 = L.marker(
                 [-2.176063797388743, -79.89986920638192],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_aed1280cbba50268d9b4d8aa8a1c6f8e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_93d1a87e153a13538ea449f786effa02.setIcon(custom_icon_aed1280cbba50268d9b4d8aa8a1c6f8e);
+        var custom_icon_65146d2ce8f33cbe7f26240d94711ede = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_0dc138c391d39d18319eff5ffd00a490.setIcon(custom_icon_65146d2ce8f33cbe7f26240d94711ede);
         
     
-            marker_93d1a87e153a13538ea449f786effa02.bindTooltip(
+            marker_0dc138c391d39d18319eff5ffd00a490.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1745,20 +1745,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_cdde2ea3bfd71db5b425386022cb9da4 = L.marker(
+            var marker_62b81496d6e126340b96aa13acc8da4b = L.marker(
                 [-2.16881705715643, -79.90699178825396],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_a03ca34e399571fcb9645139b96dc2c7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_cdde2ea3bfd71db5b425386022cb9da4.setIcon(custom_icon_a03ca34e399571fcb9645139b96dc2c7);
+        var custom_icon_348c1aa2a3f995d8d3c211606248e75a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_62b81496d6e126340b96aa13acc8da4b.setIcon(custom_icon_348c1aa2a3f995d8d3c211606248e75a);
         
     
-            marker_cdde2ea3bfd71db5b425386022cb9da4.bindTooltip(
+            marker_62b81496d6e126340b96aa13acc8da4b.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1770,20 +1770,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_ab5193412f362d25632a30589d8149e9 = L.marker(
+            var marker_ffd4240397e7f25c487cc03a20e8c699 = L.marker(
                 [-2.176040266133183, -79.90704945730553],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_75a0a9268fae0d8d611b0ed88d40bc2a = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_ab5193412f362d25632a30589d8149e9.setIcon(custom_icon_75a0a9268fae0d8d611b0ed88d40bc2a);
+        var custom_icon_3354aed61c228cb7eb42f9d871c31155 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_ffd4240397e7f25c487cc03a20e8c699.setIcon(custom_icon_3354aed61c228cb7eb42f9d871c31155);
         
     
-            marker_ab5193412f362d25632a30589d8149e9.bindTooltip(
+            marker_ffd4240397e7f25c487cc03a20e8c699.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1795,20 +1795,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_261d3d0a64c7289a1be0e17b3d811a97 = L.marker(
+            var marker_7fe05c72069d35ad257926eb7411c844 = L.marker(
                 [-2.176016850963841, -79.91418389700259],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_95149b2b68b5af8e20803b3202d4878f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_261d3d0a64c7289a1be0e17b3d811a97.setIcon(custom_icon_95149b2b68b5af8e20803b3202d4878f);
+        var custom_icon_944f3a968f35a67dd10d4a4bb6e7963e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_7fe05c72069d35ad257926eb7411c844.setIcon(custom_icon_944f3a968f35a67dd10d4a4bb6e7963e);
         
     
-            marker_261d3d0a64c7289a1be0e17b3d811a97.bindTooltip(
+            marker_7fe05c72069d35ad257926eb7411c844.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Ecuador<br>
                 <b>Departamento/Provincia:</b> Guayas<br>
                 <b>Municipio:</b> Guayaquil<br>
@@ -1820,20 +1820,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_5f7c06950c204e87a640cdb0316075fb = L.marker(
+            var marker_af4002b5f0237ed8bab51d4ff2c44868 = L.marker(
                 [-3.503519519721265, -80.27162338572947],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_177b70681b4fbdfd098ec771c3b672a3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_5f7c06950c204e87a640cdb0316075fb.setIcon(custom_icon_177b70681b4fbdfd098ec771c3b672a3);
+        var custom_icon_9434377d22db21a8f96f283d5f564f8f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_af4002b5f0237ed8bab51d4ff2c44868.setIcon(custom_icon_9434377d22db21a8f96f283d5f564f8f);
         
     
-            marker_5f7c06950c204e87a640cdb0316075fb.bindTooltip(
+            marker_af4002b5f0237ed8bab51d4ff2c44868.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1845,20 +1845,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_7ee77abfe43bc1e8d33cca658d1d5d8c = L.marker(
+            var marker_34c84fd9ac89e95f4d9fcf37c00b1a06 = L.marker(
                 [-3.489105993138916, -80.27154266923634],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_a15c633ecfa9f9597ea3215b2d199ba3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_7ee77abfe43bc1e8d33cca658d1d5d8c.setIcon(custom_icon_a15c633ecfa9f9597ea3215b2d199ba3);
+        var custom_icon_f3e696a30dcd9b421e837eca91e9c010 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_34c84fd9ac89e95f4d9fcf37c00b1a06.setIcon(custom_icon_f3e696a30dcd9b421e837eca91e9c010);
         
     
-            marker_7ee77abfe43bc1e8d33cca658d1d5d8c.bindTooltip(
+            marker_34c84fd9ac89e95f4d9fcf37c00b1a06.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1870,20 +1870,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_80c18b7a982722944cd848bda4ff5f04 = L.marker(
+            var marker_1c7c2ea637f0418b5719ffefd689e6ce = L.marker(
                 [-3.496312757216781, -80.2715829856323],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_daffecaa6061ca42da97655a2499d262 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_80c18b7a982722944cd848bda4ff5f04.setIcon(custom_icon_daffecaa6061ca42da97655a2499d262);
+        var custom_icon_00e307fdb375f6f91d30a54e3fcd25f3 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_1c7c2ea637f0418b5719ffefd689e6ce.setIcon(custom_icon_00e307fdb375f6f91d30a54e3fcd25f3);
         
     
-            marker_80c18b7a982722944cd848bda4ff5f04.bindTooltip(
+            marker_1c7c2ea637f0418b5719ffefd689e6ce.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1895,20 +1895,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_2c5d4c1e5d6aa675d74e15e74613abf0 = L.marker(
+            var marker_90ba43d77397f8ad9be24452d36419b1 = L.marker(
                 [-3.503478854992067, -80.27879544405982],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_c9bad7f57d06b29ab20bbc58a27a8916 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_2c5d4c1e5d6aa675d74e15e74613abf0.setIcon(custom_icon_c9bad7f57d06b29ab20bbc58a27a8916);
+        var custom_icon_693ece02679445e5f1b8fe783fc57d72 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_90ba43d77397f8ad9be24452d36419b1.setIcon(custom_icon_693ece02679445e5f1b8fe783fc57d72);
         
     
-            marker_2c5d4c1e5d6aa675d74e15e74613abf0.bindTooltip(
+            marker_90ba43d77397f8ad9be24452d36419b1.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1920,20 +1920,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_cdf6fc578ad72fdbcc46a9c53757e472 = L.marker(
+            var marker_50b143f7564909d569453b02cedf0aa0 = L.marker(
                 [-3.496272176335091, -80.27875498962122],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_56eb23624f002d784b8be8bf66fdd406 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_cdf6fc578ad72fdbcc46a9c53757e472.setIcon(custom_icon_56eb23624f002d784b8be8bf66fdd406);
+        var custom_icon_cf5f1c4835d26851d68bd17b12b59781 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_50b143f7564909d569453b02cedf0aa0.setIcon(custom_icon_cf5f1c4835d26851d68bd17b12b59781);
         
     
-            marker_cdf6fc578ad72fdbcc46a9c53757e472.bindTooltip(
+            marker_50b143f7564909d569453b02cedf0aa0.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1945,20 +1945,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_f7812744cdac54859ee653b78bc4f338 = L.marker(
+            var marker_dad83b45b4dd16e66d49dee6208e695c = L.marker(
                 [-3.489065496103519, -80.2787146189964],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_692290617f3b4116666bc84469762298 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_f7812744cdac54859ee653b78bc4f338.setIcon(custom_icon_692290617f3b4116666bc84469762298);
+        var custom_icon_d3f51d56d412d01889574c3a6727be71 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_dad83b45b4dd16e66d49dee6208e695c.setIcon(custom_icon_d3f51d56d412d01889574c3a6727be71);
         
     
-            marker_f7812744cdac54859ee653b78bc4f338.bindTooltip(
+            marker_dad83b45b4dd16e66d49dee6208e695c.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Zarumilla<br>
@@ -1970,20 +1970,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8aace10a57b4017813b574e4bf07da75 = L.marker(
+            var marker_6dacb041515f6783178c71ad6d4afb2e = L.marker(
                 [-3.560296885770701, -80.44838613207695],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_428079b4302b223a672dd7dae54ad3ba = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_8aace10a57b4017813b574e4bf07da75.setIcon(custom_icon_428079b4302b223a672dd7dae54ad3ba);
+        var custom_icon_5842de1f1c3d0db59a0e294940323591 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_6dacb041515f6783178c71ad6d4afb2e.setIcon(custom_icon_5842de1f1c3d0db59a0e294940323591);
         
     
-            marker_8aace10a57b4017813b574e4bf07da75.bindTooltip(
+            marker_6dacb041515f6783178c71ad6d4afb2e.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -1995,20 +1995,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_69f7b7080fdfbec7c2cfd7e885a12d0f = L.marker(
+            var marker_c15638cb255b03f4898ed5e208ba7fa1 = L.marker(
                 [-3.553092231802228, -80.44834370223747],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_39d2db898285d231ffdc2eb197f18487 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_69f7b7080fdfbec7c2cfd7e885a12d0f.setIcon(custom_icon_39d2db898285d231ffdc2eb197f18487);
+        var custom_icon_0b8fbb498adac7fea421a66a53b8deb2 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_c15638cb255b03f4898ed5e208ba7fa1.setIcon(custom_icon_0b8fbb498adac7fea421a66a53b8deb2);
         
     
-            marker_69f7b7080fdfbec7c2cfd7e885a12d0f.bindTooltip(
+            marker_c15638cb255b03f4898ed5e208ba7fa1.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -2020,20 +2020,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4a68907d12f20e847fe29c72f7d57156 = L.marker(
+            var marker_6e1dba0bec65b258f396e44aeda74781 = L.marker(
                 [-3.560339533734617, -80.44121564266517],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_675de108b72cf320f540e98d33ead205 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_4a68907d12f20e847fe29c72f7d57156.setIcon(custom_icon_675de108b72cf320f540e98d33ead205);
+        var custom_icon_497b11ad5828f70e8c8a755b50d5b6e7 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_6e1dba0bec65b258f396e44aeda74781.setIcon(custom_icon_497b11ad5828f70e8c8a755b50d5b6e7);
         
     
-            marker_4a68907d12f20e847fe29c72f7d57156.bindTooltip(
+            marker_6e1dba0bec65b258f396e44aeda74781.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -2045,20 +2045,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_c71d6315523a0311ad9c035922c18bbc = L.marker(
+            var marker_56e20df00545a1329b17b633976fc0cd = L.marker(
                 [-3.553134793250265, -80.44117326799304],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_1003a85355cdec8cdd1d9cb4966e93f4 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_c71d6315523a0311ad9c035922c18bbc.setIcon(custom_icon_1003a85355cdec8cdd1d9cb4966e93f4);
+        var custom_icon_feeeb71596b82c3c10655aca60141992 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_56e20df00545a1329b17b633976fc0cd.setIcon(custom_icon_feeeb71596b82c3c10655aca60141992);
         
     
-            marker_c71d6315523a0311ad9c035922c18bbc.bindTooltip(
+            marker_56e20df00545a1329b17b633976fc0cd.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -2070,20 +2070,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_011e292b8fc69bca5d9a01c279ba3083 = L.marker(
+            var marker_342872bdcade17dad41bc0ebd0e9c4ae = L.marker(
                 [-3.560254182319415, -80.45555653499024],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_49485d67f95088cdeb9081849c93c085 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_011e292b8fc69bca5d9a01c279ba3083.setIcon(custom_icon_49485d67f95088cdeb9081849c93c085);
+        var custom_icon_5b313115be295442671f69f29ff6be00 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_342872bdcade17dad41bc0ebd0e9c4ae.setIcon(custom_icon_5b313115be295442671f69f29ff6be00);
         
     
-            marker_011e292b8fc69bca5d9a01c279ba3083.bindTooltip(
+            marker_342872bdcade17dad41bc0ebd0e9c4ae.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -2095,20 +2095,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_836d3cb6e14e24cf516240ff13da9c8f = L.marker(
+            var marker_a4d1ef5e9ab833972da2f3b979470d6c = L.marker(
                 [-3.553049614979373, -80.4555140499867],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_24d0ef4c7416ee85076ee678b5248eca = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_836d3cb6e14e24cf516240ff13da9c8f.setIcon(custom_icon_24d0ef4c7416ee85076ee678b5248eca);
+        var custom_icon_9a37343630e83f0355d29eb225995499 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_a4d1ef5e9ab833972da2f3b979470d6c.setIcon(custom_icon_9a37343630e83f0355d29eb225995499);
         
     
-            marker_836d3cb6e14e24cf516240ff13da9c8f.bindTooltip(
+            marker_a4d1ef5e9ab833972da2f3b979470d6c.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Tumbes<br>
                 <b>Municipio:</b> Tumbes<br>
@@ -2120,20 +2120,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_64ea09cd654d8ba1868be05804b7ddec = L.marker(
+            var marker_9fcab8882a0c7b5245b2abcd9cd960d3 = L.marker(
                 [-4.583690740392244, -81.26161780010557],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_24ce46a5c6f3efc24b0b6c9d7a00ff53 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_64ea09cd654d8ba1868be05804b7ddec.setIcon(custom_icon_24ce46a5c6f3efc24b0b6c9d7a00ff53);
+        var custom_icon_caaa738cbf90aad5eb0f7d21e6bb2e28 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_9fcab8882a0c7b5245b2abcd9cd960d3.setIcon(custom_icon_caaa738cbf90aad5eb0f7d21e6bb2e28);
         
     
-            marker_64ea09cd654d8ba1868be05804b7ddec.bindTooltip(
+            marker_9fcab8882a0c7b5245b2abcd9cd960d3.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Talara<br>
@@ -2145,20 +2145,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_a8a4dc493057c524bb488058920862e6 = L.marker(
+            var marker_14f2c16ecaea19aff4df17784cd18d07 = L.marker(
                 [-4.576484565229832, -81.26155487639532],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_4723c445775db857bcbec247ab322843 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_a8a4dc493057c524bb488058920862e6.setIcon(custom_icon_4723c445775db857bcbec247ab322843);
+        var custom_icon_bb3af36cddaf764f06214c2cd448aadb = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_14f2c16ecaea19aff4df17784cd18d07.setIcon(custom_icon_bb3af36cddaf764f06214c2cd448aadb);
         
     
-            marker_a8a4dc493057c524bb488058920862e6.bindTooltip(
+            marker_14f2c16ecaea19aff4df17784cd18d07.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Talara<br>
@@ -2170,20 +2170,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_2ba60190f29f6cf7c7967148daa1777a = L.marker(
+            var marker_467f0ee9b763903f023838a947f58dd1 = L.marker(
                 [-4.583612481170115, -81.26876833025436],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e0f06f701c78fb6503dd2e4450339e47 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_2ba60190f29f6cf7c7967148daa1777a.setIcon(custom_icon_e0f06f701c78fb6503dd2e4450339e47);
+        var custom_icon_f09e54ed211e22ecebb58c42ce988d45 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_467f0ee9b763903f023838a947f58dd1.setIcon(custom_icon_f09e54ed211e22ecebb58c42ce988d45);
         
     
-            marker_2ba60190f29f6cf7c7967148daa1777a.bindTooltip(
+            marker_467f0ee9b763903f023838a947f58dd1.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Talara<br>
@@ -2195,20 +2195,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_4f257be1c34455c84fb8e715af4c1598 = L.marker(
+            var marker_e68e069a483106d03b9c39b541296bc0 = L.marker(
                 [-4.57642539569153, -81.2687207494599],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_e107aacbb5f4e7ec96cd06ae09928e15 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_4f257be1c34455c84fb8e715af4c1598.setIcon(custom_icon_e107aacbb5f4e7ec96cd06ae09928e15);
+        var custom_icon_607dd125b7deefabffc302311ae8365f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_e68e069a483106d03b9c39b541296bc0.setIcon(custom_icon_607dd125b7deefabffc302311ae8365f);
         
     
-            marker_4f257be1c34455c84fb8e715af4c1598.bindTooltip(
+            marker_e68e069a483106d03b9c39b541296bc0.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Talara<br>
@@ -2220,20 +2220,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_43943ba41dd7de007a4a712be5f118e1 = L.marker(
+            var marker_7f54e493732df685c10110f8cb59fada = L.marker(
                 [-5.196616187502369, -80.61348412300462],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_87bcef0d3d6651493a7831d92750ff63 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
-        marker_43943ba41dd7de007a4a712be5f118e1.setIcon(custom_icon_87bcef0d3d6651493a7831d92750ff63);
+        var custom_icon_76b42b274ca553f584fbcd35e919945b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_agua.svg"});
+        marker_7f54e493732df685c10110f8cb59fada.setIcon(custom_icon_76b42b274ca553f584fbcd35e919945b);
         
     
-            marker_43943ba41dd7de007a4a712be5f118e1.bindTooltip(
+            marker_7f54e493732df685c10110f8cb59fada.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2245,20 +2245,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_507e028e537be5afb737870e8c183718 = L.marker(
+            var marker_781215dff2ecedec94a71512fdccc223 = L.marker(
                 [-5.189285642555722, -80.62778791408326],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_2ae9525208752b332d63aebf7021440e = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
-        marker_507e028e537be5afb737870e8c183718.setIcon(custom_icon_2ae9525208752b332d63aebf7021440e);
+        var custom_icon_549aa5289f430dec551bbf857fbfe5cc = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alimento.svg"});
+        marker_781215dff2ecedec94a71512fdccc223.setIcon(custom_icon_549aa5289f430dec551bbf857fbfe5cc);
         
     
-            marker_507e028e537be5afb737870e8c183718.bindTooltip(
+            marker_781215dff2ecedec94a71512fdccc223.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2270,20 +2270,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_43bffc587eda7aa4b502eb4e15f7f39a = L.marker(
+            var marker_3e33e2b7dffb9b48fcc1e1b674c59b85 = L.marker(
                 [-5.189413869115783, -80.61342020908104],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_c787dc8471584be552e8d40817e45073 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
-        marker_43bffc587eda7aa4b502eb4e15f7f39a.setIcon(custom_icon_c787dc8471584be552e8d40817e45073);
+        var custom_icon_41c2216de4ee09685dc08e73af899d71 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_alojamiento.svg"});
+        marker_3e33e2b7dffb9b48fcc1e1b674c59b85.setIcon(custom_icon_41c2216de4ee09685dc08e73af899d71);
         
     
-            marker_43bffc587eda7aa4b502eb4e15f7f39a.bindTooltip(
+            marker_3e33e2b7dffb9b48fcc1e1b674c59b85.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2295,20 +2295,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_18ea665429925907440261de49dc22ea = L.marker(
+            var marker_07ce48a4bef9ad5845012375eb4b12b8 = L.marker(
                 [-5.189349796284503, -80.62060410656342],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_240bf054703f4646583c15dd7a9f4135 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
-        marker_18ea665429925907440261de49dc22ea.setIcon(custom_icon_240bf054703f4646583c15dd7a9f4135);
+        var custom_icon_58f1ecdc488143ad8c6dfe2b6b924a0f = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_proteccion.svg"});
+        marker_07ce48a4bef9ad5845012375eb4b12b8.setIcon(custom_icon_58f1ecdc488143ad8c6dfe2b6b924a0f);
         
     
-            marker_18ea665429925907440261de49dc22ea.bindTooltip(
+            marker_07ce48a4bef9ad5845012375eb4b12b8.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2320,20 +2320,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_0f80b3a7955694b37d6654cfc9fdf704 = L.marker(
+            var marker_b8ce9789b082fcbc445971e15925d7a7 = L.marker(
                 [-5.196552025275523, -80.62066810123075],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_dfbf86ff4ed5b9a6564c8f556ec0f89b = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
-        marker_0f80b3a7955694b37d6654cfc9fdf704.setIcon(custom_icon_dfbf86ff4ed5b9a6564c8f556ec0f89b);
+        var custom_icon_e7554f6ffa134324752a71f807f7fcdd = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_salud.svg"});
+        marker_b8ce9789b082fcbc445971e15925d7a7.setIcon(custom_icon_e7554f6ffa134324752a71f807f7fcdd);
         
     
-            marker_0f80b3a7955694b37d6654cfc9fdf704.bindTooltip(
+            marker_b8ce9789b082fcbc445971e15925d7a7.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2345,20 +2345,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_9a19b6e02f30f7e48359b5ad2c4b5bdc = L.marker(
+            var marker_eec53e5d9987f3fedb597181fce79410 = L.marker(
                 [-5.196487782038324, -80.6278519894893],
                 {"embed": false}
-            ).addTo(marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3);
+            ).addTo(marker_cluster_997c24988dbc3a90eba8c594618cb678);
         
     
-        var custom_icon_41521c9f38eb6327e7613708979d2230 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
-        marker_9a19b6e02f30f7e48359b5ad2c4b5bdc.setIcon(custom_icon_41521c9f38eb6327e7613708979d2230);
+        var custom_icon_431f3a5c0e56b7e7bb5e369241c89257 = L.icon({"iconSize": [40, 40], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/icon_transporte.svg"});
+        marker_eec53e5d9987f3fedb597181fce79410.setIcon(custom_icon_431f3a5c0e56b7e7bb5e369241c89257);
         
     
-            marker_9a19b6e02f30f7e48359b5ad2c4b5bdc.bindTooltip(
+            marker_eec53e5d9987f3fedb597181fce79410.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>País:</b> Perú<br>
                 <b>Departamento/Provincia:</b> Piura<br>
                 <b>Municipio:</b> Piura<br>
@@ -2370,149 +2370,149 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            marker_cluster_997c24988dbc3a90eba8c594618cb678.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            geo_json_b25acba5bd5aa7751a32cef506ba6104.addTo(feature_group_3352c6df4d4aaee1283045f8a3cd6f4e);
+            geo_json_a65677bafd3c3769b3a3f12ad3235831.addTo(feature_group_0599b2b001754b1733a2c46e8cc38529);
         
     
-            var feature_group_9a5bd98c7af88130a883465870480e66 = L.featureGroup(
+            var feature_group_a8b3753d0b4e0957aab556055e1b2fa8 = L.featureGroup(
                 {}
             );
         
     
-            var marker_6aea5e37101af52c896b6840d48736d1 = L.marker(
+            var marker_1d9210d7a82294dac0dfcb13a2a1ac97 = L.marker(
                 [0.752, -78.064],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_43ff7de310bdb1e15744760f69f7f2ec = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_6aea5e37101af52c896b6840d48736d1.setIcon(div_icon_43ff7de310bdb1e15744760f69f7f2ec);
+            var div_icon_da467bdcefaef62ac83779ebb730d5c2 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eCarchi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_1d9210d7a82294dac0dfcb13a2a1ac97.setIcon(div_icon_da467bdcefaef62ac83779ebb730d5c2);
         
     
-            var marker_cb371839bf66f16ee49b780b0bb87184 = L.marker(
+            var marker_dab5ff4f62669eb7b1c36846020adc5f = L.marker(
                 [-3.509, -79.833],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_cc6a79bbae94de29f98f0679871dc1d8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_cb371839bf66f16ee49b780b0bb87184.setIcon(div_icon_cc6a79bbae94de29f98f0679871dc1d8);
+            var div_icon_def744ebb0439c517b1eda588857633d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eEl Oro\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_dab5ff4f62669eb7b1c36846020adc5f.setIcon(div_icon_def744ebb0439c517b1eda588857633d);
         
     
-            var marker_4708a6f5f25cd871002b14f43f5f2969 = L.marker(
+            var marker_cf98264940b5eda61d238d34fe06c3de = L.marker(
                 [-2.117, -79.889],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_40ecbf47e72b101b87fb9395aaac2378 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_4708a6f5f25cd871002b14f43f5f2969.setIcon(div_icon_40ecbf47e72b101b87fb9395aaac2378);
+            var div_icon_a2597e606c1703634b8e1f327c0ba12d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eGuayas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_cf98264940b5eda61d238d34fe06c3de.setIcon(div_icon_a2597e606c1703634b8e1f327c0ba12d);
         
     
-            var marker_5affe402d68f6920f779f6c00635c0c8 = L.marker(
+            var marker_02231d0aa1d5e2c31f96fd426d99874b = L.marker(
                 [0.366, -78.672],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_dee6b9d72aa5f4248a16b1de077c4534 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_5affe402d68f6920f779f6c00635c0c8.setIcon(div_icon_dee6b9d72aa5f4248a16b1de077c4534);
+            var div_icon_c3949c86d088bf46a361ec38d31eb36d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eImbabura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_02231d0aa1d5e2c31f96fd426d99874b.setIcon(div_icon_c3949c86d088bf46a361ec38d31eb36d);
         
     
-            var marker_4848885ada1c46651cad4bc427865835 = L.marker(
+            var marker_f8db46348c5bed5de928326a5fbc2074 = L.marker(
                 [-0.751, -80.137],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_381fd0749715d03009386571d936c947 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_4848885ada1c46651cad4bc427865835.setIcon(div_icon_381fd0749715d03009386571d936c947);
+            var div_icon_c3791e54376783ac5664f49aeae35143 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eManabi\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_f8db46348c5bed5de928326a5fbc2074.setIcon(div_icon_c3791e54376783ac5664f49aeae35143);
         
     
-            var marker_39cf7371d35d842820bb22f4ee7d0be0 = L.marker(
+            var marker_39b63274ca6a820b1e3dbdbaa525229b = L.marker(
                 [0.011, -78.692],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_b8eafd285a1c9af582cc81eed74d01d8 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_39cf7371d35d842820bb22f4ee7d0be0.setIcon(div_icon_b8eafd285a1c9af582cc81eed74d01d8);
+            var div_icon_0d99cd202be0f202e84e1baccee82e80 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePichincha\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_39b63274ca6a820b1e3dbdbaa525229b.setIcon(div_icon_0d99cd202be0f202e84e1baccee82e80);
         
     
-            var marker_cfee16513c1570c4b82b90f65fcc1e84 = L.marker(
+            var marker_25b4f4df7792d5d9d042b06fe99843bf = L.marker(
                 [-0.284, -79.2],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_a1868e8f46c816219189b344240f356d = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_cfee16513c1570c4b82b90f65fcc1e84.setIcon(div_icon_a1868e8f46c816219189b344240f356d);
+            var div_icon_725e6f3ca293cef30989d32352cd5006 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eSanto Domingo de los Tsachilas\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_25b4f4df7792d5d9d042b06fe99843bf.setIcon(div_icon_725e6f3ca293cef30989d32352cd5006);
         
     
-            var marker_840e46471bd66828f42a9e94d84a5677 = L.marker(
+            var marker_5f2ad62b963d02f5e6c0c2a49f24850c = L.marker(
                 [-7.921, -78.368],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_6ab4537776fcf564abe78cdaab4fcd44 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_840e46471bd66828f42a9e94d84a5677.setIcon(div_icon_6ab4537776fcf564abe78cdaab4fcd44);
+            var div_icon_ed9ee886a758f3fd57e4d2ccf1ba0b8e = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLa Libertad\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_5f2ad62b963d02f5e6c0c2a49f24850c.setIcon(div_icon_ed9ee886a758f3fd57e4d2ccf1ba0b8e);
         
     
-            var marker_bf35efbcc5bb1f3624431f7731c3d398 = L.marker(
+            var marker_4dc3bc8ee99fdc6a74fd0f28117405fe = L.marker(
                 [-6.341, -79.827],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_7f7163ed9007dbe86bc15faacaf52c8b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_bf35efbcc5bb1f3624431f7731c3d398.setIcon(div_icon_7f7163ed9007dbe86bc15faacaf52c8b);
+            var div_icon_65d5bb2c93eca70090344622493d646c = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eLambayeque\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_4dc3bc8ee99fdc6a74fd0f28117405fe.setIcon(div_icon_65d5bb2c93eca70090344622493d646c);
         
     
-            var marker_94b61276a132e4e0303aae39a614f0d1 = L.marker(
+            var marker_91934b6f11f7fab7a0fd024c3350bbfe = L.marker(
                 [-5.128, -80.336],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_afbf22d45357c3aabeee7e4c14f94f4a = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_94b61276a132e4e0303aae39a614f0d1.setIcon(div_icon_afbf22d45357c3aabeee7e4c14f94f4a);
+            var div_icon_84d2bbde07864a1e57c35bb7a9bb5a75 = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003ePiura\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_91934b6f11f7fab7a0fd024c3350bbfe.setIcon(div_icon_84d2bbde07864a1e57c35bb7a9bb5a75);
         
     
-            var marker_ed0a35e8b6f0655cbb7447e2eacd56d7 = L.marker(
+            var marker_6ca8265bed4cfa28d6e03a815fdd586c = L.marker(
                 [-3.856, -80.545],
                 {"autoPan": true, "draggable": true}
-            ).addTo(feature_group_9a5bd98c7af88130a883465870480e66);
+            ).addTo(feature_group_a8b3753d0b4e0957aab556055e1b2fa8);
         
     
-            var div_icon_2d81de8733e7cf7c449a794e290c1e3b = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
-            marker_ed0a35e8b6f0655cbb7447e2eacd56d7.setIcon(div_icon_2d81de8733e7cf7c449a794e290c1e3b);
+            var div_icon_162bf838cdedce9f5316129ee84626fd = L.divIcon({"className": "empty", "html": "\u003cdiv\n                   style=\u0027font-size: 8pt;\n                   font-family: Segoe UI;\n                   font-weight: regular;\n                   color: white;\n                   text-shadow:\n                    1px 1px 4px #000,\n                    -1px 1px 4px #000,\n                    -1px -1px 4px #000,\n                    1px -1px 4px #000\u0027;\n                   \u003eTumbes\u003c/div\u003e", "iconAnchor": [0, 0], "iconSize": [85, 36]});
+            marker_6ca8265bed4cfa28d6e03a815fdd586c.setIcon(div_icon_162bf838cdedce9f5316129ee84626fd);
         
     
-            feature_group_9a5bd98c7af88130a883465870480e66.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_a8b3753d0b4e0957aab556055e1b2fa8.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            var feature_group_32daed240c422feba30304f4e4e93350 = L.featureGroup(
+            var feature_group_0ea718a153c1c49aeab07b041a327772 = L.featureGroup(
                 {"maxZoom": 12, "minZoom": 7, "showCoverageOnHover": false}
             );
         
     
-            var marker_380cd076c53e1ab25766e11b6b33b25d = L.marker(
+            var marker_a84a77ceda8a7e377c9b8e1827c38422 = L.marker(
                 [-0.348127355546816, -79.95821348135885],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_32daed240c422feba30304f4e4e93350);
+            ).addTo(feature_group_0ea718a153c1c49aeab07b041a327772);
         
     
-        var custom_icon_02ccfdc678f2c0958bfc3c12604f2976 = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
-        marker_380cd076c53e1ab25766e11b6b33b25d.setIcon(custom_icon_02ccfdc678f2c0958bfc3c12604f2976);
+        var custom_icon_5d836fb0a05ede0ab50592fac98fc53a = L.icon({"iconSize": ["66", " 35"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_1.svg"});
+        marker_a84a77ceda8a7e377c9b8e1827c38422.setIcon(custom_icon_5d836fb0a05ede0ab50592fac98fc53a);
         
     
-            marker_380cd076c53e1ab25766e11b6b33b25d.bindTooltip(
+            marker_a84a77ceda8a7e377c9b8e1827c38422.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Sentido:</b> Norte->Sur<br>
             </div>
             
@@ -2521,20 +2521,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_43f9c8258cc164824a107d89db78ab19 = L.marker(
+            var marker_7487d1850a83a25daa6b31c8d0c136dd = L.marker(
                 [-2.64652038, -79.77028656],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_32daed240c422feba30304f4e4e93350);
+            ).addTo(feature_group_0ea718a153c1c49aeab07b041a327772);
         
     
-        var custom_icon_9e9193ed6b526d49fc0cf878c2419d44 = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
-        marker_43f9c8258cc164824a107d89db78ab19.setIcon(custom_icon_9e9193ed6b526d49fc0cf878c2419d44);
+        var custom_icon_6009dee21de709a5d0d265e69d929d1b = L.icon({"iconSize": ["22", " 66"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_ecu_2.svg"});
+        marker_7487d1850a83a25daa6b31c8d0c136dd.setIcon(custom_icon_6009dee21de709a5d0d265e69d929d1b);
         
     
-            marker_43f9c8258cc164824a107d89db78ab19.bindTooltip(
+            marker_7487d1850a83a25daa6b31c8d0c136dd.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Sentido:</b> Sur->Norte<br>
             </div>
             
@@ -2543,20 +2543,20 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            var marker_8447d1e92adca925a2343c907002d64d = L.marker(
+            var marker_bf10bcb817882c2f251d9b120a6d39db = L.marker(
                 [-7.522111527923194, -79.18943944930979],
                 {"embed": false, "maxZoom": 12, "minZoom": 7}
-            ).addTo(feature_group_32daed240c422feba30304f4e4e93350);
+            ).addTo(feature_group_0ea718a153c1c49aeab07b041a327772);
         
     
-        var custom_icon_4903106e533133d19c3d788a15b61797 = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
-        marker_8447d1e92adca925a2343c907002d64d.setIcon(custom_icon_4903106e533133d19c3d788a15b61797);
+        var custom_icon_dee5f4dfad234e64481613be64eb71ad = L.icon({"iconSize": ["105", " 65"], "iconUrl": "https://raw.githubusercontent.com/mautamos89/mapa_web_calp/main/img/flujo_per_2.svg"});
+        marker_bf10bcb817882c2f251d9b120a6d39db.setIcon(custom_icon_dee5f4dfad234e64481613be64eb71ad);
         
     
-            marker_8447d1e92adca925a2343c907002d64d.bindTooltip(
+            marker_bf10bcb817882c2f251d9b120a6d39db.bindTooltip(
                 `<div>
                      
-            <div style="font-family: Arial; font-size: 11px;">
+            <div style="font-family: Segoe UI; font-size: 11px;">
                 <b>Sentido:</b> Norte->Sur<br>
             </div>
             
@@ -2565,21 +2565,21 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
             );
         
     
-            feature_group_32daed240c422feba30304f4e4e93350.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_0ea718a153c1c49aeab07b041a327772.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            var mouse_position_9d274ec2f3fca0ca31662583abb6eb57 = new L.Control.MousePosition(
+            var mouse_position_060edd1ace54e5994338d51203d01d90 = new L.Control.MousePosition(
                 {"emptyString": "Coordenadas", "lngFirst": false, "numDigits": 5, "position": "bottomright", "prefix": "Latitud:", "separator": " | Longitud: "}
             );
-            mouse_position_9d274ec2f3fca0ca31662583abb6eb57.options["latFormatter"] =
+            mouse_position_060edd1ace54e5994338d51203d01d90.options["latFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            mouse_position_9d274ec2f3fca0ca31662583abb6eb57.options["lngFormatter"] =
+            mouse_position_060edd1ace54e5994338d51203d01d90.options["lngFormatter"] =
                 function(num) {return L.Util.formatNum(num, 3) + 'º ';};;
-            map_8b91f3a83de40f8bb44c928e7cfcfd4b.addControl(mouse_position_9d274ec2f3fca0ca31662583abb6eb57);
+            map_647e0f8e8c0cd18e058c08a564b7c3e1.addControl(mouse_position_060edd1ace54e5994338d51203d01d90);
         
     
-            var feature_group_3352c6df4d4aaee1283045f8a3cd6f4esearchControl = new L.Control.Search({
-                layer: feature_group_3352c6df4d4aaee1283045f8a3cd6f4e,
+            var feature_group_0599b2b001754b1733a2c46e8cc38529searchControl = new L.Control.Search({
+                layer: feature_group_0599b2b001754b1733a2c46e8cc38529,
                 
                 propertyName: 'clave',
                 
@@ -2594,8 +2594,8 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                 }
             
                 });
-                feature_group_3352c6df4d4aaee1283045f8a3cd6f4esearchControl.on('search:locationfound', function(e) {
-                    feature_group_3352c6df4d4aaee1283045f8a3cd6f4e.setStyle(function(feature){
+                feature_group_0599b2b001754b1733a2c46e8cc38529searchControl.on('search:locationfound', function(e) {
+                    feature_group_0599b2b001754b1733a2c46e8cc38529.setStyle(function(feature){
                         return feature.properties.style
                     })
                     
@@ -2604,29 +2604,29 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                     if(e.layer._popup)
                         e.layer.openPopup();
                 })
-                feature_group_3352c6df4d4aaee1283045f8a3cd6f4esearchControl.on('search:collapsed', function(e) {
-                        feature_group_3352c6df4d4aaee1283045f8a3cd6f4e.setStyle(function(feature){
+                feature_group_0599b2b001754b1733a2c46e8cc38529searchControl.on('search:collapsed', function(e) {
+                        feature_group_0599b2b001754b1733a2c46e8cc38529.setStyle(function(feature){
                             return feature.properties.style
                     });
                 });
-            map_8b91f3a83de40f8bb44c928e7cfcfd4b.addControl( feature_group_3352c6df4d4aaee1283045f8a3cd6f4esearchControl );
+            map_647e0f8e8c0cd18e058c08a564b7c3e1.addControl( feature_group_0599b2b001754b1733a2c46e8cc38529searchControl );
 
         
     
-            var tile_layer_3406f62acc28220aae80f0b6653d53a8 = L.tileLayer(
+            var tile_layer_baf4a0ebd664412a00b06ea7b6b1ae3d = L.tileLayer(
                 "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
                 {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
             );
-            var mini_map_0b9bf104de1406b62c554c3d7f681294 = new L.Control.MiniMap(
-                tile_layer_3406f62acc28220aae80f0b6653d53a8,
+            var mini_map_f2485e99c6781277823d47eb609ade6e = new L.Control.MiniMap(
+                tile_layer_baf4a0ebd664412a00b06ea7b6b1ae3d,
                 {"autoToggleDisplay": false, "centerFixed": false, "collapsedHeight": 25, "collapsedWidth": 25, "height": 150, "minimized": false, "position": "bottomright", "toggleDisplay": true, "width": 150, "zoomAnimation": false, "zoomLevelOffset": -5}
             );
-            map_8b91f3a83de40f8bb44c928e7cfcfd4b.addControl(mini_map_0b9bf104de1406b62c554c3d7f681294);
+            map_647e0f8e8c0cd18e058c08a564b7c3e1.addControl(mini_map_f2485e99c6781277823d47eb609ade6e);
         
     
-            var tag_filter_button_a9a0b9ebfd53c7280f05fa0f5c21c766 = L.control.tagFilterButton(
+            var tag_filter_button_236e1bc9742a1d5ad7e87eba86cbc900 = L.control.tagFilterButton(
                 {"clearText": "Borrar filtro", "data": ["A:Tulc\u00e1n-Ibarra", "B:Ibarra-Quito", "C:Quito-Manta", "D:Manta", "E:Huaquillas-Guayaquil", "F:Guayaquil", "G:Aguas Verdes-Tumbes", "H:Tumbes-Piura", "I:Piura-Chiclayo", "J:Chiclayo-Trujillo"], "filterOnEveryClick": true, "icon": "\u003ci class=\"fa fa-filter\"\u003e\u003c/i\u003e", "openPopupOnHover": true}
-            ).addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            ).addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
         L.easyButton(
@@ -2641,10 +2641,10 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
         }
     }
     
-        ).addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+        ).addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            map_8b91f3a83de40f8bb44c928e7cfcfd4b.fitBounds(
+            map_647e0f8e8c0cd18e058c08a564b7c3e1.fitBounds(
                 [[-8.969366, -81.33069610599989], [1.197939635000068, -76.89923858599985]],
                 {}
             );
@@ -2655,55 +2655,55 @@ Los grupos focales y los mapeos participativos se llevaron a cabo los días 4 y 
                 null,
                 {
                     "Capa tem\u00e1tica" : {
-                        "Ruta identificada [10]" : geo_json_912be736a75ae022108c3776c0183e2c,
-                        "Flujo migratorio [3]" : feature_group_32daed240c422feba30304f4e4e93350,
-                        "Necesidad por tramo [66]" : marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3,
-                        "Paso fronterizo [4]" : feature_group_1bffc180e658f1a3d3849eb1ef19118c,
-                        "Nivel de riesgo [11]" : geo_json_b25acba5bd5aa7751a32cef506ba6104,
+                        "Ruta identificada [10]" : geo_json_2288fb9586c90978b632e40aeda6f0d3,
+                        "Flujo migratorio [3]" : feature_group_0ea718a153c1c49aeab07b041a327772,
+                        "Necesidad por tramo [66]" : marker_cluster_997c24988dbc3a90eba8c594618cb678,
+                        "Paso fronterizo [4]" : feature_group_fed6c046125fd4c099d1c9d785255b93,
+                        "Nivel de riesgo [11]" : geo_json_a65677bafd3c3769b3a3f12ad3235831,
                     },
                     "Etiqueta de capa" : {
-                        "Departamento / Provincia" : feature_group_9a5bd98c7af88130a883465870480e66,
+                        "Departamento / Provincia" : feature_group_a8b3753d0b4e0957aab556055e1b2fa8,
                     },
                     "Mapa base" : {
-                        "CartoDB Positron" : tile_layer_de12234e26f8158b45e4be249cdafaf7,
-                        "OpenStreetMap" : tile_layer_abef4fcb364b16c791f7ff1df1fc14bd,
-                        "Esri Sat\u00e9lite" : tile_layer_252775bfaeab4229a275c7cbc5940e97,
-                        "Google H\u00edbrido" : tile_layer_0087f04c550b28599ba8dc8a263cf6a7,
+                        "CartoDB Positron" : tile_layer_734ecd804461269a596bbb111857c482,
+                        "OpenStreetMap" : tile_layer_73624557981915fe81e1ce69f6958ae4,
+                        "Esri Sat\u00e9lite" : tile_layer_eb1233ebd7dc9a70606f66b34dcee27c,
+                        "Google H\u00edbrido" : tile_layer_59dcbc54fdbcdddd61c8424dc54178fc,
                     },
                 },
                 {"autoZIndex": true, "collapsed": true, "draggable": true},
-            ).addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
-            tile_layer_252775bfaeab4229a275c7cbc5940e97.remove();
-            tile_layer_0087f04c550b28599ba8dc8a263cf6a7.remove();
-            tile_layer_abef4fcb364b16c791f7ff1df1fc14bd.remove();
+            ).addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
+            tile_layer_eb1233ebd7dc9a70606f66b34dcee27c.remove();
+            tile_layer_73624557981915fe81e1ce69f6958ae4.remove();
+            tile_layer_59dcbc54fdbcdddd61c8424dc54178fc.remove();
 
         
     
-            tile_layer_de12234e26f8158b45e4be249cdafaf7.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            tile_layer_734ecd804461269a596bbb111857c482.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            geo_json_b25acba5bd5aa7751a32cef506ba6104.addTo(feature_group_3352c6df4d4aaee1283045f8a3cd6f4e);
+            geo_json_a65677bafd3c3769b3a3f12ad3235831.addTo(feature_group_0599b2b001754b1733a2c46e8cc38529);
         
     
-            feature_group_3352c6df4d4aaee1283045f8a3cd6f4e.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_0599b2b001754b1733a2c46e8cc38529.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            geo_json_912be736a75ae022108c3776c0183e2c.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            geo_json_2288fb9586c90978b632e40aeda6f0d3.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            feature_group_1bffc180e658f1a3d3849eb1ef19118c.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_fed6c046125fd4c099d1c9d785255b93.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            marker_cluster_34b3a7e8eff3512c2c9dc1521e888de3.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            marker_cluster_997c24988dbc3a90eba8c594618cb678.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            geo_json_b25acba5bd5aa7751a32cef506ba6104.addTo(feature_group_3352c6df4d4aaee1283045f8a3cd6f4e);
+            geo_json_a65677bafd3c3769b3a3f12ad3235831.addTo(feature_group_0599b2b001754b1733a2c46e8cc38529);
         
     
-            feature_group_9a5bd98c7af88130a883465870480e66.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_a8b3753d0b4e0957aab556055e1b2fa8.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
     
-            feature_group_32daed240c422feba30304f4e4e93350.addTo(map_8b91f3a83de40f8bb44c928e7cfcfd4b);
+            feature_group_0ea718a153c1c49aeab07b041a327772.addTo(map_647e0f8e8c0cd18e058c08a564b7c3e1);
         
 </script>
 </html>
